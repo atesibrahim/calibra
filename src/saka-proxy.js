@@ -135,7 +135,16 @@ function calibraRoute(parsedBody) {
 }
 // --- end Calibra ---
 
-const REMOTE_HOST = process.env.CALIBRA_REMOTE_HOST || '';
+function resolveRemoteHost() {
+  if (process.env.CALIBRA_REMOTE_HOST) return process.env.CALIBRA_REMOTE_HOST;
+  try {
+    const hostFile = require('path').join(require('os').homedir(), '.claude-corp', 'calibra-proxy-host');
+    const h = require('fs').readFileSync(hostFile, 'utf8').trim();
+    if (h) return h;
+  } catch {}
+  return '';
+}
+const REMOTE_HOST = resolveRemoteHost();
 const MIN_MAX_TOKENS = 16384;
 const MAX_BODY_SIZE = 10 * 1024 * 1024;
 const UPSTREAM_TIMEOUT = 120000;

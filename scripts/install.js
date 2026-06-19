@@ -42,6 +42,40 @@ ensureDir(CMDS_DIR);
 
 // ── 2. core files ────────────────────────────────────────────────────────────
 
+// Before overwriting saka-proxy.js: extract and persist the upstream host so
+// the new proxy can forward to the same endpoint (e.g. corporate LiteLLM gateway).
+(function saveProxyHost() {
+  const hostFile = path.join(CORP_DIR, 'calibra-proxy-host');
+  if (fs.existsSync(hostFile)) return; // already saved — don't overwrite user edits
+
+  let host = '';
+
+  // 1. Try reading from existing saka-proxy.js (hardcoded REMOTE_HOST constant)
+  const existingProxy = path.join(CORP_DIR, 'saka-proxy.js');
+  if (!host && fs.existsSync(existingProxy)) {
+    try {
+      const src = fs.readFileSync(existingProxy, 'utf8');
+      const m = src.match(/const\s+REMOTE_HOST\s*=\s*['"`]([^'"`]+)['"`]/);
+      if (m) host = m[1];
+    } catch {}
+  }
+
+  // 2. Try reading LITELLM_URL from wrapper.sh
+  const wrapperSh = path.join(CORP_DIR, 'wrapper.sh');
+  if (!host && fs.existsSync(wrapperSh)) {
+    try {
+      const src = fs.readFileSync(wrapperSh, 'utf8');
+      const m = src.match(/LITELLM_URL\s*=\s*["']?https?:\/\/([^/"'\s]+)/);
+      if (m) host = m[1];
+    } catch {}
+  }
+
+  if (host) {
+    fs.writeFileSync(hostFile, host);
+    console.log(`  saved proxy host: ${hostFile} (${host})`);
+  }
+})();
+
 copy(path.join(SRC, 'saka-proxy.js'), path.join(CORP_DIR, 'saka-proxy.js'));
 
 // calibra-models.json: never overwrite — user may have customised tiers/models
