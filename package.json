@@ -9,6 +9,9 @@
     "postinstall": "node scripts/install.js",
     "preuninstall": "node scripts/uninstall.js"
   },
+  "bin": {
+    "calibra": "src/cli.js"
+  },
   "files": [
     "src/",
     "scripts/",

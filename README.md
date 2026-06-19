@@ -62,9 +62,31 @@ The proxy starts when your enterprise wrapper launches Claude Code and sets `ANT
 
 ## Installation
 
+**Option A — npx (no permissions needed, recommended)**
+
+```sh
+npx calibra install
+```
+
+**Option B — global install**
+
 ```sh
 npm install -g calibra
 ```
+
+If you get `EACCES: permission denied`, fix npm's global directory first:
+
+```sh
+# Set a user-writable prefix (one-time setup)
+mkdir -p ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc   # or ~/.bashrc
+source ~/.zshrc
+
+npm install -g calibra
+```
+
+> If you use **nvm** or **fnm**, global installs already work without this step.
 
 That's it. The postinstall script:
 
@@ -143,6 +165,8 @@ Routing is also disabled if the file `~/.claude-corp/calibra-disabled` exists. T
 ## Upgrade
 
 ```sh
+npx calibra upgrade
+# or
 npm update -g calibra
 ```
 
@@ -155,6 +179,8 @@ npm update -g calibra
 ## Uninstall
 
 ```sh
+npx calibra uninstall
+# or
 npm uninstall -g calibra
 ```
 
@@ -242,10 +268,11 @@ git push && git push --tags
 
 | Action | Command |
 |--------|---------|
-| Install | `npm install -g calibra` |
+| Install | `npx calibra install` |
+| Install (global) | `npm install -g calibra` |
 | Check version | `npm list -g calibra` |
-| Upgrade | `npm update -g calibra` |
-| Uninstall | `npm uninstall -g calibra` |
+| Upgrade | `npx calibra upgrade` |
+| Uninstall | `npx calibra uninstall` |
 | Verify working | `/calibra status` in Claude Code |
 
 ---
