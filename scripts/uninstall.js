@@ -41,10 +41,11 @@ for (const hook of ['calibra-notify.js', 'calibra-debug.js', 'calibra-toggle.js'
 
 remove(path.join(CMDS_DIR, 'calibra.md'));
 
-// ── 3. corp files ─────────────────────────────────────────────────────────────
-// calibra-models.json intentionally kept — user-customised
+// ── 3. corp files ────────────────────────────────────────────────────────────
 
 remove(path.join(CORP_DIR, 'saka-proxy.js'));
+remove(path.join(CORP_DIR, 'calibra-models.json'));
+remove(path.join(CORP_DIR, 'calibra-disabled'));
 
 // ── 4. cfg dir hooks/commands ────────────────────────────────────────────────
 // Mirrors install logic: symlink → remove symlink; real dir → remove files only.
@@ -70,23 +71,36 @@ if (isSymlink(CFG_CMDS_PATH)) {
   remove(path.join(CFG_CMDS_PATH, 'calibra.md'));
 }
 
-// Remove claude-config dir only if now empty
-try {
-  const remaining = fs.readdirSync(CFG_DIR);
-  if (remaining.length === 0) {
-    fs.rmdirSync(CFG_DIR);
-    console.log(`  removed empty dir: ${CFG_DIR}`);
-  }
-} catch {}
-
 // ── 5. remove calibra hooks from both settings.json files ────────────────────
 
 removeHooksFromSettings(path.join(CLAUDE_DIR, 'settings.json'));
-removeHooksFromSettings(path.join(CORP_DIR, 'claude-config', 'settings.json'));
+removeHooksFromSettings(path.join(CFG_DIR, 'settings.json'));
+
+// ── 6. remove empty dirs left by calibra (deepest first) ─────────────────────
+
+function removeIfEmpty(p) {
+  try {
+    if (fs.readdirSync(p).length === 0) {
+      fs.rmdirSync(p);
+      console.log(`  removed empty dir: ${p}`);
+    }
+  } catch {}
+}
+
+removeIfEmpty(CFG_HOOKS_PATH);
+removeIfEmpty(CFG_CMDS_PATH);
+removeIfEmpty(CFG_DIR);
+removeIfEmpty(CORP_DIR);
 
 console.log('\nCalibra uninstalled.\n');
 
 // ─────────────────────────────────────────────────────────────────────────────
+
+const CALIBRA_HOOK_RE = /calibra-(debug|notify|toggle)/;
+
+function isCalibraHook(h) {
+  return h && typeof h === 'object' && h.command && CALIBRA_HOOK_RE.test(h.command);
+}
 
 function removeHooksFromSettings(settingsPath) {
   if (!fs.existsSync(settingsPath)) return;
@@ -102,34 +116,47 @@ function removeHooksFromSettings(settingsPath) {
   }
   if (!settings || typeof settings !== 'object' || Array.isArray(settings)) return;
 
-  const groups = Array.isArray(settings.hooks?.UserPromptSubmit)
-    ? settings.hooks.UserPromptSubmit
-    : [];
+  const hooksObj = settings.hooks;
+  if (!hooksObj || typeof hooksObj !== 'object' || Array.isArray(hooksObj)) return;
 
   let changed = false;
-  for (const group of groups) {
-    if (!group || !Array.isArray(group.hooks)) continue;
-    const before = group.hooks.length;
-    group.hooks = group.hooks.filter(
-      h => !h || !h.command || !/(calibra-debug|calibra-notify|calibra-toggle)/.test(h.command)
+  const label = path.relative(os.homedir(), settingsPath);
+
+  // Sweep every event type (UserPromptSubmit, PreToolUse, PostToolUse, etc.)
+  for (const event of Object.keys(hooksObj)) {
+    if (!Array.isArray(hooksObj[event])) continue;
+
+    for (const group of hooksObj[event]) {
+      if (!group || !Array.isArray(group.hooks)) continue;
+      const before = group.hooks.length;
+      group.hooks = group.hooks.filter(h => !isCalibraHook(h));
+      if (group.hooks.length < before) {
+        console.log(`  removed ${before - group.hooks.length} calibra hook(s) [${event}] from ~/${label}`);
+        changed = true;
+      }
+    }
+
+    // Drop empty catch-all groups calibra created
+    const before = hooksObj[event].length;
+    hooksObj[event] = hooksObj[event].filter(
+      g => g && (g.matcher || (Array.isArray(g.hooks) && g.hooks.length > 0))
     );
-    if (group.hooks.length < before) {
-      console.log(`  removed ${before - group.hooks.length} calibra hook(s) from ${path.basename(path.dirname(settingsPath))}/settings.json`);
+    if (hooksObj[event].length < before) changed = true;
+
+    // Drop event key entirely if now empty
+    if (hooksObj[event].length === 0) {
+      delete hooksObj[event];
       changed = true;
     }
   }
 
-  // Drop empty catch-all groups we created
-  const cleaned = groups.filter(g => g && (g.matcher || (Array.isArray(g.hooks) && g.hooks.length > 0)));
-  if (cleaned.length !== groups.length) changed = true;
-  if (settings.hooks) settings.hooks.UserPromptSubmit = cleaned;
-
-  if (!changed) return;
+  if (!changed) { console.log(`  no calibra hooks found in ~/${label}`); return; }
 
   const tmp = settingsPath + '.calibra-tmp';
   try {
     fs.writeFileSync(tmp, JSON.stringify(settings, null, 2) + '\n');
     fs.renameSync(tmp, settingsPath);
+    console.log(`  updated: ~/${label}`);
   } catch (e) {
     try { fs.rmSync(tmp, { force: true }); } catch {}
     console.error(`  error writing ${settingsPath}: ${e.message}`);

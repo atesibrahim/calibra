@@ -186,14 +186,13 @@ npm uninstall -g calibra
 
 The preuninstall script removes:
 - `~/.claude-corp/saka-proxy.js`
+- `~/.claude-corp/calibra-models.json`
+- `~/.claude-corp/calibra-disabled`
 - `~/.claude/hooks/calibra-{notify,debug,toggle}.js`
 - `~/.claude/commands/calibra.md`
 - Calibra hook entries from both `settings.json` files
-- `claude-config/hooks` and `claude-config/commands` symlinks
-
-The following are **kept** (user data):
-- `~/.claude-corp/calibra-models.json`
-- `~/.claude-corp/calibra-disabled` flag
+- `claude-config/hooks` and `claude-config/commands` (symlink or copied files)
+- Any of the above directories left empty after cleanup
 
 ---
 
