@@ -6,13 +6,17 @@ const path = require('path');
 // --- Calibra: zero-lag per-prompt model routing ---
 const CALIBRA_TIERS = ['light', 'mid', 'deep', 'ultra'];
 
-const CALIBRA_KW_HIGH = /\b(architect|design|analyze|analyse|security|refactor|review|optimize|optimise|investigate|trade-?offs?|pros.and.cons|deep.dive|compare|test|verify|ensure|check|validate|confirm)\b/i;
-const CALIBRA_KW_MID  = /\b(fix|debug|implement|write|add|create|build|update|migrate)\b/i;
-const CALIBRA_MK_HIGH = /\b(trade-?offs?|pros.and.cons|deep.dive|compare|analyse|analyze|investigate)\b/i;
-const CALIBRA_MK_MID  = /\b(step.by.step|step by step|multi.?part|walk.?me.?through|break.?it.?down)\b/i;
-const CALIBRA_TRIVIAL = /\b(write\s+(a\s+)?unit\s+tests?|add\s+(a\s+)?(console\.log|print|log|comment)|rename\s+(var|variable|function|method|file)|format\s+(this|the)\s+(file|code)|fix\s+typo|update\s+(the\s+)?(comment|docstring|readme))/i;
+const CALIBRA_KW_HIGH = /\b(architect|architecture|design|analyze|analyse|security|refactor|review|optimize|optimise|investigate|trade-?offs?|pros.and.cons|deep.dive|compare|test|verify|ensure|check|validate|confirm|audit|strategy|propose|mimari|tasarla|tasarım|tasarımla|analiz|incele|güvenlik|karşılaştır|derinlemesine|araştır|doğrula|denetle|planla|strateji|öner|öneri)\b/iu;
+const CALIBRA_KW_MID  = /\b(fix|debug|implement|write|add|create|build|update|migrate|düzelt|hata|ekle|oluştur|yaz|kur|taşı|güncelle|uygula)\b/iu;
+const CALIBRA_MK_HIGH = /\b(trade-?offs?|pros.and.cons|deep.dive|compare|analyse|analyze|investigate|artıları?\s+ve\s+eksileri|derin(lemesine)?\s+(dal|incele)|karşılaştır)\b/iu;
+const CALIBRA_MK_MID  = /\b(step.by.step|step by step|multi.?part|walk.?me.?through|break.?it.?down|adım\s+adım|aşama\s+aşama|madde\s+madde|parça\s+parça)\b/iu;
+// Domain-complexity vocabulary: implies deep reasoning regardless of verb
+const CALIBRA_DOMAIN_DEEP = /\b(distributed|concurren\w+|race\s+condition|deadlock|consensus|raft|paxos|consistency|cap\s+theorem|schema\s+migration|backfill|scalab\w+|throughput|latency|algorithm\w*|complexity|big.?o|state\s+machine|event\s+sourcing|cqrs|protocol|cryptograph\w+|dağıtık|eşzamanl\w+|tutarlılık|ölçeklen\w+|şema\s+migrasyon|kilitlen\w+|yarış\s+koşul\w*)\b/iu;
+// Design-intent verbs: when present, short-conversational gate must NOT route to light
+const CALIBRA_DESIGN_VERB = /\b(architect|design|plan|propose|tasarla|mimari|planla|öner|tasarım)\b/iu;
+const CALIBRA_TRIVIAL = /\b(write\s+(a\s+)?unit\s+tests?|add\s+(a\s+)?(console\.log|print|log|comment)|rename\s+(var|variable|function|method|file)|format\s+(this|the)\s+(file|code)|fix\s+typo|update\s+(the\s+)?(comment|docstring|readme)|typo\s+düzelt|yorum\s+ekle|log\s+ekle|print\s+ekle|yeniden\s+adlandır|formatla|unit\s+test\s+yaz)/iu;
 // Greetings, acks, and ultra-short conversational prompts → light tier
-const CALIBRA_GREETING = /^(hi+|hey+|hello+|yo|sup|howdy|good\s+(morning|afternoon|evening|night)|gm|gn|merhaba|selam|thanks?|thank\s+you|thx|ty|ok(ay)?|cool|great|nice|got\s+it|sounds?\s+good|perfect|awesome|yes+|no+|yep|nope|sure|alright|bye|goodbye|cya|see\s+ya)\b[\s!.?,]*$/i;
+const CALIBRA_GREETING = /^(hi+|hey+|hello+|yo|sup|howdy|good\s+(morning|afternoon|evening|night)|gm|gn|merhaba|selam|günaydın|iyi\s+(akşamlar|geceler|günler)|thanks?|thank\s+you|thx|ty|ok(ay)?|cool|great|nice|got\s+it|sounds?\s+good|perfect|awesome|yes+|no+|yep|nope|sure|alright|bye|goodbye|cya|see\s+ya|tamam|peki|olur|sağ\s*ol|sağol|teşekkür(ler)?|tşk|eyvallah|harika|süper|güzel|evet|hayır|yok|var)\b[\s!.?,]*$/iu;
 const CALIBRA_SHORT_CONVERSATIONAL = /^[\s\S]{0,40}$/;
 
 const CALIBRA_MODELS_PATH    = path.join(require('os').homedir(), '.claude-corp', 'calibra-models.json');
@@ -59,10 +63,11 @@ function calibraClassify(prompt) {
   if (!prompt || prompt.trimStart().startsWith('/')) return { tier: 'mid', score: -1, reason: 'slash/empty' };
   const trimmed = prompt.trim();
   if (CALIBRA_GREETING.test(trimmed)) return { tier: 'light', score: 0, reason: 'greeting' };
-  // Short conversational prompts without any high/mid signal → light
+  // Short conversational prompts without any high/mid/design/domain signal → light
   if (CALIBRA_SHORT_CONVERSATIONAL.test(trimmed)
       && !CALIBRA_KW_HIGH.test(trimmed) && !CALIBRA_KW_MID.test(trimmed)
       && !CALIBRA_MK_HIGH.test(trimmed) && !CALIBRA_MK_MID.test(trimmed)
+      && !CALIBRA_DESIGN_VERB.test(trimmed) && !CALIBRA_DOMAIN_DEEP.test(trimmed)
       && !/```/.test(trimmed)) {
     return { tier: 'light', score: 0, reason: 'short-conversational' };
   }
@@ -76,12 +81,20 @@ function calibraClassify(prompt) {
   const longBlock  = codeBlocks.some(b => b.split('\n').length > 52);
   if (codeBlocks.length > 1 || longBlock) s += 2; else if (codeBlocks.length === 1) s += 1;
   if (CALIBRA_MK_HIGH.test(prompt)) s += 2; else if (CALIBRA_MK_MID.test(prompt)) s += 1;
+  // Domain-complexity axis: distributed systems, concurrency, schema, algorithms, etc.
+  if (CALIBRA_DOMAIN_DEEP.test(prompt)) s += 2;
 
+  // Floor: any HIGH keyword, design verb, or deep-domain term → min mid.
+  // Catches short expert prompts ("mimari tasarla", "design auth system") that
+  // would otherwise score ≤2 and fall to light.
+  const hasHighSignal = CALIBRA_KW_HIGH.test(prompt) || CALIBRA_DESIGN_VERB.test(prompt) || CALIBRA_DOMAIN_DEEP.test(prompt);
+
+  // Tier thresholds (max possible ≈ 11). Ultra stays intentionally hard.
   let tier;
-  if (s <= 2)      tier = 'light';
-  else if (s <= 6) tier = 'mid';
-  else if (s < 8)  tier = 'deep';
-  else             tier = 'ultra';
+  if (s <= 2 && !hasHighSignal) tier = 'light';
+  else if (s <= 5)              tier = 'mid';
+  else if (s <= 8)              tier = 'deep';
+  else                          tier = 'ultra';
 
   return { tier, score: s, reason: 'score' };
 }
