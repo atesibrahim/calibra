@@ -1,0 +1,27 @@
+{
+  "name": "calibra",
+  "version": "1.0.0",
+  "description": "Calibra — Claude Code model routing",
+  "license": "UNLICENSED",
+  "private": false,
+  "preferGlobal": true,
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "preuninstall": "node scripts/uninstall.js"
+  },
+  "files": [
+    "src/",
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "model-routing",
+    "llm"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

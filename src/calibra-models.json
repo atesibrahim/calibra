@@ -1,0 +1,7 @@
+{
+  "light": "claude-haiku-4-5-20251001",
+  "mid":   "claude-sonnet-4-6",
+  "deep":  "claude-opus-4-7",
+  "ultra": "claude-opus-4-7",
+  "nonAnthropicModels": []
+}
