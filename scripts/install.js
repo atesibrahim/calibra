@@ -30,19 +30,6 @@ function copy(src, dest, { overwrite = true } = {}) {
   console.log(`  copied: ${dest}`);
 }
 
-function ensureSymlink(target, linkPath, type) {
-  try {
-    const stat = fs.lstatSync(linkPath);
-    if (stat.isSymbolicLink()) {
-      if (fs.readlinkSync(linkPath) === target) return;
-      fs.rmSync(linkPath, { force: true });
-    } else {
-      return; // real file/dir exists — don't touch
-    }
-  } catch {}
-  fs.symlinkSync(target, linkPath, IS_WIN ? type : undefined);
-  console.log(`  symlink: ${linkPath} -> ${target}`);
-}
 
 function q(p) { return `"${p.replace(/"/g, '\\"')}"`; }
 
@@ -60,27 +47,55 @@ copy(path.join(SRC, 'saka-proxy.js'), path.join(CORP_DIR, 'saka-proxy.js'));
 // calibra-models.json: never overwrite — user may have customised tiers/models
 copy(path.join(SRC, 'calibra-models.json'), path.join(CORP_DIR, 'calibra-models.json'), { overwrite: false });
 
-// ── 3. symlinks (claude-config/hooks and claude-config/commands → .claude/) ──
+// ── 3. detect existing symlinks ───────────────────────────────────────────────
+// If claude-config/{hooks,commands} is already a symlink pointing at .claude/,
+// installing to .claude/ is sufficient — the symlink propagates automatically.
+// If no symlink exists, install to both locations separately (no symlink created).
 
-if (IS_WIN) {
-  ensureSymlink(HOOKS_DIR, path.join(CFG_DIR, 'hooks'), 'junction');
-  ensureSymlink(CMDS_DIR,  path.join(CFG_DIR, 'commands'), 'junction');
+const CFG_HOOKS_PATH = path.join(CFG_DIR, 'hooks');
+const CFG_CMDS_PATH  = path.join(CFG_DIR, 'commands');
+
+function isSymlink(p) {
+  try { return fs.lstatSync(p).isSymbolicLink(); } catch { return false; }
+}
+
+const cfgHooksIsSymlink = isSymlink(CFG_HOOKS_PATH);
+const cfgCmdsIsSymlink  = isSymlink(CFG_CMDS_PATH);
+
+if (cfgHooksIsSymlink) {
+  console.log(`  symlink detected: ${CFG_HOOKS_PATH} — hooks installed once via .claude/hooks`);
 } else {
-  ensureSymlink(HOOKS_DIR, path.join(CFG_DIR, 'hooks'), 'dir');
-  ensureSymlink(CMDS_DIR,  path.join(CFG_DIR, 'commands'), 'dir');
+  ensureDir(CFG_HOOKS_PATH);
+  console.log(`  no symlink: will install hooks to both .claude/hooks and claude-config/hooks`);
+}
+if (cfgCmdsIsSymlink) {
+  console.log(`  symlink detected: ${CFG_CMDS_PATH} — commands installed once via .claude/commands`);
+} else {
+  ensureDir(CFG_CMDS_PATH);
+  console.log(`  no symlink: will install commands to both .claude/commands and claude-config/commands`);
 }
 
 // ── 4. hooks ─────────────────────────────────────────────────────────────────
 
 for (const hook of ['calibra-notify.js', 'calibra-debug.js', 'calibra-toggle.js']) {
+  const src  = path.join(SRC, 'hooks', hook);
   const dest = path.join(HOOKS_DIR, hook);
-  copy(path.join(SRC, 'hooks', hook), dest);
+  copy(src, dest);
   if (!IS_WIN) try { fs.chmodSync(dest, 0o755); } catch {}
+
+  if (!cfgHooksIsSymlink) {
+    const cfgDest = path.join(CFG_HOOKS_PATH, hook);
+    copy(src, cfgDest);
+    if (!IS_WIN) try { fs.chmodSync(cfgDest, 0o755); } catch {}
+  }
 }
 
 // ── 5. commands ──────────────────────────────────────────────────────────────
 
 copy(path.join(SRC, 'commands', 'calibra.md'), path.join(CMDS_DIR, 'calibra.md'));
+if (!cfgCmdsIsSymlink) {
+  copy(path.join(SRC, 'commands', 'calibra.md'), path.join(CFG_CMDS_PATH, 'calibra.md'));
+}
 
 // ── 6. patch ~/.claude/settings.json (direct `claude` runs) ──────────────────
 

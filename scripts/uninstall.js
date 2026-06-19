@@ -46,10 +46,29 @@ remove(path.join(CMDS_DIR, 'calibra.md'));
 
 remove(path.join(CORP_DIR, 'saka-proxy.js'));
 
-// ── 4. symlinks created by install ───────────────────────────────────────────
+// ── 4. cfg dir hooks/commands ────────────────────────────────────────────────
+// Mirrors install logic: symlink → remove symlink; real dir → remove files only.
 
-removeSymlink(path.join(CFG_DIR, 'hooks'));
-removeSymlink(path.join(CFG_DIR, 'commands'));
+const CFG_HOOKS_PATH = path.join(CFG_DIR, 'hooks');
+const CFG_CMDS_PATH  = path.join(CFG_DIR, 'commands');
+
+function isSymlink(p) {
+  try { return fs.lstatSync(p).isSymbolicLink(); } catch { return false; }
+}
+
+if (isSymlink(CFG_HOOKS_PATH)) {
+  removeSymlink(CFG_HOOKS_PATH);
+} else {
+  for (const hook of ['calibra-notify.js', 'calibra-debug.js', 'calibra-toggle.js']) {
+    remove(path.join(CFG_HOOKS_PATH, hook));
+  }
+}
+
+if (isSymlink(CFG_CMDS_PATH)) {
+  removeSymlink(CFG_CMDS_PATH);
+} else {
+  remove(path.join(CFG_CMDS_PATH, 'calibra.md'));
+}
 
 // Remove claude-config dir only if now empty
 try {
