@@ -10,29 +10,69 @@ Every time you submit a prompt, Calibra scores it and picks a tier:
 
 | Tier | Default Model | When |
 |------|--------------|------|
-| `light` | Haiku | Greetings, short replies, trivial edits (fix typo, add log) |
-| `mid` | Sonnet | Implementation tasks (fix, build, write, update) |
-| `deep` | Opus | Complex analysis (architect, review, security, refactor) |
-| `ultra` | Opus | Maximum complexity (multi-signal deep dives) |
+| `light` | Haiku | Greetings, short replies, trivial one-liners (fix typo, add log) |
+| `mid` | Sonnet | Concrete implementation tasks (fix, build, write, create, explain) |
+| `deep` | Opus | Design, analysis, architecture, security, investigation |
+| `ultra` | Opus | Long + deep + broad scope together (comprehensive audits, full redesigns) |
 
 ### Scoring
 
-Calibra scores each prompt across four dimensions (total 0–8+):
+Calibra scores each prompt across **five orthogonal axes** — no keyword appears in more than one axis, so no signal double-counts.
+
+#### Axis 1 — Length
+
+| Prompt length | Points |
+|---------------|--------|
+| > 500 chars | +3 |
+| > 200 chars | +2 |
+| ≥ 80 chars | +1 |
+
+#### Axis 2 — Intent
 
 | Signal | Points |
 |--------|--------|
-| Prompt length > 400 chars | +2 |
-| Prompt length 80–400 chars | +1 |
-| High-complexity keywords (`architect`, `security`, `analyze`, …) | +2 |
-| Mid-complexity keywords (`fix`, `build`, `implement`, …) | +1 |
+| **Deep intent** (`architect`, `design`, `analyse`, `review`, `security`, `refactor`, `audit`, `investigate`, `compare`, `trade-offs`, `deep dive`, `evaluate`, `strategy`, `propose`, `plan`, …) | +3 |
+| **Mid intent** (`implement`, `build`, `create`, `write`, `fix`, `debug`, `add`, `update`, `migrate`, `deploy`, `explain`, `describe`, `summarize`, …) | +1 |
+
+#### Axis 3 — Scope
+
+| Signal | Points |
+|--------|--------|
+| Breadth/thoroughness words (`comprehensive`, `entire`, `full`, `end-to-end`, `thorough`, `exhaustive`, `detailed`, `in-depth`, `complete`, `overall`, …) | +2 |
+
+#### Axis 4 — Domain
+
+| Signal | Points |
+|--------|--------|
+| Technical complexity vocabulary (`distributed`, `microservices`, `monolith`, `authentication`, `authorization`, `system design`, `system architecture`, `scalability`, `bottleneck`, `kubernetes`, `graphql`, `grpc`, `event-driven`, `message queue`, `sharding`, `circuit breaker`, `technical debt`, `algorithm`, `consensus`, `throughput`, `latency`, …) | +2 |
+
+#### Axis 5 — Structure
+
+| Signal | Points |
+|--------|--------|
 | Multiple code blocks or block > 52 lines | +2 |
 | Single code block | +1 |
-| Analytical markers (`trade-offs`, `deep dive`, `compare`, …) | +2 |
-| Step-by-step markers (`walk me through`, `break it down`, …) | +1 |
+| Step-by-step / multi-part markers (`walk me through`, `break it down`, …) | +1 |
 
-Score → tier: `0–2` = light · `3–6` = mid · `7` = deep · `8+` = ultra
+#### Tier thresholds (max realistic ≈ 13)
 
-Slash commands and greetings bypass scoring and use `mid`/`light` directly.
+```
+score 0–2, no deep or mid intent  → light
+score 0–7, no deep intent         → mid
+score 0–7, deep intent present    → deep   ← floor: deep intent always routes here minimum
+score 8+                          → ultra
+```
+
+**Floor rules:**
+- Any deep-intent keyword → minimum `deep`, regardless of score (catches short expert prompts like "design auth system")
+- Any mid-intent keyword → minimum `mid` (prevents short implementation requests from falling to light)
+
+#### Early exits (bypass scoring)
+
+- **Greetings / acks** → `light` immediately
+- **Trivial one-liners** (add console.log, fix typo, rename variable, format file, add comment) → `light` immediately
+- **Slash commands** → `mid` (tool/harness invocations, not natural language)
+- **Short prompts ≤ 55 chars with no signal** → `light`
 
 ### Architecture
 
