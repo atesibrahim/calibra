@@ -1,0 +1,400 @@
+{"prompt": "What is a REST API?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "docs", "note": "Pure definitional recall, no judgment required"}
+{"prompt": "List the HTTP methdos.", "tier": "light", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Simple enumeration lookup, single recall answer"}
+{"prompt": "What does the SQL INNER JOIN return?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Factual recall about join semantics"}
+{"prompt": "Add a console.log of the user id inside getUser().", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical one-statement edit, no logic"}
+{"prompt": "Rename the variable tmp to activeUsers in dashboard.js.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Mechanical symbol rename, no new logic"}
+{"prompt": "Fix the missing semicolon on line 88 of server.js.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Trivial syntax fix, single character"}
+{"prompt": "What is the default port for MySQL?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Pure lookup of a known value"}
+{"prompt": "Add a null check for user.email before sending the email.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical null-check edit, tie-breaker light"}
+{"prompt": "Import the os module at the top of config.py.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical import statement addition"}
+{"prompt": "What's the difference between == and === in JavaScript?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Factual recall of language semantics"}
+{"prompt": "Add a try-catch around the fetch call in loadProfile.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Single mechanical try-catch wrap, tie-breaker light"}
+{"prompt": "Format the file index.html with Prettier.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Mechanical single-file formatting task"}
+{"prompt": "What does the CSS property z-index do?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Pure recall of CSS property behavior"}
+{"prompt": "Return null when the array is empty in firstItem().", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical return statement addition"}
+{"prompt": "What is a Docker container?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Definitional recall, no synthesis"}
+{"prompt": "Thanks, that worked perfectly!", "tier": "light", "lang": "en", "hasTypo": false, "domain": "social", "note": "Social acknowledgment, no technical work"}
+{"prompt": "What port does MongoDB listen on by default?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Lookup of known default value"}
+{"prompt": "Add an import for datetime in scheduler.py.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical import addition"}
+{"prompt": "Fix teh typo lenght to length in cart.js.", "tier": "light", "lang": "en", "hasTypo": true, "domain": "frontend", "note": "Single mechanical typo fix, one token"}
+{"prompt": "What does git stash do?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Recall of a git command behavior"}
+{"prompt": "Rename doIt to processPayment in checkout.ts.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Mechanical symbol rename only"}
+{"prompt": "What is an index in a databse?", "tier": "light", "lang": "en", "hasTypo": true, "domain": "db", "note": "Definitional recall about database indexes"}
+{"prompt": "Add a missing closing brace at the end of main().", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Trivial syntax fix, single character"}
+{"prompt": "List the primitive types in TypeScript.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Simple enumeration recall"}
+{"prompt": "Good morning!", "tier": "light", "lang": "en", "hasTypo": false, "domain": "social", "note": "Greeting, no technical content"}
+{"prompt": "Add a consoole.log to print the response status.", "tier": "light", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Single mechanical logging statement addition"}
+{"prompt": "What is the purpose of a .gitignore file?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Definitional recall about git configuration"}
+{"prompt": "Convert the tabs to spaces in utils.go.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Mechanical whitespace formatting of one file"}
+{"prompt": "What does HTTP status 201 mean?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Factual recall of status code meaning"}
+{"prompt": "Add a return type annotation string to getName().", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Single mechanical annotation addition"}
+{"prompt": "What is a stored procedure?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Definitional recall, no judgment"}
+{"prompt": "Fix the unclosed string quote on line 12 of query.sql.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Trivial single-character syntax fix"}
+{"prompt": "Rename the CSS class .btn1 to .primary-button.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Mechanical rename of a class"}
+{"prompt": "What is the default SSH port?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "security", "note": "Lookup of a known port value"}
+{"prompt": "Add a semicolon after the return count statement.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Trivial punctuation fix"}
+{"prompt": "Wat is a webhook?", "tier": "light", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Definitional recall about webhooks"}
+{"prompt": "Import useState from React in Counter.jsx.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Single mechanical import addition"}
+{"prompt": "What does chmod 755 mean?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Recall of file permission semantics"}
+{"prompt": "Add a null guard for props.data in the render method.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Single mechanical null-guard edit"}
+{"prompt": "What is the diference between RAM and disk storage?", "tier": "light", "lang": "en", "hasTypo": true, "domain": "infra", "note": "Basic conceptual recall, no synthesis"}
+{"prompt": "Rename arr to orderItems in the loop.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Mechanical variable rename"}
+{"prompt": "Fix the indentaton in the YAML file.", "tier": "light", "lang": "en", "hasTypo": true, "domain": "devops", "note": "Mechanical formatting fix of one file"}
+{"prompt": "What is a UUID?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Definitional recall, single answer"}
+{"prompt": "Add a console.error in the catch block.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical logging statement addition"}
+{"prompt": "What does the map() array method do?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Recall of array method behavior"}
+{"prompt": "Appreciate it, thank you!", "tier": "light", "lang": "en", "hasTypo": false, "domain": "social", "note": "Social thanks, no technical work"}
+{"prompt": "What is the default port for HTTPS?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "security", "note": "Known value lookup"}
+{"prompt": "Add a missing comma between the two object keys.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Trivial punctuation fix"}
+{"prompt": "Wht does SELECT DISTINCT do?", "tier": "light", "lang": "en", "hasTypo": true, "domain": "db", "note": "Recall of SQL clause behavior"}
+{"prompt": "Rename the file variable f to logFile.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Mechanical variable rename"}
+{"prompt": "What is a cron job?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Definitional recall about scheduling"}
+{"prompt": "Add an import json line in the parser script.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical import addition"}
+{"prompt": "Format cart.ts with the project formatter.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Mechanical single-file formatting"}
+{"prompt": "What does the env command output?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Recall of shell command output"}
+{"prompt": "Add a return false when validation fails.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single mechanical return statement addition"}
+{"prompt": "What is the difference beetween a list and a tuple in Python?", "tier": "light", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Basic language recall, no judgment"}
+{"prompt": "Rename x1 to startX in the canvas code.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Mechanical variable rename"}
+{"prompt": "What HTTP header carries the auth token?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "security", "note": "Factual recall of header name"}
+{"prompt": "Add a null check before calling .trim() on the input.", "tier": "light", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Single mechanical null-check edit"}
+{"prompt": "What is a primary key?", "tier": "light", "lang": "en", "hasTypo": false, "domain": "db", "note": "Definitional recall, single answer"}
+{"prompt": "Merhaba, bugun nasilsin?", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "social", "note": "Selamlama, teknik icerik yok"}
+{"prompt": "REST API nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "docs", "note": "Tanimsal bilgi hatirlama, yargi gerektirmez"}
+{"prompt": "getUser fonksiyonuna bir console.log ekle.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek mekanik loglama ifadesi ekleme"}
+{"prompt": "SQL'de PRIMARY KEY ne ise yarar?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "tmp degiskenini aktifKullanici olarak yeniden adlandir.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Mekanik sembol yeniden adlandirma"}
+{"prompt": "88. satirdaki eksik noktali virgulu ekle.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Onemsiz sozdizimi duzeltmesi"}
+{"prompt": "PostgreSQL varsayilan portu nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Bilinen deger sorgulama"}
+{"prompt": "Yardimin icin tesekkurler!", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "social", "note": "Sosyal tesekkur, teknik is yok"}
+{"prompt": "login fonksiyonuna null kontrolu ekle.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek mekanik null kontrolu ekleme"}
+{"prompt": "Docker konteyner nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "siparis degiskenini order olarak adlandir.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Mekanik degisken yeniden adlandirma"}
+{"prompt": "Redis varsayilan portu kac?", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Bilinen port degeri sorgulama"}
+{"prompt": "JSON.parse etrafina try-catch blogu ekle.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek mekanik try-catch sarma"}
+{"prompt": "HTTP 500 ne anlama gelir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Durum kodu anlaminin hatirlanmasi"}
+{"prompt": "Bu dosyayi Prettier ile formatla.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Mekanik tek dosya formatlama"}
+{"prompt": "CSS'de margin ne ise yarar?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "CSS ozelligi davranisinin hatirlanmasi"}
+{"prompt": "os modulunu config.py basina import et.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek mekanik import ekleme"}
+{"prompt": "Fonksiyonun sonuna return toplam ekle.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek mekanik return ifadesi ekleme"}
+{"prompt": "degiskeni veri olarak yeniden isimlendir.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Mekanik degisken yeniden adlandirma"}
+{"prompt": "MongoDB hangi portu kullanir?", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Bilinen port degeri sorgulama"}
+{"prompt": "Iyi gunler!", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "social", "note": "Selamlama, teknik icerik yok"}
+{"prompt": "Foreign key nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "catch bloguna console.error ekle.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek mekanik loglama ifadesi ekleme"}
+{"prompt": "Git rebase ne yapar?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "devops", "note": "Git komut davranisinin hatirlanmasi"}
+{"prompt": "Eksik kapanis parantezini 10. satira ekle.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Onemsiz sozdizimi duzeltmesi"}
+{"prompt": "UUID nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "lenght yazim hatasini length olarak duzelt.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Tek mekanik yazim hatasi duzeltme"}
+{"prompt": "HTTPS varsayilan portu nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Bilinen deger sorgulama"}
+{"prompt": "x degiskenini sayac olarak degistir.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Mekanik degisken yeniden adlandirma"}
+{"prompt": "YAML dosyasindaki girintiyi duzelt.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "devops", "note": "Mekanik tek dosya formatlama"}
+{"prompt": "Webhook nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "import json satirini ekle.", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek mekanik import ekleme"}
+{"prompt": "SELECT DISTINCT ne yapar?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "db", "note": "SQL cumlesi davranisinin hatirlanmasi"}
+{"prompt": "Cron job nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "devops", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "input'a .trim() cagirmadan once null kontrol ekle.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Tek mekanik null kontrolu ekleme"}
+{"prompt": "SSH varsayilan portu kactir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Bilinen port degeri sorgulama"}
+{"prompt": "Iki nesne anahtari arasina virgul ekle.", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Onemsiz noktalama duzeltmesi"}
+{"prompt": "Stored procedure nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tanimsal bilgi hatirlama"}
+{"prompt": "Tesekkurler, calisti!", "tier": "light", "lang": "tr", "hasTypo": true, "domain": "social", "note": "Sosyal tesekkur, teknik is yok"}
+{"prompt": "Implement a debounce function that delays execution by a given ms.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded utility with chosen logic"}
+{"prompt": "Write a unit test for the calculateDiscount function.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single component unit test, mid by tie-breaker"}
+{"prompt": "Fix the off-by-one error in the pagination offset calculation.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Debug one function with reasoning"}
+{"prompt": "Add JWT validation middleware to the /orders endpoint.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "security", "note": "One endpoint feature with chosen logic"}
+{"prompt": "Convert the callback-based readFile code to async/await.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Convert one file, bounded transformation"}
+{"prompt": "Explain how React's reconciliation algorithm works.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Explain one concept in depth"}
+{"prompt": "Implement a rate limiter for a single login endpoint.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "security", "note": "One bounded feature with chosen logic"}
+{"prompt": "Debug why useEffect runs twice on mount in ProfilePage.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Debug single component behavior"}
+{"prompt": "Create a POST endpoint that accepts a new comment and stores it.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Single endpoint implementation with logic"}
+{"prompt": "Refactor the parseConfig function to remove nested ternaries.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Refactor one function's logic, mid tie-breaker"}
+{"prompt": "Write a SQL query to get the top 5 customers by total spend.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "One bounded query needing chosen aggregation"}
+{"prompt": "Add input validation to the signup form fields.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded feature with validation logic"}
+{"prompt": "Configure ESLint with the Airbnb ruleset for this project.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Configure one tool, bounded task"}
+{"prompt": "Implement retry-with-backoff logic in the apiClient.get wrapper.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One function needing chosen retry logic"}
+{"prompt": "Explain the difference between optimistic and pessimistic locking.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "Explain one bounded concept"}
+{"prompt": "Write a Jest test for the currency formatting utility.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Unit test for one component, mid"}
+{"prompt": "Convert this Python 2 print statement file to Python 3.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Convert one file, bounded transformation"}
+{"prompt": "Fix the memory leak from the uncleared interval in the timer hook.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Debug one component with root cause"}
+{"prompt": "Design a single users table schema with email and role.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "Single-table schema, bounded by tie-breaker"}
+{"prompt": "Implement pagination for the products listing endpoint.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One endpoint feature with logic"}
+{"prompt": "Add caching to the getWeather function with a 10-minute TTL.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One function enhanced with chosen caching"}
+{"prompt": "Debug the CORS error when calling the API from localhost.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Debug one bounded configuration issue"}
+{"prompt": "Refactor the switch statement in getStatusLabel to a lookup map.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Refactor one function's logic, mid"}
+{"prompt": "Write a validator that checks a password meets complexity rules.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "security", "note": "One bounded function with chosen rules"}
+{"prompt": "Configure Webpack to output a separate vendor bundle.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Configure one tool, bounded setting"}
+{"prompt": "Implement a binary search over the sorted scores array.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One algorithm with chosen implementation"}
+{"prompt": "Explain what a database transaction isolation level is.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "Explain one bounded concept"}
+{"prompt": "Fix the race condition in the increment counter handler.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Debug one handler needing reasoning"}
+{"prompt": "Create a custom React hook useLocalStorage.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded reusable component with logic"}
+{"prompt": "Write a test coverign the edge case of an empty cart total.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Unit test for one edge case, mid"}
+{"prompt": "Convert the REST controller to return paginated results.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Modify one controller with chosen logic"}
+{"prompt": "Debug why the mobile keyboard covers the input field on iOS.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "mobile", "note": "Debug one bounded UI layout issue"}
+{"prompt": "Implement soft-delete on the posts table with a deletedAt column.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "One bounded feature with schema change"}
+{"prompt": "Add a loading spinner while the profile data is fetching.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded UI feature with state"}
+{"prompt": "Refactor sendEmail to inject the transport as a dependency.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Refactor one function's logic, mid"}
+{"prompt": "Write a function that merges two sorted linked lists.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One algorithm needing chosen merge logic"}
+{"prompt": "Configure a GitHub Action to run tests on every pull request.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Configure one CI workflow, bounded"}
+{"prompt": "Explain how JWT signature verification works.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "security", "note": "Explain one bounded concept"}
+{"prompt": "Fix the flaky test that depends on system timezone.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Debug one test with root cause"}
+{"prompt": "Implement infinite scroll on the notifications list.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded feature with chosen logic"}
+{"prompt": "Create an endpoint to upload a single image to S3.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One endpoint implementation with logic"}
+{"prompt": "Debug the N+1 query in the orders-with-items fetch.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "Debug one bounded query problem"}
+{"prompt": "Write a reducer to manage the shopping cart state.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded component with state logic"}
+{"prompt": "Refactor the Money class to store amounts in cents.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Refactor one class's logic, mid"}
+{"prompt": "Add optimistic UI updates to the like button.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "One bounded feature with chosen logic"}
+{"prompt": "Implement a health-check endpoint that reports DB status.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "One endpoint implementation with logic"}
+{"prompt": "Explain the CAP theorem in the context of one database.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "db", "note": "Explain one bounded concept"}
+{"prompt": "Fix the incorrect timezone conversion in formatDate.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Debug one function with reasoning"}
+{"prompt": "Write an integration test for the login endpoint.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "security", "note": "Test for one component, mid"}
+{"prompt": "Configure Docker multi-stage build for the Node service.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Configure one service build, bounded"}
+{"prompt": "Implment a throttle helper for the scroll handler.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "frontend", "note": "One bounded utility with chosen logic"}
+{"prompt": "Fix the of-by-one bug in the substring slice.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Debug one function with reasoning"}
+{"prompt": "Wrtie a unit test for the email validator.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Unit test for one component, mid"}
+{"prompt": "Refacter the nested if-else in applyCoupon.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Refactor one function's logic, mid"}
+{"prompt": "Add validaton to reject negative quantities.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "frontend", "note": "One bounded validation feature with logic"}
+{"prompt": "Debgu the infinite render loop in the search box.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "frontend", "note": "Debug one component behavior"}
+{"prompt": "Convert the promsie chain to async/await.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Convert one bounded code block"}
+{"prompt": "Implement a LRU cache with a fixed capcity.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "backend", "note": "One data structure with chosen logic"}
+{"prompt": "Configure Nginx to reverse-proxy the api on port 3000.", "tier": "mid", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Configure one tool, bounded setting"}
+{"prompt": "Explan how connection pooling reduces DB latency.", "tier": "mid", "lang": "en", "hasTypo": true, "domain": "db", "note": "Explain one bounded concept"}
+{"prompt": "hesaplaIndirim fonksiyonu icin birim test yaz.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek bilesen icin birim test, mid"}
+{"prompt": "Pagination offset hesabindaki off-by-one hatasini duzelt.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek fonksiyonda hata ayiklama"}
+{"prompt": "/siparisler endpoint'ine JWT dogrulama middleware ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek endpoint ozelligi secilmis mantikla"}
+{"prompt": "Callback tabanli kodu async/await'e cevir.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek dosya donusumu, sinirli"}
+{"prompt": "React reconciliation nasil calisir acikla.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek kavrami derinlemesine acikla"}
+{"prompt": "Tek bir login endpoint'i icin rate limiter uygula.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek sinirli ozellik secilmis mantikla"}
+{"prompt": "ProfilePage'de useEffect'in neden iki kez calistigini bul.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek bilesen davranisinda hata ayiklama"}
+{"prompt": "Yeni yorum kaydeden bir POST endpoint olustur.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek endpoint uygulamasi mantikla"}
+{"prompt": "En cok harcayan 5 musteriyi getiren SQL sorgusu yaz.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek sinirli sorgu secilmis toplama ile"}
+{"prompt": "Kayit formu alanlarina dogrulama ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek sinirli ozellik dogrulama mantigiyla"}
+{"prompt": "ESLint'i Airbnb kurallariyla yapilandir.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "devops", "note": "Tek arac yapilandirma, sinirli gorev"}
+{"prompt": "apiClient.get sarmalayicisina retry-backoff ekle.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek fonksiyon secilmis retry mantigiyla"}
+{"prompt": "Iyimser ve kotumser kilitleme farkini acikla.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Tek sinirli kavrami acikla"}
+{"prompt": "Para formatlama yardimcisi icin Jest testi yaz.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Tek bilesen icin birim test, mid"}
+{"prompt": "Timer hook'undaki temizlenmeyen interval sizintisini duzelt.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek bilesende kok neden ayiklama"}
+{"prompt": "Urun listeleme endpoint'ine sayfalama ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek endpoint ozelligi mantikla"}
+{"prompt": "getWeather fonksiyonuna 10 dakikalik cache ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek fonksiyon secilmis cache ile"}
+{"prompt": "Localhost'tan API cagrisindaki CORS hatasini coz.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek sinirli yapilandirma sorunu ayiklama"}
+{"prompt": "getStatusLabel switch'ini lookup map'e donustur.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek fonksiyon mantigini refactor, mid"}
+{"prompt": "Sifre karmasiklik kurallarini kontrol eden dogrulayici yaz.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "security", "note": "Tek sinirli fonksiyon secilmis kurallarla"}
+{"prompt": "Sirali skor dizisinde ikili arama uygula.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek algoritma secilmis uygulama ile"}
+{"prompt": "Veritabani transaction izolasyon seviyesini acikla.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek sinirli kavrami acikla"}
+{"prompt": "Sayac artirma handler'indaki race condition'i duzelt.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek handler'da akil yurutme ile ayiklama"}
+{"prompt": "useLocalStorage adinda ozel bir React hook yaz.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek sinirli tekrar kullanilabilir bilesen mantikla"}
+{"prompt": "Bos sepet toplami icin sinir durumu testi yaz.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek sinir durumu icin birim test, mid"}
+{"prompt": "posts tablosuna deletedAt ile soft-delete ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek sinirli ozellik sema degisikligiyle"}
+{"prompt": "Profil verisi yuklenirken bir loading spinner goster.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek sinirli UI ozelligi durum ile"}
+{"prompt": "sendEmail'i transport'u enjekte edecek sekilde refactor et.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek fonksiyon mantigini refactor, mid"}
+{"prompt": "Iki sirali bagli listeyi birlestiren fonksiyon yaz.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek algoritma secilmis birlestirme mantigiyla"}
+{"prompt": "Her PR'da testleri calistiran GitHub Action yapilandir.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "devops", "note": "Tek CI is akisi yapilandirma, sinirli"}
+{"prompt": "JWT imza dogrulamasi nasil calisir acikla.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek sinirli kavrami acikla"}
+{"prompt": "Sistem saat dilimine bagli flaky testi duzelt.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek testte kok neden ayiklama"}
+{"prompt": "Bildirim listesine sonsuz kaydirma ekle.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek sinirli ozellik secilmis mantikla"}
+{"prompt": "S3'e tek gorsel yukleyen endpoint olustur.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek endpoint uygulamasi mantikla"}
+{"prompt": "Siparis-urun getirmedeki N+1 sorgu sorununu ayikla.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Tek sinirli sorgu sorununu ayiklama"}
+{"prompt": "Sepet durumunu yoneten bir reducer yaz.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek sinirli bilesen durum mantigiyla"}
+{"prompt": "DB durumunu raporlayan health-check endpoint uygula.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek endpoint uygulamasi mantikla"}
+{"prompt": "formatDate'teki hatali zaman dilimi donusumunu duzelt.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek fonksiyonda akil yurutme ile ayiklama"}
+{"prompt": "Login endpoint'i icin entegrasyon testi yaz.", "tier": "mid", "lang": "tr", "hasTypo": true, "domain": "security", "note": "Tek bilesen icin test, mid"}
+{"prompt": "Node servisi icin cok asamali Docker build yapilandir.", "tier": "mid", "lang": "tr", "hasTypo": false, "domain": "devops", "note": "Tek servis build yapilandirma, sinirli"}
+{"prompt": "Design the cachnig architecture for our product catalog service.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Architecture design within one bounded service"}
+{"prompt": "Audit the authentication module for security weaknesses.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "security", "note": "Audit one module, judgment and investigation"}
+{"prompt": "Investigate why the checkout service latency spikes under load.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Investigation scoped to one service"}
+{"prompt": "Refactor the monolithic OrderService toward clean architecture.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Redesign one service toward an architecture"}
+{"prompt": "Analyze the query performance of the reporting dashboard.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Performance analysis within one domain"}
+{"prompt": "Compare REST and GraphQL for our public API.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Comparative evaluation within one bounded API"}
+{"prompt": "Design a rate-limiting strategy for the whole payments API.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "security", "note": "Strategy design within one bounded API"}
+{"prompt": "Optimize the React app's initial bundle size and load time.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Optimization scoped to one application"}
+{"prompt": "Evaluate whether to move the notifications feature to event-driven.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Evaluation and judgment within one feature domain"}
+{"prompt": "Diagnose the intermittent 502 errors in the API gateway.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Diagnosis scoped to one gateway system"}
+{"prompt": "Redesign the database schema for the inventory domain.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Redesign scoped to one domain schema"}
+{"prompt": "Audit the mobile app for insecure local data storage.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "mobile", "note": "Security audit scoped to one app"}
+{"prompt": "Design an offline-first sync strategy for the mobile client.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "mobile", "note": "Strategy design within one client"}
+{"prompt": "Investigate the root cause of the memory growth in the worker service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Root-cause investigation within one service"}
+{"prompt": "Architect the file-upload pipeline for large video files.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Architecture design of one pipeline"}
+{"prompt": "Analyze and reduce the flakiness across the frontend test suite.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Analysis within one test suite domain"}
+{"prompt": "Evaluate three state-management options for the admin dashboard.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Evaluation and judgment within one app"}
+{"prompt": "Optimize the ETL job that aggregates daily sales data.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "data", "note": "Optimization scoped to one ETL job"}
+{"prompt": "Design the retry and dead-letter handling for the email queue.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Design synthesis within one queue system"}
+{"prompt": "Audit the search service's ranking logic for relevance issues.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "data", "note": "Audit within one bounded service"}
+{"prompt": "Refactor the legacy reporting module into a layered architecture.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Redesign one module toward architecture"}
+{"prompt": "Investigate why recommendation quality dropped after the last model deploy.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "data", "note": "Investigation scoped to one model system"}
+{"prompt": "Design the authorization model for the CMS.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "security", "note": "Design synthesis within one bounded system"}
+{"prompt": "Compare Postgres and MongoDB for the events storage service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Comparative evaluation within one service"}
+{"prompt": "Optimize the image-processing service's throughput.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Optimization scoped to one service"}
+{"prompt": "Diagnose the deadlocks occurring in the booking transaction flow.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Diagnosis within one transaction domain"}
+{"prompt": "Architect a feature-flag system for the web application.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Architecture design within one application"}
+{"prompt": "Analyze the accessibility gaps across the checkout flow.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Analysis scoped to one flow"}
+{"prompt": "Redesign the API error-handling contract for the orders service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Redesign within one service contract"}
+{"prompt": "Evaluate migrating the auth service from sessions to JWT.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "security", "note": "Evaluation scoped to one auth service"}
+{"prompt": "Investigate the cause of duplicate charges in the payment service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Investigation within one service"}
+{"prompt": "Design a data-retention and archival policy for the logging system.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Policy design within one system"}
+{"prompt": "Optimize the SQL for the customer-360 aggregation view.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Optimization within one bounded view"}
+{"prompt": "Audit the CI pipeline for security and speed bottlenecks.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Audit scoped to one pipeline"}
+{"prompt": "Refactor the tangled UserProfile component into composable hooks.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Redesign one component toward architecture"}
+{"prompt": "Design the observability strategy for the API.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Strategy synthesis within one API system"}
+{"prompt": "Investigate the intermittent data loss in the streaming ingestion job.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "data", "note": "Investigation scoped to one ingestion job"}
+{"prompt": "Compare vertical vs horizontal scaling for the search service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Comparative evaluation within one service"}
+{"prompt": "Architect a plugin system for the reporting engine.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Architecture design within one engine"}
+{"prompt": "Analyze the cold-start latency of the serverless image function.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Analysis scoped to one function"}
+{"prompt": "Redesign the onboarding flow to reduce drop-off.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Redesign within one flow, judgment needed"}
+{"prompt": "Evaluate whether to shard the analytics database.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Evaluation and judgment within one database"}
+{"prompt": "Optimize the feature pipeline that trains the churn model.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "data", "note": "Optimization scoped to one pipeline"}
+{"prompt": "Diagnose the connection-pool exhaustion in the orders API.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Diagnosis within one API system"}
+{"prompt": "Design a tenant-isolation strategy for the multi-tenant billing service.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Strategy design within one service"}
+{"prompt": "Audit the third-party dependency tree for vulnerable packages.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "security", "note": "Security audit within one dependency domain"}
+{"prompt": "Investigate why background jobs pile up during peak hours.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Investigation scoped to one job system"}
+{"prompt": "Refactor the payment gateway integration behind a clean adapter interface.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Redesign one integration toward architecture"}
+{"prompt": "Analyze and improve the cache hit ratio of the session store.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Analysis and optimization within one store"}
+{"prompt": "Design a schema-versioning approach for the events table.", "tier": "deep", "lang": "en", "hasTypo": false, "domain": "db", "note": "Design synthesis within one schema domain"}
+{"prompt": "Investigat the slow response of the recommendations endpiont.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "data", "note": "Investigation scoped to one endpoint"}
+{"prompt": "Redesing the notification service around a message queue.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Redesign one service toward architecture"}
+{"prompt": "Optimze the checkout page's rendering performance.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "frontend", "note": "Optimization scoped to one page"}
+{"prompt": "Audt the file-storage service for access-control flaws.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "security", "note": "Security audit within one service"}
+{"prompt": "Anlayze the tradeoffs of caching at the CDN vs the app layer.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "infra", "note": "Analysis and judgment within one system"}
+{"prompt": "Diagnoze the periodic spikes in the database CPU.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "db", "note": "Diagnosis scoped to one database"}
+{"prompt": "Architet a background-job framework for the mailer service.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Architecture design within one service"}
+{"prompt": "Evaulate replacing the ORM with raw SQL in the hot path.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "db", "note": "Evaluation and judgment within one path"}
+{"prompt": "Refacotr the search indexing service into a hexagonal design.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Redesign one service toward architecture"}
+{"prompt": "Investgiate the flaky deploys of the frontend service.", "tier": "deep", "lang": "en", "hasTypo": true, "domain": "devops", "note": "Investigation scoped to one service"}
+{"prompt": "Urun katalogu servisi icin cache mimarisini tasarla.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek sinirli serviste mimari tasarim"}
+{"prompt": "Kimlik dogrulama modulunu guvenlik aciklari icin denetle.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek modul denetimi, yargi ve arastirma"}
+{"prompt": "Checkout servisinin yuk altindaki gecikme sicramasini arastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek servise odakli arastirma"}
+{"prompt": "Monolitik OrderService'i temiz mimariye dogru refactor et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek servisi mimariye dogru yeniden tasarim"}
+{"prompt": "Raporlama panosunun sorgu performansini analiz et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek alan icinde performans analizi"}
+{"prompt": "Genel API icin REST ve GraphQL'i karsilastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek sinirli API icinde karsilastirmali degerlendirme"}
+{"prompt": "Odeme API'si icin hiz sinirlama stratejisi tasarla.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek sinirli API icinde strateji tasarimi"}
+{"prompt": "React uygulamasinin ilk bundle boyutunu optimize et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek uygulamaya odakli optimizasyon"}
+{"prompt": "Bildirim ozelligini event-driven'a tasimayi degerlendir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek ozellik alani icinde degerlendirme ve yargi"}
+{"prompt": "API gateway'deki aralikli 502 hatalarini teshis et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Tek gateway sistemine odakli teshis"}
+{"prompt": "Envanter alani icin veritabani semasini yeniden tasarla.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Tek alan semasina odakli yeniden tasarim"}
+{"prompt": "Mobil uygulamayi guvensiz yerel veri depolama icin denetle.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "mobile", "note": "Tek uygulamaya odakli guvenlik denetimi"}
+{"prompt": "Mobil istemci icin cevrimdisi-oncelikli senkronizasyon tasarla.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "mobile", "note": "Tek istemci icinde strateji tasarimi"}
+{"prompt": "Worker servisindeki bellek buyumesinin kok nedenini arastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek servis icinde kok neden arastirmasi"}
+{"prompt": "Buyuk video dosyalari icin yukleme hattini mimarlestir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek hattin mimari tasarimi"}
+{"prompt": "Frontend test paketindeki kararsizligi analiz edip azalt.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "frontend", "note": "Tek test paketi alani icinde analiz"}
+{"prompt": "Admin panosu icin uc state-management secenegini degerlendir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek uygulama icinde degerlendirme ve yargi"}
+{"prompt": "Gunluk satis verisini toplayan ETL isini optimize et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Tek ETL isine odakli optimizasyon"}
+{"prompt": "E-posta kuyrugu icin retry ve dead-letter tasarimini yap.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek kuyruk sistemi icinde tasarim sentezi"}
+{"prompt": "Arama servisinin siralama mantigini alaka icin denetle.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "data", "note": "Tek sinirli servis icinde denetim"}
+{"prompt": "Eski raporlama modulunu katmanli mimariye tasi.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek modulu mimariye dogru yeniden tasarim"}
+{"prompt": "Son model dagitiminendan sonra oneri kalitesinin neden dustugunu arastir.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "data", "note": "Tek model sistemine odakli arastirma"}
+{"prompt": "CMS icin rol ve izin yetkilendirme modelini tasarla.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek sinirli sistem icinde tasarim sentezi"}
+{"prompt": "Olay depolama servisi icin Postgres ve MongoDB'yi karsilastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek servis icinde karsilastirmali degerlendirme"}
+{"prompt": "Gorsel isleme servisinin verimini optimize et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek servise odakli optimizasyon"}
+{"prompt": "Rezervasyon transaction akisindaki deadlock'lari teshis et.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Tek transaction alani icinde teshis"}
+{"prompt": "Web uygulamasi icin feature-flag sistemi mimarlestir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek uygulama icinde mimari tasarim"}
+{"prompt": "Odeme akisindaki erisilebilirlik bosluklarini analiz et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek akisa odakli analiz"}
+{"prompt": "Siparis servisi icin API hata sozlesmesini yeniden tasarla.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Tek servis sozlesmesi icinde yeniden tasarim"}
+{"prompt": "Auth servisini oturumlardan JWT'ye gecirmeyi degerlendir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Tek auth servisine odakli degerlendirme"}
+{"prompt": "Odeme servisindeki mukerrer tahsilatlarin nedenini arastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Tek servis icinde arastirma"}
+{"prompt": "Loglama sistemi icin veri saklama ve arsivleme politikasi tasarla.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Tek sistem icinde politika tasarimi"}
+{"prompt": "Musteri-360 toplama gorunumu icin SQL'i optimize et.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Tek sinirli gorunum icinde optimizasyon"}
+{"prompt": "CI hattini guvenlik ve hiz darbogazlari icin denetle.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "devops", "note": "Tek hatta odakli denetim"}
+{"prompt": "Karisik UserProfile bilesenini birlestirilebilir hook'lara ayir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Tek bileseni mimariye dogru yeniden tasarim"}
+{"prompt": "API icin gozlemlenebilirlik stratejisini tasarla.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Tek API sistemi icinde strateji sentezi"}
+{"prompt": "Akis alim isindeki aralikli veri kaybini arastir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Tek alim isine odakli arastirma"}
+{"prompt": "Arama servisi icin dikey ve yatay olceklemeyi karsilastir.", "tier": "deep", "lang": "tr", "hasTypo": true, "domain": "infra", "note": "Tek servis icinde karsilastirmali degerlendirme"}
+{"prompt": "Analitik veritabanini parcalamayi degerlendir.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Tek veritabani icinde degerlendirme ve yargi"}
+{"prompt": "Churn modelini egiten ozellik hattini optimize et.", "tier": "deep", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Tek hatta odakli optimizasyon"}
+{"prompt": "Design the migration of our monolith into payments, orders, and inventory services.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Three named subsystems, platform decomposition program"}
+{"prompt": "Plan the multi-region active-active deployment across US, EU, and APAC.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Multi-region cross-datacenter deployment program"}
+{"prompt": "Architect a company-wide observability platform spanning all microservices.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Company-wide platform across all services"}
+{"prompt": "Create a 4-quarter roadmpa to migrate from on-prem to AWS.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "infra", "note": "Multi-quarter long-horizon migration program"}
+{"prompt": "Design the event-driven integration between the CRM, billing, and support systems.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Three named systems integrated together"}
+{"prompt": "Plan the platform-wide migration from REST to gRPC across all services.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Platform-wide migration across all services"}
+{"prompt": "Architect a unified identity and SSO layer for all internal applications.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Platform-wide identity spanning all apps"}
+{"prompt": "Design a data platform integrating the warehouse, lake, and streaming pipelines.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Three named subsystems integrated as platform"}
+{"prompt": "Plan the company-wide upgrade from Java 8 to Java 21 across 40 services.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Company-wide multi-service upgrade program"}
+{"prompt": "Design the disaster-recovery strategy across all regions and datacenters.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Multi-region cross-datacenter recovery program"}
+{"prompt": "Architect the migration of authentication, authorization, and audit into a shared platform.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Three named subsystems into one platform"}
+{"prompt": "Plan a phased rollout of Kubernetes across all product teams.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Org-wide phased rollout program"}
+{"prompt": "Design the cross-service saga for order, payment, shipping, and notification.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Four named services in one saga"}
+{"prompt": "Create a multi-year plan to decompose the ERP into bounded microservices.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Multi-year platform decomposition program"}
+{"prompt": "Architect a global CDN and edge-caching strategy for all web properties.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Global platform-wide strategy across properties"}
+{"prompt": "Design the data-governance and lineage program across all data domains.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Company-wide program across all domains"}
+{"prompt": "Plan the migration of the web, mobile, and API tiers to a new design system.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Three named tiers migrated together"}
+{"prompt": "Architect a company-wide feature-flag and experimentation platform.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Company-wide platform spanning teams"}
+{"prompt": "Design the zero-downtime migration of the primary database across three services.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "db", "note": "Migration spanning three named services"}
+{"prompt": "Plan the org-wide adoption of CI/CD with standardized pipelines.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Org-wide standardization program"}
+{"prompt": "Architect the integration of the ML platform, feature store, and serving layer.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Three named subsystems integrated together"}
+{"prompt": "Design a multi-tenant SaaS platform spanning provisioning, billing, and metering.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Platform spanning three named subsystems"}
+{"prompt": "Plan the migration from monorepo to polyrepo across all engineering teams.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Org-wide migration across all teams"}
+{"prompt": "Architect a unified logging, metrics, and alerting stack for the whole company.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Company-wide stack, three named subsystems"}
+{"prompt": "Design the phased decommissioning of three legacy mainframe subsystems.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Enumerated three-subsystem decommission program"}
+{"prompt": "Create a two-year security program covering identity, network, and data protection.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Multi-year program, three named domains"}
+{"prompt": "Architect the real-time sync between the mobile app, web app, and backend.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Three named systems synchronized together"}
+{"prompt": "Design a global rate-limiting and DDoS-protection layer for all public APIs.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Platform-wide layer across all APIs"}
+{"prompt": "Plan the migration of all services from VMs to containers company-wide.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Company-wide migration across all services"}
+{"prompt": "Architect an enterprise data mesh across sales, marketing, and finance domains.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Enterprise-wide mesh, three named domains"}
+{"prompt": "Design the cross-region replication for the user, order, and catalog databases.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "db", "note": "Cross-region across three named databases"}
+{"prompt": "Plan a comprehensive accessibility program across all customer-facing products.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Comprehensive program across all products"}
+{"prompt": "Architect the migration of authentication across web, iOS, and Android clients.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "mobile", "note": "Migration across three named clients"}
+{"prompt": "Design the platform-wide secrets-management and rotation program.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Platform-wide long-horizon program"}
+{"prompt": "Create a roadmap to unify the three separate analytics systems into one.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Enumerated three-system unification program"}
+{"prompt": "Architect a global content-delivery and localization platform for all markets.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "frontend", "note": "Global platform spanning all markets"}
+{"prompt": "Design the end-to-end tracing across gateway, services, and message queues.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Tracing across three named subsystems"}
+{"prompt": "Plan the company-wide migration from Oracle to PostgreSQL across all databases.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "db", "note": "Company-wide migration across all databases"}
+{"prompt": "Architect a unified notification platform for email, SMS, and push channels.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Platform spanning three named channels"}
+{"prompt": "Design the multi-cloud failover strategy spanning AWS and GCP.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Multi-cloud across two named providers"}
+{"prompt": "Plan the modernization program for the billing, invoicing, and tax subsystems.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Program across three named subsystems"}
+{"prompt": "Architect the data-residency compliance across EU, US, and APAC regions.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "security", "note": "Multi-region compliance program"}
+{"prompt": "Design the platform to consolidate authentication, profiles, and preferences.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Platform consolidating three named subsystems"}
+{"prompt": "Create a phased plan to introduce service mesh across all clusters.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Platform-wide phased program across clusters"}
+{"prompt": "Architect the cross-system reconciliation between payments, ledger, and reporting.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Reconciliation across three named systems"}
+{"prompt": "Design a company-wide disaster-recovery and business-continuity program.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Company-wide long-horizon continuity program"}
+{"prompt": "Plan the migration of the frontend, backend, and mobile teams to a shared API contract.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "backend", "note": "Three named teams onto shared contract"}
+{"prompt": "Architect an enterprise search platform indexing products, docs, and support tickets.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "data", "note": "Enterprise platform across three named sources"}
+{"prompt": "Design the multi-region deployment pipeline for all critical services.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "devops", "note": "Multi-region pipeline across all services"}
+{"prompt": "Plan a three-year cloud-cost-optimization program across all workloads.", "tier": "ultra", "lang": "en", "hasTypo": false, "domain": "infra", "note": "Multi-year program across all workloads"}
+{"prompt": "Plan the migraton of orders, billing, and shipping into separate services.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Three named subsystems decomposition program"}
+{"prompt": "Architet a company-wide identity platform for all apps.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "security", "note": "Company-wide platform spanning all apps"}
+{"prompt": "Design the multi-regoin failover across US and EU datacenters.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "infra", "note": "Multi-region cross-datacenter failover program"}
+{"prompt": "Plan the platfrom-wide migration from REST to event streaming.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Platform-wide migration across services"}
+{"prompt": "Architect the integraton of CRM, billing, and analytics systems.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Three named systems integrated together"}
+{"prompt": "Design a comprehnsive data-governance program across all domains.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "data", "note": "Comprehensive program across all domains"}
+{"prompt": "Plan the compnay-wide upgrade of all services to the new runtime.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "devops", "note": "Company-wide upgrade across all services"}
+{"prompt": "Architect the cross-servcie saga for booking, payment, and email.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Saga across three named services"}
+{"prompt": "Design the enterprsie observability stack for every microservice.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "infra", "note": "Enterprise-wide stack across all services"}
+{"prompt": "Plan the mult-year decomposition of the monolith into domains.", "tier": "ultra", "lang": "en", "hasTypo": true, "domain": "backend", "note": "Multi-year platform decomposition program"}
+{"prompt": "Monolitin odeme, siparis ve envanter servislerine ayrilmasini tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Uc adli alt sistem, platform ayristirma programi"}
+{"prompt": "ABD, AB ve APAC bolgelerinde cok bolgeli dagitimi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Cok bolgeli veri merkezleri arasi dagitim programi"}
+{"prompt": "Tum mikroservisleri kapsayan sirket geneli gozlemlenebilirlik platformu mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Sirket geneli platform tum servisler boyunca"}
+{"prompt": "On-prem'den AWS'ye gecis icin 4 ceyreklik yol haritasi olustur.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Cok ceyrekli uzun vadeli gecis programi"}
+{"prompt": "CRM, faturalama ve destek sistemleri arasinda event-driven entegrasyon tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Uc adli sistem birlikte entegre"}
+{"prompt": "Tum servislerde REST'ten gRPC'ye platform geneli gecisi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Platform geneli tum servisler boyunca gecis"}
+{"prompt": "Tum ic uygulamalar icin birlesik kimlik ve SSO katmani mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Platform geneli kimlik tum uygulamalar boyunca"}
+{"prompt": "Depo, gol ve akis hatlarini birlestiren veri platformu tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Uc adli alt sistem platform olarak entegre"}
+{"prompt": "40 serviste Java 8'den Java 21'e sirket geneli yukseltmeyi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Sirket geneli cok servisli yukseltme programi"}
+{"prompt": "Tum bolge ve veri merkezlerinde felaket kurtarma stratejisi tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Cok bolgeli veri merkezleri arasi kurtarma programi"}
+{"prompt": "Kimlik dogrulama, yetkilendirme ve denetimi ortak platforma tasimayi mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "security", "note": "Uc adli alt sistem tek platforma"}
+{"prompt": "Kubernetes'i tum urun ekiplerine asamali yaymayi planla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "devops", "note": "Org geneli asamali yayma programi"}
+{"prompt": "Siparis, odeme, kargo ve bildirim icin servisler arasi saga tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Dort adli servis tek saga icinde"}
+{"prompt": "ERP'yi sinirli mikroservislere ayirmak icin cok yillik plan olustur.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Cok yillik platform ayristirma programi"}
+{"prompt": "Tum web varliklari icin global CDN ve edge-cache stratejisi mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Global platform geneli tum varliklar boyunca"}
+{"prompt": "Tum veri alanlarinda veri yonetisimi ve koken programini tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Sirket geneli program tum alanlar boyunca"}
+{"prompt": "Web, mobil ve API katmanlarini yeni tasarim sistemine tasimayi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Uc adli katman birlikte tasinir"}
+{"prompt": "Sirket geneli feature-flag ve deney platformu mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Sirket geneli platform ekipler boyunca"}
+{"prompt": "Uc servis genelinde birincil veritabaninin kesintisiz gecisini tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Uc adli servis boyunca gecis"}
+{"prompt": "Standart hatlarla org geneli CI/CD benimsemeyi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "devops", "note": "Org geneli standartlastirma programi"}
+{"prompt": "ML platformu, feature store ve sunum katmanini entegre et.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "data", "note": "Uc adli alt sistem birlikte entegre"}
+{"prompt": "Provizyon, faturalama ve olcumleme kapsayan cok kiracili SaaS tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "backend", "note": "Platform uc adli alt sistem boyunca"}
+{"prompt": "Tum ekiplerde monorepo'dan polyrepo'ya gecisi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "devops", "note": "Org geneli gecis tum ekipler boyunca"}
+{"prompt": "Tum sirket icin birlesik loglama, metrik ve uyari yigini mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Sirket geneli yigin, uc adli alt sistem"}
+{"prompt": "Uc eski mainframe alt sisteminin asamali devre disi birakilmasini tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Numaralandirilmis uc alt sistem devre disi programi"}
+{"prompt": "Kimlik, ag ve veri korumayi kapsayan iki yillik guvenlik programi olustur.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "security", "note": "Cok yillik program, uc adli alan"}
+{"prompt": "Mobil, web ve backend arasinda gercek zamanli senkronizasyon mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Uc adli sistem birlikte senkronize"}
+{"prompt": "Tum genel API'ler icin global rate-limit ve DDoS koruma katmani tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Platform geneli katman tum API'ler boyunca"}
+{"prompt": "Sirket genelinde tum servisleri VM'den konteynere tasimayi planla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "infra", "note": "Sirket geneli gecis tum servisler boyunca"}
+{"prompt": "Satis, pazarlama ve finans alanlarinda kurumsal veri mesh mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "data", "note": "Kurumsal mesh, uc adli alan"}
+{"prompt": "Kullanici, siparis ve katalog veritabanlari icin bolgeler arasi replikasyon tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "db", "note": "Bolgeler arasi uc adli veritabani boyunca"}
+{"prompt": "Tum musteriye donuk urunlerde kapsamli erisilebilirlik programi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "frontend", "note": "Kapsamli program tum urunler boyunca"}
+{"prompt": "Web, iOS ve Android istemcilerinde kimlik dogrulama gecisini mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "mobile", "note": "Uc adli istemci boyunca gecis"}
+{"prompt": "Platform geneli sir yonetimi ve rotasyon programini tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "security", "note": "Platform geneli uzun vadeli program"}
+{"prompt": "Uc ayri analitik sistemi tek sistemde birlestirmek icin yol haritasi olustur.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "data", "note": "Numaralandirilmis uc sistem birlestirme programi"}
+{"prompt": "Gateway, servisler ve kuyruklar arasinda uctan uca izleme tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "infra", "note": "Izleme uc adli alt sistem boyunca"}
+{"prompt": "Tum veritabanlarinda Oracle'dan PostgreSQL'e sirket geneli gecisi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "db", "note": "Sirket geneli gecis tum veritabanlari boyunca"}
+{"prompt": "E-posta, SMS ve push kanallari icin birlesik bildirim platformu mimarlestir.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Platform uc adli kanal boyunca"}
+{"prompt": "AWS ve GCP kapsayan cok bulutlu yuk devretme stratejisi tasarla.", "tier": "ultra", "lang": "tr", "hasTypo": true, "domain": "infra", "note": "Cok bulutlu iki adli saglayici boyunca"}
+{"prompt": "Faturalama, fatura kesme ve vergi alt sistemleri icin modernizasyon programi planla.", "tier": "ultra", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "Program uc adli alt sistem boyunca"}
+{"prompt": "PATCH ve PUT arasindaki fark nedir?", "tier": "light", "lang": "tr", "hasTypo": false, "domain": "backend", "note": "HTTP metod farkinin hatirlanmasi"}

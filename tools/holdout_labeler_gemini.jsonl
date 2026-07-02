@@ -1,0 +1,400 @@
+{"prompt":"kullanıcı oturum yönetimi mimarisini tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"kimlik doğrulama sistemi performans darboğazlarını analiz et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"CSS sınıfı için tr-ycatch bloğu ekle.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Avrupa ve Asya bölgesel veri merkezelri genelinde sıfır güven ağı mimarisi kur.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"Format the user route with Prettier.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Compare caching strategies for the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"ödeme özelliği matnığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Change the font color to red in the SQL scrpit.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Design the caching strategy for the auth system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"let ve const farkı nedir?","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Add a null chek to the user object.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Optimize the datbase queries for the inventory tracking system.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Kullanıcı nesnesine null kontrolü ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Optimize the database queries for the real-time chat module.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Fix the typo in the user rotue.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Avrupa ve Asya bölgesel veri merkezleri altyapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the notification service.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"ödeme altyapısı güvenliğini denetle.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Write a unit test for the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Build delivery for the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"eski monolit yapı ve yeni mikroservisler için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the real-time chat module.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Design the architecture for the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"stok takip sistemi için önbellek stratejilerini karşılaştır.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Migrate the entire platform architecture for the primary banking ledger and external CRM services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Change the font color to red in the db config.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"arayüz durum yönetimi performans darboğazlarını analiz et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Migrate the entire backend platform to microservices across all teams.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Implement a retry mechanism for the user authentication flow.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Architect a zero-trust network across all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"çekirdek API servisi güvenliğnii denetle.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Implment unified tracking across the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Diagnose the memory leak in the core API service.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning checkout and account services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"temel İK, bordro ve işe alım alt sistemleri için teslimat oluştur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"İki bölgede ödeme ve hesap servisleri için teslimat oluştur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"PostgerSQL varsayılan portu nedir?","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"veritabanı ayarı için null kontrolü ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Optimize the datbase queries for the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"ödeme ve hesap servisleri genelinde sıfır güven ağı mimarisi kur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Refactor the logic of the notification service.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri için teslimat oluştur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"ana bankacılık defteri ve harici CRM servisleri altyapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Kullanıcı rotası içindeki yazım hatasını düzelt.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Fix the bug in the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Can you explain DNS resoultion?","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Fix the bug in the database query.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"git clone komtuu nedir?","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Return null if undefined in the SQL script.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"SQL betiği dosyasını formatla.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"What is the diffreence between let and const?","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Design the architecture for the payment gateway backend.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"bildirim servisi için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"raporlama betiği için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"ödeme ve hesap servisleri için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Migrate the entire platform architecure for all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"kimlik doğrulama, fautralandırma ve stok sistemleri için çok yıllı geçiş sürecini yönet.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"Debug the state issue in the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Implement a retry mechanism for the checkout feature.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Thanks, that worked.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"login fonksiyonu içindeki değişkeni userId olarak değiştir.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Import React in the login funtion.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Wrap the user route in a try-catch.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Evaluate the scalability of the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Architect a zero-trust network across the European and Asian regional datacneters.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"resim yükleme bileşeni durum hatasını ayıkla.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Consolidate the inrfastructure of auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Evaluate the scalability of the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"API yanıtlyaıcısı için console.log ekle.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Rename the varible to userId in line 42.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Implment unified tracking across the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Add a null check to the header component.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Evaluate the scalability of the payment gateway backend.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Write a unit test for the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Return null if undefined in the db config.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Convert the class component to functional for the data processing script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Wrap line 42 in a try-catch.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Return null if undefined in the API response handler.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"kimlik doğrulama sistemi içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları için teslimat oluştur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Consolidate the infrastructure of the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the data processing script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"arayüz durum yönetimi içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Lead the multi-year migration of all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Implement a retry mechanism for the reporting script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"veritabanı sorgusu için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Implement a retry mechanism for the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"kullanıcı profil sayfası için CRUD uç noktasını geliştir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Diagnose the memory leak in the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Audit the security of the autentication system.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"veritabanı ayarı tanımsızsa null dön.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"çekirdek API servisi içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Design the architecture for the authentication system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"eski monolit yapı ve yeni mikroservisler için bölgeler arası veri replikasyon stratejisi tasarla.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the checkout feature.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"veri işleme betiği içindeki hatayı düzelt.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Refactor the logic of the user authentication flow.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"raporlama betiği için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Write a unit test for the checkout feature.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Debug the state issue in the image upload componet.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Analyze the performance bottlenecks of the real-time chat module.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the payment gateway backend.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Fix the typo in line 42.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"resim yükleme bileşeni için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Design the architecure for the core API service.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Implement unified tracking across auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Evaluate the scalability of the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları genelinde birleşik bir yapı kurgula.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"42. satır tanımsızsa null dön.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Implment unified tracking across all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Kullanıcı rotası için try-catch bloğu ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"kullanıcı giriş akışı için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"ödeme özelliği bileşenini fonskiyonel yapıya çevir.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"temel İK, bordro ve işe alım alt sistemleri altyapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"API çağrısı için yeniden deneme mekanizması ekle.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"kullanici profil sayfası içindeki hatayı düzelt.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Build delivery for auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Design the architecture for the inventory tracking system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Merhaba, yardım için teşekkürler.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Fix the bug in the data processing script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Analyze the performance bottlenecks of the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Migrate the entire platform architecture for the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"veritabanı ayarı için console.log ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"çekirdek API servisi veritabanı sorgularını optimize et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"ödeme ve hesap servisleri için teslimat oluştur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for checkout and account services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"ödeme ve hesap servisleri alytapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"veritabanı sorgusu için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Convert the class component to functional for the checkout feature.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Retun null if undefined in the user route.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Fix the typo in the CSS class.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"What is the HTTP methods?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"SQL betiği için conosle.log ekle.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"arayüz durum yönetimi veritabanı sorgularını optimize et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Return null if undefined in the header component.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"eski monolit yapı ve yeni mikroservisler altyapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"veri işleme betiği için CI/CD ayarlarını yap.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ag geçitleri ve kullanıcı veritabanları için çok yıllı geçiş sürecini yönet.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"temel İK, bordro ve işe alım alt sistmeleri kapsayan birleşik bir dağıtım hattı kur.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"veri işleme betiği mantığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Build delivery for the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Convert the class componet to functional for the notification service.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"resim yükleme bileşeni mantığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"veritabanı sorgusu bileşenini fonksiyonel yapıya çevir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the checkout feature.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"çekirdek API servisi için önbellek stratejileirni karşılaştır.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Import React in the user route.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Analyze the performance bottlenecks of the inventory tracking system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Format the CSS class with Prettier.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the inventory tracking sytem.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Convert the class component to functional for the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"42. satır dosyaısnı formatla.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Analyze the performance bottlenecks of the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Lead the multi-year migration of auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Format the db config with Prettier.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"stok takip sistemi performans darboğazlarını analiz et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Fix the bug in the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Consolidate the infarstructure of the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Consolidate the infrastructure of the primary banking ledger and external CRM services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"stok takip sistemi mimarisini tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"veritabani ayarı sonundaki boşlukları sil.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Architect a zeor-trust network across checkout and account services.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"ana bankacılık defteri ve harici CRM servisleri için bölgeler arası veri replikasyon stratejisi tasarla.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"veritabanı ayarı için try-catch bloğu ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Add a console.log to the login function.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Consolidate the infrastrutcure of the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"REST API hakkında bilgi ver.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Architect a zero-trust network across the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Migrate the entire platform architecure for the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Rename the variable to userId in the API response handler.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"header bileşeni içindeki yazım hatasını düzelt.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Debug the state issue in the reoprting script.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"resim yükleme bileşeni için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Convert the class component to functional for the database query.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Rename the variable to userId in the user route.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Diagnose the memory leak in the authentication system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Import React in the CSS class.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Implement a retry mechanism for the data processing script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"kullanıcı giriş akışı için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Optimize the database queries for the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı ölçeklenebilirliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Audit the security of the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"kullanici profil sayfası için CI/CD ayarlarını yap.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Architect a zero-trust network across auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Add a retry mechanism to the API call.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the notification serice.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"42. satır için try-catch bloğu ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri kapsayan birleşik bir dağıtım hattı kur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Add a null check to the user route.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Design the architecture for the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Format line 42 with Prettier.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"bildirim servisi içindeki hatayı düzelt.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Diagnose the intermittent login latency affecting users.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"gerçek zamanlı sohbet modülü güvenliğini denetle.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Debug the state issue in the notification service.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı güvneliğini denetle.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"kullanıcı profil sayfası için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Refactor the logic of the reporting script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Analyze the performance bottlenecks of the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Can you explain a REST API?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Eski kullanici veritabanını PostgreSQL'e taşı.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Add a null check to the API response handler.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Implement unified tracking across the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Architect a zero-trust network across the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"veritabanı sorgusu durum hatasını ayıkla.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Return null if undefined in the CSS class.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"API yaıntlayıcısı rengini kırmızı yap.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Design a cross-region data replication strategy for the primary banking ledger and external CRM services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Implement unified tracking across the primary banking ledger and external CRM services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"API yanıtlayıcısı içindeki yazım hatasını düzelt.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Refactor the logic of the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the authentication system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Consolidate the infrasturcture of all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Wrap the SQL script in a tyr-catch.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Fix the bug in the user authentication flow.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Migrate the entire platform architecure for the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Write a unit test for the reporitng script.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Compare caching straetgies for the payment gateway backend.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"CSS sınıfı dosyasını formatla.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"What is git clone?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"API yanıtlayıcısı tanımsızsa null dön.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları kapsayan birleşik bir dağıtım hattı kur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"What is the default PostgrSeQL port?","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Consolidate the infrastructure of the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı mimarisini tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Migrate the entire platform architecure for checkout and account services.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"kullanıcı oturum yönetimi içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Fix the bug in the reporting script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Refactor the logic of the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Debug the state issue in the chekcout feature.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Implment a retry mechanism for the image upload component.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"ödeme altyapısı içindeki kesintili hataları arastir.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Convert the class component to functional for the user profile page.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Add a console.log to the API response handler.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Implement the CRUD endpoint for the reporting script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Wrap the login funtion in a try-catch.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Fix the typo in the API response handler.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Investigate the intremittent failures in the frontend state management.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Implement unified tracking across the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Kullanıcı rotası başına import ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Hello, thanks for the help.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Avrupa ve Asya bölgesel veri merkzeleri için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"Build delivery for checkout and account services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Convert the class component to functional for the user authentication flow.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Build delivery for checkout and account services across two regions.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Compare caching strategies for the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Compare caching strategies for the inventory tracking system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Debug the state issue in the data procesisng script.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"çekirdek API servisi içindeki kesintili hataları araştır.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"veri işleme betiği için birim testi yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Lead the multi-year migration of the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları altyapısını birleştir.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı performans darboğazlarını analiz et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Write a unit test for the database query.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Compare caching strategies for the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"42. satır içindeki değişkeni userId olarak değiştir.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"ödeme ve hesap servisleri genelinde birleşik bir yapı kurgula.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Remove the extra whitespace from the user route.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Implment a retry mechanism for the database query.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"kullanıcı profil sayfası bileşenini fonksiyonel yapıya çevir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Evaluate the scalability of the core API service.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the database query.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"rapolrama betiği mantığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"ana bnakacılık defteri ve harici CRM servisleri için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"bildirim servisi için yeniden deneme mekanizması yaz.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Add a console.log to the header component.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Add a null check to line 42.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Remove the extra whitespace from the SQL script.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the core API serice.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Compare caching strategies for the authentication system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"resim yükleme bileşeni bileşenini fonksioynel yapıya çevir.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Add a console.log to the CSS class.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Diagnose the memory leak in the payment gateway backend.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Add a consol.log to the db config.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"resim yükleme bileşeni için CRUD uç noktasnıı geliştir.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Migrate the legacy user database to PostgreSQL.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Optimize the database queries for the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Audit the security of the payment gateway backend.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Fix the typo in the db conifg.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Implment a retry mechanism for the notification service.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Evalute the scalability of the real-time chat module.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Optimize the database queries for the core API service.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"kullanıcı profil sayfası mantığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the user autentication flow.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Kullanıcı rotası sonundaki boşlukları sil.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Investigate the intermittent failures in the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Can you explain the difference between let and const?","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"Design the architecture for the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Analyze the perofrmance bottlenecks of the payment gateway backend.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"header bileşeni içindeki değşikeni userId olarak değiştir.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"Kullanııcları etkileyen aralıklı giriş gecikmesini teşhis et.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Write a unit test for the user authentication flow.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"gerçek zamanlı sohbet modülü mimarisini tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"CSS sınıfı için console.log ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Diagnose the memory leak in the frontend state management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"login fnoksiyonu başına import ekle.","tier":"light","lang":"tr","hasTypo":true}
+{"prompt":"CSS sınıfı içindeki yazım hatasını düzelt.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Selam, yardım edebilir misin?","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Migrate the entire platform architecture for auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"ödeme özelilği durum hatasını ayıkla.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"ön yüz, arka yüz ve mobil uygulamalar genelinde birleşik bir yapı kurgula.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"kimlik doğrulama sistemi için önbellek stratejilerini karşılaştır.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Add a null check to the CSS class.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Can you explain HTTP status 404?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Debug the state issue in the user autentication flow.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Avrupa ve Asya bölgesel veri merkezelri için çok yıllı geçiş sürecini yönet.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"Compare caching strategies for the real-time chat module.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"kullanici giriş akışı içindeki hatayı düzelt.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Implment the CRUD endpoint for the database query.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Diagnos the memory leak in the data warehouse ETL pipeline.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"ödeme ve hesap servisleri kapsayan birleşik bir dağıtım hattı kur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Şifrelerin başarısız olduğu giriş hatasını düzelt.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"kullanıcı giriş akışı mantığını yeniden düzenle.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Analyze the performance bottlenecks of the core API service.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"stok takip sistemi içindeki kesintili hataları araştır.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı için önbellek stratejilerini karşılaştır.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Optimize the database queries for the authentication system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Import React in line 42.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Audit the security of the rela-time chat module.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"ödeme ve hesap servisleri için çok yıllı geçiş sürecini yönet.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"bildirim servisi için CRUD uç noktasını geliştir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"ödeme altyapısı içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"Write a unit test for the notification service.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"What is the 'npm install' command?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Build delivery for the primary banking ledger and external CRM services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"ön yüz, arka yüz ve mobil uygulamalar için çok yıllı geçiş sürecini yönet.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Rename the variable to userId in the header component.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"header bileşeni rengini kırmızı yap.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Avrupa ve Asya bölgesel veri merkezleri kapsayan birleşik bir dağıtım hattı kur.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Kimlik doğrulama ve ödemeleri gRPC'ye taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Analyze the performance bottlenecks of the autentication system.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Rename the variable to userId in the SQL script.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"gerçek zamanlı sohbet modülü için önbellek stratejileirni karşılaştır.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Wrap the db config in a try-catch.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Implment unified tracking across checkout and account services.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"Can you explain git clone?","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Kullanıcı rotası tanımsızsa null dön.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Fix the login bug where passwords fail.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"kullanıcı giriş akışı için CRUD uç noktasını geliştir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Build delivery for the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Migrate auth and pamyents to gRPC.","tier":"ultra","lang":"en","hasTypo":true}
+{"prompt":"ödeme altyapısı ölçeklenebilirliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"veri ambarı ETL hattı içindeki bellek sızıntısını teşhis et.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"temel İK, bordro ve işe alım alt sistemleri için tüm platform mimarisini taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"raporlama betiği için CI/CD ayarlarını yap.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Evaluate the scalability of the inventory tracking system.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Debug the state issue in the database query.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"raporlama betiği için CRUD uç noktasını geliştir.","tier":"mid","lang":"tr","hasTypo":false}
+{"prompt":"Import React in the SQL script.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Optimize the database queries for the payment gateway backend.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"gerçek zamanlı sohbet modülü ölçeklenebiilrliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Design a cross-region data replication strategy for the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Configure the CI/CD pipeline for the data processing script.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"Migrate the entire platform architecture for the core HR, payroll, and recruitment subsystems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Audit the security of the inventory tracking sytem.","tier":"deep","lang":"en","hasTypo":true}
+{"prompt":"Wrap the header component in a try-catch.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Consolidate the infrastructure of checkout and account services.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Build a unified delivery pipeline spanning all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Lead the multi-year migration of the frontend, backend, and mobile applications.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"kimlik doğrulama sistemi mimarisini tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"API yanıtlayıcısı için null kontrolü ekle.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"kimlik doğrulama, faturalandımra ve stok sistemleri için bölgeler arası veri replikasyon stratejisi tasarla.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"Build delivery for the European and Asian regional datacenters.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"kimlik doğrulama sistemi güevnliğini denetle.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Wrap the CSS class in a try-catch.","tier":"light","lang":"en","hasTypo":false}
+{"prompt":"Add a null chek to the SQL script.","tier":"light","lang":"en","hasTypo":true}
+{"prompt":"kimlik doğrulama sistemi ölçeklenebilirliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"tüm uluslararası ödeme ag geçitleri ve kullanıcı veritabanları genelinde sıfır güven ağı mimarisi kur.","tier":"ultra","lang":"tr","hasTypo":true}
+{"prompt":"arayüz durum yönetimi ölçeklenebilirliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"çekirdek API servisi ölçeklenebilirliğini değerlendir.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"login fonksiyonu rengini kırmızı yap.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Compare caching strategies for the core API service.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Refactor the logic of the data procsesing script.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"Configure the CI/CD pipeline for the image upload component.","tier":"mid","lang":"en","hasTypo":false}
+{"prompt":"ana bankacılık defteri ve harici CRM servisleri genelinde birleşik bir yapı kurgula.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"Audit the security of the user session management.","tier":"deep","lang":"en","hasTypo":false}
+{"prompt":"Kimlik doğrulama sistemi için önbellek stratejisi tasarla.","tier":"deep","lang":"tr","hasTypo":false}
+{"prompt":"veritabani sorgusu içindeki hatayı düzelt.","tier":"mid","lang":"tr","hasTypo":true}
+{"prompt":"Confiugre the CI/CD pipeline for the reporting script.","tier":"mid","lang":"en","hasTypo":true}
+{"prompt":"çekirdek API servisi mimariisni tasarla.","tier":"deep","lang":"tr","hasTypo":true}
+{"prompt":"Build delivery for all international payment gateways and user databases.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Tüm takımlardaki arka uç platformunu mikro servislere taşı.","tier":"ultra","lang":"tr","hasTypo":false}
+{"prompt":"login fonksiyonu içindeki yazım hatasını düzelt.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Lead the multi-year migration of the legacy monolith and the new microservices.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"Design a cross-region data replication strategy for auth, billing, and inventory systems.","tier":"ultra","lang":"en","hasTypo":false}
+{"prompt":"veritabanı ayarı içindeki değişkeni userId olarak değiştir.","tier":"light","lang":"tr","hasTypo":false}
+{"prompt":"Refactor the logic of the database query.","tier":"mid","lang":"en","hasTypo":false}

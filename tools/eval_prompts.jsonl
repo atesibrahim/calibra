@@ -1,0 +1,759 @@
+{"prompt":"hi","tier":"light"}
+{"prompt":"hello!","tier":"light"}
+{"prompt":"thanks","tier":"light"}
+{"prompt":"ok got it","tier":"light"}
+{"prompt":"merhaba","tier":"light"}
+{"prompt":"tamam","tier":"light"}
+{"prompt":"teşekkürler","tier":"light"}
+{"prompt":"yes","tier":"light"}
+{"prompt":"sounds good","tier":"light"}
+{"prompt":"bye","tier":"light"}
+{"prompt":"add a console.log here","tier":"light"}
+{"prompt":"fix a typo in the comment","tier":"light"}
+{"prompt":"rename the variable userList to users","tier":"light"}
+{"prompt":"format this file","tier":"light"}
+{"prompt":"update the docstring","tier":"light"}
+{"prompt":"write a unit test for this function","tier":"light"}
+{"prompt":"yorum ekle","tier":"light"}
+{"prompt":"what is this?","tier":"light"}
+{"prompt":"how does it work","tier":"light"}
+{"prompt":"any ideas","tier":"light"}
+{"prompt":"fix the null pointer exception in UserService.java","tier":"mid"}
+{"prompt":"add a retry mechanism to the HTTP client","tier":"mid"}
+{"prompt":"write a function to validate email addresses","tier":"mid"}
+{"prompt":"implement pagination for the user list endpoint","tier":"mid"}
+{"prompt":"debug why the tests are failing","tier":"mid"}
+{"prompt":"create a REST endpoint to fetch user profiles","tier":"mid"}
+{"prompt":"explain how the authentication middleware works","tier":"mid"}
+{"prompt":"describe the difference between JWT and session tokens","tier":"mid"}
+{"prompt":"build a simple CLI tool in Node.js to parse CSV files","tier":"mid"}
+{"prompt":"update the login handler to support OAuth2 callback","tier":"mid"}
+{"prompt":"generate a migration script to add an index on user_id","tier":"mid"}
+{"prompt":"extract the payment logic into a separate service class","tier":"mid"}
+{"prompt":"configure the Docker container to expose port 8080","tier":"mid"}
+{"prompt":"integrate the SendGrid email API into the notification service","tier":"mid"}
+{"prompt":"Bu API endpoint'ine rate limiting ekle","tier":"mid"}
+{"prompt":"kullanıcı kaydı için bir fonksiyon yaz","tier":"mid"}
+{"prompt":"hata ayıkla ve sorunu düzelt","tier":"mid"}
+{"prompt":"design the authentication system for this microservice","tier":"deep"}
+{"prompt":"review the security posture of the entire API layer","tier":"deep"}
+{"prompt":"analyse the performance bottlenecks in the database query pipeline","tier":"deep"}
+{"prompt":"refactor the payment module to use clean hexagonal architecture","tier":"deep"}
+{"prompt":"evaluate the trade-offs between microservices and a monolith for this project","tier":"deep"}
+{"prompt":"investigate why the circuit breaker is triggering under moderate load","tier":"deep"}
+{"prompt":"design a caching strategy for the distributed session store","tier":"deep"}
+{"prompt":"audit the authorization model — are there privilege escalation risks?","tier":"deep"}
+{"prompt":"propose a data migration strategy from MySQL to PostgreSQL with zero downtime","tier":"deep"}
+{"prompt":"compare event sourcing versus traditional CRUD for the order management domain","tier":"deep"}
+{"prompt":"design the rate limiting architecture for our public API gateway","tier":"deep"}
+{"prompt":"review the Kubernetes deployment manifests for security and reliability issues","tier":"deep"}
+{"prompt":"Bu mikroservis mimarisinin güvenlik açıklarını analiz et","tier":"deep"}
+{"prompt":"dağıtık sistem tasarımı için mimari öner","tier":"deep"}
+{"prompt":"authentication sisteminin güvenlik açıklarını incele","tier":"deep"}
+{"prompt":"perform a comprehensive end-to-end security audit of our entire authentication and authorization system including the API gateway JWT validation session management rate limiting and database access patterns evaluate all vulnerabilities and propose a complete remediation strategy with prioritized steps this is a distributed system running on Kubernetes","tier":"ultra"}
+{"prompt":"design a complete from-scratch event-driven distributed payment processing system handling 100k TPS with consensus-based consistency sharding across regions full observability stack exhaustive architecture diagrams evaluation of every trade-off and a detailed end-to-end migration plan from our existing monolith including schema migration and dual-write reconciliation","tier":"ultra"}
+{"prompt":"conduct a thorough holistic analysis of the entire codebase architecture technical debt security vulnerabilities performance bottlenecks and scalability limitations then propose a comprehensive modernization strategy with a detailed phased implementation roadmap prioritized backlog and risk matrix covering all layers from database to frontend","tier":"ultra"}
+{"prompt":"perform an exhaustive security review of the complete system covering OWASP Top 10 across every layer API authorization JWT algorithm rotation CORS CSP Docker image security dependency CVEs hardcoded secrets privilege escalation and produce a full remediation report with severity ratings and step-by-step fixes for all findings","tier":"ultra"}
+{"prompt":"design the complete observability stack for our entire distributed microservices platform covering structured logging distributed tracing metrics dashboards alerting rules SLO/SLI definitions runbooks and on-call escalation policies with detailed implementation guides for each component and integration with existing Kubernetes and Terraform infrastructure","tier":"ultra"}
+{"prompt":"Bu kapsamlı sistem mimarisini baştan sona analiz et tüm güvenlik açıklarını tespit et performans darboğazlarını belirle ve eksiksiz bir modernizasyon stratejisi öner her katman için detaylı uygulama planı hazırla ve risk matrisi oluştur","tier":"ultra"}
+{"prompt":"redesign our entire data platform from scratch: replace the current Hadoop-based batch pipeline with a real-time streaming architecture using Kafka and Flink, migrate all historical data, rewrite every downstream consumer, design the new schema registry, define SLOs for each pipeline stage, and produce a complete cutover plan with rollback procedures","tier":"ultra"}
+{"prompt":"conduct a full technical due diligence of this codebase as if we are acquiring the company: assess architecture quality, scalability ceiling, security posture, test coverage, operational maturity, technical debt quantification, team bus factor, licensing risks, and produce an acquisition risk report with a 12-month remediation roadmap and cost estimates","tier":"ultra"}
+{"prompt":"design the complete multi-tenant SaaS architecture for our B2B platform: tenant isolation model, data partitioning strategy, per-tenant feature flags, billing metering pipeline, SSO/SAML integration, audit logging, GDPR data deletion workflows, and a zero-downtime migration plan from our current single-tenant monolith with full rollback capability","tier":"ultra"}
+{"prompt":"perform a comprehensive cost optimization audit across our entire AWS infrastructure: identify all waste and over-provisioning, propose right-sizing for every service, design a FinOps governance model, calculate projected savings per recommendation, prioritize by ROI, and produce an implementation roadmap with risk assessment for each change","tier":"ultra"}
+{"prompt":"architect the complete disaster recovery and business continuity system for our platform: define RTO/RPO targets per service tier, design active-active vs active-passive strategies, implement automated failover for every critical dependency, design the chaos engineering program to validate DR, write runbooks for each failure scenario, and produce a full DR test plan","tier":"ultra"}
+{"prompt":"lead a comprehensive API platform redesign: audit all 200+ existing endpoints for consistency, versioning, security, and performance; define the new API design standards; design the migration path for each breaking change; implement backward-compatible transformations; design the developer portal; define throttling and quota policies; and produce a phased deprecation schedule with client communication plan","tier":"ultra"}
+{"prompt":"design the complete CI/CD and developer platform for our 50-engineer organization: define the branching strategy, design the build/test/deploy pipeline for each of our 30 microservices, implement progressive delivery with feature flags and canary releases, design the secrets management architecture, set up the internal developer portal, and produce the team onboarding documentation","tier":"ultra"}
+{"prompt":"perform an exhaustive performance engineering analysis of our e-commerce platform under Black Friday load: profile every bottleneck from DNS through CDN through API gateway through each microservice through each database query; propose and implement solutions for each bottleneck; design the load testing framework; and produce a capacity plan for 10x current peak traffic","tier":"ultra"}
+{"prompt":"architect a complete zero-trust security model for our enterprise: redesign identity and access management, implement service mesh mTLS for all inter-service communication, design the secrets rotation system, implement network segmentation, deploy SIEM and threat detection, redesign the CI/CD pipeline for supply chain security, and produce the security architecture documentation and compliance mapping to SOC2 Type II","tier":"ultra"}
+{"prompt":"design the full data governance framework for our organization: data catalog, lineage tracking, quality scoring for every dataset, PII classification and masking pipeline, access control matrix, GDPR/CCPA compliance workflows, data retention and deletion policies, and a complete implementation roadmap integrating with our existing dbt, Snowflake, and Airflow stack","tier":"ultra"}
+{"prompt":"redesign our entire frontend architecture: migrate from our legacy jQuery monolith to a React micro-frontend architecture, design the module federation strategy, implement the design system from scratch, define the state management patterns, set up the component library with Storybook, design the performance budget and monitoring, and produce the migration plan for 200+ legacy pages","tier":"ultra"}
+{"prompt":"produce a complete technical roadmap for modernizing our 15-year-old Java EE monolith: identify bounded contexts using event storming, define the strangler-fig extraction sequence for each domain, design the anti-corruption layers, plan the database decomposition, define the integration patterns for the transition period, estimate effort per phase, and produce a risk register with mitigation strategies","tier":"ultra"}
+{"prompt":"design the complete MLOps platform for our data science team: model training pipeline, experiment tracking, feature store architecture, model registry, A/B testing framework for models, drift detection and automated retraining triggers, model serving infrastructure with canary deployments, and monitoring dashboards — all integrated with our existing Kubernetes and Airflow infrastructure","tier":"ultra"}
+{"prompt":"architect a global multi-region deployment for our platform with active-active configuration: design the data replication strategy with conflict resolution, implement geo-routing and latency-based DNS, design the distributed caching layer, handle regulatory data residency requirements for EU/US/APAC, implement cross-region observability, and produce the operational runbook for region failover and recovery","tier":"ultra"}
+{"prompt":"perform a complete security transformation of our development lifecycle: implement SAST/DAST/SCA in every pipeline, design the vulnerability management program with SLA tiers, implement secrets scanning with automated rotation, design the container image hardening standard, implement the dependency update automation, define the security champion program, and produce the threat model for our three most critical services","tier":"ultra"}
+{"prompt":"tüm backend sistemimizi mikroservis mimarisine geçirecek kapsamlı bir strateji oluştur: servis sınırlarını belirle, veri tabanı ayrıştırma planını tasarla, servisler arası iletişim modelini seç, dağıtım altyapısını kur, izleme ve gözlemlenebilirlik katmanını tasarla, her aşama için risk değerlendirmesi yap ve ekip eğitim planı hazırla","tier":"ultra"}
+{"prompt":"design a complete platform engineering solution for our organization: internal developer platform with self-service infrastructure provisioning, golden path templates for each workload type, automated compliance checks, cost attribution per team, SLO-based alerting framework, incident management integration, and a developer experience metrics program — covering all 15 teams and 80 engineers","tier":"ultra"}
+{"prompt":"conduct an exhaustive database architecture review and redesign: audit every table for normalization, indexing strategy, query patterns, and growth projections; design the sharding strategy for our three largest tables; implement read replica routing; design the caching layer; plan the schema migration with zero downtime; and produce a 24-month capacity plan with cost projections","tier":"ultra"}
+{"prompt":"lead the complete technical integration of two acquired companies into our platform: map all systems, design the identity federation, plan the data migration for 10M user records, resolve API conflicts, design the feature parity roadmap, manage the DNS and infrastructure cutover, decommission redundant systems, and produce the integration playbook for the engineering teams","tier":"ultra"}
+{"prompt":"design the full event-driven architecture for our domain: identify all domain events across 12 bounded contexts, design the event schema registry with versioning, implement the saga pattern for distributed transactions, design the event sourcing store for order management, implement CQRS for the read models, design the event replay and projection rebuild procedures, and produce the developer guide","tier":"ultra"}
+{"prompt":"produce a comprehensive engineering organizational health assessment: audit team topologies against Team Topologies framework, identify cognitive load hotspots, measure DORA metrics for each team, assess on-call burden and incident patterns, evaluate the architecture for team autonomy, propose team restructuring with transition plan, and design the engineering excellence program for the next 18 months","tier":"ultra"}
+{"prompt":"architect the complete real-time personalization engine for our platform: design the user behavior event pipeline, feature engineering for real-time ML inference, the model serving layer with sub-100ms SLA, A/B testing framework for algorithms, feedback loop for model retraining, privacy-preserving aggregation for GDPR compliance, and the full observability stack for the recommendation system","tier":"ultra"}
+{"prompt":"perform a full infrastructure-as-code audit and redesign: migrate all manual AWS console configurations to Terraform, design the module hierarchy and state management strategy, implement drift detection, design the environment promotion workflow, set up policy-as-code with OPA, implement cost estimation in the PR pipeline, and produce the IaC standards document and migration guide for all 8 teams","tier":"ultra"}
+{"prompt":"design our complete API monetization and developer ecosystem strategy: API gateway configuration with tiered throttling and quota plans, usage-based billing integration, developer portal with interactive documentation, SDK generation pipeline for 5 languages, webhook management system, API versioning and deprecation policy, partner onboarding workflow, and the analytics dashboard for API product metrics","tier":"ultra"}
+{"prompt":"conduct a comprehensive supply chain security review of all our software dependencies: audit all 2000+ direct and transitive dependencies for known CVEs, implement automated SBOM generation, design the dependency update automation with security gates, implement private registry mirroring, design the build reproducibility framework, produce the dependency risk tiers and remediation SLAs, and implement the continuous compliance monitoring","tier":"ultra"}
+{"prompt":"write a short hello world in python","tier":"light"}
+{"prompt":"what does this function do","tier":"light"}
+{"prompt":"iyi günler","tier":"light"}
+{"prompt":"perfect thanks","tier":"light"}
+{"prompt":"can you check this code","tier":"light"}
+{"prompt":"add error handling to this function","tier":"mid"}
+{"prompt":"write a bash script to back up a directory","tier":"mid"}
+{"prompt":"implement a debounce utility in TypeScript","tier":"mid"}
+{"prompt":"set up Jest for this Node.js project","tier":"mid"}
+{"prompt":"convert this REST API to use async/await","tier":"mid"}
+{"prompt":"bu fonksiyonu TypeScript'e çevir","tier":"mid"}
+{"prompt":"investigate and fix the memory leak in the Node.js service under high load","tier":"deep"}
+{"prompt":"design the event-driven notification system supporting email, SMS, and push with retry logic and dead-letter queues","tier":"deep"}
+{"prompt":"evaluate whether to adopt GraphQL or REST for our new public API — analyse the trade-offs for our mobile clients and third-party integrations","tier":"deep"}
+{"prompt":"design the database schema and access patterns for a multi-tenant application with row-level security","tier":"deep"}
+{"prompt":"bu dağıtık sistemdeki tutarlılık sorunlarını analiz et ve çözüm öner","tier":"deep"}
+{"prompt":"review the CI/CD pipeline for security gaps and propose hardening measures","tier":"deep"}
+{"prompt":"hey","tier":"light"}
+{"prompt":"good morning","tier":"light"}
+{"prompt":"gm","tier":"light"}
+{"prompt":"good evening","tier":"light"}
+{"prompt":"night","tier":"light"}
+{"prompt":"howdy","tier":"light"}
+{"prompt":"yo","tier":"light"}
+{"prompt":"sup","tier":"light"}
+{"prompt":"cheers","tier":"light"}
+{"prompt":"nice work","tier":"light"}
+{"prompt":"lgtm","tier":"light"}
+{"prompt":"sounds great","tier":"light"}
+{"prompt":"that works","tier":"light"}
+{"prompt":"makes sense","tier":"light"}
+{"prompt":"alright","tier":"light"}
+{"prompt":"noted","tier":"light"}
+{"prompt":"done","tier":"light"}
+{"prompt":"got it, thanks","tier":"light"}
+{"prompt":"no worries","tier":"light"}
+{"prompt":"yep exactly","tier":"light"}
+{"prompt":"awesome thanks","tier":"light"}
+{"prompt":"great idea","tier":"light"}
+{"prompt":"cool cool","tier":"light"}
+{"prompt":"will do","tier":"light"}
+{"prompt":"see you later","tier":"light"}
+{"prompt":"bye for now","tier":"light"}
+{"prompt":"speak soon","tier":"light"}
+{"prompt":"iyi geceler","tier":"light"}
+{"prompt":"günaydın","tier":"light"}
+{"prompt":"görüşürüz","tier":"light"}
+{"prompt":"harika","tier":"light"}
+{"prompt":"anladım","tier":"light"}
+{"prompt":"teşekkür ederim","tier":"light"}
+{"prompt":"olur","tier":"light"}
+{"prompt":"evet doğru","tier":"light"}
+{"prompt":"add a print statement here","tier":"light"}
+{"prompt":"remove this console.log","tier":"light"}
+{"prompt":"fix the spelling in this comment","tier":"light"}
+{"prompt":"update this variable name","tier":"light"}
+{"prompt":"rename this function to processOrder","tier":"light"}
+{"prompt":"format this JSON","tier":"light"}
+{"prompt":"add a blank line here","tier":"light"}
+{"prompt":"remove trailing whitespace","tier":"light"}
+{"prompt":"capitalize this constant","tier":"light"}
+{"prompt":"add a semicolon","tier":"light"}
+{"prompt":"fix this typo: recieve → receive","tier":"light"}
+{"prompt":"add TODO comment here","tier":"light"}
+{"prompt":"update the copyright year","tier":"light"}
+{"prompt":"add a newline at end of file","tier":"light"}
+{"prompt":"wrap this in a try-catch","tier":"light"}
+{"prompt":"add null check here","tier":"light"}
+{"prompt":"log this error to console","tier":"light"}
+{"prompt":"comment out this line","tier":"light"}
+{"prompt":"uncomment this block","tier":"light"}
+{"prompt":"delete this unused import","tier":"light"}
+{"prompt":"what does this variable do","tier":"light"}
+{"prompt":"what is a REST API","tier":"light"}
+{"prompt":"what is JSON","tier":"light"}
+{"prompt":"what does async mean","tier":"light"}
+{"prompt":"what is a closure","tier":"light"}
+{"prompt":"what is null","tier":"light"}
+{"prompt":"what does this line do","tier":"light"}
+{"prompt":"what is the difference between == and ===","tier":"light"}
+{"prompt":"what is a promise","tier":"light"}
+{"prompt":"what is recursion","tier":"light"}
+{"prompt":"what is a callback","tier":"light"}
+{"prompt":"what does this error mean","tier":"light"}
+{"prompt":"is this code correct","tier":"light"}
+{"prompt":"can you check this","tier":"light"}
+{"prompt":"does this look right","tier":"light"}
+{"prompt":"what is wrong here","tier":"light"}
+{"prompt":"is there a bug","tier":"light"}
+{"prompt":"what does npm do","tier":"light"}
+{"prompt":"what is git","tier":"light"}
+{"prompt":"what is Docker","tier":"light"}
+{"prompt":"what is an API","tier":"light"}
+{"prompt":"how do I run this","tier":"light"}
+{"prompt":"how do I install node","tier":"light"}
+{"prompt":"how do I push to git","tier":"light"}
+{"prompt":"how do I commit","tier":"light"}
+{"prompt":"how do I create a branch","tier":"light"}
+{"prompt":"show me an example","tier":"light"}
+{"prompt":"give me a simple example","tier":"light"}
+{"prompt":"what is the syntax for this","tier":"light"}
+{"prompt":"list the HTTP methods","tier":"light"}
+{"prompt":"list common HTTP status codes","tier":"light"}
+{"prompt":"what are the SOLID principles","tier":"light"}
+{"prompt":"what is DRY","tier":"light"}
+{"prompt":"what is KISS","tier":"light"}
+{"prompt":"what is TDD","tier":"light"}
+{"prompt":"bu nedir","tier":"light"}
+{"prompt":"nasıl çalışır","tier":"light"}
+{"prompt":"örnek göster","tier":"light"}
+{"prompt":"nasıl kullanırım","tier":"light"}
+{"prompt":"ne demek bu","tier":"light"}
+{"prompt":"bunu açıkla","tier":"light"}
+{"prompt":"bu kod ne yapıyor","tier":"light"}
+{"prompt":"bir bakabilir misin","tier":"light"}
+{"prompt":"bu doğru mu","tier":"light"}
+{"prompt":"hata nerede","tier":"light"}
+{"prompt":"add a return statement","tier":"light"}
+{"prompt":"remove duplicate line","tier":"light"}
+{"prompt":"capitalize first letter","tier":"light"}
+{"prompt":"convert tabs to spaces","tier":"light"}
+{"prompt":"add missing closing bracket","tier":"light"}
+{"prompt":"add import for React","tier":"light"}
+{"prompt":"add default export","tier":"light"}
+{"prompt":"make this variable const","tier":"light"}
+{"prompt":"convert var to let","tier":"light"}
+{"prompt":"add a docstring to this function","tier":"light"}
+{"prompt":"add inline comment explaining this","tier":"light"}
+{"prompt":"fix indentation","tier":"light"}
+{"prompt":"remove empty lines","tier":"light"}
+{"prompt":"sort these imports alphabetically","tier":"light"}
+{"prompt":"update package version to 2.0.0","tier":"light"}
+{"prompt":"what version is this","tier":"light"}
+{"prompt":"what license does this use","tier":"light"}
+{"prompt":"what does this package do","tier":"light"}
+{"prompt":"what is the latest Node version","tier":"light"}
+{"prompt":"what is TypeScript","tier":"light"}
+{"prompt":"what is GraphQL","tier":"light"}
+{"prompt":"what is Kubernetes","tier":"light"}
+{"prompt":"what is a microservice","tier":"light"}
+{"prompt":"what is CI/CD","tier":"light"}
+{"prompt":"what is a webhook","tier":"light"}
+{"prompt":"what is OAuth","tier":"light"}
+{"prompt":"what is JWT","tier":"light"}
+{"prompt":"add the missing import","tier":"light"}
+{"prompt":"fix the variable name clash","tier":"light"}
+{"prompt":"yorum ekle buraya","tier":"light"}
+{"prompt":"bu satırı sil","tier":"light"}
+{"prompt":"log ekle","tier":"light"}
+{"prompt":"boşlukları düzelt","tier":"light"}
+{"prompt":"küçük harf yap","tier":"light"}
+{"prompt":"can I ask you something","tier":"light"}
+{"prompt":"quick question","tier":"light"}
+{"prompt":"just checking","tier":"light"}
+{"prompt":"one more thing","tier":"light"}
+{"prompt":"never mind","tier":"light"}
+{"prompt":"forget it","tier":"light"}
+{"prompt":"skip that","tier":"light"}
+{"prompt":"actually wait","tier":"light"}
+{"prompt":"hold on","tier":"light"}
+{"prompt":"ok one sec","tier":"light"}
+{"prompt":"brb","tier":"light"}
+{"prompt":"afk","tier":"light"}
+{"prompt":"back","tier":"light"}
+{"prompt":"ok I'm back","tier":"light"}
+{"prompt":"still there?","tier":"light"}
+{"prompt":"hello?","tier":"light"}
+{"prompt":"you there?","tier":"light"}
+{"prompt":"ping","tier":"light"}
+{"prompt":"test","tier":"light"}
+{"prompt":"testing 123","tier":"light"}
+{"prompt":"write a GET endpoint to return all users","tier":"mid"}
+{"prompt":"add input validation to the registration form","tier":"mid"}
+{"prompt":"implement JWT authentication middleware","tier":"mid"}
+{"prompt":"create a database model for blog posts","tier":"mid"}
+{"prompt":"write a function to hash passwords with bcrypt","tier":"mid"}
+{"prompt":"implement rate limiting on the login endpoint","tier":"mid"}
+{"prompt":"add email notification when a user registers","tier":"mid"}
+{"prompt":"create a file upload endpoint using multer","tier":"mid"}
+{"prompt":"implement soft delete for user records","tier":"mid"}
+{"prompt":"write a cron job to clean up expired sessions","tier":"mid"}
+{"prompt":"add request logging middleware","tier":"mid"}
+{"prompt":"implement pagination on the products API","tier":"mid"}
+{"prompt":"create a search endpoint with filters","tier":"mid"}
+{"prompt":"write an integration test for the auth flow","tier":"mid"}
+{"prompt":"add CORS headers to the Express app","tier":"mid"}
+{"prompt":"implement refresh token rotation","tier":"mid"}
+{"prompt":"create a webhook handler for Stripe events","tier":"mid"}
+{"prompt":"write a migration to add a created_at column","tier":"mid"}
+{"prompt":"implement role-based access control middleware","tier":"mid"}
+{"prompt":"add swagger documentation to the API","tier":"mid"}
+{"prompt":"write a React hook for fetching user data","tier":"mid"}
+{"prompt":"build a login form with validation","tier":"mid"}
+{"prompt":"implement infinite scroll for the feed","tier":"mid"}
+{"prompt":"create a modal component for confirmations","tier":"mid"}
+{"prompt":"add a dark mode toggle to the app","tier":"mid"}
+{"prompt":"implement client-side search filtering","tier":"mid"}
+{"prompt":"create a reusable Table component with sorting","tier":"mid"}
+{"prompt":"add form error handling with react-hook-form","tier":"mid"}
+{"prompt":"implement breadcrumb navigation","tier":"mid"}
+{"prompt":"write a custom useDebounce hook","tier":"mid"}
+{"prompt":"add a loading skeleton for the user list","tier":"mid"}
+{"prompt":"implement drag and drop for a todo list","tier":"mid"}
+{"prompt":"create a file picker component","tier":"mid"}
+{"prompt":"add toast notifications","tier":"mid"}
+{"prompt":"implement a stepper wizard component","tier":"mid"}
+{"prompt":"write a query to find users who haven't logged in for 30 days","tier":"mid"}
+{"prompt":"add an index to the orders table on customer_id","tier":"mid"}
+{"prompt":"write a migration to normalize the address fields","tier":"mid"}
+{"prompt":"implement a full-text search query for products","tier":"mid"}
+{"prompt":"create a stored procedure for monthly revenue","tier":"mid"}
+{"prompt":"write a query to detect duplicate email addresses","tier":"mid"}
+{"prompt":"add a foreign key constraint on the orders table","tier":"mid"}
+{"prompt":"implement optimistic locking for concurrent updates","tier":"mid"}
+{"prompt":"write unit tests for the payment service","tier":"mid"}
+{"prompt":"add mock for the external SMS API","tier":"mid"}
+{"prompt":"write an end-to-end test for the checkout flow","tier":"mid"}
+{"prompt":"add snapshot tests for the button component","tier":"mid"}
+{"prompt":"create a test fixture for user data","tier":"mid"}
+{"prompt":"write contract tests for the billing API","tier":"mid"}
+{"prompt":"set up code coverage reporting","tier":"mid"}
+{"prompt":"dockerize this Node.js application","tier":"mid"}
+{"prompt":"write a GitHub Actions workflow for running tests","tier":"mid"}
+{"prompt":"add health check endpoint to the service","tier":"mid"}
+{"prompt":"configure Nginx as a reverse proxy","tier":"mid"}
+{"prompt":"write a Dockerfile for a Python Flask app","tier":"mid"}
+{"prompt":"set up environment variable management with dotenv","tier":"mid"}
+{"prompt":"add a readiness probe to the Kubernetes deployment","tier":"mid"}
+{"prompt":"configure log rotation for the application logs","tier":"mid"}
+{"prompt":"write a script to seed the development database","tier":"mid"}
+{"prompt":"create a backup script for PostgreSQL","tier":"mid"}
+{"prompt":"write a Python script to parse CSV and insert to database","tier":"mid"}
+{"prompt":"implement a data transformation pipeline with pandas","tier":"mid"}
+{"prompt":"create an ETL script to sync data between two databases","tier":"mid"}
+{"prompt":"write a Spark job to aggregate daily sales","tier":"mid"}
+{"prompt":"implement a retry mechanism for failed API calls","tier":"mid"}
+{"prompt":"write a script to generate a weekly report","tier":"mid"}
+{"prompt":"add Kotlin coroutine for the API call on Android","tier":"mid"}
+{"prompt":"implement swipe-to-refresh on the iOS list view","tier":"mid"}
+{"prompt":"add push notification handling to the React Native app","tier":"mid"}
+{"prompt":"create a Flutter widget for the user profile card","tier":"mid"}
+{"prompt":"implement offline mode with local SQLite caching","tier":"mid"}
+{"prompt":"add deeplink handling to the iOS app","tier":"mid"}
+{"prompt":"write a helper to format currency amounts","tier":"mid"}
+{"prompt":"implement a simple LRU cache in JavaScript","tier":"mid"}
+{"prompt":"write a debounce function from scratch","tier":"mid"}
+{"prompt":"implement binary search on a sorted array","tier":"mid"}
+{"prompt":"write a function to deep clone an object","tier":"mid"}
+{"prompt":"implement a simple event emitter","tier":"mid"}
+{"prompt":"write a function to flatten a nested array","tier":"mid"}
+{"prompt":"implement memoization for an expensive function","tier":"mid"}
+{"prompt":"write a TypeScript generic for a paginated response","tier":"mid"}
+{"prompt":"create a class for managing a connection pool","tier":"mid"}
+{"prompt":"implement a circuit breaker for HTTP calls","tier":"mid"}
+{"prompt":"REST API'ye bearer token doğrulama ekle","tier":"mid"}
+{"prompt":"kullanıcı kayıt formuna doğrulama yaz","tier":"mid"}
+{"prompt":"ürün arama endpoint'i oluştur","tier":"mid"}
+{"prompt":"veritabanı bağlantı havuzu kur","tier":"mid"}
+{"prompt":"hata yönetimi middleware'i ekle","tier":"mid"}
+{"prompt":"servis sağlık kontrolü endpoint'i ekle","tier":"mid"}
+{"prompt":"Docker imajı oluştur","tier":"mid"}
+{"prompt":"CI/CD pipeline yaz GitHub Actions ile","tier":"mid"}
+{"prompt":"önbellek katmanı ekle Redis ile","tier":"mid"}
+{"prompt":"birim test yaz kullanıcı servisine","tier":"mid"}
+{"prompt":"add Redis caching for the product catalog","tier":"mid"}
+{"prompt":"implement queue processing with Bull","tier":"mid"}
+{"prompt":"write a GraphQL mutation for creating orders","tier":"mid"}
+{"prompt":"add websocket support for live notifications","tier":"mid"}
+{"prompt":"create an S3 upload utility","tier":"mid"}
+{"prompt":"implement feature flag evaluation in the middleware","tier":"mid"}
+{"prompt":"write a Terraform resource for an S3 bucket","tier":"mid"}
+{"prompt":"create a Helm chart for the backend service","tier":"mid"}
+{"prompt":"add structured logging with Winston","tier":"mid"}
+{"prompt":"implement distributed tracing with OpenTelemetry","tier":"mid"}
+{"prompt":"design the authorization model for a multi-tenant SaaS application","tier":"deep"}
+{"prompt":"analyze why our API response times degrade above 500 concurrent users","tier":"deep"}
+{"prompt":"evaluate adopting event sourcing for our order management domain","tier":"deep"}
+{"prompt":"review the database schema for the reporting module and identify bottlenecks","tier":"deep"}
+{"prompt":"design the caching strategy for our high-traffic product catalog service","tier":"deep"}
+{"prompt":"investigate memory leaks in our Node.js microservice under sustained load","tier":"deep"}
+{"prompt":"propose an API versioning strategy that doesn't break existing clients","tier":"deep"}
+{"prompt":"design the background job processing architecture for our platform","tier":"deep"}
+{"prompt":"review our Docker images for security vulnerabilities and size bloat","tier":"deep"}
+{"prompt":"analyze the trade-offs of using a graph database for our social network feature","tier":"deep"}
+{"prompt":"design the search architecture to support faceted filtering at scale","tier":"deep"}
+{"prompt":"investigate and resolve the N+1 query problem in the orders service","tier":"deep"}
+{"prompt":"design the webhook delivery system with retry and idempotency guarantees","tier":"deep"}
+{"prompt":"evaluate whether to adopt a service mesh for our microservices communication","tier":"deep"}
+{"prompt":"design the audit logging system for GDPR compliance","tier":"deep"}
+{"prompt":"analyze the cost and performance trade-offs of our current database sharding approach","tier":"deep"}
+{"prompt":"review the CI/CD pipeline for bottlenecks and security weaknesses","tier":"deep"}
+{"prompt":"design the feature flag system to support gradual rollouts","tier":"deep"}
+{"prompt":"investigate the root cause of occasional data inconsistencies between services","tier":"deep"}
+{"prompt":"design the real-time collaboration architecture for our document editor","tier":"deep"}
+{"prompt":"evaluate the trade-offs between synchronous and asynchronous inter-service communication","tier":"deep"}
+{"prompt":"design a zero-downtime deployment strategy for our stateful services","tier":"deep"}
+{"prompt":"analyze our frontend bundle size and propose a code-splitting strategy","tier":"deep"}
+{"prompt":"review the authentication flow for potential security vulnerabilities","tier":"deep"}
+{"prompt":"design the notification fanout system to handle millions of recipients","tier":"deep"}
+{"prompt":"investigate why our Kafka consumer lag is growing under peak load","tier":"deep"}
+{"prompt":"propose a strategy for gradually migrating from REST to GraphQL","tier":"deep"}
+{"prompt":"design the test architecture for our distributed system","tier":"deep"}
+{"prompt":"evaluate whether our current monolith should be broken into microservices","tier":"deep"}
+{"prompt":"analyze the security implications of our current API gateway configuration","tier":"deep"}
+{"prompt":"design the data archival strategy for the historical orders table","tier":"deep"}
+{"prompt":"review our Kubernetes resource requests and limits for cost optimization","tier":"deep"}
+{"prompt":"design the session management architecture to support horizontal scaling","tier":"deep"}
+{"prompt":"investigate the cause of CPU spikes in our recommendation service","tier":"deep"}
+{"prompt":"evaluate different consensus algorithms for our distributed configuration store","tier":"deep"}
+{"prompt":"design the tenant isolation strategy for our multi-tenant database","tier":"deep"}
+{"prompt":"analyze the risk of our current third-party dependency chain","tier":"deep"}
+{"prompt":"review the mobile app's offline sync logic for edge cases and conflicts","tier":"deep"}
+{"prompt":"design the content delivery strategy for our media-heavy platform","tier":"deep"}
+{"prompt":"evaluate our current testing strategy and identify coverage gaps","tier":"deep"}
+{"prompt":"design the idempotency layer for our payment processing service","tier":"deep"}
+{"prompt":"analyze which services should own which data in our distributed system","tier":"deep"}
+{"prompt":"review our secret management approach and propose improvements","tier":"deep"}
+{"prompt":"design the dead letter queue handling strategy across all our services","tier":"deep"}
+{"prompt":"investigate why our search index consistency lags behind writes","tier":"deep"}
+{"prompt":"design the blue-green deployment strategy for our database migrations","tier":"deep"}
+{"prompt":"evaluate the trade-offs of our current event-driven architecture","tier":"deep"}
+{"prompt":"review our API rate limiting implementation for fairness and bypass risks","tier":"deep"}
+{"prompt":"design the chaos engineering program to improve our system resilience","tier":"deep"}
+{"prompt":"analyze our current observability gaps and propose a monitoring strategy","tier":"deep"}
+{"prompt":"review the data flow between our analytics and operational databases","tier":"deep"}
+{"prompt":"design the A/B testing infrastructure for our mobile apps","tier":"deep"}
+{"prompt":"evaluate different approaches to handling distributed transactions in our system","tier":"deep"}
+{"prompt":"investigate and fix the thundering herd problem in our cache warm-up","tier":"deep"}
+{"prompt":"design the service discovery and load balancing strategy for our microservices","tier":"deep"}
+{"prompt":"analyze the feasibility of adopting CQRS for our high-read inventory service","tier":"deep"}
+{"prompt":"review the data retention and deletion implementation for GDPR compliance","tier":"deep"}
+{"prompt":"design the cross-region replication strategy for our user profile data","tier":"deep"}
+{"prompt":"evaluate our current logging strategy for searchability and cost","tier":"deep"}
+{"prompt":"investigate why our integration tests are flaky and propose fixes","tier":"deep"}
+{"prompt":"design the permission system to support fine-grained resource-level access","tier":"deep"}
+{"prompt":"review our container orchestration configuration for reliability and efficiency","tier":"deep"}
+{"prompt":"analyze the latency profile of our checkout flow and identify the critical path","tier":"deep"}
+{"prompt":"design the mobile deep linking strategy for re-engagement campaigns","tier":"deep"}
+{"prompt":"evaluate our current approach to managing database migrations across environments","tier":"deep"}
+{"prompt":"review the message schema evolution strategy for our event-driven system","tier":"deep"}
+{"prompt":"design the multi-region active-active architecture for our core API","tier":"deep"}
+{"prompt":"analyze which parts of our monolith are safe to extract as microservices first","tier":"deep"}
+{"prompt":"bu servisin performans darboğazlarını analiz et","tier":"deep"}
+{"prompt":"mikroservis mimarisine geçiş için strateji öner","tier":"deep"}
+{"prompt":"veritabanı şemasının güvenlik açıklarını incele","tier":"deep"}
+{"prompt":"önbellek stratejimizi değerlendir ve iyileştirme öner","tier":"deep"}
+{"prompt":"dağıtık işlemleri yönetmek için yaklaşım tasarla","tier":"deep"}
+{"prompt":"mevcut test stratejimizin eksiklerini tespit et","tier":"deep"}
+{"prompt":"servisler arası veri tutarsızlıklarının kök nedenini araştır","tier":"deep"}
+{"prompt":"sıfır kesinti süreli dağıtım stratejisi tasarla","tier":"deep"}
+{"prompt":"API güvenlik açıklarını incele ve düzeltme öner","tier":"deep"}
+{"prompt":"yatay ölçekleme için oturum yönetimi mimarisini tasarla","tier":"deep"}
+{"prompt":"design the end-to-end data platform architecture replacing our legacy ETL system with a streaming-first approach, covering ingestion from 50+ sources, real-time transformation, data quality enforcement, governance framework, and the analytics serving layer supporting 200 concurrent analysts","tier":"ultra"}
+{"prompt":"produce a complete technical strategy for breaking apart our 8-year-old Rails monolith: event storm the domain to find bounded contexts, define the strangler-fig extraction sequence with dependency analysis, design the anti-corruption layers, plan the database decomposition with dual-write periods, estimate each phase, and produce a risk register with mitigation for each bounded context extraction","tier":"ultra"}
+{"prompt":"perform a full GDPR compliance audit across our entire platform: map all PII data flows from collection to deletion, identify every gap against GDPR Articles 5-25, design the right-to-erasure workflow for our distributed databases, implement the consent management system, design the breach notification pipeline, and produce the complete DPA documentation and processor agreements template","tier":"ultra"}
+{"prompt":"architect the complete developer platform for our 100-engineer organization: design the internal developer portal with self-service provisioning, golden path templates for all workload types, automated compliance checks in every pipeline, cost attribution per team and service, incident management integration, SLO-based alerting, on-call rotation tooling, and a developer experience metrics program covering cognitive load and DORA metrics","tier":"ultra"}
+{"prompt":"design the full enterprise identity and access management system: federated SSO with SAML and OIDC for all 30 internal applications, SCIM provisioning from our HR system, fine-grained RBAC for each application, privileged access management with just-in-time elevation, MFA enforcement strategy, audit trail for all access events, and a complete certification campaign process for annual access reviews","tier":"ultra"}
+{"prompt":"lead the technical integration of an acquired company into our platform: audit all their systems against our standards, design the identity federation for 500 employees, plan the migration of their 5M customer records while maintaining service continuity, resolve API conflicts between their services and ours, design the feature parity roadmap, execute the DNS cutover, decommission redundant infrastructure, and produce the integration playbook","tier":"ultra"}
+{"prompt":"design the complete reliability engineering program for our platform: define SLOs and SLIs for all 40 services, implement multi-window multi-burn-rate alerting, design the error budget policy with automatic deployment gates, create the incident severity taxonomy, build the postmortem process with Blameless tooling, design the chaos engineering roadmap, and produce the on-call runbooks for the 15 most critical failure scenarios","tier":"ultra"}
+{"prompt":"architect the complete machine learning platform for our data science team of 20: feature store with point-in-time correctness, experiment tracking with reproducibility guarantees, model registry with stage gates, automated retraining pipelines with drift detection, multi-armed bandit framework for online experiments, model serving with shadow deployment and canary capabilities, and a complete model governance framework with explainability requirements for regulated decisions","tier":"ultra"}
+{"prompt":"perform an exhaustive supply chain security audit of our software delivery pipeline: audit all 3000+ direct and transitive dependencies for known CVEs, implement SBOM generation for every artifact, design the dependency update automation with security gates, implement build reproducibility with signed provenance, deploy binary authorization in Kubernetes, design the private registry mirroring strategy, and produce the SLSA level 3 compliance roadmap","tier":"ultra"}
+{"prompt":"design the complete cost optimization and FinOps program for our AWS infrastructure currently spending $800k/month: perform waste analysis across all 15 accounts, design the tagging taxonomy for attribution, implement real-time cost anomaly detection, define team budget ownership with showback/chargeback model, design the Spot and Reserved Instance strategy per workload type, implement rightsizing automation, and produce the 12-month savings roadmap with risk assessment","tier":"ultra"}
+{"prompt":"architect the global content delivery and media pipeline for our streaming platform: design the video transcoding workflow for 4K HDR with adaptive bitrate, implement the CDN strategy across 6 regions with origin shield, design the DRM and content protection system, implement the personalized thumbnail generation pipeline, design the viewer metrics collection at scale, and produce the complete capacity plan for 10M concurrent viewers","tier":"ultra"}
+{"prompt":"produce the complete infrastructure-as-code migration for our organization: audit all manually provisioned AWS resources across 20 accounts, design the Terraform module hierarchy with environment promotion workflow, implement drift detection and remediation automation, design the policy-as-code framework with OPA, implement cost estimation gates in every PR pipeline, define the IaC standards and review process, and produce the migration guide with rollback procedures for all 8 engineering teams","tier":"ultra"}
+{"prompt":"design the complete multi-cloud disaster recovery architecture: define RTO and RPO targets per service criticality tier, implement automated failover with health checks across AWS and Azure, design the data replication strategy with conflict resolution for eventual consistency, implement automated DR testing with synthetic traffic replay, design the chaos engineering program to validate DR assumptions, write operational runbooks for 20 failure scenarios, and produce the DR testing calendar","tier":"ultra"}
+{"prompt":"architect the complete observability platform for our distributed system: design the telemetry collection pipeline for metrics, traces, and logs at 50GB/day, implement the correlation between signals for root cause analysis, design the SLO dashboards and alerting hierarchy, implement distributed tracing end-to-end across 30 services, design the cost-efficient log retention strategy, build the capacity planning dashboards, and produce the on-call training program","tier":"ultra"}
+{"prompt":"lead the complete API platform evolution: audit all 300 existing endpoints for consistency, security, performance, and documentation completeness; define the new API design standards and governance process; design the breaking change migration path; implement the developer portal with interactive sandbox; design the monetization tiers with usage-based billing integration; implement the API analytics dashboard; produce the partner onboarding playbook; and create the deprecation communication framework","tier":"ultra"}
+{"prompt":"tüm altyapımızı sıfırdan Infrastructure as Code'a taşı: mevcut tüm AWS kaynaklarını denetle, Terraform modül hiyerarşisi tasarla, ortam yükseltme iş akışı kur, drift tespiti ve düzeltme otomasyonu uygula, her PR'da maliyet tahmin kapısı ekle, OPA ile politika-kod çerçevesi kur, 8 mühendislik ekibi için IaC standartları ve geri alma prosedürlerini belgele","tier":"ultra"}
+{"prompt":"tüm mühendislik organizasyonu için kapsamlı güvenlik dönüşümü gerçekleştir: her pipeline'a SAST/DAST/SCA entegre et, açık yönetim programı tasarla, sır yönetimi ve otomatik rotasyon kur, konteyner güvenlik sertleştirme standardı uygula, bağımlılık güncelleme otomasyonu kur, güvenlik elçisi programı başlat ve en kritik 3 servis için tehdit modeli üret","tier":"ultra"}
+{"prompt":"perform a comprehensive business continuity and operational resilience review: map all critical business processes to their supporting systems, identify single points of failure, design the active-active architecture for tier-1 services, implement automated recovery procedures for each failure mode, create the crisis communication playbook, design the table-top exercise program, validate through game days, and produce the board-level resilience report","tier":"ultra"}
+{"prompt":"design the complete platform engineering solution including internal developer platform, self-service infrastructure with automated compliance, golden path templates for microservice, data pipeline, and ML workload types, cost attribution and budget alerting per team, SLO-based deployment gates, integrated incident management, developer experience metrics, and a continuous improvement program covering all 15 teams and 120 engineers","tier":"ultra"}
+{"prompt":"architect and execute the complete zero-trust security transformation: replace implicit-trust network model with identity-aware proxies, implement service-to-service mTLS across all 40 microservices, redesign IAM with principle of least privilege for all 300 IAM roles, deploy SIEM and behavioral threat detection, implement continuous compliance monitoring for SOC2 and ISO27001, redesign the secrets management with automated rotation, and produce the security architecture and evidence package for the auditor","tier":"ultra"}
+{"prompt":"design the entire real-time personalization engine: user behavior event ingestion pipeline at 500K events/second, feature engineering with online and offline stores, model serving infrastructure for sub-50ms inference at 100K RPS, experimentation framework with bandits and holdouts, privacy-preserving federated learning for on-device personalization, feedback loop with automated model retraining on drift, and the full observability stack including business impact dashboards","tier":"ultra"}
+{"prompt":"produce a comprehensive engineering organizational redesign: apply Team Topologies framework to all 8 teams, identify cognitive overload through workload analysis, measure and improve DORA metrics for each team, redesign team boundaries to maximize flow, design the platform team charter, create the enabling team rotation program, measure psychological safety and implement improvement actions, and produce the 18-month engineering excellence roadmap with OKRs","tier":"ultra"}
+{"prompt":"design the complete event-driven architecture for our entire domain: run event storming workshops across 6 business domains, define all domain events and their schemas in the registry, implement the saga pattern for our 3 most complex distributed transactions, design the event sourcing store for the order and inventory domains, implement CQRS with projections for the reporting queries, design the event replay and audit trail procedures, and produce the domain event glossary and developer guide","tier":"ultra"}
+{"prompt":"architect the global multi-region active-active deployment for our platform: design the data replication topology with conflict-free replicated data types, implement geo-based routing with latency-based failover, design the globally distributed cache with invalidation, handle data sovereignty requirements across EU, US, and APAC regions, implement cross-region observability with a single pane of glass, design the region onboarding runbook, and produce the operational procedures for planned and unplanned region failover","tier":"ultra"}
+{"prompt":"perform a full technical acquisition due diligence in 2 weeks: audit code quality, architecture patterns, scalability ceiling, test coverage, dependency health, security posture, operational maturity, incident history, technical debt quantification, team structure and bus factor, open source license risks, data compliance posture, infrastructure costs, and produce the investment committee report with integration complexity estimate and 12-month risk-adjusted roadmap","tier":"ultra"}
+{"prompt":"lead the complete modernization of our payment processing platform to meet PCI DSS Level 1 compliance: gap-analyze current state against all 300+ PCI DSS requirements, redesign the cardholder data environment with network segmentation, implement end-to-end encryption for all card data flows, tokenize all stored PANs, design the key management lifecycle, implement continuous compliance monitoring, prepare for QSA audit, and produce the remediation roadmap with effort estimates and risk prioritization","tier":"ultra"}
+{"prompt":"design the complete data mesh architecture for our organization: define domain ownership for all 12 data domains, implement the data product pattern with standardized interfaces, design the federated computational governance model, build the central data platform for common infrastructure, implement the data catalog with automated lineage tracking, design the self-serve analytics layer, define the data quality SLAs per product, and produce the organization transformation roadmap","tier":"ultra"}
+{"prompt":"implement GraphQL subscriptions for real-time order status updates","tier":"mid"}
+{"prompt":"write a script to migrate data from MongoDB to PostgreSQL","tier":"mid"}
+{"prompt":"create an API endpoint to export user data as CSV","tier":"mid"}
+{"prompt":"implement optimistic UI updates for the comment section","tier":"mid"}
+{"prompt":"add biometric authentication to the mobile app","tier":"mid"}
+{"prompt":"write a Lambda function to resize uploaded images","tier":"mid"}
+{"prompt":"implement a message queue consumer with error handling","tier":"mid"}
+{"prompt":"create a scheduled task to sync inventory from the ERP","tier":"mid"}
+{"prompt":"add multi-language support using i18next","tier":"mid"}
+{"prompt":"implement a drag-and-drop kanban board","tier":"mid"}
+{"prompt":"write a service to generate PDF invoices","tier":"mid"}
+{"prompt":"add two-factor authentication via TOTP","tier":"mid"}
+{"prompt":"create a report generator for monthly sales data","tier":"mid"}
+{"prompt":"implement real-time collaborative editing with CRDTs","tier":"mid"}
+{"prompt":"add a map view using Mapbox for location data","tier":"mid"}
+{"prompt":"write a browser extension for clipboard management","tier":"mid"}
+{"prompt":"implement server-sent events for live dashboard updates","tier":"mid"}
+{"prompt":"create a CLI tool for managing deployment configurations","tier":"mid"}
+{"prompt":"add OpenTelemetry tracing to the checkout service","tier":"mid"}
+{"prompt":"implement SAML SSO integration","tier":"mid"}
+{"prompt":"write a Slack bot that posts daily standup reminders","tier":"mid"}
+{"prompt":"create a background worker for sending transactional emails","tier":"mid"}
+{"prompt":"implement changelog tracking for document edits","tier":"mid"}
+{"prompt":"add support for multiple payment methods in checkout","tier":"mid"}
+{"prompt":"write a type-safe API client from an OpenAPI spec","tier":"mid"}
+{"prompt":"implement a notification preferences center","tier":"mid"}
+{"prompt":"create a webhook signature verification middleware","tier":"mid"}
+{"prompt":"add cursor-based pagination to the timeline API","tier":"mid"}
+{"prompt":"implement a content approval workflow","tier":"mid"}
+{"prompt":"write a job scheduler with priority queuing","tier":"mid"}
+{"prompt":"create a metrics dashboard using Prometheus and Grafana","tier":"mid"}
+{"prompt":"implement geofencing for location-based features","tier":"mid"}
+{"prompt":"add an audit trail for admin actions","tier":"mid"}
+{"prompt":"write a data masking utility for PII fields","tier":"mid"}
+{"prompt":"implement canary releases in the deployment pipeline","tier":"mid"}
+{"prompt":"create a self-healing mechanism for crashed workers","tier":"mid"}
+{"prompt":"add SQL query caching with cache invalidation","tier":"mid"}
+{"prompt":"implement a distributed lock using Redis","tier":"mid"}
+{"prompt":"write a batching layer to reduce database queries","tier":"mid"}
+{"prompt":"create an event replay mechanism for debugging","tier":"mid"}
+{"prompt":"add support for resumable file uploads","tier":"mid"}
+{"prompt":"implement data export with streaming for large datasets","tier":"mid"}
+{"prompt":"write a connection pooling wrapper for the database client","tier":"mid"}
+{"prompt":"add API response compression middleware","tier":"mid"}
+{"prompt":"implement idempotency keys for the payment API","tier":"mid"}
+{"prompt":"create a tenant provisioning script","tier":"mid"}
+{"prompt":"write an integration for Google Calendar sync","tier":"mid"}
+{"prompt":"implement a product recommendation based on purchase history","tier":"mid"}
+{"prompt":"add request deduplication to the mobile API client","tier":"mid"}
+{"prompt":"create a fallback UI for degraded service states","tier":"mid"}
+{"prompt":"implement multi-factor device trust for enterprise logins","tier":"mid"}
+{"prompt":"write a data validation layer using Zod","tier":"mid"}
+{"prompt":"add E2E encryption for user messages","tier":"mid"}
+{"prompt":"implement a configurable alerting rule engine","tier":"mid"}
+{"prompt":"create a tenant-aware caching strategy","tier":"mid"}
+{"prompt":"add automatic API retry with exponential backoff","tier":"mid"}
+{"prompt":"implement a dynamic config service using feature flags","tier":"mid"}
+{"prompt":"write a test helper for seeding complex relational data","tier":"mid"}
+{"prompt":"create a streaming endpoint for large report downloads","tier":"mid"}
+{"prompt":"add signed URL generation for private S3 assets","tier":"mid"}
+{"prompt":"implement a multi-step onboarding flow","tier":"mid"}
+{"prompt":"write a query builder abstraction over raw SQL","tier":"mid"}
+{"prompt":"add dynamic theming support to the design system","tier":"mid"}
+{"prompt":"implement a user impersonation feature for support teams","tier":"mid"}
+{"prompt":"create a changelog RSS feed endpoint","tier":"mid"}
+{"prompt":"add SMS-based passwordless authentication","tier":"mid"}
+{"prompt":"implement a timezone-aware scheduling service","tier":"mid"}
+{"prompt":"write a service health aggregation dashboard","tier":"mid"}
+{"prompt":"create a rate-limited queue for outbound emails","tier":"mid"}
+{"prompt":"implement sticky sessions for WebSocket connections","tier":"mid"}
+{"prompt":"add a content versioning system with diff support","tier":"mid"}
+{"prompt":"write a webhook replay tool for failed deliveries","tier":"mid"}
+{"prompt":"implement a configurable data retention cleanup job","tier":"mid"}
+{"prompt":"add user activity heatmaps to the analytics dashboard","tier":"mid"}
+{"prompt":"create a self-service API key management portal","tier":"mid"}
+{"prompt":"implement lazy loading for the image gallery","tier":"mid"}
+{"prompt":"write a service for generating shareable report links","tier":"mid"}
+{"prompt":"add cross-origin resource sharing for the public API","tier":"mid"}
+{"prompt":"implement data anonymization for the analytics pipeline","tier":"mid"}
+{"prompt":"create a user-facing changelog notification system","tier":"mid"}
+{"prompt":"write a backup verification script that restores and tests data","tier":"mid"}
+{"prompt":"add GraphQL query depth limiting","tier":"mid"}
+{"prompt":"implement form auto-save with conflict detection","tier":"mid"}
+{"prompt":"create a service for managing user-uploaded templates","tier":"mid"}
+{"prompt":"write a migration rollback script for failed deployments","tier":"mid"}
+{"prompt":"add screenshot testing to the component library","tier":"mid"}
+{"prompt":"implement chat message threading","tier":"mid"}
+{"prompt":"create an in-app guided tour for new users","tier":"mid"}
+{"prompt":"write a script to detect orphaned database records","tier":"mid"}
+{"prompt":"add accessibility labels to all interactive components","tier":"mid"}
+{"prompt":"implement a configurable spam filter for user content","tier":"mid"}
+{"prompt":"create a request coalescing layer for repeated queries","tier":"mid"}
+{"prompt":"write a tool to validate OpenAPI spec against live API responses","tier":"mid"}
+{"prompt":"add support for multiple currencies with live exchange rates","tier":"mid"}
+{"prompt":"implement a session replay feature for debugging user issues","tier":"mid"}
+{"prompt":"create a dependency injection container for the backend services","tier":"mid"}
+{"prompt":"write a job to detect and merge duplicate user accounts","tier":"mid"}
+{"prompt":"add keyboard shortcut support to the web app","tier":"mid"}
+{"prompt":"implement a plugin architecture for the platform","tier":"mid"}
+{"prompt":"create a cross-service correlation ID propagation middleware","tier":"mid"}
+{"prompt":"write a liveness probe that validates external dependencies","tier":"mid"}
+{"prompt":"add automated browser compatibility testing","tier":"mid"}
+{"prompt":"implement a multi-region session store","tier":"mid"}
+{"prompt":"create a service for managing async long-running operations","tier":"mid"}
+{"prompt":"write a static analysis rule for our custom ESLint plugin","tier":"mid"}
+{"prompt":"add smart retry logic that avoids retrying non-retriable errors","tier":"mid"}
+{"prompt":"implement streaming JSON parsing for large API responses","tier":"mid"}
+{"prompt":"design the long-term archival strategy for our event store as it grows to petabyte scale","tier":"deep"}
+{"prompt":"evaluate whether our current microservices granularity is too fine-grained and causing excessive network overhead","tier":"deep"}
+{"prompt":"design the cross-datacenter synchronization strategy for our user preference data","tier":"deep"}
+{"prompt":"review the security boundaries between our internal admin tools and customer-facing services","tier":"deep"}
+{"prompt":"analyze the bottlenecks in our data ingestion pipeline that are causing 2-hour latency","tier":"deep"}
+{"prompt":"design the API contract testing strategy to prevent breaking changes across 20 services","tier":"deep"}
+{"prompt":"evaluate whether to adopt a monorepo structure for our 30 microservices","tier":"deep"}
+{"prompt":"design the multi-tenancy isolation model for our database — shared schema vs schema-per-tenant vs database-per-tenant","tier":"deep"}
+{"prompt":"investigate the source of network latency spikes between our US-East and EU-West regions","tier":"deep"}
+{"prompt":"design a strategy for gradually introducing TypeScript into our large JavaScript codebase","tier":"deep"}
+{"prompt":"review the data modeling approach for our flexible product catalog with dynamic attributes","tier":"deep"}
+{"prompt":"design the incident detection and escalation pipeline for our on-call rotation","tier":"deep"}
+{"prompt":"analyze our current error handling strategy and propose a consistent approach across services","tier":"deep"}
+{"prompt":"design the approach for managing database schema changes across microservices that share data","tier":"deep"}
+{"prompt":"evaluate our current approach to handling eventual consistency in the order fulfillment flow","tier":"deep"}
+{"prompt":"design the strategy for migrating our on-premise PostgreSQL to Aurora PostgreSQL with minimal downtime","tier":"deep"}
+{"prompt":"review the token refresh strategy for our mobile app in a high-concurrency environment","tier":"deep"}
+{"prompt":"design the access control model for our data lake to enforce row and column level security","tier":"deep"}
+{"prompt":"investigate why our checkout conversion rate dropped after the latest deployment","tier":"deep"}
+{"prompt":"design the approach for end-to-end testing in our microservices environment without requiring all services to be running","tier":"deep"}
+{"prompt":"evaluate adopting hexagonal architecture across our backend services and define the migration approach","tier":"deep"}
+{"prompt":"analyze our infrastructure costs and identify the top optimization opportunities","tier":"deep"}
+{"prompt":"design the strategy for safely rolling back a failed database migration in production","tier":"deep"}
+{"prompt":"review the consistency guarantees of our distributed cache and identify scenarios where stale data causes bugs","tier":"deep"}
+{"prompt":"design the observability strategy for our batch processing jobs","tier":"deep"}
+{"prompt":"evaluate the trade-offs of our current GraphQL federation setup versus REST aggregation","tier":"deep"}
+{"prompt":"design the user data portability feature to comply with data protection regulations","tier":"deep"}
+{"prompt":"investigate why our ML model serving latency increased after the infrastructure upgrade","tier":"deep"}
+{"prompt":"design the branching strategy and code freeze process for our quarterly release cycle","tier":"deep"}
+{"prompt":"review the scalability of our current push notification delivery architecture","tier":"deep"}
+{"prompt":"design the approach for handling partial failures in our distributed order processing saga","tier":"deep"}
+{"prompt":"evaluate the security posture of our third-party API integrations","tier":"deep"}
+{"prompt":"design the strategy for consolidating our 5 overlapping user profile data stores","tier":"deep"}
+{"prompt":"analyze the impact of removing our legacy REST endpoints on dependent client applications","tier":"deep"}
+{"prompt":"design the SLA monitoring and alerting strategy for our B2B customers","tier":"deep"}
+{"prompt":"review the approach for managing secrets rotation without service downtime","tier":"deep"}
+{"prompt":"design the data pipeline for near-real-time fraud detection with sub-100ms decision latency","tier":"deep"}
+{"prompt":"evaluate our current mobile app release process for risk and speed","tier":"deep"}
+{"prompt":"investigate the root cause of our database connection pool exhaustion during peak load","tier":"deep"}
+{"prompt":"design the strategy for gradually deprecating our legacy mobile API versions","tier":"deep"}
+{"prompt":"review our current CDN configuration for cache hit ratio and security","tier":"deep"}
+{"prompt":"design a technical mentoring program for growing senior engineers","tier":"deep"}
+{"prompt":"analyze the trade-offs of implementing an API gateway versus direct service-to-service calls","tier":"deep"}
+{"prompt":"design the approach for handling schema evolution in our message-driven system without breaking consumers","tier":"deep"}
+{"prompt":"review the disaster recovery readiness of our data warehouse","tier":"deep"}
+{"prompt":"design the strategy for gradually enabling strict TypeScript across a 200k line codebase","tier":"deep"}
+{"prompt":"investigate the cause of data duplication in our event-driven order processing pipeline","tier":"deep"}
+{"prompt":"design the approach for consistent error responses across all our public APIs","tier":"deep"}
+{"prompt":"evaluate our current approach to managing environment-specific configuration across 50 services","tier":"deep"}
+{"prompt":"design the technical approach for supporting multiple regions with different regulatory requirements","tier":"deep"}
+{"prompt":"analyze the security implications of our third-party script loading strategy","tier":"deep"}
+{"prompt":"design the capacity planning process for handling seasonal traffic peaks","tier":"deep"}
+{"prompt":"review the data access patterns for our reporting service and optimize for analytical queries","tier":"deep"}
+{"prompt":"design the on-call escalation matrix and coverage model for a globally distributed engineering team","tier":"deep"}
+{"prompt":"investigate why our Elasticsearch cluster performance degrades with large aggregations","tier":"deep"}
+{"prompt":"evaluate the trade-offs of adopting gRPC for internal service communication","tier":"deep"}
+{"prompt":"design the strategy for handling breaking API changes when some clients cannot be forced to upgrade","tier":"deep"}
+{"prompt":"review the correctness of our distributed rate limiting implementation under edge cases","tier":"deep"}
+{"prompt":"design the data sync strategy between our mobile app and backend for offline-first experience","tier":"deep"}
+{"prompt":"analyze the feasibility and risks of moving from a polling to push-based notification architecture","tier":"deep"}
+{"prompt":"design the approach for testing distributed sagas in an isolated environment","tier":"deep"}
+{"prompt":"evaluate whether our current service decomposition aligns with our team topology","tier":"deep"}
+{"prompt":"review our current approach to logging PII and propose a redaction strategy","tier":"deep"}
+{"prompt":"tüm sistemin yedekleme ve kurtarma stratejisini tasarla","tier":"deep"}
+{"prompt":"servisler arası iletişim için en uygun mimariyi değerlendir","tier":"deep"}
+{"prompt":"veri tabanı bölümleme stratejimizin uzun vadeli ölçeklenebilirliğini analiz et","tier":"deep"}
+{"prompt":"mevcut CI/CD pipeline'ının güvenlik açıklarını incele","tier":"deep"}
+{"prompt":"şirket genelinde tutarlı hata işleme stratejisi tasarla","tier":"deep"}
+{"prompt":"mobil uygulamanın çevrimdışı senkronizasyon mantığını gözden geçir","tier":"deep"}
+{"prompt":"dağıtık işlem yönetimi için saga pattern uygulamasını tasarla","tier":"deep"}
+{"prompt":"önbellek tutarsızlıklarının kök nedenini araştır","tier":"deep"}
+{"prompt":"gizli yönetim stratejimizi ve rotasyon sürecini değerlendir","tier":"deep"}
+{"prompt":"birden fazla veri deposunu tek bir kullanıcı profili servisinde birleştirme stratejisi tasarla","tier":"deep"}
+{"prompt":"perform a complete architectural overhaul of our customer-facing platform: audit every service for coupling and cohesion, redesign the bounded contexts across 15 microservices, implement the strangler fig pattern for the highest-risk extractions, redesign the data ownership model, implement asynchronous communication for all non-transactional flows, design the event-driven saga for the order lifecycle, and produce the migration roadmap with effort estimates and team assignments","tier":"ultra"}
+{"prompt":"design the complete zero-trust network architecture for our hybrid cloud environment: replace the VPN-based perimeter model with identity-aware proxies for all 200 services, implement workload identity with SPIFFE/SPIRE, redesign all service-to-service authentication with short-lived certificates, implement network segmentation with microsegmentation policies, deploy cloud-native firewall rules, and produce the migration plan with parallel-run period and rollback procedures","tier":"ultra"}
+{"prompt":"architect the complete streaming analytics platform: ingest from 100+ event sources at 2M events/second, design the exactly-once processing guarantees for the financial aggregations, implement the late-arrival data correction strategy, design the real-time ML feature computation pipeline, build the interactive query layer with sub-second SLA, design the alerting engine with complex event processing, and produce the runbook for each failure mode in the pipeline","tier":"ultra"}
+{"prompt":"lead the full technical transformation for SOC2 Type II certification: perform gap analysis against all 61 trust service criteria, design the continuous compliance monitoring infrastructure, implement automated evidence collection for all controls, remediate all findings in the penetration test, implement the security awareness program, design the vendor risk management process, conduct the internal audit, and prepare the complete evidence package for the external auditor","tier":"ultra"}
+{"prompt":"design the enterprise-wide API governance framework: establish the API design standards council, create the OpenAPI linting and style enforcement pipeline, design the API maturity model with certification levels, implement the centralized API catalog with discoverability, design the breaking change detection automation, create the API versioning and sunset policy, implement developer experience metrics, and produce the migration guide for all 150 existing APIs","tier":"ultra"}
+{"prompt":"architect the complete global payment processing infrastructure: achieve PCI DSS Level 1 compliance across all card data flows, design the tokenization vault with HSM integration, implement 3D Secure for fraud prevention, design the multi-acquirer routing strategy for cost optimization and failover, implement the reconciliation pipeline for all payment methods, design the dispute management workflow, and produce the complete incident response plan for payment outages","tier":"ultra"}
+{"prompt":"perform the complete technical and organizational transformation to implement site reliability engineering across our 200-engineer organization: define SLO/SLI/SLA for all 80 production services, implement the error budget policy with automated deployment gates, establish the SRE team charter and embed model, redesign the on-call rotation with cognitive load management, implement blameless postmortem culture, design the toil reduction program, and produce the 18-month SRE maturity roadmap","tier":"ultra"}
+{"prompt":"design the complete data sovereignty and localization architecture: audit all data flows for cross-border transfers, design the data residency enforcement layer, implement data localization for EU, US, India, and Brazil regions, design the federated identity system with regional autonomy, implement the data access control policies per jurisdiction, create the cross-border data transfer impact assessment process, and produce the compliance documentation for GDPR, CCPA, LGPD, and PDPB","tier":"ultra"}
+{"prompt":"architect the full-stack real-time gaming platform: design the authoritative game server architecture with tick-rate optimization, implement client prediction and server reconciliation for sub-50ms apparent latency, design the matchmaking system for 10M concurrent players, implement the leaderboard aggregation pipeline with cheat detection, design the in-game economy with fraud prevention, implement the live operations tooling for live events, and produce the scaling playbook for tournament spikes","tier":"ultra"}
+{"prompt":"lead the complete e-commerce platform replatforming: migrate from the legacy monolith to headless commerce with decoupled frontend, design the product catalog with 50M SKUs at scale, implement the inventory management with multi-warehouse allocation, design the order management system with saga-based fulfillment, implement the personalization engine with real-time recommendations, design the A/B testing framework for all commercial surfaces, and produce the cutover plan with risk mitigation for peak season","tier":"ultra"}
+{"prompt":"design the complete enterprise data catalog and lineage platform: automatically discover all data assets across 20 source systems, implement column-level lineage tracking end-to-end, design the business glossary with stewardship workflows, implement data quality scoring for all datasets, design the access request and approval workflow, implement cost attribution per data consumer, build the impact analysis for upstream changes, and produce the data governance operating model","tier":"ultra"}
+{"prompt":"produce the complete technical due diligence package for a Series C funding round: document the system architecture with all trade-offs, produce the technical debt register with remediation costs, demonstrate scalability to 100x current load with evidence, audit all open source licenses for compliance, produce the security posture assessment, document all key-person dependencies, benchmark engineering velocity metrics, and present the 3-year technical roadmap with investment requirements","tier":"ultra"}
+{"prompt":"design the complete autonomous deployment and progressive delivery platform: implement automated canary analysis with statistical significance testing, design the deployment pipeline with automated rollback triggers based on SLO burn rate, implement automated capacity scaling with predictive models, design the feature flag lifecycle management, build the deployment risk scoring model, implement the deployment freeze automation for business-critical periods, and produce the playbook for each automated rollback scenario","tier":"ultra"}
+{"prompt":"architect the complete customer data platform: unify customer identities across 15 touchpoints with probabilistic matching, design the real-time segmentation engine for 50M profiles, implement the consent management framework compliant with GDPR and CCPA, design the audience activation pipeline to 30 downstream tools, build the customer journey analytics with multi-touch attribution, implement the data quality monitoring with automated remediation, and produce the data stewardship operating model","tier":"ultra"}
+{"prompt":"lead the complete engineering process transformation: implement trunk-based development with feature flags across all teams, standardize the pull request review process with automated quality gates, implement the engineering metrics program covering DORA and developer experience, design the architecture decision record process, implement the technical RFC process for cross-team changes, create the tech radar for technology standardization, and produce the engineering handbook covering all team norms and practices","tier":"ultra"}
+{"prompt":"tüm şirketin veri mimarisini yeniden tasarla: 20 farklı kaynaktan veriyi birleştir, gerçek zamanlı ve toplu işleme için hibrit mimari kur, veri kalitesi puanlama sistemi tasarla, kişisel veri işleme için KVKK ve GDPR uyumlu süreçler uygula, self-servis analitik katmanı tasarla, veri sahipliği ve yönetişim modelini kur, ve tüm mühendislik ekipleri için geçiş yol haritası oluştur","tier":"ultra"}
+{"prompt":"tüm platform altyapısını sıfır güvene dönüştür: VPN tabanlı çevre modelini kimlik odaklı proxy'lerle değiştir, 40 servis arasında mTLS uygula, tüm IAM rollerini en az ayrıcalık ilkesiyle yeniden tasarla, SIEM ve davranışsal tehdit tespiti uygula, SOC2 ve ISO27001 için sürekli uyum izleme kur, sır yönetimini otomatik rotasyonla yeniden tasarla, ve denetçi için güvenlik mimarisi ve kanıt paketini oluştur","tier":"ultra"}
+{"prompt":"design the complete multi-product platform architecture for our portfolio of 5 applications sharing common identity, billing, and data: design the shared platform services layer, define the tenant isolation model across products, implement the unified billing engine with usage metering per product, design the cross-product SSO with product-specific permissions, implement the shared analytics pipeline, design the platform API with product-scoped access, and produce the onboarding guide for adding a 6th product","tier":"ultra"}
+{"prompt":"architect the complete IoT data platform for our fleet of 2 million connected devices: design the device connectivity layer with MQTT at scale, implement the time-series data ingestion pipeline at 10M messages/second, design the device shadow and command delivery architecture, implement over-the-air firmware update orchestration, design the anomaly detection pipeline for predictive maintenance, build the device lifecycle management system, and produce the security model for device authentication and data encryption","tier":"ultra"}
+{"prompt":"perform the comprehensive technical transformation to support our international expansion into 15 new markets: design the multi-currency and multi-language architecture, implement market-specific regulatory compliance for payments and data, design the regional content delivery and localization pipeline, implement market-specific feature flag governance, design the international tax calculation engine, create the market-specific onboarding flows, and produce the expansion playbook with technical requirements for each target market","tier":"ultra"}
+{"prompt":"design the complete autonomous operations platform for our infrastructure: implement AIOps for automated anomaly detection and root cause analysis, design the capacity auto-scaling with ML-based demand forecasting, implement automated runbook execution for common incidents, design the automated dependency mapping and blast radius analysis, build the intelligent alerting system with noise reduction, implement automated security response for common attack patterns, and produce the human-in-the-loop escalation framework","tier":"ultra"}
+{"prompt":"design the alerting strategy to reduce alert fatigue without missing critical incidents","tier":"deep"}
+{"prompt":"evaluate our current approach to distributed configuration management across environments","tier":"deep"}
+{"prompt":"analyze which microservices in our system are bottlenecks for other teams' development velocity","tier":"deep"}
+{"prompt":"design the cross-service testing strategy to catch integration regressions early","tier":"deep"}
+{"prompt":"review the security of our mobile API against OWASP Mobile Top 10","tier":"deep"}
+{"prompt":"design the approach for graceful degradation when third-party dependencies fail","tier":"deep"}
+{"prompt":"evaluate the reliability of our current backup and restore procedures","tier":"deep"}
+{"prompt":"design the developer experience improvements for our internal platform tools","tier":"deep"}
+{"prompt":"analyze the root cause of our p99 latency exceeding SLA targets on Monday mornings","tier":"deep"}
+{"prompt":"design the approach for migrating our authentication service to support passkeys","tier":"deep"}
+{"prompt":"review the data partitioning strategy for our time-series metrics database","tier":"deep"}
+{"prompt":"evaluate our current approach to managing technical debt across product teams","tier":"deep"}
+{"prompt":"design the feature parity roadmap for migrating users from the legacy to new platform","tier":"deep"}
+{"prompt":"investigate why our recommendation service accuracy degrades for new users","tier":"deep"}
+{"prompt":"design the multi-cloud vendor lock-in mitigation strategy","tier":"deep"}
+{"prompt":"review the correctness of our distributed cache invalidation under high write throughput","tier":"deep"}
+{"prompt":"design the developer onboarding program to reduce time-to-first-commit","tier":"deep"}
+{"prompt":"analyze the risk of our current service mesh implementation under network partition scenarios","tier":"deep"}
+{"prompt":"design the data quality monitoring framework for our data warehouse","tier":"deep"}
+{"prompt":"evaluate the trade-offs of our current event streaming platform versus alternatives","tier":"deep"}
+{"prompt":"design the strategy for handling third-party API deprecations with minimal disruption","tier":"deep"}
+{"prompt":"review the access patterns for our graph database and optimize for traversal queries","tier":"deep"}
+{"prompt":"design the technical approach for supporting data export compliance requests at scale","tier":"deep"}
+{"prompt":"investigate why our deployment pipeline failure rate increased after adding new services","tier":"deep"}
+{"prompt":"design the approach for consistent distributed system testing in pre-production environments","tier":"deep"}
+{"prompt":"analyze whether our current event granularity is appropriate for the audit requirements","tier":"deep"}
+{"prompt":"design the scaling strategy for our real-time bidding engine to handle 500k QPS","tier":"deep"}
+{"prompt":"review the resilience of our payment processing flow against partial infrastructure failures","tier":"deep"}
+{"prompt":"evaluate our current API documentation strategy and propose improvements","tier":"deep"}
+{"prompt":"design the technical approach for onboarding enterprise customers with custom integrations","tier":"deep"}
+{"prompt":"analyze the security boundary between our admin dashboard and customer-facing API","tier":"deep"}
+{"prompt":"design the database connection management strategy to eliminate connection pool exhaustion","tier":"deep"}
+{"prompt":"review our Terraform state management strategy across multiple teams","tier":"deep"}
+{"prompt":"design the automated testing pyramid strategy for our microservices architecture","tier":"deep"}
+{"prompt":"evaluate the trade-offs of consolidating our 4 separate user databases","tier":"deep"}
+{"prompt":"investigate the source of data drift in our machine learning feature pipeline","tier":"deep"}
+{"prompt":"design the approach for migrating our legacy authentication to modern OAuth 2.0 flows","tier":"deep"}
+{"prompt":"review the correctness of our optimistic locking implementation in the order service","tier":"deep"}
+{"prompt":"design the technical roadmap for deprecating our SOAP API while maintaining client compatibility","tier":"deep"}
+{"prompt":"analyze the performance impact of adding row-level security to our PostgreSQL tables","tier":"deep"}
+{"prompt":"design the cross-region data consistency model for our globally distributed application","tier":"deep"}
+{"prompt":"review our current microservice deployment topology for single points of failure","tier":"deep"}
+{"prompt":"evaluate whether our current message broker can support our projected growth","tier":"deep"}
+{"prompt":"design the approach for gradual TypeScript migration without blocking feature development","tier":"deep"}
+{"prompt":"investigate and resolve the race condition in our distributed scheduler","tier":"deep"}
+{"prompt":"design the SLA framework for our platform API with differentiated tiers for enterprise customers","tier":"deep"}
+{"prompt":"review the completeness and accuracy of our disaster recovery documentation","tier":"deep"}
+{"prompt":"design the engineering competency framework and career progression ladder","tier":"deep"}
+{"prompt":"analyze the security implications of our current cookie strategy for cross-domain authentication","tier":"deep"}
+{"prompt":"design the approach for streaming large database exports without impacting production workloads","tier":"deep"}
+{"prompt":"investigate why our queue processing throughput drops when handling large message payloads","tier":"deep"}
+{"prompt":"evaluate the feasibility of implementing a CQRS pattern for our analytics read model","tier":"deep"}
+{"prompt":"design the cross-product data sharing model while maintaining service boundaries","tier":"deep"}
+{"prompt":"review the blast radius of failures in our dependency graph and propose circuit breakers","tier":"deep"}
+{"prompt":"design the approach for achieving consistent observability across legacy and greenfield services","tier":"deep"}
+{"prompt":"analyze whether our current branching strategy is causing integration bottlenecks","tier":"deep"}
+{"prompt":"design the technical governance model for API changes across autonomous product teams","tier":"deep"}
+{"prompt":"evaluate the correctness of our eventual consistency approach for the inventory service","tier":"deep"}
+{"prompt":"design the performance testing strategy to catch regressions before they reach production","tier":"deep"}
+{"prompt":"review the data masking approach in our non-production environments for compliance","tier":"deep"}
+{"prompt":"design the approach for zero-downtime major version upgrades of our core database","tier":"deep"}
+{"prompt":"analyze the trade-offs of our current monorepo tooling at scale","tier":"deep"}
+{"prompt":"investigate why our A/B testing framework is producing inconsistent assignment results","tier":"deep"}
+{"prompt":"design the incident communication strategy for different stakeholder audiences","tier":"deep"}
+{"prompt":"evaluate our current approach to progressive enhancement for low-bandwidth users","tier":"deep"}
+{"prompt":"design the automated dependency update strategy with risk-tiered review requirements","tier":"deep"}
+{"prompt":"review the efficiency of our container image build pipeline and propose optimizations","tier":"deep"}
+{"prompt":"design the customer-facing status page and incident communication system","tier":"deep"}
+{"prompt":"analyze the correctness of our distributed transaction rollback strategy","tier":"deep"}
+{"prompt":"design a cross-team RFC process for architectural decisions that affect multiple services","tier":"deep"}
+{"prompt":"evaluate the security of our current secret injection approach in Kubernetes","tier":"deep"}
+{"prompt":"design the strategy for safely rolling back failed data migrations in a live system","tier":"deep"}
+{"prompt":"review the implementation of our eventual consistency patterns for the shopping cart","tier":"deep"}
+{"prompt":"design the approach for managing configuration drift across 100+ service instances","tier":"deep"}
+{"prompt":"analyze and improve the mean time to detection for production incidents","tier":"deep"}
+{"prompt":"design the complete organization-wide data mesh transformation covering all 12 business domains: define domain ownership, create data product standards with discovery and SLA guarantees, design the federated governance model, build the central data platform for shared infrastructure, implement the data catalog with automated lineage, design the self-serve analytics layer, and produce the 24-month roadmap with team restructuring plan and change management strategy","tier":"ultra"}
+{"prompt":"architect the complete platform for our SaaS expansion into enterprise: design the enterprise SSO with SAML and OIDC, implement audit logging for all user actions with tamper-proof storage, design the data isolation model for enterprise tenants, create the admin console for tenant management, implement enterprise SLA monitoring with automated alerting, design the custom integration framework, and produce the enterprise sales technical enablement package","tier":"ultra"}
+{"prompt":"design the complete technical strategy for our IPO readiness: audit all systems against SOX controls, implement financial data integrity monitoring, design the change management process for production systems, implement complete audit trails for all data modifications, produce the system availability and disaster recovery documentation, design the business continuity plan, and produce the technical controls package for the external auditor covering all relevant control frameworks","tier":"ultra"}
+{"prompt":"architect the entire real-time financial reporting platform: ingest all transaction streams from 30 source systems, design the exactly-once processing guarantees for regulatory reporting, implement the regulatory report generation engine for all jurisdictions, design the reconciliation framework for daily balancing, implement the audit trail for all financial calculations, design the regulator data submission pipeline, and produce the complete data lineage documentation required for regulatory examination","tier":"ultra"}
+{"prompt":"design the complete hyperscale infrastructure for our consumer app at 500M users: architect the globally distributed API layer with 99.999% availability, design the data partitioning strategy across 50+ database shards, implement the CDN and edge computing strategy for sub-100ms globally, design the real-time analytics pipeline at petabyte scale, implement the fraud detection system at 1M transactions/minute, and produce the complete capacity model and budget for 3-year growth projections","tier":"ultra"}
+{"prompt":"lead the complete platform migration from on-premise to cloud-native: assess all 200 workloads with cloud migration patterns, design the network connectivity and security architecture, execute the lift-and-shift for wave 1 critical systems, redesign wave 2 for cloud-native patterns, decommission all on-premise infrastructure, implement cloud cost governance, redesign the CI/CD for cloud-native deployment, and produce the complete runbook for each workload migration with rollback procedures","tier":"ultra"}
+{"prompt":"design the complete developer productivity platform: implement AI-assisted code review with custom rule sets, design the automated architecture compliance checking, build the inner source discovery and contribution platform, implement the automated dependency security monitoring with PR-level remediation, design the engineering metrics program covering cycle time and deployment frequency, create the engineering wiki with automated documentation, and produce the toolchain evaluation and standardization roadmap","tier":"ultra"}
+{"prompt":"perform the full technical transformation to support our B2B2C business model: design the multi-tier tenancy model supporting enterprise customers reselling to their end users, implement the white-labeling infrastructure with custom domains and branding, design the revenue sharing and commission calculation engine, create the partner management portal with API access, design the tiered pricing and entitlement system, implement the partner analytics dashboard, and produce the technical documentation for the partner integration guide","tier":"ultra"}
+{"prompt":"architect the complete ML-powered customer support automation platform: design the conversation routing with intent classification, implement the knowledge base with semantic search at 1M articles, design the agent assist system for human escalations, build the automated ticket categorization and routing, implement the CSAT prediction model, design the feedback loop for continuous model improvement, implement the full compliance logging for regulated industries, and produce the human-AI collaboration workflow documentation","tier":"ultra"}
+{"prompt":"design and implement the complete regulatory technology platform: implement automated monitoring of all regulatory changes across 25 jurisdictions, design the impact assessment workflow for each regulatory change, build the obligation register with control mapping, implement the automated testing of controls against regulatory requirements, design the board-level reporting framework, create the regulatory examination support package generator, and produce the complete operating model for the compliance function","tier":"ultra"}
+{"prompt":"architect the full-stack healthcare data platform meeting HIPAA, HL7 FHIR, and DICOM standards: design the patient data ingestion pipeline from EHR systems, implement the FHIR R4 API with comprehensive audit logging, design the data deidentification pipeline for research use, implement the consent management for data sharing, design the clinical decision support integration layer, build the population health analytics platform, and produce the complete HIPAA security rule compliance documentation","tier":"ultra"}
+{"prompt":"design the complete security operations center and threat management platform: implement SIEM with correlation rules for all attack patterns, design the threat intelligence integration pipeline from 10 feeds, build the automated incident response playbooks for 30 attack scenarios, implement the vulnerability management lifecycle with SLA tracking, design the red team exercise program and purple team integration, build the security metrics dashboard for the board, and produce the complete IR plan with legal, comms, and technical tracks","tier":"ultra"}
+{"prompt":"architect the complete continuous engineering transformation for our 300-person organization: implement continuous deployment for all 60 microservices, design the progressive delivery framework with automated rollback, implement the chaos engineering program, design the platform engineering team and IDP, build the internal developer platform, implement the engineering quality program with automated gates, design the on-call excellence program, and produce the 24-month transformation roadmap with organizational change management strategy","tier":"ultra"}
+{"prompt":"perform the complete technical assessment and remediation for our infrastructure under a cybersecurity incident: contain the active threat and preserve forensic evidence, perform the full blast radius analysis, restore all services in priority order, conduct the root cause analysis, implement emergency hardening across all attack vectors, design the comprehensive post-incident security improvements, produce the regulatory breach notification if required, and deliver the full technical incident report to the board","tier":"ultra"}
+{"prompt":"design the entire AI-augmented software development platform for our engineering organization: implement AI code completion with custom model trained on our codebase, design the automated PR review with security and quality checks, build the intelligent test generation system, implement the automated architecture diagram generation, design the AI-assisted incident investigation, build the natural language query interface for our internal APIs, and produce the AI governance framework covering model evaluation and bias detection","tier":"ultra"}
+{"prompt":"tüm organizasyon için kapsamlı bir bulut maliyet optimizasyon programı tasarla: tüm 25 AWS hesabındaki israfı ve aşırı sağlamayı denetle, etiketleme taksonomisi ve takım başına maliyet atıfı uygula, gerçek zamanlı maliyet anomali tespiti kur, her ekip için bütçe sahipliği modeli oluştur, iş yüküne göre Spot ve Rezerve Örnek stratejisi tasarla, otomatik boyutlandırma otomasyon uygula, ve risk değerlendirmesi ile birlikte 18 aylık tasarruf yol haritası üret","tier":"ultra"}
+{"prompt":"tüm şirketin mühendislik süreçlerini dönüştür: tüm ekiplerde gövde tabanlı geliştirme uygula, otomatik kalite kapıları ile standart PR inceleme süreci kur, DORA ve geliştirici deneyimini kapsayan mühendislik metrikleri programı uygula, mimari karar kaydı süreci tasarla, çapraz ekip değişiklikleri için teknik RFC süreci uygula, teknoloji standardizasyonu için tech radar oluştur, ve tüm ekip normlarını ve uygulamaları kapsayan mühendislik el kitabını üret","tier":"ultra"}
+{"prompt":"design the complete multi-datacenter active-active architecture for a financial services platform: implement synchronous replication for all write-critical paths with sub-20ms cross-DC latency, design the conflict resolution strategy for concurrent writes, implement the global load balancing with health-weighted routing, design the partial failure tolerance model, implement automated failover testing, create the regulatory-compliant audit trail for all cross-DC operations, and produce the operational procedures for planned and emergency datacenter failover","tier":"ultra"}
+{"prompt":"architect the complete product-led growth platform: implement the in-app onboarding and activation funnel with A/B testing, design the freemium to paid conversion tracking system, build the product analytics pipeline capturing all feature interactions, design the automated expansion revenue engine with usage-based triggers, implement the churn prediction model with automated intervention, design the viral loop mechanics with referral tracking, and produce the growth metrics framework covering acquisition, activation, retention, revenue, and referral","tier":"ultra"}
+{"prompt":"perform a comprehensive technical and organizational readiness assessment for our digital transformation program: audit current state capabilities across people, process, and technology, benchmark against industry leaders, design the target architecture for each capability domain, create the transformation roadmap with quick wins and long-term bets, design the governance model for the transformation program, produce the business case with ROI projections, and create the change management and communication plan for all stakeholder groups","tier":"ultra"}
+{"prompt":"design the complete automated compliance and audit readiness platform covering ISO27001, SOC2, and PCI DSS simultaneously: implement continuous control monitoring for all overlapping requirements, design the unified evidence collection pipeline, build the automated risk assessment with real-time scoring, implement the policy management system with version control, design the vendor risk program, build the audit workflow management system, and produce the cross-framework control mapping that eliminates duplicate evidence collection","tier":"ultra"}

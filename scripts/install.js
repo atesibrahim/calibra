@@ -7,8 +7,10 @@ const os      = require('os');
 
 const IS_WIN     = process.platform === 'win32';
 const HOME       = os.homedir();
-const CORP_DIR   = path.join(HOME, '.claude-corp');
-const CFG_DIR    = path.join(CORP_DIR, 'claude-config');
+const CORP_ROOT  = path.join(HOME, '.claude-corp');
+const CORP_DIR   = path.join(CORP_ROOT, 'calibra'); // calibra config, flags, ML assets
+const PROXY_DEST = path.join(CORP_ROOT, 'saka-proxy.js'); // enterprise wrapper expects this at root
+const CFG_DIR    = path.join(HOME, '.claude-corp', 'claude-config'); // enterprise wrapper — fixed, not under CORP_DIR
 const CLAUDE_DIR = path.join(HOME, '.claude');
 const HOOKS_DIR  = path.join(CLAUDE_DIR, 'hooks');
 const CMDS_DIR   = path.join(CLAUDE_DIR, 'commands');
@@ -51,7 +53,7 @@ ensureDir(CMDS_DIR);
   let host = '';
 
   // 1. Try reading from existing saka-proxy.js (hardcoded REMOTE_HOST constant)
-  const existingProxy = path.join(CORP_DIR, 'saka-proxy.js');
+  const existingProxy = fs.existsSync(PROXY_DEST) ? PROXY_DEST : path.join(CORP_DIR, 'saka-proxy.js');
   if (!host && fs.existsSync(existingProxy)) {
     try {
       const src = fs.readFileSync(existingProxy, 'utf8');
@@ -60,8 +62,8 @@ ensureDir(CMDS_DIR);
     } catch {}
   }
 
-  // 2. Try reading LITELLM_URL from wrapper.sh
-  const wrapperSh = path.join(CORP_DIR, 'wrapper.sh');
+  // 2. Try reading LITELLM_URL from wrapper.sh (lives in ~/.claude-corp/, not calibra/)
+  const wrapperSh = path.join(HOME, '.claude-corp', 'wrapper.sh');
   if (!host && fs.existsSync(wrapperSh)) {
     try {
       const src = fs.readFileSync(wrapperSh, 'utf8');
@@ -76,7 +78,17 @@ ensureDir(CMDS_DIR);
   }
 })();
 
-copy(path.join(SRC, 'saka-proxy.js'), path.join(CORP_DIR, 'saka-proxy.js'));
+copy(path.join(SRC, 'saka-proxy.js'), PROXY_DEST);
+
+const legacyProxy = path.join(CORP_DIR, 'saka-proxy.js');
+if (fs.existsSync(legacyProxy)) {
+  try {
+    fs.rmSync(legacyProxy, { force: true });
+    console.log(`  removed legacy proxy: ${legacyProxy}`);
+  } catch (e) {
+    console.warn(`  warning: could not remove legacy proxy ${legacyProxy}: ${e.message}`);
+  }
+}
 
 // calibra-models.json: never overwrite — user may have customised tiers/models
 copy(path.join(SRC, 'calibra-models.json'), path.join(CORP_DIR, 'calibra-models.json'), { overwrite: false });
@@ -131,17 +143,87 @@ if (!cfgCmdsIsSymlink) {
   copy(path.join(SRC, 'commands', 'calibra.md'), path.join(CFG_CMDS_PATH, 'calibra.md'));
 }
 
-// ── 6. patch ~/.claude/settings.json (direct `claude` runs) ──────────────────
+// ── 6. ml/ assets ────────────────────────────────────────────────────────────
+// Copy runtime ML assets to ~/.claude-corp/calibra/ml/.
+// The standalone proxy is installed at ~/.claude-corp/saka-proxy.js and loads
+// these files by absolute path.
+
+const ML_SRC  = path.join(SRC, 'ml');
+const ML_DEST = path.join(CORP_DIR, 'ml');
+
+if (fs.existsSync(ML_SRC)) {
+  ensureDir(ML_DEST);
+  const ML_EXTS = new Set(['.js', '.json']);
+  for (const file of fs.readdirSync(ML_SRC)) {
+    if (ML_EXTS.has(path.extname(file)) || file === 'vocab.txt') {
+      copy(path.join(ML_SRC, file), path.join(ML_DEST, file));
+    }
+  }
+  try { fs.rmSync(path.join(ML_DEST, 'MODEL_CARD.md'), { force: true }); } catch {}
+} else {
+  console.log('  skip ml/ (src/ml not present)');
+}
+
+// calibra-ml.json: never overwrite — user may have customised configuration
+copy(path.join(SRC, 'calibra-ml.json'), path.join(CORP_DIR, 'calibra-ml.json'), { overwrite: false });
+
+// ── 7. install onnxruntime-node ───────────────────────────────────────────────
+// onnxruntime-node provides native ONNX inference for the ML routing engine.
+// We install it into ~/.claude-corp/calibra/node_modules/ so the ML engine can
+// require('onnxruntime-node') from ~/.claude-corp/calibra/ml/calibra-ml.js.
+// Failure is non-fatal: ML mode will gracefully fall back to heuristic routing.
+
+(function installOnnxRuntime() {
+  const corpPkg = path.join(CORP_DIR, 'package.json');
+  if (!fs.existsSync(corpPkg)) {
+    try {
+      fs.writeFileSync(corpPkg, JSON.stringify(
+        { name: 'calibra-runtime', version: '1.0.0', private: true }, null, 2
+      ) + '\n');
+    } catch (e) {
+      console.warn(`  warning: could not create ${corpPkg}: ${e.message}`);
+      return;
+    }
+  }
+
+  // Skip if already installed and healthy
+  const ortModulePath = path.join(CORP_DIR, 'node_modules', 'onnxruntime-node');
+  if (fs.existsSync(ortModulePath)) {
+    console.log('  onnxruntime-node already installed — skipping');
+    return;
+  }
+
+  try {
+    const { execFileSync } = require('child_process');
+    const npmBin = IS_WIN ? 'npm.cmd' : 'npm';
+    console.log('  installing onnxruntime-node (this may take a moment) ...');
+    execFileSync(npmBin, [
+      'install',
+      '--prefix', CORP_DIR,
+      'onnxruntime-node',
+      '--omit=dev',
+      '--no-audit',
+      '--no-fund',
+      '--loglevel=error',
+    ], { stdio: 'pipe', timeout: 180000 });
+    console.log('  onnxruntime-node installed');
+  } catch (e) {
+    console.warn('  warning: onnxruntime-node install failed — ML mode will fall back to heuristic');
+    console.warn('  To retry manually: npm install --prefix ~/.claude-corp/calibra onnxruntime-node');
+  }
+})();
+
+// ── 8. patch ~/.claude/settings.json (direct `claude` runs) ──────────────────
 
 const DIRECT_HOOKS = [
   { type: 'command', command: `${q(NODE_BIN)} ${q(path.join(HOOKS_DIR, 'calibra-toggle.js'))}`, timeout: 3 },
   { type: 'command', command: `${q(NODE_BIN)} ${q(path.join(HOOKS_DIR, 'calibra-debug.js'))}`,  timeout: 3 },
-  { type: 'command', command: `${q(NODE_BIN)} ${q(path.join(HOOKS_DIR, 'calibra-notify.js'))}`, timeout: 3, statusMessage: 'Calibra routing...' }
+  { type: 'command', command: `${q(NODE_BIN)} ${q(path.join(HOOKS_DIR, 'calibra-notify.js'))}`, timeout: 10, statusMessage: 'Calibra routing...' }
 ];
 
 patchSettings(path.join(CLAUDE_DIR, 'settings.json'), DIRECT_HOOKS);
 
-// ── 7. patch ~/.claude-corp/claude-config/settings.json (wrapper runs) ───────
+// ── 9. patch ~/.claude-corp/claude-config/settings.json (wrapper runs) ───────
 // Only patch if it already exists — wrapper creates it on first run.
 // Hooks use CFG_DIR/hooks path (via symlink) so they work in wrapper's context.
 
@@ -153,7 +235,7 @@ function cfgHookCmd(hookFile) {
 const WRAPPER_HOOKS = [
   { type: 'command', command: cfgHookCmd('calibra-toggle.js'), timeout: 3 },
   { type: 'command', command: cfgHookCmd('calibra-debug.js'),  timeout: 3 },
-  { type: 'command', command: cfgHookCmd('calibra-notify.js'), timeout: 3, statusMessage: 'Calibra routing...' }
+  { type: 'command', command: cfgHookCmd('calibra-notify.js'), timeout: 10, statusMessage: 'Calibra routing...' }
 ];
 
 const CFG_SETTINGS_PATH = path.join(CFG_DIR, 'settings.json');
@@ -200,7 +282,7 @@ function patchSettings(settingsPath, calibraHooks) {
       group.hooks.push(calibraHook);
       console.log(`  hook registered: ${hookFile}`);
       changed = true;
-    } else if (group.hooks[existingIdx].command !== calibraHook.command) {
+    } else if (JSON.stringify(group.hooks[existingIdx]) !== JSON.stringify(Object.assign({}, group.hooks[existingIdx], calibraHook))) {
       group.hooks[existingIdx] = Object.assign({}, group.hooks[existingIdx], calibraHook);
       console.log(`  hook updated: ${hookFile}`);
       changed = true;

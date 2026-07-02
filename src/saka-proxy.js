@@ -4,30 +4,29 @@ const fs   = require('fs');
 const path = require('path');
 
 // --- Calibra: zero-lag per-prompt model routing ---
+const CALIBRA_BASE           = path.join(require('os').homedir(), '.claude-corp', 'calibra');
+const CALIBRA_MODELS_PATH    = path.join(CALIBRA_BASE, 'calibra-models.json');
+const CALIBRA_DISABLED_PATH  = path.join(CALIBRA_BASE, 'calibra-disabled');
 const CALIBRA_TIERS = ['light', 'mid', 'deep', 'ultra'];
 
-// Axis 2a — DEEP_INTENT: synthesis, judgment, architecture, investigation verbs.
-// Words here appear in EXACTLY ONE scoring axis — no double-counting with MID_INTENT.
-const CALIBRA_DEEP_INTENT = /\b(architect|architecture|design|analyse|analyze|analysis|refactor|audit|investigate|diagnose|review|security|optimize|optimise|trade-?offs?|pros.and.cons|deep.dive|compare|evaluate|assess|strategy|strategic|propose|plan|mimari|tasarla|tasarım|tasarımla|analiz|incele|güvenlik|karşılaştır|derinlemesine|araştır|doğrula|denetle|planla|strateji|öner|öneri)\b/iu;
+function requireCalibraMl(file) {
+  const sourcePath = path.join(__dirname, 'ml', file);
+  if (fs.existsSync(sourcePath)) return require(sourcePath);
+  return require(path.join(CALIBRA_BASE, 'ml', file));
+}
 
-// Axis 2b — MID_INTENT: concrete implementation/creation tasks.
-const CALIBRA_MID_INTENT = /\b(implement|build|create|write|add|fix|debug|update|migrate|deploy|configure|setup|install|generate|parse|extract|convert|transform|integrate|explain|describe|summarize|summarise|outline|list|show|tell|düzelt|hata|ekle|oluştur|yaz|kur|taşı|güncelle|uygula|açıkla|anlat|listele|göster)\b/iu;
+const {
+  CALIBRA_DEEP_INTENT,
+  CALIBRA_MID_INTENT,
+  CALIBRA_SCOPE_HIGH,
+  CALIBRA_DOMAIN_DEEP,
+  CALIBRA_TRIVIAL,
+  CALIBRA_GREETING,
+  stripInjectedTags,
+  extractPrompt,
+  checkFastExits,
+} = requireCalibraMl('classify-core.js');
 
-// Axis 3 — SCOPE: breadth/thoroughness signals.
-const CALIBRA_SCOPE_HIGH = /\b(comprehensive|complete|entire|whole|full|end.to.end|e2e|all|every|thorough|exhaustive|detailed|in.depth|from.scratch|overall|holistic|kapsamlı|tüm|bütün|detaylı|baştan.sona)\b/iu;
-
-// Axis 4 — DOMAIN: technical complexity vocabulary.
-// Does NOT overlap with DEEP_INTENT or MID_INTENT verbs.
-const CALIBRA_DOMAIN_DEEP = /\b(distributed|concurren\w+|race\s+condition|deadlock|consensus|raft|paxos|consistency|cap\s+theorem|schema.migration|backfill|scalab\w+|throughput|latency|algorithm\w*|complexity|big.?o|state.machine|event.sourcing|cqrs|protocol|cryptograph\w+|system\s+design|system\s+architecture|microservice\w*|monolith\w*|authentication|authorization|bottleneck|infrastructure|kubernetes|k8s|terraform|docker|graphql|grpc|webhook|observabilit\w*|reliabilit\w*|fault.toleran\w*|load.balanc\w*|service.mesh|api.gateway|event.driven|message.queue|pub.?sub|sla|slo|sli|rto|rpo|sharding|replication|partition\w*|circuit.breaker|rate.limit\w*|technical.debt|containeriz\w*|dağıtık|eşzamanl\w+|tutarlılık|ölçeklen\w+|şema\s+migrasyon|kilitlen\w+|yarış\s+koşul\w*)\b/iu;
-
-// TRIVIAL: cheap one-liners — checked before scoring, always → light.
-const CALIBRA_TRIVIAL = /\b(write\s+(a\s+)?unit\s+tests?|add\s+(a\s+)?(console\.log|print|log|comment)|rename\s+(var|variable|function|method|file)|format\s+(this|the)\s+(file|code)|fix\s+(a\s+|the\s+)?typo|update\s+(the\s+)?(comment|docstring|readme)|typo\s+düzelt|yorum\s+ekle|log\s+ekle|print\s+ekle|yeniden\s+adlandır|formatla|unit\s+test\s+yaz)\b/iu;
-
-// GREETING: pure social prompts → always light.
-const CALIBRA_GREETING = /^(hi+|hey+|hello+|yo|sup|howdy|good\s+(morning|afternoon|evening|night)|gm|gn|merhaba|selam|günaydın|iyi\s+(akşamlar|geceler|günler)|thanks?|thank\s+you|thx|ty|ok(ay)?|cool|great|nice|got\s+it|sounds?\s+good|perfect|awesome|yes+|no+|yep|nope|sure|alright|bye|goodbye|cya|see\s+ya|tamam|peki|olur|sağ\s*ol|sağol|teşekkür(ler)?|tşk|eyvallah|harika|süper|güzel|evet|hayır|yok|var)\b[\s!.?,]*$/iu;
-
-const CALIBRA_MODELS_PATH    = path.join(require('os').homedir(), '.claude-corp', 'calibra-models.json');
-const CALIBRA_DISABLED_PATH  = path.join(require('os').homedir(), '.claude-corp', 'calibra-disabled');
 let calibraConfigWarned = false;
 
 function loadCalibraModels() {
@@ -38,57 +37,21 @@ function loadCalibraModels() {
   }
 }
 
-// Strip harness-injected tag blocks (system-reminders, command-*, local-command-*,
-// hook output) so they don't pollute Calibra scoring with skill-catalog keywords.
-function stripInjectedTags(text) {
-  if (!text) return '';
-  return text
-    .replace(/<system-reminder>[\s\S]*?<\/system-reminder>/gi, '')
-    .replace(/<command-(name|message|args|stdout|stderr)>[\s\S]*?<\/command-\1>/gi, '')
-    .replace(/<local-command-stdout>[\s\S]*?<\/local-command-stdout>/gi, '')
-    .replace(/<local-command-stderr>[\s\S]*?<\/local-command-stderr>/gi, '')
-    .replace(/<user-prompt-submit-hook>[\s\S]*?<\/user-prompt-submit-hook>/gi, '')
-    .replace(/<bash-(stdout|stderr|input)>[\s\S]*?<\/bash-\1>/gi, '')
-    .trim();
-}
-
-function extractPrompt(messages) {
-  if (!Array.isArray(messages)) return '';
-  for (let i = messages.length - 1; i >= 0; i--) {
-    const msg = messages[i];
-    if (msg.role !== 'user') continue;
-    if (typeof msg.content === 'string') return stripInjectedTags(msg.content);
-    if (Array.isArray(msg.content)) {
-      const joined = msg.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
-      return stripInjectedTags(joined);
-    }
-  }
-  return '';
-}
-
 function calibraClassify(prompt) {
-  if (!prompt || prompt.trimStart().startsWith('/')) return { tier: 'mid', score: -1, reason: 'slash/empty' };
-  const trimmed = prompt.trim();
+  const trimmed = (prompt || '').trim();
 
-  // Fast-exit: pure social prompts → light
-  if (CALIBRA_GREETING.test(trimmed)) return { tier: 'light', score: 0, reason: 'greeting' };
-
-  // Fast-exit: known trivial one-liners → light
-  if (CALIBRA_TRIVIAL.test(trimmed)) return { tier: 'light', score: 0, reason: 'trivial-regex' };
-
-  // Signal probes — run once each, used in gating and scoring
+  // Signal probes — run once, used in fast-exit gate and scoring axes
   const hasDeepIntent = CALIBRA_DEEP_INTENT.test(trimmed);
   const hasMidIntent  = CALIBRA_MID_INTENT.test(trimmed);
   const hasScopeHigh  = CALIBRA_SCOPE_HIGH.test(trimmed);
   const hasDomain     = CALIBRA_DOMAIN_DEEP.test(trimmed);
   const hasCode       = /```/.test(trimmed);
 
-  // Short-conversational gate: ≤55 chars, no signal of any significance → light.
-  // Longer than old 40-char gate to catch "fix this bug" style mid prompts.
+  // Fast-exits (slash/empty, greeting, trivial, short-conversational)
+  const fastExit = checkFastExits(trimmed, { hasDeepIntent, hasMidIntent, hasScopeHigh, hasDomain, hasCode });
+  if (fastExit) return { ...fastExit, engine: 'heuristic' };
+
   const len = trimmed.length;
-  if (len <= 55 && !hasDeepIntent && !hasMidIntent && !hasScopeHigh && !hasDomain && !hasCode) {
-    return { tier: 'light', score: 0, reason: 'short-conversational' };
-  }
 
   // --- Scoring: five orthogonal axes, no word counted twice ---
 
@@ -96,6 +59,7 @@ function calibraClassify(prompt) {
 
   // Axis 1 — LENGTH: proxy for problem verbosity / detail
   if (len > 500) s += 3;
+
   else if (len > 200) s += 2;
   else if (len >= 80) s += 1;
 
@@ -133,10 +97,10 @@ function calibraClassify(prompt) {
   else if (s <= 7)                                tier = 'deep';
   else                                            tier = 'ultra';
 
-  return { tier, score: s, reason: 'score' };
+  return { tier, score: s, reason: 'score', engine: 'heuristic' };
 }
 
-function calibraRoute(parsedBody) {
+async function calibraRoute(parsedBody) {
   if (process.env.CALIBRA_DISABLED === '1') return null;
   if (fs.existsSync(CALIBRA_DISABLED_PATH)) return null;
 
@@ -150,7 +114,28 @@ function calibraRoute(parsedBody) {
   }
 
   const prompt = extractPrompt(parsedBody.messages);
-  const { tier, score, reason } = calibraClassify(prompt);
+
+  // Engine selection — read flag per request (cheap fs read; flag may flip mid-session)
+  let result;
+  const engine = (() => {
+    try {
+      return requireCalibraMl('engine-flag.js').readEngine();
+    } catch { return 'heuristic'; }
+  })();
+
+  if (engine === 'ml') {
+    try {
+      const { classifyML } = requireCalibraMl('calibra-ml.js');
+      result = await classifyML(prompt);
+    } catch (e) {
+      // require failed (ml/ not installed) — fall back
+      result = { ...calibraClassify(prompt), engine: 'heuristic', reason: 'ml-fallback:require-failed' };
+    }
+  } else {
+    result = calibraClassify(prompt);
+  }
+
+  const { tier, score, reason } = result;
   const routed = calibraModels[tier];
   if (!routed) return null;
 
@@ -159,7 +144,7 @@ function calibraRoute(parsedBody) {
   if (routed === currentModel) return null;
 
   // Write switch info to temp file for Stop hook to display
-  const switchInfo = { currentModel, routed, tier, score, reason, timestamp: Date.now() };
+  const switchInfo = { currentModel, routed, tier, score, reason, engine: result.engine || engine, timestamp: Date.now() };
   const infoPath = path.join(require('os').tmpdir(), '.calibra-switch.json');
   try {
     fs.writeFileSync(infoPath, JSON.stringify(switchInfo));
@@ -167,7 +152,7 @@ function calibraRoute(parsedBody) {
     process.stderr.write(`[calibra] failed to write switch info: ${e.message}\n`);
   }
 
-  process.stderr.write(`[calibra] routing to ${routed}\n`);
+  process.stderr.write(`[calibra] routing to ${routed} (engine: ${result.engine || engine})\n`);
   return routed;
 }
 // --- end Calibra ---
@@ -175,7 +160,7 @@ function calibraRoute(parsedBody) {
 function resolveRemoteHost() {
   if (process.env.CALIBRA_REMOTE_HOST) return process.env.CALIBRA_REMOTE_HOST;
   try {
-    const hostFile = require('path').join(require('os').homedir(), '.claude-corp', 'calibra-proxy-host');
+    const hostFile = require('path').join(require('os').homedir(), '.claude-corp', 'calibra', 'calibra-proxy-host');
     const h = require('fs').readFileSync(hostFile, 'utf8').trim();
     if (h) return h;
   } catch {}
@@ -294,7 +279,7 @@ const server = http.createServer((req, res) => {
     chunks.push(c);
   });
 
-  req.on('end', () => {
+  req.on('end', async () => {
     if (size > MAX_BODY_SIZE) return;
     let body = Buffer.concat(chunks);
 
@@ -303,7 +288,7 @@ const server = http.createServer((req, res) => {
       let modified = false;
 
       // Calibra: score prompt and reroute to correct model tier
-      const routedModel = calibraRoute(parsed);
+      const routedModel = await calibraRoute(parsed);
       if (routedModel) {
         parsed.model = routedModel;
         modified = true;
@@ -356,7 +341,17 @@ const server = http.createServer((req, res) => {
 server.keepAliveTimeout = 65000;
 
 if (require.main === module) {
-  server.listen(0, '127.0.0.1', () => { console.log('SAKA_PROXY_PORT=' + server.address().port); });
+  server.listen(0, '127.0.0.1', () => {
+    console.log('SAKA_PROXY_PORT=' + server.address().port);
+    // Warmup ML session at startup if engine flag is set — eliminates cold-start on first request
+    try {
+      const { readEngine } = requireCalibraMl('engine-flag.js');
+      if (readEngine() === 'ml') {
+        const { warmup } = requireCalibraMl('calibra-ml.js');
+        warmup();
+      }
+    } catch {}
+  });
 }
 
 module.exports = {

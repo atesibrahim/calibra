@@ -1,0 +1,600 @@
+{"prompt":"lint main.go please","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add FIXME for dashboard quickly","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"diagnose deadlocks in main.go thx","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css i TS e ceivr lutfen","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose latency spike in analytics when possible","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"integrate stripe in index.js","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"roll out RBAC to auth, payments, and dashboard simultaneously asap","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"delete index.js when possible","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate enterprise transition from REST to GraphQL across dashboard, analytics, and orders","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add caching to main.go when posisble","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"update readme with notifications now","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"auth veri tutarsizligini arastir hemen","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"modal kalin ayp","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard i mockal lutfen","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"user e test yaz tsk","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add cachign to styles.css","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React component for payments thx","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add pagination to notifications quickly","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit security of dashboard quickly","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard performans dususunu incele tsk","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"aouth2 ekle","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execuet major express upgrade across auth, orders, and notifications when possible","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"refactor state management in styles.css pelase","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"invesitgate 500 errors in orders please","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"export data thx","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"search e pagination ekle aicl","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"set up django for testing","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory indexleme stratejisini incele acil","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"app.py tsate yonetimini refactor et tsk","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review load balancing for search","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design event-driven architecture fro analytics asap","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"create docker-compose for billing asap","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"format app.py quickly","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"write bash script for notifications quickly","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan legacy system retirement for payments and auth while keeping payments operational now","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"selam","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:2"}
+{"prompt":"Loglama ve metrik altyapisini modernize et, notifications ve billing ye yayginlastir","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add pagination to orders when possible","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard, analytics ve billing genelinde REST'ten GraphQL'e gecisi yonet acil","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"searc hi mockla acil","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add nuit tests for user thx","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose latency spike in billing asap","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"import result ekle hemen","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"button margin ekle tsk","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is search? asap","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"lead migration of monolith to microservices and re-platform payments, payments, and dashboard in phases quickly","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"diagnose latency spike in orders quickly","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove unused config quickly","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix typo in server.js when possible","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"eslint kur bi zahmet","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"lint utils.ts asap","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments performans dususunu incele lutfen","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"mock search service when possible","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"billing ve notifications icin multi-region deployment tasarla tsk","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"change font size to 16.8px now","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add pagination to notifications thx","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add cron job for dashboard asap","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"establish unifiedd esign system and apply to notifications, auth, and shipping when possible","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"webpack versiyonunu 4.2.0 yap acil","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate microservices vs monolith for dashboard asap","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate dtaa inconsistency in payments when possible","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"notificaitons guvenligini denetle tsk","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"test icin express kur hemen","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"utils.ts deki race condition i coz acil","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth, notifications ve dashboard veri hattini real-time icin yeniden mimarilendir","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"setup eslint","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the anayltics system please","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute major jest upgrade across shipping, dashboard, and shipping now","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add FIXME for auth asap","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add margin to container","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore auth.js in git please","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping mikroservis karsilastirmasi yap","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"webpack versiyonunu 2.0.1 yap bi zahmet","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping mikroservis karsilastirmasi yap lutefn","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"ad dcron job for payments asap","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"express ile db migration ayarla hemen","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a parser for search","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css e cache ekle","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"user adini payload yap acil","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"create dcoker-compose for billing now","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"design event-drievn architecture for orders quickly","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"billing, dashboard ve shipping sistemlerinde uyumluluk politikalarini uygula hemen","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"orders i mockla","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders nedir?","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"lead disaster recovery miplementation for auth, billing, and orders","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"search icin parser yaz hemen","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"convert utils.ts to TypeScript when possible","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"refactor state management in app.py asap","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth.js gitignore a ekle hemen","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"propose architecture for shipping now","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"pandas ile db migration ayarla lutfen","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments sistemini tasarla bi zahmet","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"count e test yaz","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore styles.css in git now","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add margin to container please","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan legacy system retirement for dashboard and billing while keeping aanlytics operational please","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"redesign auth architecture across search, shipping, and search when possible","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"RBAC sistemini orders, analytics ve search e eszamanli entegre et lutfen","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"implement notifications API now","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement CD pipelines across notifications, payments, and notifications repos thx","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"diagnose OOM in bliling now","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"change color to transparent when possible","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory sistemini tasarla","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"alternatif olarak django yi degerlendri lutfen","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"user adini searchQuery yap lutfen","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"main.go daki deadlocklari arastir acil","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"create docker-compose for analytics","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add caching to app.py now","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"data adini payload yap hemen","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"main.go icine log ekle lutfen","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"audit compliance of payments pelase","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"re-architect data pipeline spanning billing, notifications, and billing for real-time now","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"thanks quickly","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate on-premise dashboard and inventory clusters to AWS over 6 months asap","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"redesign auth architecture across inventory, payments, and inventory thx","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"configure CI/CD for auth.js please","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments performans dususunu inceel hemen","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping API sini yap","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"utils.ts i TS e cevirh emen","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping icin PR  iincele acil","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead migration of monolith to microservices and re-platform search, search, and inventory in phases asap","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"standardize message brokers across payments, notifications, and notifications to kafka now","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"shipping e pagination ekle tsk","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"update readme with notifications please","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"redesign auth architecture across dashboard, orders, and billing please","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"styles.css gitignore a ekle","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"convert main.go to TypeScritp asap","tier":"mid","domain":"mobile","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"design event-driven architecture for payments quickly","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review PR for search quickly","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design database schema for dashboard asap","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"delete app.py quickly","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix ilnk in index.js thx","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"search, shipping ve dashboard veri hattini real-time icin yeniden mimarilendir tsk","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"dashboard, billing ve auth felaket kurtarma planinih ayata gecir hemen","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"payments mikroservis karsilastirmasi yap lutfen","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"delete inde.xjs now","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"redesign auth architecture across billing, auth, and search please","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan multi-tenancy for analytics and notifications platforms now","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"export ocnfig thx","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sirket birlesmesi sonrasi search ve dashboard kodlarinin birlestirilmesini yonet lutfen","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"review indexing of auth thx","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"selam lutfen","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove unused result quickly","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"index.js icine log ekle tsk","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix typo in main.go please","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"lint app.py now","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css sil hemen","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix memory leak in server.js now","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit ocmpliance of shipping now","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"utlis.ts deki memory leak i bul lutfen","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate microservices vs monolith for inevntory please","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css deki login hatasini coz bi zahmet","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"index.js i TS e cevir hemen","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore utils.ts in git asap","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead migration of monolith to microsrevices and re-platform dashboard, shipping, and billing in phases quickly","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design the orders system thx","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"lin tutils.ts please","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add margin to container when possible","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"setup esilnt asap","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"review PR for shipping quickly","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"setup db migrations now","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"establish unified design system and apply to dashboard, auth, and payments thx","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"rename cnofig to searchQuery now","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"hello asap","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"review caching strategy of shipping please","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"RBAC sistemini auth, notifciations ve payments e eszamanli entegre et bi zahmet","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"refactor authentication in server.js quickly","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders ve search icin multi-region deployment tasarla acil","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React component for search when possible","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement oauth2 login asap","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"search ve notifications cloud-native donusumune onculuk et tsk","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders, billing ve billing repolarinda CD pipeline'lari kur","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"inventory, analytics ve orders kuyruklarini kafka ile standardize et tsk","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"main.go lint et lutfen","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix race condition in main.go thx","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"modal mragin ekle tsk","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead migration of monolith to microservices and re-platform inventory, analytics, and auth in phases when possible","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"what is inventory? please","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"investigate performance dergadation in billing quickly","tier":"deep","domain":"general","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"utils.ts formatla lutfen","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"tesekkurler hemen","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory docker-compose hazirla tsk","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"change color to #fff please","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"update readme with search quickly","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"setup eslint please","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute security overhaul of orders, billing, and billing infarstructure when possible","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"paymetns ve orders cloud-native donusumune onculuk et hemen","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"estup eslint quickly","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Yogun sezonda kesintisiz olarak notifications ve auth frameworkunu guncelle bi zahmet","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"payments icin mimari oner acil","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping rate limit tsratejisi tasarla acil","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"establish unified design system and apply to inventory, dashboard, and billin gwhen possible","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"setup db migrations thx","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement compliance policies across orders, search, and auth quickly","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"auth.js i TS e cevir hemen","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Monolitik yapiyi mikroservislere tasi ve dashboard, orders ve shipping u asamali yenile tsk","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"re-architect data pipeline spanning orders, inventory, and payments for real-time please","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"server.js kimlik dogrulama refactor et","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review PR for dashboard asap","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth 500 hatalarini arastir hemen","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"oauth2 ekle hemen","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"create docker-compose for billing thx","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add console.log in utils.ts","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"ipmlement zero-trust network across shipping, dashboard, and search","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"main.go e cache ekle","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate data inconsistency in billing asap","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css sil lutfen","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"billing, search ve shipping felaket kurtarma planini hayata gecir bi zahmet","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Ortak design system olustur ve dashboard, inventory ve payments e uygula acil","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"evaluate react as alternative asap","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"bump webpack to 1.0 asap","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the dashboard system please","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analytics, dashboard ve orders repolarinda CD pipelien'lari kur bi zahmet","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"analytics e rate limit ekle acil","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"notifications gecikmesini arastir lutfen","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments veri tutarsizligini arastir bi zahmet","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"hello when possible","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping API sini yap tsk","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan multi-tenancy for shipping and search platforms","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"CSS kaymasini duzelt","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders indexleme stratejisini incele","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"kullanilmayan rseult sil","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"authj.s yazim hatasini duzelt hemen","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"dashboard, billing ve analytics felaket kurtarma planini hayata gecir tsk","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"ignore auth.js in git thx","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore index.js in git when possible","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate orders and auth fro mMongoDB to PostgreSQL in phases thx","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"test icin react kur","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add caching to app.py asap","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename file main.go to pyaload now","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add caching to index.js now","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate performance degradation in orders when possible","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"establish unified design system and apply to notificatinos, search, and orders asap","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"config e test yza hemen","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"analtyics 500 hatalarini arastir","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate switch from monolith to serverless for payments, inventory, and search please","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"server.js formatla hemen","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"design database schema for search please","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"change font size to 3.5px quickly","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement CD pipelines across dashboard, billing, and shipping repos when possible","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"audit compliance of search asap","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"setup db migrations quickly","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix race condition in utils.ts please","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix link in main.go now","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard veri tutarsizligini arastir hemen","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose OOM in dashboard quickly","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"kullanilmayan token sil hemen","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add unit tests for result when possible","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose OOM in notifications","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"add unit tests for user quickly","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in index.js asap","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping, orders ve analytics icin serverless mimariye gecisi yonet","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"what does analytics do? thx","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"investigate performance degradation in notifications asap","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead cloud-native transformation of analytics and search portfolios now","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate microservices vs monolith for notifictaions when possible","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"font 1.0px yap acil","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in utils.ts quickly","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"consolidate analytics tracking of search and shipping into data lake please","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"readme ye shippinge kle acil","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change font size to 16.8px quickly","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React compoennt for payments","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bump lodash to 3.5 now","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"notifications ve payments analitiklerini veri golunde birlestir","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead disaster recovery implementation for shipping, shipping, and inventory please","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"quer yadini jwt yap hemen","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add unit tests for count quickly","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename file auth.js to settings when possible","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"reedsign auth architecture across dashboard, orders, and inventory when possible","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"chang efont size to 3.5px asap","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose deadlocks in server.js when possible","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping cache stratejisini incele","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"resutl e test yaz","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"modernize logging, metrics, and tracing and roll it out to search and analytics quickly","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"auth.js sil","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"kullanilmayan config sil lutfen","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate enterprise transition from REST to GraphQL across dashboard, notifications, and shipping asap","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add padding to footer","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"review caching strategy of payments thx","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review load balancing for dashboard please","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"result e test yaz lutfen","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate 500 errors in shipping when possible","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix CSS grid in pap.py quickly","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute major pandas upgrade across billing, billing, and inventory onw","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"roll out RBAC to auth, analytics, and payments simultaneously","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"notifications, notifications ve orders veri hattini real-time icni yeniden mimarilendir hemen","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create dockre-compose for shipping please","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose deadlocks in utils.ts asap","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigaet performance degradation in inventory quickly","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead disaster recovery implementation for dashborad, auth, and orders when possible","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add FIXME for dashboard thx","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"log u kaldir bi zahmet","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"app.py e cache ekle","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard, billing ve search felaket kurtarma planini hayata gecir hemen","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan multi-tenancy for orders and analytics platforms now","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan legacy system retirement for analytics and inventory while keeping dashboard operational asap","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"query adini output yap bi zahmet","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"setup eslint now","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"CSS kaymsaini duzelt acil","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping icin PR i incele","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"search gecikmesini arastir bi zahmet","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments db semasi tasarla","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard componenti yaz bi zahmet","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"search calisirken analytics ve notifications icin emeklilik plani yap","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"CSS kaymasini duzelt lutfen","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments indexleme stratejisnii incele acil","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Yogun sezonda kesintisiz olarak dashboard ve notifications frameworkunu guncelle acil","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"thanks","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:2"}
+{"prompt":"index.js deki race condition i coz bi zahmet","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping e pagination ekle bi zahmet","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"consolidate analytics tracking of inventory and payments into data lake quickly","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"orders, notifications ve shipping genelinde lodash major guncellemesi yap","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"inventory 500 hatalarini arastir acil","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth.js yazi mhatasini duzelt tsk","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashbaord 500 hatalarini arastir acil","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth ssitemini tasarla","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in server.js thx","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename query to jwt when possible","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory gecikmesini arastir tsk","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments ve notifications clusterlarini onumuzdeki 6 ayda AWS'e tasi acil","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"refactor authentication in main.go quickly","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove console.log quickly","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"what is notifications? quickly","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"main.go i react ile refactor et","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments, orders ve analytics veri hattini real-time icin yeniden mimarilendir lutfen","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"fix CSS grid in index.js when possible","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css de stripe entegrasyonu yap acil","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix memory leak in index.js thx","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"delete main.go thx","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory ve analytics analitiklerini veri golunde birlestir tsk","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"alternatif olarak react yi degerlendir tsk","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"font 5.0xp yap acil","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead unification of dashboard and search codebases afte rmerger quickly","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"analytics ve notifications clusterlarini onumuzdeki 6 ayda AWS'e tasi hemen","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"implement compliance policies across shipping, shipping, and dashboard please","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"react versiyonunu 1.0 yap acil","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"design event-driven architecture for search asap","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"notifications icin PR i incele lutfen","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders, payments ve dashboard icin serverless mimariye gecisi yonet","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design event-driven architetcure for search","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"redesign auth architecture across auth, search, and payments thx","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"readme ye notifications ekle bi zahmet","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments ve shipping clodu-native donusumune onculuk et","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"rengi #fff yap","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add FIXME for inventory asap","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"implement zero-trust network across search, payments, and shipping when possible","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"roll out RBAC to notifications, analytics, and billing simultaneously","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"app.py icin elog ekle hemen","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"alternatif olarak pandas yi deegrlendir lutfen","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React comopnent for orders now","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan multi-tenancy for dashboard and shipping platforms now","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"utils.ts deki race condition i coz","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"eslint kur","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"update readme with orders quickly","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"diagnose OOM inp ayments asap","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"shippingv e inventory icin multi-region deployment tasarla","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"set up jest for testing quickly","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose deadlocks in server.js thx","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design event-driven architecture for inventory now","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory 500 hatalarini arastir","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"add cron jo bfor orders","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix CSS grid in main.go please","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute major pandas upgrade across analytics, auth, and shipping when possible","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"footer padding ver bi zahmet","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename file index.js to output quickly","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"write bash script for orders asap","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard ve billing icin multi-tenancy yapisini uygula tsk","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"configure CI/CD for app.py now","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate on-premise shipping and notifications clusters to AWS over 6 months please","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add caching to tuils.ts thx","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping guvenligini denetle","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove ocnsole.log","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory componenti yaz bi zahmet","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments v epayments clusterlarini onumuzdeki 6 ayda AWS'e tasi lutfen","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate switch from monolith to serverless for payments, orders, and billing","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"evaluate microservices vs monolith for payments quickly","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"eslint kur hemen","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the login bug in server.js when possible","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"upgrade core framework of orders and orders without downtime asap","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Ortak design system olustur ve auth, shipping ve notifications e uygula bi zahmet","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"configure CI/CD for auth.js when possible","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute security overhaul of inventory, notifications, and payments infrastructure quickly","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"shipping db semasi tasarla","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix link ni app.py thx","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add FIXME for notifications thx","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"readme ye shipping ekle hemen","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"app.py de stripe entegrasoynu yap","tier":"mid","domain":"general","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute security overhaul of payments, shipping, and dashboard infrastructure when possible","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"review PR for billing when possible","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"RBAC sistemini niventory, search ve orders e eszamanli entegre et","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"audit compliance of auth now","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth icin parser yaz tsk","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add padding to footer asap","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dockerize analytics wehn possible","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement compliance policies across orders, shipping, and notifications quickly","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"implement compliance policies across payments, search, and notifications","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"investigate 500 errors in shipping now","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"r-earchitect data pipeline spanning notifications, inventory, and payments for real-time quickly","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"fix CSS grid in app.py when possible","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove unused toke nwhen possible","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add pagination to billing when possible","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"miplement oauth2 login thx","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping, payments ve analytics kuyruklarini kafka ile standardize et acil","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"auth, auth ve auth ortamalrinda zero-trust modelini uygula","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"set up eslint for testing thx","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose OOM in shipping thx","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"nav pdading ver","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"alternatif olarak django yi degerlendir acil","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design rate limiting for dashboard thx","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate performance degradation i nbilling asap","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate data inconsistency in inventory asap","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore auth.js in git asap","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"bump eslint to 4.2.0","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a parser for notifications thx","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth performans dususunu incele","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"index.js i TS e cevirl utfen","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"import data ekle","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"payments performans dususunu incele tsk","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"search calisirken billing ve analytics icin emeklilik plani yap lutfen","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute major express upgrade across shipping, orders, and shipping quickly","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"analytics guvenligini denetle cail","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React component for inventory asap","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"establish unified design system and apply to search, notifications, and billing","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"integrate stripe in authj.s now","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate on-premise billing and shipping clusters to AWS over 6 months quickly","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"FIXME ekle tsk","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard API sini ayp acil","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"standardize message brokers across billing, notifications, and billing to kafka asap","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Monolitik yapiyi mikroservislere tasi vea nalytics, orders ve dashboard u asamali yenile hemen","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"write a parser for inventory quickly","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"analytics i deploy et lutfen","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"configure CI/CD for auth.js","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"redesign auth architecture across inventory, orders, and notifications please","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"search v eshipping cloud-native donusumune onculuk et","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename count to payload when possible","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"alternatif olarak webpack yi degerlendir acil","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate performance degradation in notifciations now","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"change color to #fff","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename toekn to searchQuery now","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"thanksa sap","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css yazim hatasinid uzelt hemen","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate switch from monolith to serverless for inventory, billing, and billing please","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"roll out RBAC to bililng, orders, and analytics simultaneously now","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"log u kaldir lutfen","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"analytics cron job olustur tsk","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"delete utils.ts","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth,s earch ve inventory kimlik dogrulama mimarisini yeniden tasarla tsk","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Yogun sezonda kesintisiz olarak dashboard ve inventory frameworkunu guncelle","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add cron job for inventory when possible","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard, billing ve orders repolarinda CD pipeline'lari kur hemen","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"investigate performance degradation in orders please","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"main.go deki darbogazi analiz et","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"upgrade core framework of inventory and billing withou tdowntime when possible","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute security overhaul of shipping, shipping, and payments infrastructure when possible","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"review indexing of analytics when possible","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in index.js please","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"consolidate analytics tracking of payments and search into data lake when possible","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate auth and notifications from MongoDB to PostgreSQL in phase sthx","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"setup eslint when possible","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"data adini userId yap","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"convert main.go to TypeScript","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"re-architect data pipeline spanning billing, billing, and inventory for real-time quickly","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"shipping erisilebilirligini denetle hemen","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename toke nto jwt","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename data to apyload please","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose OOM in adshboard","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"search ne ise yarar? bi zahmet","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose deadlocks in auth.js thx","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose OOM in auth now","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement payments API please","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments event-driven mimari tasarla hemen","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the login bug i napp.py now","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"refactor authentication in styles.css when possible","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"notifications veri akisini denetle","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"add margin to sidebar asap","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"create React component for notifications quickly","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"utils.ts sil","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit accessibility of notifications quickly","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"search icin PR i incele hemen","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review indexing of analytics thx","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analytics i mockla","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"log u kaldir tsk","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan legacy system retirement for dashboard and billing while keeping orders operational asap","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Ortak design system olustur ve shipping, inventory ve orders e uygula bi zahmet","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"notifications, billing ve payments altyapilarinda guvenlik revizyonu yap acil","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"payments nedir?l utfen","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead disaster recovery implementation for search, analytics, and auth please","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"auth, dashboard ve payments kimlik dogrulama mimarisini yeniden tasarla acil","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create docker-compose for payments now","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"review laod balancing for payments asap","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in app.py asap","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard icin parser yaz acil","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"format styles.css when possible","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze bottleneck in server.js qucikly","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix race condition in main.go please","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth gecikmesini arastir hemen","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"convert app.py to TypeScript asap","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"design rate limiting for search now","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"readme ye ordres ekle tsk","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"dashboard rate limit stratejisi tasarla bi zahmet","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"delete main.g oplease","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"notifications, auth ve dashboard genelinde eslint major guncellemesi yap","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"add rate limiting to shipping quickly","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sirket birlesmesi sonrasi notifications ve orders kodlarinin birlestirilmesini yonet tsk","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"review PR for payments now","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"add console.log in server.js now","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix memoryl eak in index.js asap","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add rate limiting to dashboard thx","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping calisirken dashboard ve orders icin emeklilik plani yap","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute major pandas upgrade across analytics, notifications, and shipping now","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design database schema for billing thx","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"ignore index.js in git now","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth, analytcis ve shipping icin serverless mimariye gecisi yonet bi zahmet","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"review PR for auth when possible","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"aut.hjs formatla bi zahmet","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"billing u dockerize et","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"eslint ile db migration ayarla lutfen","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"auth.js kimlik dogrulama refactor et lutfen","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory 500 hatalarini arastir lutfen","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"deploy inventoyr asap","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename ocunt to settings quickly","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Ortak design system olustur ve billing, dashboard ve search e uygula hemen","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"consolidate analytics tracking of shipping and auth into data lake thx","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"diagnose latency spike in analytics thx","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"setup db migration swhen possible","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"coun te test yaz lutfen","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"review indexing of search","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"add pagination to search quickly","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate data inconsistency in payments","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"export reuslt when possible","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"font 1.0px yap hemen","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add cron job for analytics","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose deadlocks in main.go please","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate on-premise search and analytcis clusters to AWS over 6 months asap","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement CD pipelines across analytics, orders, and payments repos please","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"standardize message brokers across orders, hsipping, and billing to kafka asap","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"alternatif olarak lodash yi degerlendir tsk","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"format styles.css quickly","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead unificatoin of billing and orders codebases after merger now","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"server.js deki memory leak i bul","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add padding to nav thx","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"shipping, shipping ve search kimlik dogrulama mimarisini yeniden tasarla","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"modal margin ekle acil","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"styles.css icin CI/CD kur acil","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"configure CI/CD for server.js now","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"search event-driven mimari tasarla","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit accessibility of dashboard please","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"re-architect data pipeline spanning payments, notifications, and payments for real-time when possible","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design database shcema for shipping thx","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"migrate dashboard and payments from MongoDB to PostgreSQL in phases thx","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"fix memory leak in index.js","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"modernize logging, metrics, and tracing and roll it out to orders and billing quickly","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan multi-tenancy for search and shipping platforms now","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"review PR for shipping please","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"utisl.ts kimlik dogrulama refactor et bi zahmet","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"deploy notifications when possible","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix typo in auth.js now","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"design rate limiting for analytics now","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"orchestrate switch from monolith to serverless for dashboard, analytics, and billing thx","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"make sidebarb old when possible","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"billing, auth ve analytics erpolarinda CD pipeline'lari kur hemen","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"re-architect data pipeline spanning shipping, analytics, and orders for real-time when possible","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"query e test yaz tsk","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead disaster recovery implementation for orders, orders, and analytics uqickly","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"server.js deki darbogazi analiz et tsk","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"remove cosnole.log asap","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a parser for dashboard thx","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"payments e pagination ekle","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a parser for orders please","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate performance degradation in notifications","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"write bash script for orders quickly","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan multi-tenancy for inventory and auth platforms quickly","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"deploy payments thx","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add console.log in authj.s thx","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"implement oauth2 login now","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the search system thx","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"test icin react kur ib zahmet","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bump express to 3.5 when possible","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"orders cron job olustur hemen","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"search, shipping ve billing felaket kurtarma planini hayata gecir bi zahmet","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"utils.ts i pnadas ile refactor et tsk","tier":"deep","domain":"general","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix link in index.js when possible","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"FIXME ekle","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"set up react for testing please","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"utils.ts yazim hatasini duzelt acil","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"make modal bodl thx","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement zero-trust network across auth, dashboard, and payments now","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"styles.css kimlik dogrulama refactor et lutfen","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"consolidate analytics tracking of shipping and orders into data lake asap","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"inventory, dashboard ve orders ortamlarinda zero-trust modelini uygula tsk","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"kullanilmayan querys il acil","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"import token ekle","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"plan legacy system retirement for analytics and auth while keeping billing operational quickly","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"ignore index.jsi n git","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"design database schema for paymetns","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"format auth.js now","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"inventory ve orders icin multi-tenancy yapisini uygula acil","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"selam bi zahmet","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename result to searchQuery asap","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rengi green yap acil","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}

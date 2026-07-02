@@ -1,0 +1,300 @@
+{"prompt": "fix teh typo in the paginatoin logic", "tier": "light", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the image carousel", "tier": "light", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the deploy script", "tier": "light", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "fix teh typo in the CSRF protectoin", "tier": "light", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the feature table", "tier": "light", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the domain model", "tier": "light", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "fix teh typo in the scoring functoin", "tier": "light", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the CI test stage", "tier": "light", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "fix teh typo in the FAQ sectoin", "tier": "light", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "fix teh typo in the naming conventoin", "tier": "light", "hasTypo": true, "domain": "general", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the retry handler", "tier": "light", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the search bar", "tier": "light", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "fix teh typo in the staging environmnet", "tier": "light", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the file upload handler", "tier": "light", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the data export", "tier": "light", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the persistence layer", "tier": "light", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the dataset loader", "tier": "light", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "fxi teh typo in the test data factory", "tier": "light", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the paginatoin logic", "tier": "mid", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the image carousel", "tier": "mid", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the deploy script", "tier": "mid", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the CSRF protectoin", "tier": "mid", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the feature table", "tier": "mid", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the domain model", "tier": "mid", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the scoring functoin", "tier": "mid", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the CI test stage", "tier": "mid", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the FAQ sectoin", "tier": "mid", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the naming conventoin", "tier": "mid", "hasTypo": true, "domain": "general", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the retry handler", "tier": "mid", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the search bar", "tier": "mid", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "fix teh bug in the staging environmnet", "tier": "mid", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the file upload handler", "tier": "mid", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the data export", "tier": "mid", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the persistence layer", "tier": "mid", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the dataset loader", "tier": "mid", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the test data factory", "tier": "mid", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "fxi teh bug in the config reference", "tier": "mid", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "review teh paginatoin logic for security issues", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "review teh image carousel for security issues", "tier": "deep", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "review teh deploy script for security issues", "tier": "deep", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "review teh CSRF protectoin for security issues", "tier": "deep", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "review teh feature table for security issues", "tier": "deep", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "review teh domain model for security issues", "tier": "deep", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "review teh scoring functoin for security issues", "tier": "deep", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "review teh CI test stage for security issues", "tier": "deep", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "review teh FAQ sectoin for security issues", "tier": "deep", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "review teh naming conventoin for security issues", "tier": "deep", "hasTypo": true, "domain": "general", "stressGroup": "typo"}
+{"prompt": "review teh retry handler for security issues", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "review teh search bar for security issues", "tier": "deep", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "review teh staging environmnet for security issues", "tier": "deep", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "review teh file upload handler for security issues", "tier": "deep", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "review teh data export for security issues", "tier": "deep", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "review teh persistence layer for security issues", "tier": "deep", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "review teh dataset loader for security issues", "tier": "deep", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "review teh test data factory for security issues", "tier": "deep", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "review teh config reference for security issues", "tier": "deep", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the whole API platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the entire UI platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of every environment to microservices", "tier": "ultra", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of every service's access control to microservices", "tier": "ultra", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the whole warehouse to microservices", "tier": "ultra", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the whole system architecture to microservices", "tier": "ultra", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of all models and pipelines to microservices", "tier": "ultra", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the entire quality program to microservices", "tier": "ultra", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the entire knowledge base to microservices", "tier": "ultra", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the entire platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "general", "stressGroup": "typo"}
+{"prompt": "design and roll out teh end-to-end migratoin of the entire backend to microservices", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "typo"}
+{"prompt": "design and roll out teh end-to-end migratoin of all frontends to microservices", "tier": "ultra", "hasTypo": true, "domain": "frontend", "stressGroup": "typo"}
+{"prompt": "design and roll out teh end-to-end migratoin of all pipelines and infrastructure to microservices", "tier": "ultra", "hasTypo": true, "domain": "devops", "stressGroup": "typo"}
+{"prompt": "design and roll out teh end-to-end migratoin of all systems to microservices", "tier": "ultra", "hasTypo": true, "domain": "security", "stressGroup": "typo"}
+{"prompt": "design and roll out teh end-to-end migratoin of the entire data platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "data", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of every bounded context to microservices", "tier": "ultra", "hasTypo": true, "domain": "architecture", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the whole MLOps stack to microservices", "tier": "ultra", "hasTypo": true, "domain": "ml", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of the whole test strategy to microservices", "tier": "ultra", "hasTypo": true, "domain": "testing", "stressGroup": "typo"}
+{"prompt": "plan and execute teh end-to-end migratoin of every team's docs to microservices", "tier": "ultra", "hasTypo": true, "domain": "documentation", "stressGroup": "typo"}
+{"prompt": "hey, fix the typo in the connection pool", "tier": "light", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the pagination component", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the health check", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the typo in the access control check", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the join query", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the gateway routing", "tier": "light", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the typo in the calibration step", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the assertion helper", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the config reference", "tier": "light", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the typo in the local setup", "tier": "light", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the signup endpoint", "tier": "light", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the theme toggle", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the typo in the container image", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the encryption helper", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the ingestion step", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the typo in the failover design", "tier": "light", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the fallback model", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the smoke tests", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the typo in the troubleshooting guide", "tier": "light", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the codebase", "tier": "light", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the user service", "tier": "light", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "could you add a log line to the login form", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the CI pipeline", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the JWT validation", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "hey, add a log line to the ETL job", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the tenancy model", "tier": "light", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the vector index", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the typo in the regression suite", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the release notes", "tier": "light", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "fix the typo in the makefile", "tier": "light", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "hey, add a log line to the orders API", "tier": "light", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the navbar", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the Dockerfile", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "could you add a log line to the password reset flow", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the analytics query", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the service boundary", "tier": "light", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "hey, add a log line to the prompt router", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "add a log line to the unit tests", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the bug in the connection pool", "tier": "mid", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the pagination component", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the health check", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the bug in the access control check", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the join query", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the gateway routing", "tier": "mid", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the bug in the calibration step", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the assertion helper", "tier": "mid", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the troubleshooting guide", "tier": "mid", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the bug in the local setup", "tier": "mid", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the signup endpoint", "tier": "mid", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the theme toggle", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the bug in the container image", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the encryption helper", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the ingestion step", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the bug in the failover design", "tier": "mid", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the fallback model", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the smoke tests", "tier": "mid", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "hey, fix the bug in the release notes", "tier": "mid", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the codebase", "tier": "mid", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "debug why the user service keeps failing", "tier": "mid", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "could you debug why the login form keeps failing", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "debug why the Dockerfile keeps failing", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "debug why the JWT validation keeps failing", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "hey, debug why the ETL job keeps failing", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the tenancy model", "tier": "mid", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the vector index", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "could you fix the bug in the regression suite", "tier": "mid", "hasTypo": false, "domain": "testing", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the glossary", "tier": "mid", "hasTypo": false, "domain": "documentation", "stressGroup": "short-boundary"}
+{"prompt": "fix the bug in the makefile", "tier": "mid", "hasTypo": false, "domain": "general", "stressGroup": "short-boundary"}
+{"prompt": "hey, debug why the orders API keeps failing", "tier": "mid", "hasTypo": false, "domain": "backend", "stressGroup": "short-boundary"}
+{"prompt": "debug why the navbar keeps failing", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "short-boundary"}
+{"prompt": "debug why the Kubernetes deployment keeps failing", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "short-boundary"}
+{"prompt": "could you debug why the password reset flow keeps failing", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "short-boundary"}
+{"prompt": "debug why the analytics query keeps failing", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "short-boundary"}
+{"prompt": "debug why the service boundary keeps failing", "tier": "mid", "hasTypo": false, "domain": "architecture", "stressGroup": "short-boundary"}
+{"prompt": "hey, debug why the prompt router keeps failing", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "short-boundary"}
+{"prompt": "review teh connectoin pool for security issues", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the pagination component for security issues", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the health check for security issues", "tier": "deep", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the access control check for security issues", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the join query for security issues", "tier": "deep", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the gateway routing for security issues", "tier": "deep", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review teh calibratoin step for security issues", "tier": "deep", "hasTypo": true, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the assertion helper for security issues", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the troubleshooting guide for security issues", "tier": "deep", "hasTypo": false, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the local setup for security issues", "tier": "deep", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the signup endpoint for security issues", "tier": "deep", "hasTypo": false, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the theme toggle for security issues", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review teh container image for security issues", "tier": "deep", "hasTypo": true, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the encryption helper for security issues", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the ingestion step for security issues", "tier": "deep", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the failover design for security issues", "tier": "deep", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the fallback model for security issues", "tier": "deep", "hasTypo": false, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the smoke tests for security issues", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review teh release notes for security issues", "tier": "deep", "hasTypo": true, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the codebase for security issues", "tier": "deep", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the user service", "tier": "deep", "hasTypo": false, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the login form", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the CI pipeline", "tier": "deep", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the JWT validation", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a cachign strategy for teh ETL job", "tier": "deep", "hasTypo": true, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the tenancy model for security issues", "tier": "deep", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the vector index for security issues", "tier": "deep", "hasTypo": false, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the regression suite for security issues", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the glossary for security issues", "tier": "deep", "hasTypo": false, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "review the makefile for security issues", "tier": "deep", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a cachign strategy for teh orders API", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the navbar", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the Dockerfile", "tier": "deep", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the password reset flow", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the analytics query", "tier": "deep", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the service boundary", "tier": "deep", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a cachign strategy for teh prompt router", "tier": "deep", "hasTypo": true, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design a caching strategy for the unit tests", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out teh end-to-end migratoin of all backend services to microservices", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of every web client to microservices", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the entire deployment platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the entire security posture to microservices", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of all data pipelines to microservices", "tier": "ultra", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the entire platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out teh end-to-end migratoin of the entire ML platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of all test suites across teams to microservices", "tier": "ultra", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of all engineering documentation to microservices", "tier": "ultra", "hasTypo": false, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "plan and execute the end-to-end migration of every team's workflow to microservices", "tier": "ultra", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the whole API platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the entire UI platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out teh end-to-end migratoin of every environment to microservices", "tier": "ultra", "hasTypo": true, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of every service's access control to microservices", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the whole warehouse to microservices", "tier": "ultra", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the whole system architecture to microservices", "tier": "ultra", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of all models and pipelines to microservices", "tier": "ultra", "hasTypo": false, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the entire quality program to microservices", "tier": "ultra", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out teh end-to-end migratoin of the entire knowledge base to microservices", "tier": "ultra", "hasTypo": true, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of all engineering systems to microservices", "tier": "ultra", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of the entire backend to microservices", "tier": "ultra", "hasTypo": false, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of all frontends to microservices", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of all pipelines and infrastructure to microservices", "tier": "ultra", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of all systems to microservices", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead teh end-to-end migratoin of the entire data platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of every bounded context to microservices", "tier": "ultra", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the whole MLOps stack to microservices", "tier": "ultra", "hasTypo": false, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of the whole test strategy to microservices", "tier": "ultra", "hasTypo": false, "domain": "testing", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of every team's docs to microservices", "tier": "ultra", "hasTypo": false, "domain": "documentation", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "design and roll out the end-to-end migration of every team's workflow to microservices", "tier": "ultra", "hasTypo": false, "domain": "general", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead teh end-to-end migratoin of all backend services to microservices", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of every web client to microservices", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of the entire deployment platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "devops", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of the entire security posture to microservices", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of all data pipelines to microservices", "tier": "ultra", "hasTypo": false, "domain": "data", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead the end-to-end migration of the entire platform to microservices", "tier": "ultra", "hasTypo": false, "domain": "architecture", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "spearhead teh end-to-end migratoin of the entire ML platform to microservices", "tier": "ultra", "hasTypo": true, "domain": "ml", "stressGroup": "deep-ultra-boundary"}
+{"prompt": "paymnet endpoint icindeki yazım hatasını düzelt", "tier": "light", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "product grid içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Kubernetes deployment içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "OAuth callback içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "data pipeline içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "module structure icindeki yazım hatasını düzelt", "tier": "light", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "embedding step içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "e2e flow içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "setup guide içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "config file içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "general", "stressGroup": "turkish-mixed"}
+{"prompt": "auth middleware icindeki yazım hatasını düzelt", "tier": "light", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "checkout page içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Helm chart içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "CORS policy içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "CSV importer içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "API contract icindeki yazım hatasını düzelt", "tier": "light", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "feature extractor içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "test fixtures içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "changelog içindeki yazım hatasını düzelt", "tier": "light", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "paymnet endpoint icindeki hatayı düzelt", "tier": "mid", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "product grid içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Kubernetes deployment içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "OAuth callback içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "data pipeline içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "module structure icindeki hatayı düzelt", "tier": "mid", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "embedding step içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "e2e flow içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "setup guide içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "config file içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "general", "stressGroup": "turkish-mixed"}
+{"prompt": "auth middleware icindeki hatayı düzelt", "tier": "mid", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "checkout page içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Helm chart içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "CORS policy içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "CSV importer içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "API contract icindeki hatayı düzelt", "tier": "mid", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "feature extractor içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "test fixtures içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "changelog içindeki hatayı düzelt", "tier": "mid", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "paymnet endpoint güvenlik açısından incele", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "product grid güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Kubernetes deployment güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "OAuth callback güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "data pipeline güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "mdoule structure güvenlik açısından incele", "tier": "deep", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "embedding step güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "e2e flow güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "setup guide güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "config file güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "general", "stressGroup": "turkish-mixed"}
+{"prompt": "auth mdidleware güvenlik açısından incele", "tier": "deep", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "checkout page güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "Helm chart güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "CORS policy güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "CSV importer güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "API cnotract güvenlik açısından incele", "tier": "deep", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "feature extractor güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "test fixtures güvenlik açısından incele", "tier": "deep", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm bcakend'i kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm frontend'leri kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm dağıtım altyapısını kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm sistemlerin güvenliğini kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm veri platformunu kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm paltform mimarisini kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm ML platformunu kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm test stratejisini kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm mühendislik dokümantasyonunu kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm mühendislik sistemlerini kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "general", "stressGroup": "turkish-mixed"}
+{"prompt": "tüm srevisleri kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": true, "domain": "backend", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün arayüz platformunu kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "frontend", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün pipeline'ları kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "devops", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün erişim kontrolünü kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "security", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün veri pipeline'larını kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "data", "stressGroup": "turkish-mixed"}
+{"prompt": "btüün sistemi kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": true, "domain": "architecture", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün model altyapısını kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "ml", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün kalite programını kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "testing", "stressGroup": "turkish-mixed"}
+{"prompt": "bütün bilgi tabanını kapsayan şirket genelinde bir modernizasyon programı yürüt", "tier": "ultra", "hasTypo": false, "domain": "documentation", "stressGroup": "turkish-mixed"}

@@ -1,0 +1,500 @@
+{"prompt":"hey there, hope your day is going well","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"thanks so much for the help earlier","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"merhaba, nasılsın bugün","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"teşekkürler, çok yardımcı oldun","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi can you help me with something quick","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"appreciate it, have a great weekend","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"yo, you around?","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"selam, kısa bir sorum var","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"thx for the fast reply","tier":"light","hasTypo":true,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"merhaba, bugün ne yapıyoruz","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is the defualt port for postgres","tier":"light","hasTypo":true,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what does HTTP 502 mean","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"which year was Node.js first released","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the diference between let and const","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what does CSS stand for","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what command shows git branches","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"kubernetes pod nedir kısaca","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is a primary key in sql","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the keyboard shortcut to comment a line in vscode","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"whats the boiling point of water in celsius","tier":"light","hasTypo":true,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is JSON short for","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the npm command to list instaled packages","tier":"light","hasTypo":true,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"python list ile tuple farkı ne","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is the syntax to declare an array in javascript","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"how do i check node version from terminal","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the docker command to list running containers","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what does the SELECT statement do in sql","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a 404 status code","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"git stash ne işe yarar","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is the diferrence between == and === in js","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a UUID","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the file extension for typescript","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what does API stand for","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the default branch name in modern git","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"how do you write a comment in python","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"css de margin ile padding farkı nedir","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"fix the typo in this comment: // initalize the cache","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add a consoel.log here to print the user id","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename the variable foo to userCount","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change this var name from tmp to retryCount","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a TODO coment above this function","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"format this file with prettier","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"remove the triling whitespace in this block","tier":"light","hasTypo":true,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the typo: recieve should be receive","tier":"light","hasTypo":true,"domain":"general","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add a log line before the return statement","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"rename getData to fetchUserData","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"uncomment the debug print on line 12","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the log level from info to debug here","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a semicolon at the end of this line","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix indentation in this snippet","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"capitalize the first letter of this string constant","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename the css clas .btn1 to .primary-button","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a comment explaining this regex is for email","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"delete the unsued import at the top","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix the spelling of 'lenght' in this variable","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a print statement to show the loop counter","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"şu yorum satırındaki yazım hatasını düzelt: // baglanti kuruldu","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"değişken adını x ten toplam a çevir","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"bu satıra bir console.log ekle","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"rename funtion handleclick to onButtonClick","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a docstring one liner to this helper","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"change double qoutes to single quotes in this line","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix typo in the log message 'conection failed'","tier":"light","hasTypo":true,"domain":"devops","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add an inline comment marking this as depricated","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"rename the file util.js to date-utils.js","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"lowercase this header key in the object","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the timeout number from 3000 to 5000","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"update the copyright year in the footer to 2026","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the placeholder text to 'Search...'","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"set the default page size constant to 20","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the buton label from Submit to Save","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"update the version string to 1.2.0","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change hex color #fff to #f5f5f5 here","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename the env var DB_HOST to DATABASE_HOST","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the alt text on this image to 'logo'","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"update the api base url string to the new domain","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"şu sabit değeri 10 dan 25 e çıkar","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the date format string to YYYY-MM-DD","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"rename the test file from old.spec to new.spec","tier":"light","hasTypo":false,"domain":"testing","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the toast duration to 2 seconds","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"update the readme title to the new project name","tier":"light","hasTypo":false,"domain":"documentation","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"what is a webhook","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is CI/CD in one sentence","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a foreign key","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the purpse of a .gitignore file","tier":"light","hasTypo":true,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a promise in javascript","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is an environment variable","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a REST endpoint","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what does lazy loading mean","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a hash map","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is the difference between GET and POST","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"rate limiting nedir kısaca anlat","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what is a docker image vs container","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a unit test","tier":"light","hasTypo":false,"domain":"testing","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is semantic versioning","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"what is a cookie in web terms","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"add a one line comment describing what this module exports","tier":"light","hasTypo":false,"domain":"documentation","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix the grammar in this readme sentence","tier":"light","hasTypo":false,"domain":"documentation","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a heading 'Installation' to the readme","tier":"light","hasTypo":false,"domain":"documentation","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"correct the misspelled word 'depenency' in package notes","tier":"light","hasTypo":true,"domain":"documentation","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add a comment // returns true if valid above this","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"write a short comment that this is a temporary fix","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add author name to the file header comment","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"fix the broken markdown bullet in this list","tier":"light","hasTypo":false,"domain":"documentation","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"şu fonksiyonun üstüne tek satır açıklama ekle","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a note that this endpoint is internal only","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"hey, can you just remind me what npm i does","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"please add a blank line between these two functions","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"thanks! also rename this constant to MAX_RETRIES","tier":"light","hasTypo":false,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi there, quick one: what does .map return","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"could you fix the typo 'fucntion' in this comment","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"morning! add a log to confirm startup","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"hey can you change this tab to spaces","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"please capitalize TODO in these comments","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"selam, şu importu siler misin","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"thx, now rename param 'd' to 'date'","tier":"light","hasTypo":true,"domain":"backend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi, just testing if you respond","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"what does the abbreviation SQL mean","tier":"light","hasTypo":false,"domain":"data","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"rename folder 'imgs' to 'images'","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a smiley to the welcome message","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"change the loading text to 'Please wait'","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"what is the git command to see the last commit","tier":"light","hasTypo":false,"domain":"devops","origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"fix typo 'sucess' to 'success' in this toast","tier":"light","hasTypo":true,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"add a console.warn for the empty array case","tier":"light","hasTypo":false,"domain":"frontend","origTier":"light","rubricReason":"rule:3"}
+{"prompt":"teşekkür ederim, sonra devam ederiz","tier":"light","hasTypo":false,"domain":"general","origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the CORS error when calling the api from localhost:3000","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why this for loop never terminates","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the css so the modal is centered both vertically and horizontally","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"read this csv file line by line in python and print each row","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add pagination to the users list endpoint with page and limit params","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement a debounce function in javascript with a 300ms delay","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the null pointer exception thrown in the checkout service","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add input validation to the signup form for email and password","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a sql query to get the top 10 customers by total order value","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"refactor this callback chain to use async await","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the memory leak in this react useEffect hook","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a retry with exponential backoff to this http client call","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement jwt token refresh in the auth middleware","tier":"mid","hasTypo":false,"domain":"security","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the off by one error in this pagination calculation","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a unit test for the formatCurrency helper","tier":"mid","hasTypo":false,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"update the dockerfile to use a multi stage build","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the race condition when two requests update the same cart","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a loading spinner while the data is being fetched","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement soft delete on the products table","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the websocket disconnects after 30 seconds","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the cors eror when the frontend calls the backend api","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debbug why this recursive function causes a stack overflow","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"ad a loading state to the dashbord while fetching metrics","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implment a rate limiter middleware allowing 100 requests per minute","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the of by one bug in the slice that drops the last item","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a fucntion to deduplicate an array of objects by id","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"update the github actoins workflow to run tests on pull requests","tier":"mid","hasTypo":true,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add validaton so the age field only accepts positive integers","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the n+1 querry problem in the orders listing","tier":"mid","hasTypo":true,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"conver this promise chain into async await syntax","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the layot so the sidebar stays fixed while content scrolls","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a unqiue index on the slug column to prevent duplicates","tier":"mid","hasTypo":true,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the schduled job runs twice each night","tier":"mid","hasTypo":true,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implment pagination on the search results endpoint","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the memroy leak from the event listener not being removed","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a scrpit to backup the database every day at midnight","tier":"mid","hasTypo":true,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add error handling to the paymnet webhook handler","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"refacter this nested if into early returns","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the typo bug where statusCdoe is misspelled in the response","tier":"light","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:3"}
+{"prompt":"ad caching to the expensive aggregation querry","tier":"mid","hasTypo":true,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"login formuna boş alan kontrolü ekle","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bu fonksiyondaki null hatasını düzelt","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"kullanıcı listesine sayfalama ekle limit ve offset ile","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"postgres sorgusunu indeksleyerek hızlandır","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"şu react bileşenindeki sonsuz render döngüsünü çöz","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"api isteğine 5 saniyelik timeout ekle","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"dockerfile a healthcheck komutu ekle","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"parolayı bcrypt ile hashleyen fonksiyonu yaz","tier":"mid","hasTypo":false,"domain":"security","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bu testdeki flaky assertionı düzelt","tier":"mid","hasTypo":true,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"tarih formatini gun-ay-yil olacak sekilde degistir","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"şu endpointe rate limit ekle dakikada 60 istek","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"react bileşenine boş durum ekranı ekle","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"veritabanı bağlantı havuzu boyutunu 20 yap ve test et","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bu testteki yanlış beklenen değeri düzelt","tier":"mid","hasTypo":false,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"loglara correlation id ekle her istek için","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"formdaki tarih seçiciyi gelecekteki tarihleri engelleyecek şekilde ayarla","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"şu shell scriptindeki hatalı çıkış kodunu düzelt","tier":"mid","hasTypo":true,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"kullanıcı silme işlemini soft delete yap","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"api yanıtına sayfalama meta bilgisi ekle","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"bu fonksiyonun birim testini yaz","tier":"mid","hasTypo":false,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a try catch around the file read and log the error","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement a search filter on the products table by name","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the date being shown one day off due to timezone","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a databse index on the email column to speed up lookups","tier":"mid","hasTypo":true,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a funtion that merges two sorted arrays","tier":"mid","hasTypo":true,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the broken redirect after login that loops back to signin","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add request logging middleware with method path and status","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement optimistic ui update for the like button","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the failing test that expects 200 but gets 401","tier":"mid","hasTypo":false,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a unique constraint on the username column","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"refactor the giant switch statement into a lookup map","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement file upload to s3 with a presigned url","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the flexbox layout so items wrap on small screens","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a cron job that purges expired sessions every night","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the env variable is undefined at runtime","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a regex to validate a turkish phone number","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a confirmation dialog before deleting an item","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the json parse error on the malformed webhook payload","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement caching for the weather api response with a 10 min ttl","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add sorting by created date to the comments query","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the button click handler fires twice","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"figure out why the docker container exits immediately on start","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the api returns 500 only for large payloads","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"find why the unit test passes locally but fails in ci","tier":"mid","hasTypo":false,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug the infinite spinner when the network request fails silently","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the bug where the total ignores discount when quantity is 1","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why sequelize is not applying the where clause","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the broekn sticky header on scroll","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"debug why the password reset email never sends","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the rounding error in the invoice tax calculation","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"hey can you fix the cors issue blocking my fetch calls please","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"please add a loading skeleton to the profile page","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"thanks in advance, can you add retry logic to the upload","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi could you implement dark mode toggle persistence in localstorage","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"can you debug why my map renders an extra empty row","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"please write a migration to add a phone column to users","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"hey, fix the validation that rejects valid plus emails","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"could you add a 404 page for unknown routes","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"merhaba, şu endpointe yetki kontrolü ekler misin","tier":"mid","hasTypo":false,"domain":"security","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"lütfen bu sorgunun çıktısını json olarak döndür","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a feature flag to toggle the new checkout flow","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement copy to clipboard for the share link","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the seed script that fails on duplicate emails","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add gzip compression to the express server responses","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement keyboard navigation for the dropdown menu","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a script to convert all png assets to webp","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the broken csv export that drops the header row","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a tooltip to the disabled save button explaining why","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement a health check endpoint returning db status","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the timezone bug in the daily report aggregation","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a middleware that rejects requests without an api key","tier":"mid","hasTypo":false,"domain":"security","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement infinite scroll on the feed component","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the broken unsubscribe link in the email template","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add a confirm password field with matching validation","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a query to find orders with no associated payment","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the docker compose so the app waits for the db to be ready","tier":"mid","hasTypo":false,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement a simple LRU cache with a max size of 100","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"add aria labels to the icon only buttons","tier":"mid","hasTypo":false,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the bug where uploading a file over 5mb silently fails","tier":"mid","hasTypo":false,"domain":"backend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a python script to rename files based on their exif date","tier":"mid","hasTypo":false,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the brokn date picker that allows selecting past dates","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"ad a debounce to the serach input to cut down api calls","tier":"mid","hasTypo":true,"domain":"frontend","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"implement a migraton to add an index on the orders status column","tier":"mid","hasTypo":true,"domain":"data","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"fix the enviroment specific config not loading in staging","tier":"mid","hasTypo":true,"domain":"devops","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"write a tst that covers the discount edge case at zero quantity","tier":"mid","hasTypo":true,"domain":"testing","origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the security posture of our public api and flag the biggest risks","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the authentication architecture for this multi tenant service","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze why our p95 latency degrades under load and propose root causes","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate whether we should move from rest to graphql for the mobile app","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review this pull request for design issues and maintainability concerns","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit our database schema for normalization and indexing problems","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess the tradeoffs between server side rendering and a spa for seo","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate the intermittent data loss in the event pipeline","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a caching strategy for the product catalog with invalidation rules","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate our test suite for coverage gaps and flaky test patterns","tier":"deep","hasTypo":false,"domain":"testing","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the error handling approach across the service and suggest a standard","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the bundle size growth and recommend where to split code","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the data model for a notifications system with read receipts","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess whether our current ci pipeline is a bottleneck for the team","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the api contract for consistency and breaking change risk","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate why memory usage climbs steadily in the worker process","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the pros and cons of adopting a monorepo for our frontend apps","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design an authorization model with roles and fine grained permissions","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the failure modes of our payment retry logic","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the logging and observability setup for production debuggability","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the secuirty posture of the admin panel and rank the risks","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a scalable architcture for real time chat with presence","tier":"deep","hasTypo":true,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyse the bottlnecks in the checkout flow under heavy traffic","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evalute whether we should shard the database or add read replicas","tier":"deep","hasTypo":true,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"invesigate the cause of duplicate charges in the billing system","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"asses the maintainability of the legacy reporting module","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the cachng strategy and identify stale data risks","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"desgin the event schema for an audit log that is tamper evident","tier":"deep","hasTypo":true,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analize the dependency graph and find tightly coupled modules","tier":"deep","hasTypo":true,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the trade offs of moving auth to a thrid party provider","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a fault tolernt retry and circuit breaker policy for outbound calls","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the authoriztion logic and find places missing tenant checks","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the databse query plan and explain the slow sequential scan","tier":"deep","hasTypo":true,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate weather a message queue would decouple these two services well","tier":"deep","hasTypo":true,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"invetigate the source of the occasional duplicate emails to users","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"asess the risk of our current session handling against fixation attacks","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the front end performnce and find the worst rendering hotspots","tier":"deep","hasTypo":true,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a schema migraton plan that avoids downtime for the users table","tier":"deep","hasTypo":true,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyse the trade offs betwen optimistic and pessimistic locking here","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the observabilty gaps that made the last incident hard to debug","tier":"deep","hasTypo":true,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"ödeme servisinin mimarisini gözden geçir ve zayıf noktaları belirle","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"veritabanı şemasını normalizasyon açısından denetle","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"api güvenlik duruşunu değerlendir ve en kritik riskleri sırala","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"yüksek trafikte gecikme artışının kök nedenini analiz et","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"mikroservislere geçişin avantaj ve dezavantajlarını değerlendir","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"önbellekleme stratejisini tasarla ve geçersiz kılma kurallarını belirle","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"test kapsamındaki boşlukları analiz et ve öncelik öner","tier":"deep","hasTypo":false,"domain":"testing","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"loglama ve izlenebilirlik kurulumunu üretim için gözden geçir","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"kimlik doğrulama mimarisini çok kiracılı yapı için tasarla","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"bellek sızıntısının neden kaynaklandığını arastir","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a rate limting strategy that is fair across tenants","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review our secrets managment and identify exposure risks","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the read vs write patterns to decide on a caching layer","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate moving from rest polling to server sent events for live updates","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate the root cause of the gradual increase in 5xx errors","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the frontend state management and recommend a cleaner approach","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess the disaster recovery readiness of our primary database","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the schema and access patterns for a multi region key value store","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze how a third party outage cascades through our services","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the input sanitization across endpoints for injection risks","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate whether feature flags or branch based releases fit our team better","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a deduplication strategy for the ingestion pipeline","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate why the recommendation model accuracy dropped last week","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the prompt and retrieval design of our rag pipeline for hallucinations","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess the tradeoffs of fine tuning vs prompt engineering for our use case","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the token cost drivers in our llm pipeline and where to trim","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the embedding and chunking strategy for our document search","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the accessibility of our checkout flow against wcag","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the concurrency model of the job queue for correctness","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the cold start latency of our serverless functions","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose why throughput plateaus even after adding more workers","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate whether eventual consistency is acceptable for the cart service","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the migration plan for risky steps and propose safeguards","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the failure of the last deploy and what monitoring would have caught it","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess the coupling between the auth service and the rest of the system","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design an idempotency strategy for the order creation endpoint","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review how we handle pii and recommend a data minimization approach","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate why search relevance degraded after the index rebuild","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the cost vs performance of our current cloud instance choices","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a backpressure mechanism for the streaming consumer","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"hey, can you review the architecture of our notification service for scaling issues","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"please assess our api authorization for any missing checks","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"could you analyze the slow dashboard and tell me where the time goes","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review this growing codebase and recommend how to restructure modules for maintainability","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi, evaluate whether we should adopt typescript across the backend","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"please review the database access layer for sql injection exposure","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"can you investigate the flaky integration tests and what makes them unstable","tier":"deep","hasTypo":false,"domain":"testing","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"hey could you assess if our current logging helps or hurts incident response","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"lütfen mevcut mimariyi ölçeklenebilirlik açısından değerlendir","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"şu pr ı tasarım açısından gözden geçirir misin","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"diagnose the cause of periodic latency spikes every hour on the hour","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the design of the multi step checkout for abandonment risks","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze whether our current sharding key causes hotspots","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the security implications of allowing third party plugins","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess the readiness of the search service for a 10x traffic increase","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a consistent error taxonomy for the public api","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the data retention policy for compliance and cost","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate why the model serves stale features at prediction time","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the tradeoffs of batch vs streaming for the analytics pipeline","tier":"deep","hasTypo":false,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate blue green versus canary deployment for the api gateway and recommend one","tier":"deep","hasTypo":false,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the coupling introduced by the shared database across teams","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the threat model for the file upload feature","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"assess whether our caching causes the reported stale profile data","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design the access control model for the internal admin tools","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate if our current queue guarantees are enough for payments","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze the tail latency of the recommendation endpoint","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the api versioning strategy for long term maintainability","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"investigate the root cause of cache stampede during traffic spikes","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the cost and accuracy tradeoff of a smaller embedding model","tier":"deep","hasTypo":false,"domain":"ml","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a graceful degradation plan when the search service is down","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the documentation completeness for onboarding new engineers","tier":"deep","hasTypo":false,"domain":"documentation","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the depndency upgrade plan and flag the risky breaking changes","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyse why the queue consumer lag keeps grwoing during peak hours","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the secuirty tradeoffs of storing sessions in cookies vs jwt","tier":"deep","hasTypo":true,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a sensible cache invalidaton policy for the pricing service","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"invesigate the slow startup time of the service and where it stalls","tier":"deep","hasTypo":true,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the resilience of the checkout flow against downstream failures","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"analyze whether our retry storms are amplifying the outages","tier":"deep","hasTypo":false,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a tenant isolation model that prevents noisy neighbor effects","tier":"deep","hasTypo":false,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evaluate the maintainability cost of our current micro frontend split","tier":"deep","hasTypo":false,"domain":"frontend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"audit the iam policies for over privileged service accounts","tier":"deep","hasTypo":false,"domain":"security","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"invesigate why the feature flag rollout caused a latency regression","tier":"deep","hasTypo":true,"domain":"backend","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"asses the data consistency guarantees between the cache and the source of truth","tier":"deep","hasTypo":true,"domain":"data","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"evalute the tradeoff of colocating the read model with the write model","tier":"deep","hasTypo":true,"domain":"architecture","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"review the disater recovery runbook for gaps and untested steps","tier":"deep","hasTypo":true,"domain":"devops","origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"perform a complete security transformation of the entire platform across all services","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a comprehensive performance readiness program for our major product launch","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead the full migration of our monolith to microservices end to end","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create a company wide roadmap to modernize our entire legacy stack over the next year","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design and execute a complete observability overhaul across every service","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"conduct a full audit of the whole codebase and deliver a prioritized remediation program","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan an end to end migration from on prem to the cloud for all workloads","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"transform our entire ci cd pipeline and release process across all teams","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build a complete disaster recovery and business continuity program for the platform","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a comprehensive multi region active active architecture for the whole system","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a full accessibility overhaul across every page and component in the product","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create an organization wide data governance and privacy compliance program","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan a complete rewrite of the frontend from the legacy framework to a modern stack","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute an end to end zero downtime migration of the primary database to a new engine","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design and roll out a platform wide authentication and authorization overhaul","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"build a comprehensive test automation strategy spanning unit integration and e2e for all teams","tier":"ultra","hasTypo":false,"domain":"testing","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan the full decomposition of the shared database into per service stores","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead a whole system cost optimization initiative across compute storage and network","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design an end to end ml platform from data ingestion to model serving and monitoring","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"create a multi quarter technical debt reduction program with milestones and metrics","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"perform a complete platfrom security transformation across all microservices","tier":"ultra","hasTypo":true,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a comprehnsive modernization roadmap for the entire legacy system","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead the full migraton of the monolith to an event driven architecture","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design an end to end observabilty overhaul for every service in production","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute a whole system migration from rest to graphql acros all clients","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build a comprehensve disaster recovery program covering all critical systems","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"create a company wide perfomance optimization program for the next launch","tier":"ultra","hasTypo":true,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan a full rewirte of the mobile app and its backend from scratch","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a platfrom wide multi tenant isolation and data residency strategy","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead an organistion wide adoption of infrastructure as code everywhere","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a comprehensive multi region failover strategy for the entire platform","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan an end to end migraton of all services off the deprecated framework","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a whole sytem overhaul of logging metrics and tracing across production","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create a company wide programe to eliminate technical debt over four quarters","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute a full platfrom rewrite from php to a modern node and react stack","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"build a comprehnsive data lake and analytics platform for the whole org","tier":"ultra","hasTypo":true,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design an organisaton wide secrets and key management overhaul","tier":"ultra","hasTypo":true,"domain":"security","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan the complete modernizaton of the payments stack end to end","tier":"ultra","hasTypo":true,"domain":"backend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a platform wide acessibility and i18n transformation for every surface","tier":"ultra","hasTypo":true,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute a comprehensve overhaul of the search platform from ingestion to ranking","tier":"ultra","hasTypo":true,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"tüm platformun uçtan uca güvenlik dönüşümünü planla ve yürüt","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"eski sistemi modern mimariye taşıyan kapsamlı yol haritası oluştur","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"monolit uygulamayı mikroservislere bölen tam göç planını hazırla","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"tüm servisler için uçtan uca gözlemlenebilirlik programı tasarla","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"şirket çapında teknik borç azaltma programını metriklerle planla","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"veritabanını sıfır kesintiyle yeni motora taşıyan tam göç stratejisini yürüt","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"tüm ürün için kapsamlı erişilebilirlik dönüşümü gerçekleştir","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"baştan sona makine öğrenmesi platformu kur veriden model servisine kadar","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"kapsamlı felaket kurtarma ve is surekliligi programi olustur","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"tum sistemin bulut gocunu uctan uca planla ve yonet","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a comprehensive platform to platform migration with phased cutover and rollback","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead an end to end internationalization effort across the entire product surface","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build a full data platform unifying warehousing streaming and bi for the whole company","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a complete overhaul of identity across every internal and external system","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design and implement a company wide service mesh rollout across all clusters","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute a comprehensive dependency modernization upgrading every service to current versions","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create an end to end incident management and reliability program for the org","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead a whole platform transition to event sourcing and cqrs where it fits","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan a full multi year cloud native transformation with team enablement","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a comprehensive api platform strategy spanning gateway versioning and governance","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build an organization wide feature experimentation platform from scratch","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead the complete consolidation of three legacy products into one unified platform","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan an end to end gdpr compliance program touching every data flow and system","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a full self serve developer platform with golden paths for all teams","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute a comprehensive performance and scalability program ahead of a 50x growth target","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"create a platform wide chaos engineering and resilience testing program","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"lead an end to end transformation from batch processing to real time streaming everywhere","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a comprehensive zero trust security architecture for the whole organization","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan the complete modernization of the entire data warehouse and all downstream reports","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build a full ml ops program covering training serving monitoring and retraining for all models","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"hey, can you plan a complete modernization of our whole legacy platform over the next year","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"please lead an end to end security overhaul across every service we run","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"could you design a comprehensive migration program from our monolith to microservices","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"can you create a full roadmap to take our system from prototype to production scale","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"hi, plan a whole platform performance program for our biggest launch ever","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"please build an organization wide testing and quality program from the ground up","tier":"ultra","hasTypo":false,"domain":"testing","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"can you lead a complete cloud migration of all our workloads end to end","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"hey could you design a comprehensive data governance program across the company","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lütfen tüm sistemin uçtan uca modernizasyon planını hazırla","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"şirket genelinde kapsamlı güvenlik dönüşümünü baştan sona planla","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead an uctan uca cloud native donusum tum ekipler icin","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a full transformaton of the release process from quarterly to continuous delivery","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design an end to end customer data platfrom unifying all sources and consumers","tier":"ultra","hasTypo":true,"domain":"data","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a comprehensve refactor of the entire backend toward hexagonal architecture","tier":"ultra","hasTypo":true,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"create a whole company stratgy to adopt and govern generative ai responsibly","tier":"ultra","hasTypo":true,"domain":"ml","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"plan a complete migraton of all frontends into a unified design system and monorepo","tier":"ultra","hasTypo":true,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a platform wide multi tenancy strtegy from database to ui for all features","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute an end to end overhual of authentication authorization and audit logging","tier":"ultra","hasTypo":true,"domain":"security","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"build a comprehensive perfomance budget and monitoring program across all apps","tier":"ultra","hasTypo":true,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead the full migraton from self managed kubernetes to a managed platform org wide","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create an end to end data quality and lineage program spanning every pipeline","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a comprehensive resilience program introducing redundancy across all tiers","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design and execute a complete overhaul of the search platform end to end","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a whole organization shift to trunk based development with full automation","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build a company wide cost governance and finops program across all cloud accounts","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan an end to end transformation of the reporting stack from legacy bi to modern analytics","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a comprehensive disaster recovery and failover plan for every critical service","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a complete accessibility and localization rollout across web and mobile platforms","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create a platform wide observability and slo program with error budgets for all teams","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan the full decommissioning of the legacy mainframe and migration of all workloads","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design an end to end ml feature platform serving every model in the company","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a comprehensive transformation of the entire qa process toward shift left testing","tier":"ultra","hasTypo":false,"domain":"testing","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a whole platform upgrade and consolidation of all microservices runtimes","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a company wide event driven architecture connecting all domains end to end","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"execute a comprehensive modernization of the billing platform from legacy to cloud native","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"build an end to end data privacy and consent management program across all products","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a full migration of every team from jenkins to a modern ci platform","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a comprehensive caching and cdn strategy across the whole product surface","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan an organization wide adoption of typescript across all frontend and backend repos","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create a complete program to harden every service against the owasp top ten","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead an end to end overhaul of the entire frontend build and deploy toolchain","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a comprehensive multi year platform consolidation across all business units","tier":"ultra","hasTypo":false,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a whole company strategy for real time analytics from ingestion to dashboards","tier":"ultra","hasTypo":false,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute a full migration of all legacy stored procedures into application services","tier":"ultra","hasTypo":false,"domain":"backend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build an organization wide design system adopted by every product team","tier":"ultra","hasTypo":false,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan a complete transition of all infrastructure to immutable images and gitops","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design an end to end fraud detection platform spanning ingestion scoring and review","tier":"ultra","hasTypo":false,"domain":"ml","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead the comprehensive modernization of authentication across web mobile and apis","tier":"ultra","hasTypo":false,"domain":"security","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"create a full program to migrate every monolithic cron job into a managed scheduler","tier":"ultra","hasTypo":false,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"design a company wide multi cloud stratgy with portability and cost controls","tier":"ultra","hasTypo":true,"domain":"architecture","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"plan an end to end transformaton of the entire onboarding experience across products","tier":"ultra","hasTypo":true,"domain":"frontend","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"lead a comprehensve migration of all data pipelines from cron scripts to an orchestrator","tier":"ultra","hasTypo":true,"domain":"data","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"design a platfrom wide rate limiting and quota system for every public api","tier":"ultra","hasTypo":true,"domain":"backend","origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"execute a complete zero downtme cutover of the whole platform to the new datacenter","tier":"ultra","hasTypo":true,"domain":"devops","origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"build an organizaton wide security training and secure sdlc program from scratch","tier":"ultra","hasTypo":true,"domain":"security","origTier":"ultra","rubricReason":"rule:8-keep-original"}

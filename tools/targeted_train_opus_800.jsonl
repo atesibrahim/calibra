@@ -1,0 +1,800 @@
+{"prompt": "what does a stack trace mean", "tier": "light", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "quickly what is the point of contract testing", "tier": "light", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what does a precision recall curve mean", "tier": "light", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you explain a salt", "tier": "light", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, what is rceursion", "tier": "light", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "what does a linked list mean", "tier": "light", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what is a feature vctor", "tier": "light", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "what is teh point of an OAuth scope", "tier": "light", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you explain a partition", "tier": "light", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "tell me what a smoke test is when you get a sec", "tier": "light", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "explain a CSS grid briefly", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what is teh point of lazy loading when you get a sec", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "explain blue green deployment briefly, thanks", "tier": "light", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "tell me what a race condition is when you get a sec", "tier": "light", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "pleae what is a virtual DOM", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you explain tokenization", "tier": "light", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "tell me what a media query is", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what is CSS flexbbox", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey, what is the point of an embedding", "tier": "light", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what does sharding mean when you get a sec", "tier": "light", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "please can you explain rate limiting", "tier": "light", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "pleae what is gradient descent", "tier": "light", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "what is a React hook", "tier": "light", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "tell me what a saga is", "tier": "light", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what is a test double", "tier": "light", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "explain a circuit breaker briefly", "tier": "light", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "what does a foreign key mean", "tier": "light", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you explain an API gateway", "tier": "light", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you what is the point of a runbook please", "tier": "light", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "quickly can you expain an anti-corruption layer", "tier": "light", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you explai normalization", "tier": "light", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "what is the point of ETL", "tier": "light", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "tell me what a webhook is", "tier": "light", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "please explain an aggregate briefly", "tier": "light", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, what is the point of a fixture", "tier": "light", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "document this endpoint in the openapi spec", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "normalize the features in this pipeline", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add lazy loading to the image gallery", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add form validation to the checkout", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, add a cache aside layer to this service", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "write a dockerfile for thsi node service", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "add error handling to this file reader", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "ad rate limiting to the login route, thanks", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "set up a rolling update for the api", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the null pointer in this getter", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the class imbalance with weights", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the off by one error in this loop", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add an api gateway route when you get a sec", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "mock teh http client in this test", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "could you add inline comments to this regex", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you ad a csrf token to the form", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "set up a cron job in kubernetes", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, add a feature flag around this branch", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "implement rety with backoff here", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "configure teh nginx reverse proxy", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "refactor this nested if into a guard clause", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "rotate teh api key in this client, thanks", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey can you deduplicate rows in the customer table please", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add input validation to the signup handler", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add edge case tests for the parser", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "ad dropout to this network, thanks", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "write a migraton to add a foreign key", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "wire up the message queue consumer", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "write a runbook for the deploy", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "please hash the passwords with bcrypt", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "ad pagination to the users endpoint", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "backfill the null email column", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "configure horizontal pod autoscaling", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "write an etl script for the csv import, thanks", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "document teh error codes for this api", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "make the navbar responsive", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you batch the inference requests here", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "ad a sidecar for log shipping", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "write a changelog entry for this release", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add a learning rate scheduler when you get a sec", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "write a cron job that purges old sessions", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "store teh secret in the vault client", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "write a function to compute precision, thanks", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "center teh login modal with flexbox", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "memoize this expensive list render", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "write an integration test for the api", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fxi the flaky timer test", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "implement a webhook receiver for orders", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "implement idempotency keys on the payments route", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add usage examples to the readme", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "cache the embeddings for these docs", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "pleae fix the N+1 query in the report service", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "add an index to the orders table", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "quickly fxi the layout shift on the dashboard", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you fxi the open cors policy", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "cache the product lookup with redis, thanks", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you write a unit test for the checkout function", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the data leak in the train split", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the memory leak in this useEffect", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the slow join in this query, thanks", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you write a docstring for this function please", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "please decouple the email sender from checkout", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "normalize the address table", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you write a helm values file for staging please", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "document the env vars in the readme", "tier": "mid", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "split this module into two services", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add connection pooling to the db client", "tier": "mid", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "sanitize this user input against xss", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "introduce a repository for the user model", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "could you add an idempotent consumer for events", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add a loading skeleton to the profile page", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the race condition in this counter, thanks", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "validate the jwt signature on this route", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add cross validation to this model", "tier": "mid", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "verify the hmac on incoming webhooks", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "implement a custom react hook for fetch", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, stream thsi large csv with a generator", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "add memoization to this recursive function, thanks", "tier": "mid", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "add resource limits to the container", "tier": "mid", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "debounce the search input", "tier": "mid", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "extract the billing logic into a service", "tier": "mid", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "fix the failing assertion in this suite", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "ad a window function for running totals", "tier": "mid", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "quickly add rate limiting to the auth endpoint", "tier": "mid", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you parameterize this repetitive test please", "tier": "mid", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, analyze teh bundle size growth of the admin app", "tier": "deep", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "review the feature pipeline for data leakage risks", "tier": "deep", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, analyze the latency spikes in the gateway", "tier": "deep", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "evaluate the contract testing setup between services", "tier": "deep", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you evaluate the accessibility of the booking form please", "tier": "deep", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you diagnose the memory growth in the long-running worker", "tier": "deep", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the authentication flow for security weaknesses when you get a sec", "tier": "deep", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, evaluate event sourcing for the order domain", "tier": "deep", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the reliability of the payments deployment", "tier": "deep", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the token rotation policy for this service", "tier": "deep", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "analyze teh replication lag on the reporting replica", "tier": "deep", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "assess the input validation coverage of the upload api when you get a sec", "tier": "deep", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "reveiw the evaluation metrics for the ranking model", "tier": "deep", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "diagnose the intermittent timeout in the notification worker", "tier": "deep", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the api documentation for completeness and accuracy", "tier": "deep", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the data retention policy for user records", "tier": "deep", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "assess the api reference quality for external partners", "tier": "deep", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you evaluate teh partitioning strategy for the events table please", "tier": "deep", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "evaluate the disaster recovery plan for this cluster", "tier": "deep", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "audit teh authorization checks on the admin endpoints", "tier": "deep", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey, evaluate the service boundaries in the billing domain", "tier": "deep", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "pleae evaluate the feature store design for this team", "tier": "deep", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "analyze the rendering performance of the dashboard page", "tier": "deep", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "could you reveiw the state management approach in the checkout flow", "tier": "deep", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "assess teh test strategy for the checkout module", "tier": "deep", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "reveiw the error budget policy for this service", "tier": "deep", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "assess the autoscaling configuration for the api tier", "tier": "deep", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the coupling between checkout and inventory", "tier": "deep", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the onboarding docs for new backend engineers", "tier": "deep", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "quickly reveiw the rollback safety of the deploy pipeline", "tier": "deep", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey, assess the flakiness sources in the e2e suite", "tier": "deep", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "could you assess the saga design for the order workflow", "tier": "deep", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the orders service api design for consistency", "tier": "deep", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "evaluate the runbook coverage for the on-call rotation", "tier": "deep", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "analyze the query bottlenecks in the reporting pipeline", "tier": "deep", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the rate limiting design in the api gateway", "tier": "deep", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "assess the drift monitoring for the fraud model", "tier": "deep", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "assess the idempotency guarantees of the payment service", "tier": "deep", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "evaluate the pagination approach for the search endpoint when you get a sec", "tier": "deep", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "review the integration test coverage for the api layer when you get a sec", "tier": "deep", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead the full migration of our monolith backend to microservices end to end", "tier": "ultra", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "re-architect teh entire payments platform across all regions end to end", "tier": "ultra", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "create a unified documentation platform for every team and prooduct", "tier": "ultra", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "lead a complete platform reliability program across every product team", "tier": "ultra", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "run a complete design-system rollout across every frontend team", "tier": "ultra", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "roll out a company-ide documentation and knowledge management program when you get a sec", "tier": "ultra", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey can you stand up an organization-wide mlops and model governance program pleae", "tier": "ultra", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey can you build an organization-wide gitops and progressive delivery platform pleae", "tier": "ultra", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "please replatform all customer-facing web apps onto a shared framework end to end", "tier": "ultra", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "can you drive an end-to-end event-driven architecture transformation across all services", "tier": "ultra", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "create a company-wide secrets management and rotation program", "tier": "ultra", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "build a company-wide ml platform with training, serving, and monitoring, thanks", "tier": "ultra", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "execute an end-to-end application security program across every service", "tier": "ultra", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead a company-wide api reference and developer-portal program", "tier": "ultra", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "execute a complete frontend modernization across all of our web apps, thanks", "tier": "ultra", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead a platformwide domain-driven decomposition across all teams", "tier": "ultra", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "could you lead an org-wide responsible-ai and model-governance rollout", "tier": "ultra", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "unify all product frontends onto a single design system platform-wide", "tier": "ultra", "domain": "frontend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you lead a full multi-system modernization roadmap for teh whole platform please", "tier": "ultra", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you roll out a platform-wide test automation and quality gate program", "tier": "ultra", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "migrate every backend service off the shared database org-wide", "tier": "ultra", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you establish an organization-wide automated testing and quality stratgey please", "tier": "ultra", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "build a company-wide internal developer platform with golden paths, thanks", "tier": "ultra", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "migrate every team's pipelines to a governed lakehouse platform end to end", "tier": "ultra", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "could you transform teh whole org to a shift-left testing and ci quality culture", "tier": "ultra", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "hey, modernize the entire ordering platform across all regions end to end", "tier": "ultra", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey, build an organization-wide master data management program", "tier": "ultra", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "hey can you drive an org-wide incident response and postmortem transformation pleae", "tier": "ultra", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "plan an organization-wide data platform and governance overhaul", "tier": "ultra", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead an end-to-end migration from the legacy warehouse to a lakehouse for all teams", "tier": "ultra", "domain": "data", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "build a company-wide model registry and serving platform end to end", "tier": "ultra", "domain": "ml", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "please lead a complete platform reliability and slo program across all teams", "tier": "ultra", "domain": "general", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "consolidate every backend service onto a unified runtime org-wide", "tier": "ultra", "domain": "backend", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide flaky-test elimination and ci stabilization initiative", "tier": "ultra", "domain": "testing", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "quickly create an end-to-nd docs-as-code platform for every team", "tier": "ultra", "domain": "documentation", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "desiign a platform-wide observability and on-call transformation", "tier": "ultra", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "can you decompose teh entire monolith into bounded microservices across all teams", "tier": "ultra", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "lead a full multi-cluster kubernetes consolidation across all environments", "tier": "ultra", "domain": "devops", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "lead a comapny-wide compliance and audit remediation program", "tier": "ultra", "domain": "security", "failureFocus": "light-mid-boundary", "hasTypo": true}
+{"prompt": "drive an end-to-end api standardization program for every service", "tier": "ultra", "domain": "architecture", "failureFocus": "light-mid-boundary", "hasTypo": false}
+{"prompt": "cahce nedir", "tier": "light", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "JWT ne demek, lütfen", "tier": "light", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "OAuth nedir kısaca", "tier": "light", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "rate limiting ne demek", "tier": "light", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "selam, docker container nedir", "tier": "light", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "flxebox ne işe yarar, lütfen", "tier": "light", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "kısaac foreign key nedir", "tier": "light", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "kısaca teşekküler yardım için", "tier": "light", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "index ne demek veritabanında", "tier": "light", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba changelog ne demk", "tier": "light", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "idempotency ne demek rica etsem", "tier": "light", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "ORM nedir rica etsem", "tier": "light", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen merhaba nasılsın", "tier": "light", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "webhook nedir", "tier": "light", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "unit test neir", "tier": "light", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "bu useEffect'teki memory leaki düzelt", "tier": "mid", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "şu querydeki yavaş joini düzelt", "tier": "mid", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "signup handlerına validation ekle", "tier": "mid", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acbaa sonsuz döngünün nedenini bul", "tier": "mid", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "flaky timer testini düzelt", "tier": "mid", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba health check ekle deployment'a", "tier": "mid", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "bu fonksiyona unit test yaz", "tier": "mid", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "şu race condition'ı düzelt  sayaçta", "tier": "mid", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "login route'una rate limit ekle", "tier": "mid", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "kısaca bu modalı ortala", "tier": "mid", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "bu listeyi memoize et", "tier": "mid", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "orders tablosuna index ekle", "tier": "mid", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "bu CSV dosyasını satır satır oku", "tier": "mid", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba jwt imzasını doğrula bu handlerda", "tier": "mid", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "dockerfile yaz bu servis için", "tier": "mid", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba kullanıcı kayıtları için veri saklama politikasını incele", "tier": "deep", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaab gateway'deki latency artışlarını analiz et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "feature pipeline'ı veri sızıntısı açısından incelee", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen upload api'sinin girdi doğrulama kapsamını değerlendir", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen reeporting pipeline'daki query darboğazlarını analiz et", "tier": "deep", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen deploy pipeline'ının rollback güvenliğini gözden geçir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen upload api'sinin girdi doğrulama kapsamını değerlendir", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen fraud modeli için drift izlemeyi değerlendir", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "deploly pipeline'ının rollback güvenliğini gözden geçir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "bu servisin token rotasyon politikasını gözden geçir", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba uzun süre çalışan worker'daki bellek artışını teşhsi et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba admin endpointlerindeki yetkilendirme kontrollerini denetle", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen api dokümantasyonunu eksiksizlik açısından gözden geçir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "upload api'sinin girdi doğrulama kapsamını değerlendir", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen feature pipeline'ı veri sızıntısı açısından incele", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "gateway'deki latency artışlarını analiz et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen uzun süre çalışan worker'daki bellek artışını teşhis et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen on-call rotasyonu için runbook kapsamını değerlendir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen orders servisinin cache stratejisini tasarla", "tier": "deep", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen ranking modelinin değerlendirme metriklerini incele", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen admin endpointlerindeki yetkilendirme kontrollerini denetle", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen order workflow'u için saga tasarımını incele", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba ranking modelinin değerlendirme metriklerini incelee", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen yeni backend mühendisleri için onboarding dokümanlarını gözden geçir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lüten admin endpointlerindeki yetkilendirme kontrollerini denetle", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba reporting pipeline'daki query darboğazlarını analiz et", "tier": "deep", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen bu order domaini için event sourcing'i değerlendir", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen auth akışını güvenlk açısından incele", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba checkout modülünün test stratejisini değerlendir", "tier": "deep", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen dashboard sayfasının render performansını incele", "tier": "deep", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "e2e suite'teki flaky test kaynaklarını değerlendir", "tier": "deep", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba checkout akışındaki stte yönetimini gözden geçir", "tier": "deep", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba order workflow'u için saga tasarımını incelee", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "lütfen reporting pipeline'daki query darboğazlarını analiz et", "tier": "deep", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen checkout modülünün test stratejisini değerleendir", "tier": "deep", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba bu cluster için felaket kuurtarma planını değerlendir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba auth akışını güvenlik açısından incele", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen checkout akışındaki state yönetimini gözdeen geçir", "tier": "deep", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "checkout modülünün test stratejisini değerlendir", "tier": "deep", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen notification worker'daki aralıklı timeout'u teşhis et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen payments deployment'ının güvenilirliğini gözden geçir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba servisler arası contract testing kurulumunu değerlendir", "tier": "deep", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen kullanıcı kayıtları için veri saklama politikasını incele", "tier": "deep", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen billing domaini için servis sınırlarını değerlendir", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba on-call rotasyonu için runbook kapsamını değerlendir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "api dokümantasyonunu eksiksizlik açısındann gözden geçir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "order workflow'u için saga tasarımını incele", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba orders servisinin cache stratejisini tasarla", "tier": "deep", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "billing domaini için serivs sınırlarını değerlendir", "tier": "deep", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "checkout akışındaki state yönetimini gözden geçir", "tier": "deep", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba fraud moeli için drift izlemeyi değerlendir", "tier": "deep", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen notification worker'daki aralıklı timeout'u teşhsi et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "search endpointinin pagination yaklaşımını gözden geçir", "tier": "deep", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba deploly pipeline'ının rollback güvenliğini gözden geçir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "uzun süre çalışan worker'daki bellek artışını teşhis et", "tier": "deep", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "bu clustr için felaket kurtarma planını değerlendir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba upload api'sinin girdi doğrulama kapsamını değerlendir", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "admin endpointlerindeki yetkilendirme kontrollerini denetle", "tier": "deep", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen api dokümantasyonunu eksiksizlik açısından gözden geçir", "tier": "deep", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen deploly pipeline'ının rollback güvenliğini gözden geçir", "tier": "deep", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "lütfne altın yollar içeren şirket çapında bir geliştirici platformu kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "platform genelinde gözlemlenebilirlik dönüşümü tasrla", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba tüm organizasyonu shift-left test ve ci kalite kültürüne dönüştür", "tier": "ultra", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "her ekip ve ürün için birleşik dokümantasyon platformu oluştur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba tüm ürünlerde kapsamlı bir erişilebilirlik uyum programı yürüt", "tier": "ultra", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen tüm backend servislerini ortak veritabanından organizasyon çapında ayır", "tier": "ultra", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba eğitim, sunum ve izleme içerne şirket çapında bir ml platformu kur", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen tüm ekipler için organizasyon çapında bir veri platformu planla", "tier": "ultra", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen tüm hizmetlerde uçtan uca bir felaket kurtarma ve süreklilik programı kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen büyük lansman için kapsamlı bir performans hazırlık programı oluştur", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba tüm platform için çok sistemli bir modernizasyon yol haritası yürüt", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen her ekip için birleşik bir dokümantasyon platformu kur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen eğitim, sunum ve izleme içeren şirket çapında bir ml platformu kur", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba organizasyon çapında bir ci/cd ve sürüm yönetimi dönüşümü tasarla", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba şirket çapında gizli anahtar yönetimi ve rotasyon programı oluştur", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen tüm ekiplerde kapsamlı bir teknik borç azaltma yol haritası oluştur", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "altın yollar içeren şirket çapında bir geliştirici platformu kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen şirket çapında kimlik ve erişim yönetimi programını uçtan uca tasrla", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "tüm ekiplerde kapsamlı bir teknik borç azaltma yol haritası oluştur", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "organizasyon çapında bir ci/cd ve sürüm yönetimi dönüşümü tasarla", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba tüm ürün frontendlerini tek bir tasarım sistemi platformunda birleştir", "tier": "ultra", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "tüm organizasyonu shift-left test ve ci kalite kültürüne dönüştür", "tier": "ultra", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "tüm modelleri merkezi bir feature store ve serving platformuna taşı", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm ekipler için organizasyon çapında bir veri platformu planlaa", "tier": "ultra", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba tüm bölgelerde ödeme platformunu uçtan uca yeniden mimarileştir", "tier": "ultra", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen her ekip ve ürün için birleşik dokümantasyon platformu oluştur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "tüm web uyygulamalarında eksiksiz bir frontend modernizasyonu yürüt", "tier": "ultra", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "lütfen uçtan uca event-driven mimari dönüşümünü tüm servislerde yürüt", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen şirket çapında gizli anahtar yönetimi ve rotasyon programı oluştur", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "şirket çapında gizli anahtar yönetimi ve rotasyon programı oluştur", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen eski veri ambarıdan lakehouse'a tüm ekipler için uçtan uca geçiş yap", "tier": "ultra", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen tüm bölgelerde ödmee platformunu uçtan uca yeniden mimarileştir", "tier": "ultra", "domain": "backend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba tüm hizmetlerde uçtan uca bir felaket kurtarma ve süreklilik programı kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "tüm veri hattını gerçek zamanlı stream mimarisine geçirme programını yönet", "tier": "ultra", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen organizasyon çapında bir ci/cd ve sürüm yönetimi dönüşümü tasrla", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaba tüm monolliti tüm ekiplerde bounded mikroservislere ayır", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen büyük lansman için kapsamlı bir performns hazırlık programı oluştur", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "monolit uygulamayı mikroservislere taşıma programını uçtan uca planlaa", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "acaaba tüm web uygulamalarında eksiksiz bir frontend modernizasyonu yürüt", "tier": "ultra", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen tüm ürün ekiplerinde eksiksiz bir platform güvenilirlik programı yürüt", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "her ekip için birleşik bir dokümantasyon platformu kur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm monoliti tüm ekiplerde bounded mikroservislere ayır", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen her ekip için birleşik bir dokümantasyon platfomru kur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "lütfen platform genelinde gözlemlenebilirlik dönüşümü tasarla", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm mikroservisler için merkezi bir api gatewayy ve trafik yönetimi programı kur", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen tüm organizasyonu shift-left test ve ci kalite kültürüne dönüştür", "tier": "ultra", "domain": "testing", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm web uygulamalarında eksiksiz bir frontend modernizasyonu yürüt", "tier": "ultra", "domain": "frontend", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "eğitim, sunum ve izleme içeren şirket çapında bir ml platformu kur", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen organizasyon genelinde eksiksiz bir zero-trust güvenlik dönüşümü yürüt", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen eski veri ambarından lakehouse'a tüm ekipler için uçtan uca geçiş yap", "tier": "ultra", "domain": "data", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen her ekip ve ürün için birleşik dokümantasyon platformu oluştur", "tier": "ultra", "domain": "documentation", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm ekiplerde kapsamlı bir teknik borç azaltma yol haritası oluştur", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen organizasyon çapında bir mlops ve model yönetişim programı kur", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen tüm modelleri merkezi bir feature store ve serving platformuna taşı", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen monolit uygulamayı mikroservislere taşıma programını uçtan uca planlaa", "tier": "ultra", "domain": "architecture", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "müsaitsen eğitim, sunum ve izleme içeren şirket çapında bir ml platformu kur", "tier": "ultra", "domain": "ml", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "müsaitsen altın yollar içeren şirket çapınad bir geliştirici platformu kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": true}
+{"prompt": "tüm ürün ekiplerinde eksiksiz bir platform güvenilirlik programı yürüt", "tier": "ultra", "domain": "general", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "acaba altın yollar içeren şirket çapında bir geliştirici platformu kur", "tier": "ultra", "domain": "devops", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "lütfen şirket çapında gizli anahtar yönetimi ve rotasyon programı oluştur", "tier": "ultra", "domain": "security", "failureFocus": "turkish-mixed", "hasTypo": false}
+{"prompt": "can you mock the api", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a metric please", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a smoke test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add retry", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "write a migration", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix broken header", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a spinner", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the join", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the leak in useEffect", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debug the flaky build", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the leak", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the encoding", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the json schema", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the slow render", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "quickly fix the deadlock", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a rate limiter", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debug the deadlock", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a feature toggle", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "normalize the schema", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the redirect loop", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the env var", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "dedupe the list", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the scroll jank", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "sanitize teh input", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fxi the timezone bug", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the cors error", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a snapshot test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "dedupe teh rows", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add a dropdown", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the cookie flag please", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a liveness probe", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "compress the payload", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add rate limiting", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the sql injection", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a down migration", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "write a compose file", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the flaky test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a feature flag", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debug the crash please", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "wrap with try catch", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "normalize the data", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "parse the csv", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "write a dockerfile", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add csrf protection", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the auth bug", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "mock the database", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "can you throttle teh requests", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the broken build", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a timeout", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "valdiate the jwt please", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add a debounce", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a backfill", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the snapshot test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "escape the html", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "trim the whitespace", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the broken link", "tier": "mid", "domain": "documentation", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "verify teh token please", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "can you fxi the type error", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add backoff", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "escape teh query", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add a docstring", "tier": "mid", "domain": "documentation", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the slow query", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the nav bug", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a readiness probe", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a log line", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the hover state", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "parse the json", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "center the modal", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the pagination bug", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the typo bug", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the boundary case", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the json parse", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "salt the password", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debounce teh input", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add a retry queue", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "stream teh response", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add caching", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the regex", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the empty state", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "hash teh password", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "debug teh segfault", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "ad a loading spinner", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the broken test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the off by one please", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "stream the file", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the undefined check", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debug infinite loop", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a unit test", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "memoize this", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the seed data", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add a queue consumer", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "quickly stream this CSV", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "compress teh images", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the layout shift please", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add error handling", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the css grid", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the form reset", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi CORS", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add a healthcheck endpoint", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the date parsing", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the broken chart", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "add pagination", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "mock the clock", "tier": "mid", "domain": "testing", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "lazy load images", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "cache this call", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the data race", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "debug the panic", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the parser bug", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the cache miss", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "batch the inserts", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a cron job", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "ad a rollback", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fxi the auth header", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the token refresh", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "can you reindex the table", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "retry the request", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the import error", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the 500 error", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "add input validation", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a probe", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fxi the 404 route", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fxi the N+1", "tier": "mid", "domain": "data", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "debug the hang", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "ad a backoff", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "paginate teh api", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the race", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the modal close", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "fix the stale cache please", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "scale the deployment", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the preflight", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "can you add a guard clause", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the broken pagination please", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "rety on timeout", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "limit the request rate", "tier": "mid", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "center the dialog", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the upload", "tier": "mid", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fxi the merge conflict logic", "tier": "mid", "domain": "general", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "ad a health check", "tier": "mid", "domain": "devops", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "debounce search", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "fix the broken modal", "tier": "mid", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is rety logic", "tier": "light", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "what is a unit test pleae", "tier": "light", "domain": "testing", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "what is a fetaure flag", "tier": "light", "domain": "general", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "what is a jwt", "tier": "light", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is a modal", "tier": "light", "domain": "frontend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is a dockerfile", "tier": "light", "domain": "devops", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is pagination", "tier": "light", "domain": "backend", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is an index", "tier": "light", "domain": "data", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is CORS", "tier": "light", "domain": "security", "failureFocus": "short-mid", "hasTypo": false}
+{"prompt": "what is a webhook pleae", "tier": "light", "domain": "backend", "failureFocus": "short-mid", "hasTypo": true}
+{"prompt": "format teh nginx config", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "change the placeholder text to Email", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format teh eslint config", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix typo in the model docstring", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the page number when you get a sec", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the retry loop", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the metric description", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the model card", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you add a todo comment in the parser", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh modal title text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "add a comment above the migration", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format teh Dockerfile", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename teh table users to accounts in the comment, thanks", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename teh param uid to userId", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "hey can you add console.log for the job id please", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey can you change teh footer link text please", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "add console.log before the redirect", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the env var API_KEY to SERVICE_KEY", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the queue length", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the env var LOG to LOG_LEVEL", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the api comment", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh copyright year in the footer when you get a sec", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "format the json config file when you get a sec", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the contributing guide", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the secret key comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the prettier config", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename teh namespace comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix the typo in the oauth comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename getUser to fetchUser, thanks", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log before the fetch", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename req to request", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the response status", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the rate limit config", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the connection state", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the log prefix to API", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you change the toast message to Saved", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename teh metric name comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename res to response", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey, format the dockerignore file", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the log level to debug", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "could you change teh submit button color comment", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "can you change the alert message text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the yaml indentation", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "could you fxi the typo in the jwt docstring", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "format the editorconfig", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename idx to index", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "ad a log statement in the catch block", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "change the title tag text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename arr to items, thanks", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the chart legend label", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi typo in the terraform variable description", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename the function calc to compute when you get a sec", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the retry count", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the regex", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format teh lockfile comment", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix the typo in the CORS comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the index comment", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi typo in the JWT validation comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename data to payload", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you rename DB_HOST to DATABASE_HOST", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you change the label on the search box", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the error message", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the worker comment", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename teh file utils to helpers in the import comment", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename the var temp to buffer", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the openapi yaml", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the api docs heading", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename acc to accuracy", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi the typo in the helm values comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "could you ad a comment for the dropout layer", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "add console.log for the cache hit", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi the typo in the changelog entry", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename lr to learning_rate", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey can you add a comment explaining the timeout please", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format teh markdown table", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fxi typo in the helm chart comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "change the link label to Home", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the css class btn to button", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the var resp to response", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the route path comment when you get a sec", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "could you fix the typo in the cors header comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh toast text to Done", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix the typo in the test name", "tier": "light", "domain": "testing", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the github actions workflow", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh loss label in the plot", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "change the breadcrumb text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey can you fix typo in the cache comment please", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you format the env example file", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename token to accessToken, thanks", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the python file with black", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the css class card to panel", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the css var color", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi the typo in the dockerfile comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "can you rename teh const URL to ENDPOINT", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename df to dataframe", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename msg to message", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment explaining the seed", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh alt text on the logo when you get a sec", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "can you fix typo in the migration comment", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the toml config", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "quickly format teh scss file", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "rename JWT_SECRET variable", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename apiUrl to baseUrl", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the cypress config, thanks", "tier": "light", "domain": "testing", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the hash function", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the var cnt to count", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the dataset comment", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey, change button text to Submit", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the requirements.txt", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey, add a comment above the cron expression", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the package.json", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add console.log for the batch size", "tier": "light", "domain": "ml", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the spinner aria label", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the env loader", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "quickly change the button label to Cancel", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the auth middleware comment", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "add a comment above the jwt decode, thanks", "tier": "light", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the prop title to heading", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the heading color comment", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "format the alembic migration file", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename e to eent", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix typo in the schema comment", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey, add console.log for user id", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename handler to onClick", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the pipeline comment", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change teh success banner text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "can you fxi typo in the seed script comment", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "change the disabled button text", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename ctx to context", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fxi typo in the prometheus rule comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix typo in the kafka topic comment", "tier": "light", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename teh test file comment", "tier": "light", "domain": "testing", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "quickly fix typo in the kubernetes comment", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "can you fix typo in the readme badge", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the runbook step", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix typo in the grafana dashboard title", "tier": "light", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "change the tooltip text on the icon", "tier": "light", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the spelling in the readme title, thanks", "tier": "light", "domain": "documentation", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the variable foo to count", "tier": "light", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "quickly rename the column comment id to user_id", "tier": "light", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename the function and fix its broken callers", "tier": "mid", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey, updaet the dockerfile so the build actually passes", "tier": "mid", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "fix the off by one in the pagination offset", "tier": "mid", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "hey can you fxi the comment and the actual bug in the retry logic please", "tier": "mid", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": true}
+{"prompt": "please rename the column and write the migration for it", "tier": "mid", "domain": "data", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the broken regex causing the parse error", "tier": "mid", "domain": "general", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "could you update the css so the button text is not clipped", "tier": "mid", "domain": "frontend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo bug that breaks the jwt parsing", "tier": "mid", "domain": "security", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "fix the typo in the env key that breaks config loading", "tier": "mid", "domain": "devops", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "rename authToken everywhere and update the imports", "tier": "mid", "domain": "backend", "failureFocus": "trivial-technical-light", "hasTypo": false}
+{"prompt": "analyze teh memory growth in the import worker", "tier": "deep", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "review the retry and timeout policy in this client", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "reveiw the feature pipeline for the churn model", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "can you review the backup and restore plan for this database", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the csrf protection on the settings forms", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review this service's caching strategy", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you analyze the read path latency in the search service please", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the slow startup of the catalog service", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the session management in the login service", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the alerting thresholds for the payment worker", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the bundle size of the admin web app", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the connection pool sizing for the report db", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design the saga for the refund workflow", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the error rate spike in the checkout api, thanks", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the state management in the checkout page", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the schema migration safety for the users table", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the cache hit ratio for the session store", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze query bottlenecks in the analytics pipeline", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the database indexing on the orders table", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the timeout cascade in the gateway", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the drift monitoring for the fraud model", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the lock contention in the inventory service", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the data model for the subscription domain", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you design the rate limiting approach for the public api please", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the contract testing setup between two services", "tier": "deep", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess teh message ordering guarantees in this consumer", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "diagnose teh latency spikes in the notification worker", "tier": "deep", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "review the failover behavior of the primary database", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the lazy loading strategy on the catalog page", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, review the e2e test reliability for the checkout flow", "tier": "deep", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the read consistency for the profile service", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the secret handling in the deploy scripts", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the observability gaps in the payment service", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the gc pauses in the recommendation service", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the etl reliability for the nightly reporting job", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the deploy health checks for the worker pool", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design the caching strategy for the product api", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "audit the authorization checks in the billing service", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess teh index bloat on the audit log table", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "analyze the flakiness in the integration suite", "tier": "deep", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the circuit breaker config in this gateway client", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the deploy pipeline for rollback safety", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the runbook coverage for the on-call rotation", "tier": "deep", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you assess the cache invalidation logic in the catalog service", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the onboarding docs for the mobile team", "tier": "deep", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate event sourcing for the order domain when you get a sec", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "audit the api documentation for the partner endpoints", "tier": "deep", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the coupling between inventory and fulfillment", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you evaluate the test pyramid balance for the orders service please", "tier": "deep", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess the train test split for data leakage", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the data validation in the import pipeline, thanks", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you review the auth flow of the admin portal for weaknesses please", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "analyze the inference latency of the ranking service", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "reveiw the token rotation policy for this api", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "assess the logging strategy in the order service", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you design the idempotency approach for the payments endpoint please", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "evaluate the backpressure handling in this stream consumer", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "assess teh bundle splitting in the marketing site, thanks", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "evaluate the feature flag cleanup process for this team when you get a sec", "tier": "deep", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the cors and csp configuration for this app", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design the partitioning strategy for the events table", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "can you review the api versioning approach for this service", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "review the kubernetes deployment reliability for this service when you get a sec", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you review the rendering performance of the dashboard page", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "reveiw the password reset flow for security gaps", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "review the webhook delivery reliability in this service", "tier": "deep", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "reveiw the error budget policy for this single service", "tier": "deep", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "analyze the cold start latency of this lambda function", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, reveiw the model retraining cadence for the demand model", "tier": "deep", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "assess the autoscaling config for the api tier", "tier": "deep", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "reveiw the service boundaries in the checkout module", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "hey, design the read replica routing for the catalog queries", "tier": "deep", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you evaluate teh throttling policy on the search api", "tier": "deep", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "evaluate teh accessibility of the booking flow", "tier": "deep", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "hey, review the dead letter queue handling in this consumer", "tier": "deep", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you run a complete api versioning and deprecation program across every service", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "please lead a complete platform reliability program across every product team", "tier": "ultra", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, design a platform-wide caching and cdn strategy across every product surface", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you build a company-wide ml platform with training, serving, and monitoring please", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you dseign a platform-wide autoscaling and capacity planning program", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "roll out a company-wide runbook and incident response documentation program", "tier": "ultra", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build a company-wide database failover and high-availability program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "establish a company-wide observability and on-call program", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "can you unfy every product frontend onto a single design system platform-wide", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "create a company-wide secret scanning and dependency remediation program", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design an organization-wide dead-letter and retry standard across all consumers", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, establish an organization-wide password and credential security program", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "create an end-to-end ci//cd and progressive delivery transformation", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "hey can you design an org-wide error budget and slo governance framework please", "tier": "ultra", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "drive a complete legacy decommissioning roadmap across the whole platform", "tier": "ultra", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "pleae build a company-wide config management and secrets standard for every service", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "establish an organization-wide token lifecycle and key rotation program, thanks", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you run a complete cors, csp, and browser security hardening program across all apps pleae", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "build a platform-wide resilience and chaos engineering program", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you lead a complete observability, alerting, and incident program platform-wide", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead a platform-wide bundle size and web performance program for every app", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead a platform-wide idempotency and exactly-once delivery initiative, thanks", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you create a platform-wide feature store and model serving transformation", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design a multi-region disaster recovery and failover program for every service", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide async job and scheduler reliabiliy program platform-wide", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "drive an end-to-end event-driven architecture transformation across all services", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "create a unified documentation and knowledge platform for every team", "tier": "ultra", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build a platform-wide retry, timeout, and resilience standard for all clients", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design a platform-wide saga and workflow orchestration standard", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "please lead an org-wide authentication and session management modernization", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "establish an organization-wide mlops and model governance program", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you run a complete identity and access management overhaul across the org", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "please create a platform-wide connection pooling and database capacity program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "drive a full multi-system modernization roadmap for the whole platform", "tier": "ultra", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "quickly design a platform-wide rate limiting and abuse prevention program", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you design an organization-wide indexing and query performance program please", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "execute a full zero-trust security transformation across every system", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "can you design a platform-wide deploy health and rollback governance program", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead a platform-wid web performance and core web vitals program when you get a sec", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "lead an end-to-end migraton of all services off the shared database, thanks", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "establish a company-wide e2e and contract testing stratgey across all teams", "tier": "ultra", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "run an end-to-end pii handling and data privacy program across every system", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build an organization-wide kubernetes platform with golden paths", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design an org-wide gateway and timeout-budget standard across all services, thanks", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you re-architect the entire subscription and billing domain across all teams please", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "transform the whole org to a shift-left testing and quality culture, thanks", "tier": "ultra", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead a platform-wide data partitioinng and lifecycle program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "establish an organization-wide streaming and backpressure standard", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "creeate a company-wide api gateway and rate limiting program", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "design a company-wide frontend error monitoring and rum program platform-wide", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "can you biuld a company-wide documentation and onboarding platform for all teams", "tier": "ultra", "domain": "documentation", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "please lead an org-wide webhook and event delivery reliability program", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, establish an organization-wide load and stress testing program across services", "tier": "ultra", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build a platform-wide search relevance and ranking program across products", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "decompose the whole monolith into bounded microservices org-wide when you get a sec", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design an end-to-end caching, invalidation, and cdn governance program when you get a sec", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design an organization-wide etl to streaming migration program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "establish a platform-wide read consistency and caching governance program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide schema migration and zero-downtime deploy program", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide data leakage and model validation remediation program", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build a company-wide analytics platform and governance mdoel when you get a sec", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "can you run a complete csrf, xss, and browser hardening program across all apps", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "could you deesign a platform-wide queue and messaging standard across all services", "tier": "ultra", "domain": "architecture", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "establish an organization-wide feature-flag lifecycle and cleanup program", "tier": "ultra", "domain": "general", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "build a company-wide structured logging and tracing standard across all services", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide model retraining and lifecycle automation program", "tier": "ultra", "domain": "ml", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "drive an end-to-end checkout and payments reliability program platform-wide", "tier": "ultra", "domain": "backend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "design a company-wide tracing and distributed-contexxt standard for all services", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "can you build a platform-wide test infrastructure and flakiness reduction program", "tier": "ultra", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "lead an org-wide schema governance and data contract program for all teams", "tier": "ultra", "domain": "data", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, create a company-wide secrets management and rotation program", "tier": "ultra", "domain": "security", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey can you execute a complete frontend modernization across all web apps please", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, lead a platform-wide capacity planning and load testing program across teams", "tier": "ultra", "domain": "testing", "failureFocus": "deep-ultra-boundary", "hasTypo": false}
+{"prompt": "hey, builld a company-wide backup, restore, and dr program for every datastore", "tier": "ultra", "domain": "devops", "failureFocus": "deep-ultra-boundary", "hasTypo": true}
+{"prompt": "could you run an organization-wide accessibility compliance program across all products", "tier": "ultra", "domain": "frontend", "failureFocus": "deep-ultra-boundary", "hasTypo": false}

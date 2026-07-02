@@ -15,8 +15,12 @@
   "files": [
     "src/",
     "scripts/",
+    "tools/",
     "README.md"
   ],
+  "dependencies": {
+    "onnxruntime-node": "^1.20.1"
+  },
   "keywords": [
     "claude",
     "claude-code",

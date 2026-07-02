@@ -1,0 +1,118 @@
+<mxfile host="Electron">
+  <diagram name="ML Engine (Rule-First Cascade)" id="ml-engine">
+    <mxGraphModel dx="1566" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="Prompt" vertex="1">
+          <mxGeometry height="50" width="120" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="ruleClassify() — deterministic rule layer" vertex="1">
+          <mxGeometry height="45" width="260" x="330" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rca" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="rc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Rule 1: empty or slash command?" vertex="1">
+          <mxGeometry height="65" width="220" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="r1a" edge="1" parent="1" source="rc" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="r1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="mid ✓" vertex="1">
+          <mxGeometry height="35" width="70" x="640" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="r1ra" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r1r" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Rule 2: pure greeting / social?" vertex="1">
+          <mxGeometry height="65" width="220" x="350" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r2a" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="r2" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light ✓" vertex="1">
+          <mxGeometry height="35" width="70" x="640" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="r2ra" edge="1" parent="1" source="r2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r2r" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Rule 3: trivial single-edit?&#xa;(null check, rename, format…)" vertex="1">
+          <mxGeometry height="75" width="220" x="350" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="r3a" edge="1" parent="1" source="r2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="r3" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light ✓" vertex="1">
+          <mxGeometry height="35" width="70" x="640" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="r3ra" edge="1" parent="1" source="r3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r3r" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Rule 4: ≥2 breadth words OR&#xa;3+ item enum OR ≥2 named subsystems?" vertex="1">
+          <mxGeometry height="80" width="240" x="340" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="r4a" edge="1" parent="1" source="r3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="r4" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="ultra ✓" vertex="1">
+          <mxGeometry height="35" width="70" x="640" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="r4ra" edge="1" parent="1" source="r4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r4r" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="def" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Rules 5–7: intent verb / short&#xa;→ NOT CONFIDENT → defer to ML" vertex="1">
+          <mxGeometry height="55" width="220" x="350" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="defa" edge="1" parent="1" source="r4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="def" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="MiniLM-L6-v2 ONNX Pipeline" vertex="1">
+          <mxGeometry height="45" width="240" x="340" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="mla" edge="1" parent="1" source="def" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="1. Tokenize (BERT WordPiece)" vertex="1">
+          <mxGeometry height="38" width="220" x="350" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a" edge="1" parent="1" source="ml" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="2. MiniLM ONNX → 384-dim vector&#xa;   mean-pool + L2-normalize" vertex="1">
+          <mxGeometry height="45" width="220" x="350" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="ml2a" edge="1" parent="1" source="ml1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="3. Append lexical features&#xa;   (deepC, midC, scopeC, domainC)" vertex="1">
+          <mxGeometry height="45" width="220" x="350" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="ml3a" edge="1" parent="1" source="ml2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="4. Ordinal regression head&#xa;   → tier posterior distribution" vertex="1">
+          <mxGeometry height="45" width="220" x="350" y="1084" as="geometry" />
+        </mxCell>
+        <mxCell id="ml4a" edge="1" parent="1" source="ml3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="5. expectedCostDecision(policy I)&#xa;   minimize expected routing cost" vertex="1">
+          <mxGeometry height="45" width="220" x="350" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="ml5a" edge="1" parent="1" source="ml4" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ml5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Tier: light / mid / deep / ultra" vertex="1">
+          <mxGeometry height="50" width="210" x="355" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="outa" edge="1" parent="1" source="ml5" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="out" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;strokeColor=#e1d5e7;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" value="~88% on independent holdouts&lt;br&gt;(irreducible label-noise ceiling)" vertex="1">
+          <mxGeometry height="50" width="210" x="640" y="1220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
