@@ -19,6 +19,8 @@
     "README.md"
   ],
   "dependencies": {
+    "@cspell/dict-tr-tr": "^3.0.6",
+    "cspell-lib": "^6.31.3",
     "onnxruntime-node": "^1.20.1"
   },
   "keywords": [

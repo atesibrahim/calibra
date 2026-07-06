@@ -25,6 +25,7 @@ const {
   stripInjectedTags,
   extractPrompt,
   checkFastExits,
+  correctTypos,
 } = requireCalibraMl('classify-core.js');
 
 let calibraConfigWarned = false;
@@ -38,7 +39,7 @@ function loadCalibraModels() {
 }
 
 function calibraClassify(prompt) {
-  const trimmed = (prompt || '').trim();
+  const trimmed = correctTypos((prompt || '').trim());
 
   // Signal probes — run once, used in fast-exit gate and scoring axes
   const hasDeepIntent = CALIBRA_DEEP_INTENT.test(trimmed);

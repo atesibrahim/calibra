@@ -74,6 +74,10 @@ check('design the authentication system for this service',
   { tier: 'deep' }, 'deep-design-auth');
 check('review the security posture of the API layer',
   { tier: 'deep' }, 'deep-security-review');
+// Typo-tolerance regression: a typo in the intent keyword must not change tier.
+check('do a secuity check on this project for owasp top 10',
+  { tier: calibraClassify('do a security check on this project for owasp top 10').tier },
+  'deep-typo-security-owasp');
 check('analyse the performance bottlenecks in the database queries',
   { tier: 'deep' }, 'deep-analyse-perf');
 check('refactor the payment module to use clean architecture',

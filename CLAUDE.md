@@ -41,8 +41,9 @@ Claude Code
     ▼ ANTHROPIC_BASE_URL → http://127.0.0.1:{port}
 ~/.claude-corp/saka-proxy.js            ← local HTTP proxy
     │  1. reads engine flag (heuristic | ml)
-    │  2. classifies prompt → tier (light/mid/deep/ultra)
-    │  3. rewrites body.model in-flight
+    │  2. correctTypos() — hunspell EN/TR typo correction (fail-soft)
+    │  3. classifies prompt → tier (light/mid/deep/ultra)
+    │  4. rewrites body.model in-flight
     ▼
 Upstream AI server  (CALIBRA_REMOTE_HOST)
 ```
@@ -51,7 +52,7 @@ Upstream AI server  (CALIBRA_REMOTE_HOST)
 - **Heuristic (default):** `calibraClassify()` in `saka-proxy.js` — 5-axis regex scoring
 - **ML (opt-in):** `classifyML()` in `src/ml/calibra-ml.js` — MiniLM-L6-v2 ONNX + cosine similarity to tier centroids
 
-ML engine is fail-soft: missing model / onnxruntime error / timeout → silently falls back to heuristic.
+Both engines receive typo-corrected text via `correctTypos()` (from `spellcorrect.js`) before scoring. This is fail-soft: missing dictionaries → correction silently no-ops; missing ONNX model / timeout → ML falls back to heuristic.
 
 ## Runtime File Layout
 
@@ -68,14 +69,15 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
     calibra-proxy-host      ← upstream hostname
     ml/
       calibra-ml.js         ← ML classifier
-      classify-core.js      ← shared fast-exits
+      classify-core.js      ← shared fast-exits + re-exports correctTypos
       engine-flag.js        ← readEngine/writeEngine
+      spellcorrect.js       ← EN/TR hunspell typo correction (fail-soft)
       tokenizer.js          ← BERT WordPiece tokenizer
       vocab.txt             ← bert-base-uncased vocab (30,522 tokens)
       tier-centroids.json   ← 4×384 centroid vectors
     models/
       router.onnx           ← Xenova/all-MiniLM-L6-v2 quantized (~22 MB)
-    node_modules/           ← onnxruntime-node (installed by install.js)
+    node_modules/           ← onnxruntime-node + nspell + dictionary-en/en-gb/tr
     package.json
   claude-config/            ← enterprise wrapper (not Calibra's)
 ```
@@ -85,8 +87,9 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
 | File | Role |
 |------|------|
 | `src/saka-proxy.js` | Proxy server + heuristic classifier |
-| `src/ml/classify-core.js` | Shared fast-exits and regex constants |
+| `src/ml/classify-core.js` | Shared fast-exits, regex constants, re-exports `correctTypos` |
 | `src/ml/calibra-ml.js` | ML engine: ONNX session, cosine similarity, LRU cache, warmup |
+| `src/ml/spellcorrect.js` | Typo correction: nspell + dictionary-en/en-gb/tr, Damerau-Levenshtein, fail-soft |
 | `src/ml/tokenizer.js` | BERT WordPiece tokenizer (reads vocab.txt) |
 | `src/ml/tier-centroids.json` | Baked-in tier centroids (~10 KB) |
 | `src/ml/vocab.txt` | bert-base-uncased vocabulary (bundled) |
@@ -115,6 +118,7 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
 - `engine-flag.js` uses atomic tmp+rename writes — never write directly to flag files
 - `saka-proxy.js` must never hard-fail if ML deps are missing — heuristic always works
 - Fast-exits (slash command, greeting, trivial, short-conv) run before any ML inference
+- `correctTypos()` runs before fast-exits in both engines — corrects EN/TR typos using hunspell, never touches code fences or identifiers
 - `calibra-models.json` and `calibra-ml.json` are **never overwritten** on upgrade
 
 ## Improving ML Accuracy

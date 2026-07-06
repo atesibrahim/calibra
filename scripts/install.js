@@ -167,13 +167,123 @@ if (fs.existsSync(ML_SRC)) {
 // calibra-ml.json: never overwrite — user may have customised configuration
 copy(path.join(SRC, 'calibra-ml.json'), path.join(CORP_DIR, 'calibra-ml.json'), { overwrite: false });
 
-// ── 7. install onnxruntime-node ───────────────────────────────────────────────
-// onnxruntime-node provides native ONNX inference for the ML routing engine.
-// We install it into ~/.claude-corp/calibra/node_modules/ so the ML engine can
-// require('onnxruntime-node') from ~/.claude-corp/calibra/ml/calibra-ml.js.
-// Failure is non-fatal: ML mode will gracefully fall back to heuristic routing.
+// ── 6a. ONNX model download ───────────────────────────────────────────────────
+// Fetches router.onnx (all-MiniLM-L6-v2 quantized, ~22 MB) per calibra-ml.json's
+// download block. Verified by SHA-256, written via tmp+rename (atomic, never
+// leaves a partial file at the final path). Fail-soft: any failure just logs a
+// warning — classifyML() checks fs.existsSync() and falls back to heuristic,
+// per the "never hard-fail if ML deps are missing" invariant.
 
-(function installOnnxRuntime() {
+function downloadModel() {
+  return new Promise((resolve) => {
+    let mlConfig;
+    try {
+      mlConfig = JSON.parse(fs.readFileSync(path.join(CORP_DIR, 'calibra-ml.json'), 'utf8'));
+    } catch (e) {
+      console.warn(`  warning: could not read calibra-ml.json: ${e.message}`);
+      return resolve(false);
+    }
+
+    const dl = mlConfig.download;
+    if (!dl || !Array.isArray(dl.urls) || !dl.urls.length || !dl.sha256) {
+      console.warn('  warning: calibra-ml.json has no download block — skipping model download');
+      return resolve(false);
+    }
+
+    const modelPath = process.env.CALIBRA_ML_MODEL_PATH || path.join(CORP_DIR, 'models', 'router.onnx');
+    if (fs.existsSync(modelPath)) {
+      console.log(`  model already present: ${modelPath} — skipping download`);
+      return resolve(true);
+    }
+
+    ensureDir(path.dirname(modelPath));
+    const tmpPath = modelPath + '.download-tmp';
+
+    const https = require('https');
+    const crypto = require('crypto');
+
+    function tryUrl(i) {
+      if (i >= dl.urls.length) {
+        console.warn('  warning: all model download URLs failed — ML mode will fall back to heuristic');
+        console.warn(`  To retry manually: download ${dl.urls[0]} to ${modelPath}`);
+        return resolve(false);
+      }
+
+      const url = dl.urls[i];
+      console.log(`  downloading ONNX model (~${Math.round((dl.sizeBytes || 0) / 1e6)} MB): ${url}`);
+
+      const cleanup = () => { try { fs.rmSync(tmpPath, { force: true }); } catch {} };
+
+      const request = (u, redirectsLeft) => {
+        const req = https.get(u, { timeout: 60000 }, (res) => {
+          if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && redirectsLeft > 0) {
+            res.resume();
+            return request(res.headers.location, redirectsLeft - 1);
+          }
+          if (res.statusCode !== 200) {
+            cleanup();
+            console.warn(`  warning: HTTP ${res.statusCode} from ${u}`);
+            res.resume();
+            return tryUrl(i + 1);
+          }
+
+          const hash = crypto.createHash('sha256');
+          const out = fs.createWriteStream(tmpPath);
+          res.on('data', (chunk) => hash.update(chunk));
+          res.pipe(out);
+
+          out.on('finish', () => {
+            const actual = hash.digest('hex');
+            if (actual !== dl.sha256) {
+              cleanup();
+              console.warn(`  warning: checksum mismatch for ${u} (expected ${dl.sha256}, got ${actual})`);
+              return tryUrl(i + 1);
+            }
+            try {
+              fs.renameSync(tmpPath, modelPath);
+              console.log(`  model verified + installed: ${modelPath}`);
+              resolve(true);
+            } catch (e) {
+              cleanup();
+              console.warn(`  warning: could not finalize model file: ${e.message}`);
+              resolve(false);
+            }
+          });
+          out.on('error', (e) => {
+            cleanup();
+            console.warn(`  warning: write failed for ${u}: ${e.message}`);
+            tryUrl(i + 1);
+          });
+        });
+        req.on('timeout', () => { req.destroy(); cleanup(); console.warn(`  warning: timeout downloading ${u}`); tryUrl(i + 1); });
+        req.on('error', (e) => { cleanup(); console.warn(`  warning: request failed for ${u}: ${e.message}`); tryUrl(i + 1); });
+      };
+
+      request(url, 5);
+    }
+
+    tryUrl(0);
+  });
+}
+
+// ── 7. install onnxruntime-node + spell-check dependencies, download ONNX model
+// onnxruntime-node provides native ONNX inference for the ML routing engine.
+// cspell-lib (and its transitive deps: cspell-trie-lib, @cspell/dict-en_us,
+// @cspell/dict-en-gb) + @cspell/dict-tr-tr provide generic typo tolerance for
+// the classifier (both heuristic and ML engines call correctTypos() before
+// scoring). All installed into ~/.claude-corp/calibra/node_modules/ so the
+// engine code can require() them from ~/.claude-corp/calibra/ml/*.js.
+// Failure is non-fatal: ML mode falls back to heuristic; missing spell-check
+// deps just mean typo correction silently no-ops.
+//
+// Everything from here on runs inside an async IIFE so the (network-bound)
+// model download can be awaited before the remaining synchronous steps run.
+
+(async function main() {
+
+await downloadModel();
+
+(function installRuntimeDeps() {
   const corpPkg = path.join(CORP_DIR, 'package.json');
   if (!fs.existsSync(corpPkg)) {
     try {
@@ -186,30 +296,32 @@ copy(path.join(SRC, 'calibra-ml.json'), path.join(CORP_DIR, 'calibra-ml.json'), 
     }
   }
 
-  // Skip if already installed and healthy
-  const ortModulePath = path.join(CORP_DIR, 'node_modules', 'onnxruntime-node');
-  if (fs.existsSync(ortModulePath)) {
-    console.log('  onnxruntime-node already installed — skipping');
+  const RUNTIME_PKGS = ['onnxruntime-node', 'cspell-lib', '@cspell/dict-tr-tr'];
+  const missing = RUNTIME_PKGS.filter(pkg => !fs.existsSync(path.join(CORP_DIR, 'node_modules', pkg)));
+
+  if (!missing.length) {
+    console.log('  runtime dependencies already installed — skipping');
     return;
   }
 
   try {
     const { execFileSync } = require('child_process');
     const npmBin = IS_WIN ? 'npm.cmd' : 'npm';
-    console.log('  installing onnxruntime-node (this may take a moment) ...');
+    console.log(`  installing ${missing.join(', ')} (this may take a moment) ...`);
     execFileSync(npmBin, [
       'install',
       '--prefix', CORP_DIR,
-      'onnxruntime-node',
+      ...missing,
       '--omit=dev',
       '--no-audit',
       '--no-fund',
       '--loglevel=error',
     ], { stdio: 'pipe', timeout: 180000 });
-    console.log('  onnxruntime-node installed');
+    console.log('  runtime dependencies installed');
   } catch (e) {
-    console.warn('  warning: onnxruntime-node install failed — ML mode will fall back to heuristic');
-    console.warn('  To retry manually: npm install --prefix ~/.claude-corp/calibra onnxruntime-node');
+    console.warn('  warning: runtime dependency install failed — ML mode falls back to heuristic,');
+    console.warn('  and typo correction will silently no-op until dependencies are installed');
+    console.warn(`  To retry manually: npm install --prefix ${CORP_DIR} ${missing.join(' ')}`);
   }
 })();
 
@@ -246,6 +358,8 @@ if (fs.existsSync(CFG_SETTINGS_PATH)) {
 }
 
 console.log('\nCalibra installed. Run /calibra status in Claude Code to verify.\n');
+
+})();
 
 // ─────────────────────────────────────────────────────────────────────────────
 

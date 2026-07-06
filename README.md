@@ -43,6 +43,8 @@ The heuristic engine scores every prompt across **five independent axes** — no
 
 **Step-by-step:**
 
+0. **Typo correction (`correctTypos`)** — applied once before scoring. Hunspell dictionaries (`dictionary-en`, `dictionary-en-gb`, `dictionary-tr`) plus Damerau-Levenshtein distance correct single-character typos (e.g. `secuity` → `security`, `analz` → `analiz`). Code fences and identifiers are never touched. Fail-soft: if dictionaries are missing, this step is a no-op.
+
 1. **Early exits** — checked in order, short-circuit immediately:
    - Greeting or social acknowledgement → `light`
    - Trivial one-liner (add console.log, rename variable, fix typo, add null check) → `light`
@@ -101,7 +103,9 @@ The ML engine uses a **rule-first cascade**: deterministic rules handle the clea
 
    Rules 1–4 are 100% precise on every eval set and commit without calling the model. Rules 5–7 defer because an intent verb alone does not pin the tier — that is the irreducible ambiguity the ML must own.
 
-2. **MiniLM ONNX pipeline** (rules 5–7 residual only):
+2. **Typo correction (`correctTypos`)** — same EN/TR hunspell correction as the heuristic engine, applied before the rule layer. The ONNX embedding also receives corrected text, so a typo variant and its correct form produce the same (or very close) sentence vector.
+
+3. **MiniLM ONNX pipeline** (rules 5–7 residual only):
    1. Tokenize prompt with BERT WordPiece (`bert-base-uncased`)
    2. Run `all-MiniLM-L6-v2` ONNX → `last_hidden_state` [1 × seq × 384]
    3. Mean-pool with attention mask → sentence vector [384]; L2-normalize
@@ -109,7 +113,7 @@ The ML engine uses a **rule-first cascade**: deterministic rules handle the clea
    5. Ordinal regression head → tier posterior distribution [light, mid, deep, ultra]
    6. `expectedCostDecision(policy I)` — choose the tier minimising **expected routing cost** over the posterior, not raw argmax. The cost matrix biases the ambiguous boundary toward the safer tier (never severely under-route).
 
-3. **Fail-soft** — if the ONNX model is absent, times out (`CALIBRA_ML_TIMEOUT_MS`), or throws, the system silently falls back to the heuristic engine. No error is shown to the user.
+4. **Fail-soft** — if the ONNX model is absent, times out (`CALIBRA_ML_TIMEOUT_MS`), or throws, the system silently falls back to the heuristic engine. No error is shown to the user.
 
 See [`docs/diagrams/ml-engine.drawio`](docs/diagrams/ml-engine.drawio) for the full cascade.
 
@@ -157,8 +161,9 @@ The postinstall script:
 2. Copies hooks to `~/.claude/hooks/`
 3. Copies the `/calibra` command to `~/.claude/commands/`
 4. Creates `~/.claude-corp/calibra/calibra-models.json` (first install only — never overwritten on upgrade)
-5. Copies ML runtime files to `~/.claude-corp/calibra/ml/`
-6. Registers hooks in `~/.claude/settings.json`
+5. Copies ML runtime files (including `spellcorrect.js`) to `~/.claude-corp/calibra/ml/`
+6. Installs `onnxruntime-node`, `nspell`, `dictionary-en`, `dictionary-en-gb`, `dictionary-tr` into `~/.claude-corp/calibra/node_modules/` (skips packages already present)
+7. Registers hooks in `~/.claude/settings.json`
 
 ---
 
@@ -192,6 +197,8 @@ export CALIBRA_REMOTE_HOST="your-litellm-server.example.com"
 |----------|---------|---------|
 | `CALIBRA_ML_MODEL_PATH` | Path to a local `.onnx` file (air-gapped installs) | `~/.claude-corp/calibra/models/router.onnx` |
 | `CALIBRA_ML_TIMEOUT_MS` | Max inference time before falling back to heuristic | `250` |
+
+**Spell-check dependencies** (`nspell`, `dictionary-en`, `dictionary-en-gb`, `dictionary-tr`) are installed automatically into `~/.claude-corp/calibra/node_modules/` by the install script. If they are absent, typo correction silently no-ops — routing still works.
 
 ---
 
@@ -281,7 +288,7 @@ Removes all installed files, hooks, and hook entries from `settings.json`.
 | `saka-proxy.js` | `~/.claude-corp/` | Proxy — classifies prompts, rewrites model |
 | `calibra-models.json` | `~/.claude-corp/calibra/` | Tier → model mapping (user config) |
 | `calibra-ml.json` | `~/.claude-corp/calibra/` | ML metadata and local model settings |
-| `ml/` | `~/.claude-corp/calibra/` | ML classifier, tokenizer, vocab, centroids |
+| `ml/` | `~/.claude-corp/calibra/` | ML classifier, tokenizer, vocab, centroids, spellcorrect |
 | `models/router.onnx` | `~/.claude-corp/calibra/` | Downloaded ONNX model (ML mode) |
 | `calibra-notify.js` | `~/.claude/hooks/` | Shows routing decision in context bar |
 | `calibra-debug.js` | `~/.claude/hooks/` | Logs raw hook input to `<tmpdir>/calibra-debug.log` |

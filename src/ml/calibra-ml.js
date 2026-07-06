@@ -12,6 +12,7 @@ const {
   checkFastExits,
   applyRoutingGuards,
   ruleClassify,
+  correctTypos,
 } = require('./classify-core.js');
 
 const { tokenize } = require('./tokenizer.js');
@@ -244,7 +245,7 @@ async function runInference(trimmed) {
  * Never throws.
  */
 async function classifyML(prompt) {
-  const trimmed = (prompt || '').trim();
+  const trimmed = correctTypos((prompt || '').trim());
 
   // ── Rule-first cascade (plan §4) ──────────────────────────────────────────
   // The deterministic rubric decides every rule-decidable prompt. When it is

@@ -81,38 +81,31 @@ if (fs.existsSync(MODELS_DIR)) {
   }
 }
 
-// ── 3c. onnxruntime-node ──────────────────────────────────────────────────────
+// ── 3c. runtime node_modules ─────────────────────────────────────────────────
 // Only remove if Calibra created the package.json (marker: name === 'calibra-runtime').
+// Remove entire node_modules so onnxruntime-node, cspell-lib, @cspell/dict-tr-tr,
+// and all transitive deps are cleaned up together.
 
-(function removeOnnxRuntime() {
+(function removeRuntimeDeps() {
   const corpPkg = path.join(CORP_DIR, 'package.json');
   if (!fs.existsSync(corpPkg)) return;
   try {
     const pkg = JSON.parse(fs.readFileSync(corpPkg, 'utf8'));
     if (pkg.name !== 'calibra-runtime') {
-      console.log('  skip onnxruntime removal (package.json not owned by calibra)');
+      console.log('  skip runtime deps removal (package.json not owned by calibra)');
       return;
     }
   } catch { return; }
 
-  const ortPath = path.join(CORP_DIR, 'node_modules', 'onnxruntime-node');
-  if (fs.existsSync(ortPath)) {
+  const nmDir = path.join(CORP_DIR, 'node_modules');
+  if (fs.existsSync(nmDir)) {
     try {
-      fs.rmSync(ortPath, { force: true, recursive: true });
-      console.log(`  removed: ${ortPath}`);
+      fs.rmSync(nmDir, { force: true, recursive: true });
+      console.log(`  removed dir: ${nmDir}`);
     } catch (e) {
-      console.warn(`  warning: could not remove onnxruntime-node: ${e.message}`);
+      console.warn(`  warning: could not remove node_modules: ${e.message}`);
     }
   }
-
-  // Remove package.json and package-lock.json if node_modules is now empty
-  const nmDir = path.join(CORP_DIR, 'node_modules');
-  try {
-    if (fs.existsSync(nmDir) && fs.readdirSync(nmDir).length === 0) {
-      fs.rmdirSync(nmDir);
-      console.log(`  removed empty dir: ${nmDir}`);
-    }
-  } catch {}
   remove(corpPkg);
   remove(path.join(CORP_DIR, 'package-lock.json'));
 })();

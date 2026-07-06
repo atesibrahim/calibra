@@ -1,5 +1,7 @@
 'use strict';
 
+const { correctTypos } = require('./spellcorrect.js');
+
 // ─────────────────────────────────────────────────────────────────────────────
 // Calibra classifier contract
 //
@@ -403,6 +405,7 @@ function checkFastExits(trimmed, { hasDeepIntent, hasMidIntent, hasScopeHigh, ha
 }
 
 module.exports = {
+  correctTypos,
   CALIBRA_DEEP_INTENT,
   CALIBRA_MID_INTENT,
   CALIBRA_SCOPE_HIGH,

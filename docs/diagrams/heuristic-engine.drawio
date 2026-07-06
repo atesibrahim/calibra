@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Heuristic Engine" id="heuristic-engine">
-    <mxGraphModel dx="1566" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1566" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,71 +10,98 @@
         <mxCell id="3" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" value="Early Exit Checks" vertex="1">
-          <mxGeometry height="45" width="200" x="400" y="140" as="geometry" />
+        <!-- correctTypos runs before any classification -->
+        <mxCell id="ct" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="correctTypos() — EN / TR typo correction (fail-soft)" vertex="1">
+          <mxGeometry height="38" width="290" x="355" y="120" as="geometry" />
         </mxCell>
+        <mxCell id="cta" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="ct" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" value="Early Exit Checks (checkFastExits)" vertex="1">
+          <mxGeometry height="45" width="240" x="380" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="cte" edge="1" parent="1" source="ct" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Exit 1: slash/empty (first check in code) -->
+        <mxCell id="e0" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Slash command or empty?" vertex="1">
+          <mxGeometry height="60" width="210" x="395" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="e0a" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="mid" vertex="1">
+          <mxGeometry height="36" width="80" x="660" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="r0a" edge="1" parent="1" source="e0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r0" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Exit 2: greeting -->
         <mxCell id="e1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Greeting / social?" vertex="1">
-          <mxGeometry height="60" width="200" x="400" y="240" as="geometry" />
+          <mxGeometry height="60" width="200" x="400" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="e1a" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e1" value="">
+        <mxCell id="e1a" edge="1" parent="1" source="e0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="e1" value="NO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light" vertex="1">
-          <mxGeometry height="36" width="80" x="660" y="252" as="geometry" />
+          <mxGeometry height="36" width="80" x="660" y="407" as="geometry" />
         </mxCell>
         <mxCell id="r1a" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r1" value="YES">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <!-- Exit 3: trivial one-liner -->
         <mxCell id="e2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Trivial one-liner?&#xa;(add log, rename, fix typo)" vertex="1">
-          <mxGeometry height="70" width="210" x="395" y="340" as="geometry" />
+          <mxGeometry height="70" width="210" x="395" y="495" as="geometry" />
         </mxCell>
         <mxCell id="e2a" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="e2" value="NO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light" vertex="1">
-          <mxGeometry height="36" width="80" x="660" y="362" as="geometry" />
+          <mxGeometry height="36" width="80" x="660" y="517" as="geometry" />
         </mxCell>
         <mxCell id="r2a" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r2" value="YES">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Slash command?" vertex="1">
-          <mxGeometry height="60" width="200" x="400" y="450" as="geometry" />
+        <!-- Exit 4: short-conversational (≤55 chars, no signals) -->
+        <mxCell id="e4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Short-conversational?&#xa;(≤55 chars, no intent/scope/domain/code)" vertex="1">
+          <mxGeometry height="75" width="230" x="385" y="605" as="geometry" />
         </mxCell>
-        <mxCell id="e3a" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="e3" value="NO">
+        <mxCell id="e4a" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="e4" value="NO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="mid" vertex="1">
-          <mxGeometry height="36" width="80" x="660" y="462" as="geometry" />
+        <mxCell id="r4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light" vertex="1">
+          <mxGeometry height="36" width="80" x="660" y="627" as="geometry" />
         </mxCell>
-        <mxCell id="r3a" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r3" value="YES">
+        <mxCell id="r4a" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="r4" value="YES">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s0" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="s1" value="NO — proceed to scoring">
+        <!-- Scoring -->
+        <mxCell id="s0" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" target="s1" value="NO — proceed to scoring">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="5-Axis Scoring" vertex="1">
-          <mxGeometry height="45" width="200" x="400" y="575" as="geometry" />
+          <mxGeometry height="45" width="200" x="400" y="740" as="geometry" />
         </mxCell>
         <mxCell id="ax1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Axis 1 — Length&#xa;≥80 chars +1 / &gt;200 +2 / &gt;500 +3" vertex="1">
-          <mxGeometry height="45" width="220" x="60" y="640" as="geometry" />
+          <mxGeometry height="45" width="220" x="60" y="800" as="geometry" />
         </mxCell>
         <mxCell id="ax2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Axis 2 — Intent&#xa;deep verb +3 / mid verb +1" vertex="1">
-          <mxGeometry height="45" width="220" x="60" y="695" as="geometry" />
+          <mxGeometry height="45" width="220" x="60" y="855" as="geometry" />
         </mxCell>
         <mxCell id="ax3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Axis 3 — Scope&#xa;breadth words (comprehensive…) +2" vertex="1">
-          <mxGeometry height="45" width="220" x="60" y="750" as="geometry" />
+          <mxGeometry height="45" width="220" x="60" y="910" as="geometry" />
         </mxCell>
         <mxCell id="ax4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Axis 4 — Domain&#xa;technical vocab (k8s, grpc…) +2" vertex="1">
-          <mxGeometry height="45" width="220" x="60" y="805" as="geometry" />
+          <mxGeometry height="45" width="220" x="60" y="965" as="geometry" />
         </mxCell>
         <mxCell id="ax5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Axis 5 — Structure&#xa;code blocks +1–2, multi-part +1" vertex="1">
-          <mxGeometry height="45" width="220" x="60" y="860" as="geometry" />
+          <mxGeometry height="45" width="220" x="60" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="ax1a" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="ax1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Sum scores&#xa;(max realistic ≈ 13)" vertex="1">
-          <mxGeometry height="50" width="200" x="400" y="680" as="geometry" />
+          <mxGeometry height="50" width="200" x="400" y="840" as="geometry" />
         </mxCell>
         <mxCell id="sc0" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="sc" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -83,28 +110,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Apply floor rules&#xa;deep intent → min deep&#xa;mid intent → min mid" vertex="1">
-          <mxGeometry height="60" width="200" x="400" y="790" as="geometry" />
+          <mxGeometry height="60" width="200" x="400" y="950" as="geometry" />
         </mxCell>
         <mxCell id="fla" edge="1" parent="1" source="sc" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="fl" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="th" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Threshold" vertex="1">
-          <mxGeometry height="45" width="200" x="400" y="910" as="geometry" />
+          <mxGeometry height="45" width="200" x="400" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="tha" edge="1" parent="1" source="fl" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="th" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="light" vertex="1">
-          <mxGeometry height="36" width="80" x="80" y="1020" as="geometry" />
+          <mxGeometry height="36" width="80" x="80" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="o2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="mid" vertex="1">
-          <mxGeometry height="36" width="80" x="330" y="1020" as="geometry" />
+          <mxGeometry height="36" width="80" x="330" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="o3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" value="deep" vertex="1">
-          <mxGeometry height="36" width="80" x="570" y="1020" as="geometry" />
+          <mxGeometry height="36" width="80" x="570" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="o4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="ultra" vertex="1">
-          <mxGeometry height="36" width="80" x="730" y="1020" as="geometry" />
+          <mxGeometry height="36" width="80" x="730" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="o1a" edge="1" parent="1" source="th" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="o1" value="score 0-2&#xa;no intent">
           <mxGeometry relative="1" as="geometry" />
@@ -112,18 +139,18 @@
         <mxCell id="o2a" edge="1" parent="1" source="th" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="o2" value="score 0-7&#xa;mid intent">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="970" />
-              <mxPoint x="370" y="970" />
+              <mxPoint x="500" y="1130" />
+              <mxPoint x="370" y="1130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o3a" edge="1" parent="1" source="th" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="o3" value="deep intent&#xa;present">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="970" />
-              <mxPoint x="610" y="970" />
+              <mxPoint x="500" y="1130" />
+              <mxPoint x="610" y="1130" />
             </Array>
-            <mxPoint x="470" y="955" as="sourcePoint" />
+            <mxPoint x="470" y="1115" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o4a" edge="1" parent="1" source="th" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;" target="o4" value="score 8+">
