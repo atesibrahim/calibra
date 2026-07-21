@@ -207,7 +207,7 @@ export CALIBRA_REMOTE_HOST="your-litellm-server.example.com"
 Calibra runs silently. A context note appears on each prompt:
 
 ```
-calibra: claude-sonnet-4-6 used regarding your prompt complexity
+calibra: >> claude-sonnet-4-6 . mid
 ```
 
 ### `/calibra` command
@@ -223,6 +223,22 @@ calibra: claude-sonnet-4-6 used regarding your prompt complexity
 ```
 
 Natural-language phrases also work: `disable calibra`, `enable calibra`.
+
+### Codex CLI users
+
+Codex has no slash command system — `/calibra` will produce `Unrecognized command '/calibra'` in the Codex TUI. Use plain-text phrases instead; `codex-proxy.js` intercepts them at the wire before they reach the model:
+
+| Intent | Type this in Codex |
+|--------|-------------------|
+| Enable routing | `enable calibra` |
+| Disable routing | `disable calibra` |
+| Check status | `status calibra` |
+| Turn on | `turn on calibra` |
+| Turn off | `turn off calibra` |
+
+These phrases work identically in both Claude Code and Codex. Since both sides share the `calibra-disabled` flag file, toggling in one session controls both.
+
+> **Note:** ML engine switching (`/calibra ml on`) is Claude Code only — Codex always uses the heuristic engine. The routing decision is shown inline at the top of each Codex reply: `» [calibra: <model> · <tier>]`.
 
 ---
 

@@ -110,6 +110,64 @@ if (fs.existsSync(MODELS_DIR)) {
   remove(path.join(CORP_DIR, 'package-lock.json'));
 })();
 
+// ── 3d. Codex/OpenAI support ─────────────────────────────────────────────────
+// Reverses install.js's codex support: restore config.toml from backup, tear
+// down the autostart entry (LaunchAgent / Registry Run key), remove the
+// per-target proxy config + port files, then remove codex-proxy.js itself.
+
+const IS_WIN = process.platform === 'win32';
+const CODEX_TARGETS = [
+  { key: 'personal', configDir: path.join(HOME, '.codex') },
+  { key: 'corp',     configDir: path.join(HOME, '.codex-corp', 'codex-config') },
+];
+
+function restoreCodexConfig(target) {
+  const configPath = path.join(target.configDir, 'config.toml');
+  const backupPath = configPath + '.calibra-backup';
+  if (!fs.existsSync(backupPath)) return;
+
+  try {
+    fs.copyFileSync(backupPath, configPath);
+    fs.rmSync(backupPath, { force: true });
+    console.log(`  restored: ${configPath} (from backup)`);
+  } catch (e) {
+    console.warn(`  warning: could not restore ${configPath}: ${e.message}`);
+  }
+}
+
+function unregisterCodexAutostart(target) {
+  const { execFileSync } = require('child_process');
+
+  if (process.platform === 'darwin') {
+    const label = `com.calibra.codex-proxy.${target.key}`;
+    const plistPath = path.join(HOME, 'Library', 'LaunchAgents', `${label}.plist`);
+    if (fs.existsSync(plistPath)) {
+      try { execFileSync('launchctl', ['unload', '-w', plistPath], { stdio: 'ignore' }); } catch {}
+      remove(plistPath);
+    }
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}.out`));
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}.err`));
+  } else if (IS_WIN) {
+    const regName = `CalibraCodexProxy${target.key[0].toUpperCase()}${target.key.slice(1)}`;
+    try {
+      execFileSync('reg', ['delete', 'HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run', '/v', regName, '/f'], { stdio: 'ignore' });
+      console.log(`  removed autostart (Run key): ${regName}`);
+    } catch {}
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}-launcher.vbs`));
+  }
+
+  remove(path.join(CORP_DIR, `codex-proxy-${target.key}.json`));
+  remove(path.join(CORP_DIR, `codex-origin-${target.key}.json`));
+  remove(path.join(CORP_DIR, `calibra-codex-port-${target.key}`));
+}
+
+for (const target of CODEX_TARGETS) {
+  restoreCodexConfig(target);
+  unregisterCodexAutostart(target);
+}
+
+remove(path.join(CORP_DIR, 'codex-proxy.js'));
+
 // ── 4. cfg dir hooks/commands ────────────────────────────────────────────────
 // Mirrors install logic: symlink → remove symlink; real dir → remove files only.
 

@@ -383,6 +383,30 @@ function extractPrompt(messages) {
   return '';
 }
 
+// extractPromptOpenAI — pulls the latest user prompt text out of an OpenAI
+// Responses API request body. `input` is either a plain string or an array of
+// items shaped like { role, content: [{ type: 'input_text'|'text', text }] }.
+function extractPromptOpenAI(body) {
+  if (!body) return '';
+  const input = body.input;
+  if (typeof input === 'string') return stripInjectedTags(input);
+  if (!Array.isArray(input)) return '';
+
+  for (let i = input.length - 1; i >= 0; i--) {
+    const item = input[i];
+    if (!item || item.role !== 'user') continue;
+    if (typeof item.content === 'string') return stripInjectedTags(item.content);
+    if (Array.isArray(item.content)) {
+      const joined = item.content
+        .filter(b => b && (b.type === 'input_text' || b.type === 'text') && typeof b.text === 'string')
+        .map(b => b.text)
+        .join('\n');
+      return stripInjectedTags(joined);
+    }
+  }
+  return '';
+}
+
 // checkFastExits — run before scoring axes.
 // Returns {tier, score, reason} if a fast-exit fires, or null to proceed to scoring.
 // Accepts pre-computed signal flags to avoid re-running expensive regexes.
@@ -404,8 +428,74 @@ function checkFastExits(trimmed, { hasDeepIntent, hasMidIntent, hasScopeHigh, ha
   return null; // proceed to full scoring
 }
 
+// calibraClassify(prompt) → { tier, score, reason, engine: 'heuristic' }
+// Shared heuristic classifier used by both saka-proxy.js (Anthropic) and
+// codex-proxy.js (OpenAI Responses API) — wire format differs, scoring doesn't.
+function calibraClassify(prompt) {
+  const trimmed = correctTypos((prompt || '').trim());
+
+  // Signal probes — run once, used in fast-exit gate and scoring axes
+  const hasDeepIntent = CALIBRA_DEEP_INTENT.test(trimmed);
+  const hasMidIntent  = CALIBRA_MID_INTENT.test(trimmed);
+  const hasScopeHigh  = CALIBRA_SCOPE_HIGH.test(trimmed);
+  const hasDomain     = CALIBRA_DOMAIN_DEEP.test(trimmed);
+  const hasCode       = /```/.test(trimmed);
+
+  // Fast-exits (slash/empty, greeting, trivial, short-conversational)
+  const fastExit = checkFastExits(trimmed, { hasDeepIntent, hasMidIntent, hasScopeHigh, hasDomain, hasCode });
+  if (fastExit) return { ...fastExit, engine: 'heuristic' };
+
+  const len = trimmed.length;
+
+  // --- Scoring: five orthogonal axes, no word counted twice ---
+
+  let s = 0;
+
+  // Axis 1 — LENGTH: proxy for problem verbosity / detail
+  if (len > 500) s += 3;
+  else if (len > 200) s += 2;
+  else if (len >= 80) s += 1;
+
+  // Axis 2 — INTENT: what action is requested
+  if (hasDeepIntent) s += 3;
+  else if (hasMidIntent) s += 1;
+
+  // Axis 3 — SCOPE: breadth/thoroughness modifier
+  if (hasScopeHigh) s += 2;
+
+  // Axis 4 — DOMAIN: technical complexity vocabulary
+  if (hasDomain) s += 2;
+
+  // Axis 5 — STRUCTURE: code blocks, step-by-step, multi-part
+  const codeBlocks = trimmed.match(/```[\s\S]*?```/g) || [];
+  const longBlock  = codeBlocks.some(b => b.split('\n').length > 52);
+  if (codeBlocks.length > 1 || longBlock) s += 2;
+  else if (codeBlocks.length === 1) s += 1;
+  // step-by-step / walk-me-through style → +1 structure
+  if (/\b(step.by.step|walk.?me.?through|break.?it.?down|multi.?part|adım\s+adım|aşama\s+aşama)\b/iu.test(trimmed)) s += 1;
+
+  // --- Tier thresholds (max realistic ≈ 13) ---
+  //
+  //   light : s <= 2, no deep or mid intent     (no actionable signal)
+  //   mid   : s <= 7, no deep intent            (concrete implementation tasks)
+  //   deep  : s <= 7 with deep intent, or s<=7 with domain+scope  (design/analysis)
+  //   ultra : s >= 8                            (long + deep + scope + domain together)
+  //
+  // Floor rules:
+  //   hasDeepIntent → minimum deep (never mid, even if score is low)
+  //   hasMidIntent  → minimum mid  (never light, even if score is 1)
+  let tier;
+  if (s <= 2 && !hasDeepIntent && !hasMidIntent)  tier = 'light';
+  else if (s <= 7 && !hasDeepIntent)              tier = 'mid';
+  else if (s <= 7)                                tier = 'deep';
+  else                                             tier = 'ultra';
+
+  return { tier, score: s, reason: 'score', engine: 'heuristic' };
+}
+
 module.exports = {
   correctTypos,
+  calibraClassify,
   CALIBRA_DEEP_INTENT,
   CALIBRA_MID_INTENT,
   CALIBRA_SCOPE_HIGH,
@@ -417,6 +507,7 @@ module.exports = {
   applyRoutingGuards,
   stripInjectedTags,
   extractPrompt,
+  extractPromptOpenAI,
   checkFastExits,
   ruleClassify,
   asciiFold,

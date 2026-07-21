@@ -39,7 +39,7 @@ No test framework, no lint scripts — Node.js built-in `assert` only.
 Claude Code
     │
     ▼ ANTHROPIC_BASE_URL → http://127.0.0.1:{port}
-~/.claude-corp/saka-proxy.js            ← local HTTP proxy
+~/.claude-corp/saka-proxy.js            ← local HTTP proxy (Anthropic Messages API)
     │  1. reads engine flag (heuristic | ml)
     │  2. correctTypos() — hunspell EN/TR typo correction (fail-soft)
     │  3. classifies prompt → tier (light/mid/deep/ultra)
@@ -48,11 +48,35 @@ Claude Code
 Upstream AI server  (CALIBRA_REMOTE_HOST)
 ```
 
+```
+Codex CLI (personal ~/.codex or corp ~/.codex-corp/codex-config)
+    │
+    ▼ config.toml: model_providers.calibra.base_url → http://127.0.0.1:{fixed-port}/v1
+~/.claude-corp/calibra/codex-proxy.js   ← local HTTP proxy (OpenAI Responses API)
+    │  always-on background service, autostarted at login (LaunchAgent / Registry Run key) —
+    │  config.toml's base_url is static, unlike Claude's per-session env var
+    │  1. reads calibra-disabled flag (shared with the Claude side)
+    │  2. classifies prompt → tier (light/mid/deep/ultra)
+    │  3. rewrites body.model in-flight
+    ▼
+Real upstream (LiteLLM gateway or api.openai.com), auth forwarded unchanged
+```
+
 **Two classification engines:**
-- **Heuristic (default):** `calibraClassify()` in `saka-proxy.js` — 5-axis regex scoring
-- **ML (opt-in):** `classifyML()` in `src/ml/calibra-ml.js` — MiniLM-L6-v2 ONNX + cosine similarity to tier centroids
+- **Heuristic (default):** `calibraClassify()` in `src/ml/classify-core.js` — 5-axis regex scoring, shared by both `saka-proxy.js` and `codex-proxy.js`
+- **ML (opt-in, Claude side only):** `classifyML()` in `src/ml/calibra-ml.js` — MiniLM-L6-v2 ONNX + cosine similarity to tier centroids
 
 Both engines receive typo-corrected text via `correctTypos()` (from `spellcorrect.js`) before scoring. This is fail-soft: missing dictionaries → correction silently no-ops; missing ONNX model / timeout → ML falls back to heuristic.
+
+**Codex/OpenAI support:** `install.js` detects `~/.codex/config.toml` (personal) and `~/.codex-corp/codex-config/config.toml` (corp) and, for each present, backs up the original file (`config.toml.calibra-backup`), sets `model_provider = "calibra"`, and adds a `[model_providers.calibra]` block pointing `base_url` at a fixed local port — preserving the original provider's `base_url`/`wire_api` as the proxy's real upstream (`~/.claude-corp/calibra/codex-proxy-<personal|corp>.json`, containing `port` + `upstreamHost` + `upstreamPort`). Since `codex-proxy.js` must always be running (static `base_url`, no per-session fallback like the Claude wrapper has), install.js registers a platform-native autostart entry: macOS LaunchAgent (`RunAtLoad` + `KeepAlive`), Windows Registry `Run` key via a hidden `.vbs` launcher. `uninstall.js` reverses all of this — restores `config.toml` from backup, unloads/removes the autostart entry, deletes the proxy config/origin/port files.
+
+**Upstream resolution is persisted (`codex-origin-<personal|corp>.json`).** Once `config.toml` is patched to `model_provider = "calibra"`, the original provider's `base_url`/`wire_api` are no longer discoverable, so install.js records them in an origin file on first patch and recovers them on every re-install (falling back to scanning the leftover `[model_providers.X]` sections / `.calibra-backup` if the origin file is missing). **Without this, a reinstall/upgrade silently resets the upstream to the `api.openai.com` default** — which on a corp network is firewalled/TLS-intercepted and surfaces as a `502 Bad Gateway` from the proxy. The local `base_url` mirrors the real upstream's path prefix (e.g. `/v1`) and `upstreamPort` carries non-443 gateways, so the proxy forwards `req.url` unchanged to `upstreamHost:upstreamPort`.
+
+**Corp CA is baked into the autostart entry.** Corp networks TLS-intercept upstream traffic with a private root CA that Node's bundled store doesn't trust. The Claude side inherits `NODE_EXTRA_CA_CERTS` from `wrapper.sh`, but the Codex proxy is login-launched and inherits no interactive shell env — so if `~/.claude-corp/corp-ca.pem` exists, install.js writes `NODE_EXTRA_CA_CERTS`/`SSL_CERT_FILE`/`CURL_CA_BUNDLE`/`REQUESTS_CA_BUNDLE` into the LaunchAgent's `EnvironmentVariables` (macOS) or the `.vbs` process env (Windows). Missing this env is the other cause of `SELF_SIGNED_CERT_IN_CHAIN` → `502`.
+
+**Toggling Codex routing:** `/calibra on|off|status|toggle` (and the chat forms `enable/disable calibra`) DO work from a `codex-saka` session — but not via a hook, since Codex has none. `codex-proxy.js` intercepts the command itself: `calibraHandleCommand()` matches the prompt in the request body, flips `calibra-disabled` synchronously, then rewrites the request so the real upstream model is instructed (via `injectCommandReply()`, same `instructions`-append trick as the routing note) to relay the confirmation text verbatim on the cheapest tier — the reply still rides through Codex's real Responses-API SSE stream rather than a hand-fabricated one, since Codex's Rust client parses each SSE event into an internal `ResponseItem` via an undocumented schema and a mismatched hand-built stream risks hanging the turn. Gated to `isFreshUserTurn()` so it never fires on tool-call continuations mid-turn. Since both sides share `calibra-disabled`, `/calibra on|off` from a Claude Code session still controls both.
+
+**Expected noise:** in a corp session (`codex-saka`, which sets `CODEX_HOME` to `~/.codex-corp/codex-config`), Codex also reads `~/.codex/config.toml` as a secondary "project-local" layer (since `$HOME` is an ancestor of any project dir) and logs a warning that `model_provider`/`model_providers`/`notify` are ignored there. Harmless — the corp session's real config is the one `CODEX_HOME` points at, which isn't affected.
 
 ## Runtime File Layout
 
@@ -86,15 +110,16 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
 
 | File | Role |
 |------|------|
-| `src/saka-proxy.js` | Proxy server + heuristic classifier |
-| `src/ml/classify-core.js` | Shared fast-exits, regex constants, re-exports `correctTypos` |
+| `src/saka-proxy.js` | Claude-side proxy server (Anthropic Messages API) |
+| `src/codex-proxy.js` | Codex-side proxy server (OpenAI Responses API), always-on fixed-port service |
+| `src/ml/classify-core.js` | Shared fast-exits, regex constants, `calibraClassify()`, `extractPrompt()`/`extractPromptOpenAI()`, re-exports `correctTypos` |
 | `src/ml/calibra-ml.js` | ML engine: ONNX session, cosine similarity, LRU cache, warmup |
 | `src/ml/spellcorrect.js` | Typo correction: nspell + dictionary-en/en-gb/tr, Damerau-Levenshtein, fail-soft |
 | `src/ml/tokenizer.js` | BERT WordPiece tokenizer (reads vocab.txt) |
 | `src/ml/tier-centroids.json` | Baked-in tier centroids (~10 KB) |
 | `src/ml/vocab.txt` | bert-base-uncased vocabulary (bundled) |
 | `src/calibra-ml.json` | ML metadata: model URL, SHA-256, hiddenSize, maxLength |
-| `src/calibra-models.json` | Default tier→model map |
+| `src/calibra-models.json` | Default tier→model map (Claude models + `openai` block for Codex) |
 | `src/hooks/calibra-toggle.js` | Handles `/calibra on\|off\|ml` commands |
 | `src/hooks/calibra-notify.js` | Shows routing decision in context bar |
 | `src/hooks/calibra-debug.js` | Logs raw hook input to tmpdir |
@@ -114,12 +139,14 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
 
 ## Important Invariants
 
-- `calibraClassify()` returns `{tier, score, reason, engine}` — consumed by proxy AND notify hook
+- `calibraClassify()` returns `{tier, score, reason, engine}` — consumed by both proxies AND the notify hook
 - `engine-flag.js` uses atomic tmp+rename writes — never write directly to flag files
-- `saka-proxy.js` must never hard-fail if ML deps are missing — heuristic always works
+- `saka-proxy.js`/`codex-proxy.js` must never hard-fail if ML deps are missing — heuristic always works
 - Fast-exits (slash command, greeting, trivial, short-conv) run before any ML inference
 - `correctTypos()` runs before fast-exits in both engines — corrects EN/TR typos using hunspell, never touches code fences or identifiers
 - `calibra-models.json` and `calibra-ml.json` are **never overwritten** on upgrade
+- `calibra-disabled` is a shared flag — `/calibra on|off` controls Claude AND Codex routing together
+- `codex-proxy.js` runs on a **fixed** port, unlike `saka-proxy.js` (fresh port per session) — Codex's `config.toml` has a static `base_url`, so the proxy must always be running (autostart, not per-session spawn)
 
 ## Improving ML Accuracy
 

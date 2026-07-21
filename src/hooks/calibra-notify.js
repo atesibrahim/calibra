@@ -59,7 +59,7 @@ process.stdin.on('end', async () => {
 
     if (!routed) return;
 
-    const msg = `calibra: ${routed} used regarding your prompt complexity${engineLabel}`;
+    const msg = `» [calibra: ${routed} · ${tier}]${engineLabel}`;
     process.stdout.write(JSON.stringify({
       systemMessage: msg,
       hookSpecificOutput: {
