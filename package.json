@@ -2,7 +2,7 @@
   "name": "calibra",
   "version": "1.0.6",
   "description": "Calibra — Claude Code model routing",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": false,
   "preferGlobal": true,
   "scripts": {
@@ -16,7 +16,8 @@
     "src/",
     "scripts/",
     "tools/",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "@cspell/dict-tr-tr": "^3.0.6",
