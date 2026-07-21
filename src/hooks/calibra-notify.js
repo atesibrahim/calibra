@@ -5,7 +5,7 @@ const fs   = require('fs');
 const path = require('path');
 const os   = require('os');
 
-const CALIBRA_DISABLED_PATH = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-disabled');
+const CALIBRA_DISABLED_PATH = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-disabled-claude');
 const CALIBRA_MODELS_PATH   = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-models.json');
 const CALIBRA_PROXY_PATH    = path.join(os.homedir(), '.claude-corp', 'saka-proxy.js');
 

@@ -53,7 +53,9 @@ remove(path.join(CMDS_DIR, 'calibra.md'));
 remove(path.join(CORP_ROOT, 'saka-proxy.js'));
 remove(path.join(CORP_DIR, 'saka-proxy.js')); // legacy install path
 remove(path.join(CORP_DIR, 'calibra-models.json'));
-remove(path.join(CORP_DIR, 'calibra-disabled'));
+remove(path.join(CORP_DIR, 'calibra-disabled'));         // legacy shared flag
+remove(path.join(CORP_DIR, 'calibra-disabled-claude'));
+remove(path.join(CORP_DIR, 'calibra-disabled-codex'));
 remove(path.join(CORP_DIR, 'calibra-ml.json'));
 remove(path.join(CORP_DIR, 'calibra-engine'));
 

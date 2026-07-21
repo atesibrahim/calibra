@@ -38,6 +38,22 @@ function q(p) { return `"${p.replace(/"/g, '\\"')}"`; }
 // ── 1. directories ───────────────────────────────────────────────────────────
 
 ensureDir(CORP_DIR);
+
+// ── migrate shared flag → per-env flags ──────────────────────────────────────
+// Older installs used one shared `calibra-disabled` flag. Split it so Claude
+// and Codex can be toggled independently. If the old flag exists, preserve its
+// state in both per-env flags, then remove the old one.
+(function migrateDisabledFlag() {
+  const legacyFlag = path.join(CORP_DIR, 'calibra-disabled');
+  if (!fs.existsSync(legacyFlag)) return;
+  const claudeFlag = path.join(CORP_DIR, 'calibra-disabled-claude');
+  const codexFlag  = path.join(CORP_DIR, 'calibra-disabled-codex');
+  if (!fs.existsSync(claudeFlag)) fs.writeFileSync(claudeFlag, '');
+  if (!fs.existsSync(codexFlag))  fs.writeFileSync(codexFlag, '');
+  fs.rmSync(legacyFlag, { force: true });
+  console.log('  migrated calibra-disabled → calibra-disabled-claude + calibra-disabled-codex');
+})();
+
 ensureDir(CFG_DIR);
 ensureDir(HOOKS_DIR);
 ensureDir(CMDS_DIR);

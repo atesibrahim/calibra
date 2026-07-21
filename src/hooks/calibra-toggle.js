@@ -5,7 +5,8 @@ const fs   = require('fs');
 const os   = require('os');
 const path = require('path');
 
-const FLAG = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-disabled');
+const FLAG       = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-disabled-claude');
+const FLAG_CODEX = path.join(os.homedir(), '.claude-corp', 'calibra', 'calibra-disabled-codex');
 
 // Matches: /calibra, /calibra on, /calibra off, /calibra status, /calibra toggle
 // Also matches chat phrases: "disable calibra", "enable calibra", "calibra status"
@@ -41,7 +42,10 @@ process.stdin.on('end', () => {
       return; // not a calibra toggle command — pass through
     }
 
-    const isDisabled = fs.existsSync(FLAG);
+    // This hook runs inside Claude Code only — always affects the Claude flag.
+    // Codex flag is managed by codex-proxy.js when the command arrives there.
+    const isDisabled      = fs.existsSync(FLAG);
+    const isCodexDisabled = fs.existsSync(FLAG_CODEX);
     let msg;
 
     // ── ML engine commands ─────────────────────────────────────────────────────
@@ -52,23 +56,24 @@ process.stdin.on('end', () => {
     } else if (cmd === 'ml off' || cmd === 'rules') {
       try { if (engineFlag) engineFlag.writeEngine('heuristic'); } catch (e) { process.stderr.write('[calibra] engine write failed: ' + e.message + '\n'); }
       msg = 'Calibra ML engine disabled — using heuristic rules.';
-    // ── Existing routing on/off/toggle commands ────────────────────────────────
+    // ── Routing on/off/toggle — Claude Code env only ───────────────────────────
     } else if (cmd === 'on') {
       if (isDisabled) fs.unlinkSync(FLAG);
-      msg = 'Calibra enabled — model routing active.';
+      msg = 'Calibra enabled.';
     } else if (cmd === 'off') {
       if (!isDisabled) fs.writeFileSync(FLAG, '');
-      msg = 'Calibra disabled — all prompts use current model.';
+      msg = 'Calibra disabled.';
     } else if (cmd === 'toggle') {
-      if (isDisabled) { fs.unlinkSync(FLAG); msg = 'Calibra enabled — model routing active.'; }
-      else            { fs.writeFileSync(FLAG, ''); msg = 'Calibra disabled — all prompts use current model.'; }
+      if (isDisabled) { fs.unlinkSync(FLAG); msg = 'Calibra enabled.'; }
+      else            { fs.writeFileSync(FLAG, ''); msg = 'Calibra disabled.'; }
     } else {
-      // status
+      // status — show per-env state
       const engine = (() => { try { return engineFlag ? engineFlag.readEngine() : 'heuristic'; } catch { return 'heuristic'; } })();
-      msg  = isDisabled ? 'Calibra: Disabled' : 'Calibra: Enabled';
-      msg += ' · Engine: ' + engine + '\n';
-      msg += isDisabled ? 'To enable: /calibra on' : 'To disable: /calibra off';
-      msg += '\nEngine commands: /calibra ml on  |  /calibra ml off  |  /calibra rules';
+      msg  = 'Calibra status:\n';
+      msg += '  Claude Code : ' + (isDisabled      ? 'Disabled' : 'Enabled') + '\n';
+      msg += '  Codex       : ' + (isCodexDisabled ? 'Disabled' : 'Enabled') + '\n';
+      msg += '  Engine      : ' + engine + '\n';
+      msg += 'Commands: /calibra on|off  |  /calibra ml on|off  |  /calibra rules';
     }
 
     process.stdout.write(JSON.stringify({ decision: 'block', reason: msg }));

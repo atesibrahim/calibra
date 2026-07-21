@@ -6,7 +6,7 @@ const path = require('path');
 // --- Calibra: zero-lag per-prompt model routing ---
 const CALIBRA_BASE           = path.join(require('os').homedir(), '.claude-corp', 'calibra');
 const CALIBRA_MODELS_PATH    = path.join(CALIBRA_BASE, 'calibra-models.json');
-const CALIBRA_DISABLED_PATH  = path.join(CALIBRA_BASE, 'calibra-disabled');
+const CALIBRA_DISABLED_PATH  = path.join(CALIBRA_BASE, 'calibra-disabled-claude');
 const CALIBRA_TIERS = ['light', 'mid', 'deep', 'ultra'];
 
 function requireCalibraMl(file) {

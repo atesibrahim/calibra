@@ -10,7 +10,7 @@ const os    = require('os');
 // --- Calibra: Codex/OpenAI model routing (Responses API) ---
 const CALIBRA_BASE          = path.join(os.homedir(), '.claude-corp', 'calibra');
 const CALIBRA_MODELS_PATH   = path.join(CALIBRA_BASE, 'calibra-models.json');
-const CALIBRA_DISABLED_PATH = path.join(CALIBRA_BASE, 'calibra-disabled');
+const CALIBRA_DISABLED_PATH = path.join(CALIBRA_BASE, 'calibra-disabled-codex');
 
 function requireCalibraMl(file) {
   const sourcePath = path.join(__dirname, 'ml', file);

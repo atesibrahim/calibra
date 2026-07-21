@@ -74,7 +74,7 @@ Both engines receive typo-corrected text via `correctTypos()` (from `spellcorrec
 
 **Corp CA is baked into the autostart entry.** Corp networks TLS-intercept upstream traffic with a private root CA that Node's bundled store doesn't trust. The Claude side inherits `NODE_EXTRA_CA_CERTS` from `wrapper.sh`, but the Codex proxy is login-launched and inherits no interactive shell env — so if `~/.claude-corp/corp-ca.pem` exists, install.js writes `NODE_EXTRA_CA_CERTS`/`SSL_CERT_FILE`/`CURL_CA_BUNDLE`/`REQUESTS_CA_BUNDLE` into the LaunchAgent's `EnvironmentVariables` (macOS) or the `.vbs` process env (Windows). Missing this env is the other cause of `SELF_SIGNED_CERT_IN_CHAIN` → `502`.
 
-**Toggling Codex routing:** `/calibra on|off|status|toggle` (and the chat forms `enable/disable calibra`) DO work from a `codex-saka` session — but not via a hook, since Codex has none. `codex-proxy.js` intercepts the command itself: `calibraHandleCommand()` matches the prompt in the request body, flips `calibra-disabled` synchronously, then rewrites the request so the real upstream model is instructed (via `injectCommandReply()`, same `instructions`-append trick as the routing note) to relay the confirmation text verbatim on the cheapest tier — the reply still rides through Codex's real Responses-API SSE stream rather than a hand-fabricated one, since Codex's Rust client parses each SSE event into an internal `ResponseItem` via an undocumented schema and a mismatched hand-built stream risks hanging the turn. Gated to `isFreshUserTurn()` so it never fires on tool-call continuations mid-turn. Since both sides share `calibra-disabled`, `/calibra on|off` from a Claude Code session still controls both.
+**Toggling Codex routing:** `/calibra on|off|status|toggle` (and the chat forms `enable/disable calibra`) DO work from a `codex-saka` session — but not via a hook, since Codex has none. `codex-proxy.js` intercepts the command itself: `calibraHandleCommand()` matches the prompt in the request body, flips `calibra-disabled-codex` synchronously, then rewrites the request so the real upstream model is instructed (via `injectCommandReply()`, same `instructions`-append trick as the routing note) to relay the confirmation text verbatim on the cheapest tier — the reply still rides through Codex's real Responses-API SSE stream rather than a hand-fabricated one, since Codex's Rust client parses each SSE event into an internal `ResponseItem` via an undocumented schema and a mismatched hand-built stream risks hanging the turn. Gated to `isFreshUserTurn()` so it never fires on tool-call continuations mid-turn. Each environment owns its own flag: `calibra-disabled-claude` (Claude Code, toggled via the `calibra-toggle.js` hook) and `calibra-disabled-codex` (Codex, toggled by `codex-proxy.js`). `/calibra status` in Claude Code shows the state of both.
 
 **Expected noise:** in a corp session (`codex-saka`, which sets `CODEX_HOME` to `~/.codex-corp/codex-config`), Codex also reads `~/.codex/config.toml` as a secondary "project-local" layer (since `$HOME` is an ancestor of any project dir) and logs a warning that `model_provider`/`model_providers`/`notify` are ignored there. Harmless — the corp session's real config is the one `CODEX_HOME` points at, which isn't affected.
 
@@ -88,7 +88,8 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
   calibra/
     calibra-models.json     ← tier→model map (never overwritten on upgrade)
     calibra-ml.json         ← ML config (never overwritten on upgrade)
-    calibra-disabled        ← flag file: routing off when present
+    calibra-disabled-claude ← flag file: routing off for Claude Code when present
+    calibra-disabled-codex  ← flag file: routing off for Codex when present
     calibra-engine          ← flag file: 'ml' or 'heuristic' (absent=heuristic)
     calibra-proxy-host      ← upstream hostname
     ml/
@@ -145,7 +146,7 @@ The enterprise wrapper expects the proxy at `~/.claude-corp/saka-proxy.js`. Cali
 - Fast-exits (slash command, greeting, trivial, short-conv) run before any ML inference
 - `correctTypos()` runs before fast-exits in both engines — corrects EN/TR typos using hunspell, never touches code fences or identifiers
 - `calibra-models.json` and `calibra-ml.json` are **never overwritten** on upgrade
-- `calibra-disabled` is a shared flag — `/calibra on|off` controls Claude AND Codex routing together
+- `calibra-disabled-claude` and `calibra-disabled-codex` are **separate** per-env flags — toggling one never affects the other; `/calibra status` shows both
 - `codex-proxy.js` runs on a **fixed** port, unlike `saka-proxy.js` (fresh port per session) — Codex's `config.toml` has a static `base_url`, so the proxy must always be running (autostart, not per-session spawn)
 
 ## Improving ML Accuracy

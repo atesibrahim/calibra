@@ -213,16 +213,18 @@ calibra: >> claude-sonnet-4-6 . mid
 ### `/calibra` command
 
 ```
-/calibra status    → show engine and routing state
-/calibra on        → enable routing
-/calibra off       → disable routing (original model used)
-/calibra toggle    → flip state
+/calibra status    → show routing state for Claude Code and Codex separately
+/calibra on        → enable routing for Claude Code
+/calibra off       → disable routing for Claude Code (original model used)
+/calibra toggle    → flip Claude Code state
 /calibra ml on     → switch to ML engine (downloads model on first use)
 /calibra ml off    → switch back to heuristic
 /calibra rules     → alias for ml off
 ```
 
 Natural-language phrases also work: `disable calibra`, `enable calibra`.
+
+Routing state is **per-environment** — Claude Code and Codex each have their own flag. `/calibra on|off` from a Claude Code session only affects Claude Code; the equivalent phrases in Codex only affect Codex.
 
 ### Codex CLI users
 
@@ -236,7 +238,7 @@ Codex has no slash command system — `/calibra` will produce `Unrecognized comm
 | Turn on | `turn on calibra` |
 | Turn off | `turn off calibra` |
 
-These phrases work identically in both Claude Code and Codex. Since both sides share the `calibra-disabled` flag file, toggling in one session controls both.
+Each environment maintains its own enable/disable state — toggling in Codex does not affect a running Claude Code session, and vice versa.
 
 > **Note:** ML engine switching (`/calibra ml on`) is Claude Code only — Codex always uses the heuristic engine. The routing decision is shown inline at the top of each Codex reply: `» [calibra: <model> · <tier>]`.
 
@@ -304,11 +306,13 @@ Removes all installed files, hooks, and hook entries from `settings.json`.
 | `saka-proxy.js` | `~/.claude-corp/` | Proxy — classifies prompts, rewrites model |
 | `calibra-models.json` | `~/.claude-corp/calibra/` | Tier → model mapping (user config) |
 | `calibra-ml.json` | `~/.claude-corp/calibra/` | ML metadata and local model settings |
+| `calibra-disabled-claude` | `~/.claude-corp/calibra/` | Flag file — routing off for Claude Code when present |
+| `calibra-disabled-codex` | `~/.claude-corp/calibra/` | Flag file — routing off for Codex when present |
 | `ml/` | `~/.claude-corp/calibra/` | ML classifier, tokenizer, vocab, centroids, spellcorrect |
 | `models/router.onnx` | `~/.claude-corp/calibra/` | Downloaded ONNX model (ML mode) |
 | `calibra-notify.js` | `~/.claude/hooks/` | Shows routing decision in context bar |
 | `calibra-debug.js` | `~/.claude/hooks/` | Logs raw hook input to `<tmpdir>/calibra-debug.log` |
-| `calibra-toggle.js` | `~/.claude/hooks/` | Handles chat-phrase toggle commands |
+| `calibra-toggle.js` | `~/.claude/hooks/` | Handles Claude Code toggle commands |
 | `calibra.md` | `~/.claude/commands/` | `/calibra` slash command definition |
 
 ---
