@@ -6,8 +6,9 @@ const path = require('path');
 const os   = require('os');
 
 const HOME       = os.homedir();
-const CORP_DIR   = path.join(HOME, '.claude-corp');
-const CFG_DIR    = path.join(CORP_DIR, 'claude-config');
+const CORP_ROOT  = path.join(HOME, '.claude-corp');
+const CORP_DIR   = path.join(CORP_ROOT, 'calibra'); // calibra config, flags, ML assets
+const CFG_DIR    = path.join(HOME, '.claude-corp', 'claude-config'); // enterprise wrapper — fixed
 const CLAUDE_DIR = path.join(HOME, '.claude');
 const HOOKS_DIR  = path.join(CLAUDE_DIR, 'hooks');
 const CMDS_DIR   = path.join(CLAUDE_DIR, 'commands');
@@ -31,6 +32,12 @@ function removeSymlink(p) {
   } catch {}
 }
 
+const CALIBRA_HOOK_RE = /calibra-(debug|notify|toggle)/;
+
+function isCalibraHook(h) {
+  return h && typeof h === 'object' && h.command && CALIBRA_HOOK_RE.test(h.command);
+}
+
 // ── 1. hooks ─────────────────────────────────────────────────────────────────
 
 for (const hook of ['calibra-notify.js', 'calibra-debug.js', 'calibra-toggle.js']) {
@@ -43,9 +50,125 @@ remove(path.join(CMDS_DIR, 'calibra.md'));
 
 // ── 3. corp files ────────────────────────────────────────────────────────────
 
-remove(path.join(CORP_DIR, 'saka-proxy.js'));
+remove(path.join(CORP_ROOT, 'saka-proxy.js'));
+remove(path.join(CORP_DIR, 'saka-proxy.js')); // legacy install path
 remove(path.join(CORP_DIR, 'calibra-models.json'));
-remove(path.join(CORP_DIR, 'calibra-disabled'));
+remove(path.join(CORP_DIR, 'calibra-disabled'));         // legacy shared flag
+remove(path.join(CORP_DIR, 'calibra-disabled-claude'));
+remove(path.join(CORP_DIR, 'calibra-disabled-codex'));
+remove(path.join(CORP_DIR, 'calibra-ml.json'));
+remove(path.join(CORP_DIR, 'calibra-engine'));
+
+// ── 3a. ml/ assets ───────────────────────────────────────────────────────────
+
+const ML_DEST = path.join(CORP_DIR, 'ml');
+if (fs.existsSync(ML_DEST)) {
+  try {
+    fs.rmSync(ML_DEST, { force: true, recursive: true });
+    console.log(`  removed dir: ${ML_DEST}`);
+  } catch (e) {
+    console.warn(`  warning: could not remove ${ML_DEST}: ${e.message}`);
+  }
+}
+
+// ── 3b. downloaded model assets ──────────────────────────────────────────────
+
+const MODELS_DIR = path.join(CORP_DIR, 'models');
+if (fs.existsSync(MODELS_DIR)) {
+  try {
+    fs.rmSync(MODELS_DIR, { force: true, recursive: true });
+    console.log(`  removed dir: ${MODELS_DIR}`);
+  } catch (e) {
+    console.warn(`  warning: could not remove ${MODELS_DIR}: ${e.message}`);
+  }
+}
+
+// ── 3c. runtime node_modules ─────────────────────────────────────────────────
+// Only remove if Calibra created the package.json (marker: name === 'calibra-runtime').
+// Remove entire node_modules so onnxruntime-node, cspell-lib, @cspell/dict-tr-tr,
+// and all transitive deps are cleaned up together.
+
+(function removeRuntimeDeps() {
+  const corpPkg = path.join(CORP_DIR, 'package.json');
+  if (!fs.existsSync(corpPkg)) return;
+  try {
+    const pkg = JSON.parse(fs.readFileSync(corpPkg, 'utf8'));
+    if (pkg.name !== 'calibra-runtime') {
+      console.log('  skip runtime deps removal (package.json not owned by calibra)');
+      return;
+    }
+  } catch { return; }
+
+  const nmDir = path.join(CORP_DIR, 'node_modules');
+  if (fs.existsSync(nmDir)) {
+    try {
+      fs.rmSync(nmDir, { force: true, recursive: true });
+      console.log(`  removed dir: ${nmDir}`);
+    } catch (e) {
+      console.warn(`  warning: could not remove node_modules: ${e.message}`);
+    }
+  }
+  remove(corpPkg);
+  remove(path.join(CORP_DIR, 'package-lock.json'));
+})();
+
+// ── 3d. Codex/OpenAI support ─────────────────────────────────────────────────
+// Reverses install.js's codex support: restore config.toml from backup, tear
+// down the autostart entry (LaunchAgent / Registry Run key), remove the
+// per-target proxy config + port files, then remove codex-proxy.js itself.
+
+const IS_WIN = process.platform === 'win32';
+const CODEX_TARGETS = [
+  { key: 'personal', configDir: path.join(HOME, '.codex') },
+  { key: 'corp',     configDir: path.join(HOME, '.codex-corp', 'codex-config') },
+];
+
+function restoreCodexConfig(target) {
+  const configPath = path.join(target.configDir, 'config.toml');
+  const backupPath = configPath + '.calibra-backup';
+  if (!fs.existsSync(backupPath)) return;
+
+  try {
+    fs.copyFileSync(backupPath, configPath);
+    fs.rmSync(backupPath, { force: true });
+    console.log(`  restored: ${configPath} (from backup)`);
+  } catch (e) {
+    console.warn(`  warning: could not restore ${configPath}: ${e.message}`);
+  }
+}
+
+function unregisterCodexAutostart(target) {
+  const { execFileSync } = require('child_process');
+
+  if (process.platform === 'darwin') {
+    const label = `com.calibra.codex-proxy.${target.key}`;
+    const plistPath = path.join(HOME, 'Library', 'LaunchAgents', `${label}.plist`);
+    if (fs.existsSync(plistPath)) {
+      try { execFileSync('launchctl', ['unload', '-w', plistPath], { stdio: 'ignore' }); } catch {}
+      remove(plistPath);
+    }
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}.out`));
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}.err`));
+  } else if (IS_WIN) {
+    const regName = `CalibraCodexProxy${target.key[0].toUpperCase()}${target.key.slice(1)}`;
+    try {
+      execFileSync('reg', ['delete', 'HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run', '/v', regName, '/f'], { stdio: 'ignore' });
+      console.log(`  removed autostart (Run key): ${regName}`);
+    } catch {}
+    remove(path.join(CORP_DIR, `codex-proxy-${target.key}-launcher.vbs`));
+  }
+
+  remove(path.join(CORP_DIR, `codex-proxy-${target.key}.json`));
+  remove(path.join(CORP_DIR, `codex-origin-${target.key}.json`));
+  remove(path.join(CORP_DIR, `calibra-codex-port-${target.key}`));
+}
+
+for (const target of CODEX_TARGETS) {
+  restoreCodexConfig(target);
+  unregisterCodexAutostart(target);
+}
+
+remove(path.join(CORP_DIR, 'codex-proxy.js'));
 
 // ── 4. cfg dir hooks/commands ────────────────────────────────────────────────
 // Mirrors install logic: symlink → remove symlink; real dir → remove files only.
@@ -87,6 +210,8 @@ function removeIfEmpty(p) {
   } catch {}
 }
 
+removeIfEmpty(path.join(CORP_DIR, 'ml'));
+removeIfEmpty(path.join(CORP_DIR, 'models'));
 removeIfEmpty(CFG_HOOKS_PATH);
 removeIfEmpty(CFG_CMDS_PATH);
 removeIfEmpty(CFG_DIR);
@@ -95,12 +220,6 @@ removeIfEmpty(CORP_DIR);
 console.log('\nCalibra uninstalled.\n');
 
 // ─────────────────────────────────────────────────────────────────────────────
-
-const CALIBRA_HOOK_RE = /calibra-(debug|notify|toggle)/;
-
-function isCalibraHook(h) {
-  return h && typeof h === 'object' && h.command && CALIBRA_HOOK_RE.test(h.command);
-}
 
 function removeHooksFromSettings(settingsPath) {
   if (!fs.existsSync(settingsPath)) return;

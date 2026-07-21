@@ -1,7 +1,12 @@
 {
   "light": "claude-haiku-4-5-20251001",
-  "mid":   "claude-sonnet-4-6",
+  "mid":    "claude-sonnet-4-6",
   "deep":  "claude-opus-4-7",
-  "ultra": "claude-opus-4-7",
-  "nonAnthropicModels": []
+  "ultra": "claude-opus-4-8",
+  "openai": {
+    "light": "gpt-5.4-mini",
+    "mid":   "gpt-5.3-codex",
+    "deep":  "gpt-5.4",
+    "ultra": "gpt-5.5"
+  }
 }

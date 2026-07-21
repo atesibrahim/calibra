@@ -1,0 +1,14 @@
+{
+  "maxLength": 256,
+  "hiddenSize": 384,
+  "modelArch": "all-MiniLM-L6-v2",
+  "modelVersion": "1.0.0",
+  "download": {
+    "urls": [
+      "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/onnx/model_quantized.onnx"
+    ],
+    "sha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+    "sizeBytes": 22972370,
+    "version": "1.0.0"
+  }
+}

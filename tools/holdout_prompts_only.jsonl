@@ -1,0 +1,400 @@
+{"id":1,"prompt":"kullanıcı oturum yönetimi mimarisini tasarla."}
+{"id":2,"prompt":"kimlik doğrulama sistemi performans darboğazlarını analiz et."}
+{"id":3,"prompt":"CSS sınıfı için tr-ycatch bloğu ekle."}
+{"id":4,"prompt":"Avrupa ve Asya bölgesel veri merkezelri genelinde sıfır güven ağı mimarisi kur."}
+{"id":5,"prompt":"Format the user route with Prettier."}
+{"id":6,"prompt":"Compare caching strategies for the data warehouse ETL pipeline."}
+{"id":7,"prompt":"ödeme özelliği matnığını yeniden düzenle."}
+{"id":8,"prompt":"Change the font color to red in the SQL scrpit."}
+{"id":9,"prompt":"Design the caching strategy for the auth system."}
+{"id":10,"prompt":"let ve const farkı nedir?"}
+{"id":11,"prompt":"Add a null chek to the user object."}
+{"id":12,"prompt":"Optimize the datbase queries for the inventory tracking system."}
+{"id":13,"prompt":"Kullanıcı nesnesine null kontrolü ekle."}
+{"id":14,"prompt":"Optimize the database queries for the real-time chat module."}
+{"id":15,"prompt":"Fix the typo in the user rotue."}
+{"id":16,"prompt":"Avrupa ve Asya bölgesel veri merkezleri altyapısını birleştir."}
+{"id":17,"prompt":"Implement the CRUD endpoint for the notification service."}
+{"id":18,"prompt":"ödeme altyapısı güvenliğini denetle."}
+{"id":19,"prompt":"Write a unit test for the image upload component."}
+{"id":20,"prompt":"Build delivery for the core HR, payroll, and recruitment subsystems."}
+{"id":21,"prompt":"eski monolit yapı ve yeni mikroservisler için tüm platform mimarisini taşı."}
+{"id":22,"prompt":"Investigate the intermittent failures in the real-time chat module."}
+{"id":23,"prompt":"Design the architecture for the data warehouse ETL pipeline."}
+{"id":24,"prompt":"stok takip sistemi için önbellek stratejilerini karşılaştır."}
+{"id":25,"prompt":"Migrate the entire platform architecture for the primary banking ledger and external CRM services."}
+{"id":26,"prompt":"Change the font color to red in the db config."}
+{"id":27,"prompt":"arayüz durum yönetimi performans darboğazlarını analiz et."}
+{"id":28,"prompt":"Migrate the entire backend platform to microservices across all teams."}
+{"id":29,"prompt":"Implement a retry mechanism for the user authentication flow."}
+{"id":30,"prompt":"Architect a zero-trust network across all international payment gateways and user databases."}
+{"id":31,"prompt":"çekirdek API servisi güvenliğnii denetle."}
+{"id":32,"prompt":"Implment unified tracking across the core HR, payroll, and recruitment subsystems."}
+{"id":33,"prompt":"Diagnose the memory leak in the core API service."}
+{"id":34,"prompt":"Build a unified delivery pipeline spanning checkout and account services."}
+{"id":35,"prompt":"temel İK, bordro ve işe alım alt sistemleri için teslimat oluştur."}
+{"id":36,"prompt":"İki bölgede ödeme ve hesap servisleri için teslimat oluştur."}
+{"id":37,"prompt":"PostgerSQL varsayılan portu nedir?"}
+{"id":38,"prompt":"veritabanı ayarı için null kontrolü ekle."}
+{"id":39,"prompt":"Optimize the datbase queries for the data warehouse ETL pipeline."}
+{"id":40,"prompt":"ödeme ve hesap servisleri genelinde sıfır güven ağı mimarisi kur."}
+{"id":41,"prompt":"Refactor the logic of the notification service."}
+{"id":42,"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri için teslimat oluştur."}
+{"id":43,"prompt":"Build a unified delivery pipeline spanning auth, billing, and inventory systems."}
+{"id":44,"prompt":"ana bankacılık defteri ve harici CRM servisleri altyapısını birleştir."}
+{"id":45,"prompt":"Kullanıcı rotası içindeki yazım hatasını düzelt."}
+{"id":46,"prompt":"Fix the bug in the image upload component."}
+{"id":47,"prompt":"Can you explain DNS resoultion?"}
+{"id":48,"prompt":"Fix the bug in the database query."}
+{"id":49,"prompt":"git clone komtuu nedir?"}
+{"id":50,"prompt":"Return null if undefined in the SQL script."}
+{"id":51,"prompt":"SQL betiği dosyasını formatla."}
+{"id":52,"prompt":"What is the diffreence between let and const?"}
+{"id":53,"prompt":"Design the architecture for the payment gateway backend."}
+{"id":54,"prompt":"bildirim servisi için birim testi yaz."}
+{"id":55,"prompt":"raporlama betiği için birim testi yaz."}
+{"id":56,"prompt":"ödeme ve hesap servisleri için tüm platform mimarisini taşı."}
+{"id":57,"prompt":"Migrate the entire platform architecure for all international payment gateways and user databases."}
+{"id":58,"prompt":"kimlik doğrulama, fautralandırma ve stok sistemleri için çok yıllı geçiş sürecini yönet."}
+{"id":59,"prompt":"Debug the state issue in the user profile page."}
+{"id":60,"prompt":"Implement a retry mechanism for the checkout feature."}
+{"id":61,"prompt":"Thanks, that worked."}
+{"id":62,"prompt":"login fonksiyonu içindeki değişkeni userId olarak değiştir."}
+{"id":63,"prompt":"Import React in the login funtion."}
+{"id":64,"prompt":"Wrap the user route in a try-catch."}
+{"id":65,"prompt":"Evaluate the scalability of the user session management."}
+{"id":66,"prompt":"Architect a zero-trust network across the European and Asian regional datacneters."}
+{"id":67,"prompt":"resim yükleme bileşeni durum hatasını ayıkla."}
+{"id":68,"prompt":"Consolidate the inrfastructure of auth, billing, and inventory systems."}
+{"id":69,"prompt":"Evaluate the scalability of the data warehouse ETL pipeline."}
+{"id":70,"prompt":"API yanıtlyaıcısı için console.log ekle."}
+{"id":71,"prompt":"Rename the varible to userId in line 42."}
+{"id":72,"prompt":"Implment unified tracking across the frontend, backend, and mobile applications."}
+{"id":73,"prompt":"Add a null check to the header component."}
+{"id":74,"prompt":"Evaluate the scalability of the payment gateway backend."}
+{"id":75,"prompt":"Write a unit test for the user profile page."}
+{"id":76,"prompt":"Return null if undefined in the db config."}
+{"id":77,"prompt":"Convert the class component to functional for the data processing script."}
+{"id":78,"prompt":"Wrap line 42 in a try-catch."}
+{"id":79,"prompt":"Return null if undefined in the API response handler."}
+{"id":80,"prompt":"kimlik doğrulama sistemi içindeki bellek sızıntısını teşhis et."}
+{"id":81,"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları için teslimat oluştur."}
+{"id":82,"prompt":"Consolidate the infrastructure of the frontend, backend, and mobile applications."}
+{"id":83,"prompt":"Implement the CRUD endpoint for the data processing script."}
+{"id":84,"prompt":"arayüz durum yönetimi içindeki bellek sızıntısını teşhis et."}
+{"id":85,"prompt":"Lead the multi-year migration of all international payment gateways and user databases."}
+{"id":86,"prompt":"Implement a retry mechanism for the reporting script."}
+{"id":87,"prompt":"veritabanı sorgusu için birim testi yaz."}
+{"id":88,"prompt":"Implement a retry mechanism for the user profile page."}
+{"id":89,"prompt":"kullanıcı profil sayfası için CRUD uç noktasını geliştir."}
+{"id":90,"prompt":"Diagnose the memory leak in the user session management."}
+{"id":91,"prompt":"Audit the security of the autentication system."}
+{"id":92,"prompt":"veritabanı ayarı tanımsızsa null dön."}
+{"id":93,"prompt":"çekirdek API servisi içindeki bellek sızıntısını teşhis et."}
+{"id":94,"prompt":"Design the architecture for the authentication system."}
+{"id":95,"prompt":"Build a unified delivery pipeline spanning the core HR, payroll, and recruitment subsystems."}
+{"id":96,"prompt":"eski monolit yapı ve yeni mikroservisler için bölgeler arası veri replikasyon stratejisi tasarla."}
+{"id":97,"prompt":"Implement the CRUD endpoint for the checkout feature."}
+{"id":98,"prompt":"veri işleme betiği içindeki hatayı düzelt."}
+{"id":99,"prompt":"Refactor the logic of the user authentication flow."}
+{"id":100,"prompt":"raporlama betiği için yeniden deneme mekanizması yaz."}
+{"id":101,"prompt":"Write a unit test for the checkout feature."}
+{"id":102,"prompt":"Debug the state issue in the image upload componet."}
+{"id":103,"prompt":"Analyze the performance bottlenecks of the real-time chat module."}
+{"id":104,"prompt":"Investigate the intermittent failures in the payment gateway backend."}
+{"id":105,"prompt":"Fix the typo in line 42."}
+{"id":106,"prompt":"resim yükleme bileşeni için birim testi yaz."}
+{"id":107,"prompt":"Design the architecure for the core API service."}
+{"id":108,"prompt":"Implement unified tracking across auth, billing, and inventory systems."}
+{"id":109,"prompt":"Evaluate the scalability of the frontend state management."}
+{"id":110,"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları genelinde birleşik bir yapı kurgula."}
+{"id":111,"prompt":"42. satır tanımsızsa null dön."}
+{"id":112,"prompt":"Implment unified tracking across all international payment gateways and user databases."}
+{"id":113,"prompt":"Kullanıcı rotası için try-catch bloğu ekle."}
+{"id":114,"prompt":"kullanıcı giriş akışı için birim testi yaz."}
+{"id":115,"prompt":"ödeme özelliği bileşenini fonskiyonel yapıya çevir."}
+{"id":116,"prompt":"temel İK, bordro ve işe alım alt sistemleri altyapısını birleştir."}
+{"id":117,"prompt":"API çağrısı için yeniden deneme mekanizması ekle."}
+{"id":118,"prompt":"kullanici profil sayfası içindeki hatayı düzelt."}
+{"id":119,"prompt":"Build delivery for auth, billing, and inventory systems."}
+{"id":120,"prompt":"Design the architecture for the inventory tracking system."}
+{"id":121,"prompt":"Merhaba, yardım için teşekkürler."}
+{"id":122,"prompt":"Fix the bug in the data processing script."}
+{"id":123,"prompt":"Analyze the performance bottlenecks of the frontend state management."}
+{"id":124,"prompt":"Migrate the entire platform architecture for the legacy monolith and the new microservices."}
+{"id":125,"prompt":"veritabanı ayarı için console.log ekle."}
+{"id":126,"prompt":"çekirdek API servisi veritabanı sorgularını optimize et."}
+{"id":127,"prompt":"ödeme ve hesap servisleri için teslimat oluştur."}
+{"id":128,"prompt":"Design a cross-region data replication strategy for checkout and account services."}
+{"id":129,"prompt":"ödeme ve hesap servisleri alytapısını birleştir."}
+{"id":130,"prompt":"veritabanı sorgusu için yeniden deneme mekanizması yaz."}
+{"id":131,"prompt":"Convert the class component to functional for the checkout feature."}
+{"id":132,"prompt":"Retun null if undefined in the user route."}
+{"id":133,"prompt":"Fix the typo in the CSS class."}
+{"id":134,"prompt":"What is the HTTP methods?"}
+{"id":135,"prompt":"SQL betiği için conosle.log ekle."}
+{"id":136,"prompt":"arayüz durum yönetimi veritabanı sorgularını optimize et."}
+{"id":137,"prompt":"Return null if undefined in the header component."}
+{"id":138,"prompt":"eski monolit yapı ve yeni mikroservisler altyapısını birleştir."}
+{"id":139,"prompt":"veri işleme betiği için CI/CD ayarlarını yap."}
+{"id":140,"prompt":"tüm uluslararası ödeme ag geçitleri ve kullanıcı veritabanları için çok yıllı geçiş sürecini yönet."}
+{"id":141,"prompt":"temel İK, bordro ve işe alım alt sistmeleri kapsayan birleşik bir dağıtım hattı kur."}
+{"id":142,"prompt":"veri işleme betiği mantığını yeniden düzenle."}
+{"id":143,"prompt":"Build delivery for the frontend, backend, and mobile applications."}
+{"id":144,"prompt":"Convert the class componet to functional for the notification service."}
+{"id":145,"prompt":"resim yükleme bileşeni mantığını yeniden düzenle."}
+{"id":146,"prompt":"veritabanı sorgusu bileşenini fonksiyonel yapıya çevir."}
+{"id":147,"prompt":"Implement the CRUD endpoint for the image upload component."}
+{"id":148,"prompt":"Configure the CI/CD pipeline for the checkout feature."}
+{"id":149,"prompt":"Design a cross-region data replication strategy for all international payment gateways and user databases."}
+{"id":150,"prompt":"çekirdek API servisi için önbellek stratejileirni karşılaştır."}
+{"id":151,"prompt":"Import React in the user route."}
+{"id":152,"prompt":"Analyze the performance bottlenecks of the inventory tracking system."}
+{"id":153,"prompt":"Format the CSS class with Prettier."}
+{"id":154,"prompt":"Investigate the intermittent failures in the inventory tracking sytem."}
+{"id":155,"prompt":"Convert the class component to functional for the image upload component."}
+{"id":156,"prompt":"42. satır dosyaısnı formatla."}
+{"id":157,"prompt":"Analyze the performance bottlenecks of the data warehouse ETL pipeline."}
+{"id":158,"prompt":"Lead the multi-year migration of auth, billing, and inventory systems."}
+{"id":159,"prompt":"Format the db config with Prettier."}
+{"id":160,"prompt":"stok takip sistemi performans darboğazlarını analiz et."}
+{"id":161,"prompt":"Fix the bug in the user profile page."}
+{"id":162,"prompt":"Consolidate the infarstructure of the European and Asian regional datacenters."}
+{"id":163,"prompt":"Consolidate the infrastructure of the primary banking ledger and external CRM services."}
+{"id":164,"prompt":"stok takip sistemi mimarisini tasarla."}
+{"id":165,"prompt":"veritabani ayarı sonundaki boşlukları sil."}
+{"id":166,"prompt":"Architect a zeor-trust network across checkout and account services."}
+{"id":167,"prompt":"ana bankacılık defteri ve harici CRM servisleri için bölgeler arası veri replikasyon stratejisi tasarla."}
+{"id":168,"prompt":"veritabanı ayarı için try-catch bloğu ekle."}
+{"id":169,"prompt":"Add a console.log to the login function."}
+{"id":170,"prompt":"Consolidate the infrastrutcure of the core HR, payroll, and recruitment subsystems."}
+{"id":171,"prompt":"REST API hakkında bilgi ver."}
+{"id":172,"prompt":"Architect a zero-trust network across the frontend, backend, and mobile applications."}
+{"id":173,"prompt":"Migrate the entire platform architecure for the frontend, backend, and mobile applications."}
+{"id":174,"prompt":"Rename the variable to userId in the API response handler."}
+{"id":175,"prompt":"header bileşeni içindeki yazım hatasını düzelt."}
+{"id":176,"prompt":"Debug the state issue in the reoprting script."}
+{"id":177,"prompt":"resim yükleme bileşeni için yeniden deneme mekanizması yaz."}
+{"id":178,"prompt":"Convert the class component to functional for the database query."}
+{"id":179,"prompt":"Rename the variable to userId in the user route."}
+{"id":180,"prompt":"Diagnose the memory leak in the authentication system."}
+{"id":181,"prompt":"Import React in the CSS class."}
+{"id":182,"prompt":"Implement a retry mechanism for the data processing script."}
+{"id":183,"prompt":"kullanıcı giriş akışı için yeniden deneme mekanizması yaz."}
+{"id":184,"prompt":"Optimize the database queries for the frontend state management."}
+{"id":185,"prompt":"veri ambarı ETL hattı ölçeklenebilirliğini değerlendir."}
+{"id":186,"prompt":"Audit the security of the data warehouse ETL pipeline."}
+{"id":187,"prompt":"Design a cross-region data replication strategy for the frontend, backend, and mobile applications."}
+{"id":188,"prompt":"kullanici profil sayfası için CI/CD ayarlarını yap."}
+{"id":189,"prompt":"Architect a zero-trust network across auth, billing, and inventory systems."}
+{"id":190,"prompt":"Add a retry mechanism to the API call."}
+{"id":191,"prompt":"Configure the CI/CD pipeline for the notification serice."}
+{"id":192,"prompt":"42. satır için try-catch bloğu ekle."}
+{"id":193,"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri kapsayan birleşik bir dağıtım hattı kur."}
+{"id":194,"prompt":"Add a null check to the user route."}
+{"id":195,"prompt":"Design the architecture for the frontend state management."}
+{"id":196,"prompt":"Format line 42 with Prettier."}
+{"id":197,"prompt":"bildirim servisi içindeki hatayı düzelt."}
+{"id":198,"prompt":"Diagnose the intermittent login latency affecting users."}
+{"id":199,"prompt":"Implement the CRUD endpoint for the user profile page."}
+{"id":200,"prompt":"gerçek zamanlı sohbet modülü güvenliğini denetle."}
+{"id":201,"prompt":"Debug the state issue in the notification service."}
+{"id":202,"prompt":"veri ambarı ETL hattı güvneliğini denetle."}
+{"id":203,"prompt":"kullanıcı profil sayfası için yeniden deneme mekanizması yaz."}
+{"id":204,"prompt":"Refactor the logic of the reporting script."}
+{"id":205,"prompt":"Analyze the performance bottlenecks of the user session management."}
+{"id":206,"prompt":"Can you explain a REST API?"}
+{"id":207,"prompt":"Eski kullanici veritabanını PostgreSQL'e taşı."}
+{"id":208,"prompt":"Add a null check to the API response handler."}
+{"id":209,"prompt":"Implement unified tracking across the European and Asian regional datacenters."}
+{"id":210,"prompt":"Architect a zero-trust network across the core HR, payroll, and recruitment subsystems."}
+{"id":211,"prompt":"veritabanı sorgusu durum hatasını ayıkla."}
+{"id":212,"prompt":"Return null if undefined in the CSS class."}
+{"id":213,"prompt":"API yaıntlayıcısı rengini kırmızı yap."}
+{"id":214,"prompt":"Design a cross-region data replication strategy for the primary banking ledger and external CRM services."}
+{"id":215,"prompt":"Implement unified tracking across the primary banking ledger and external CRM services."}
+{"id":216,"prompt":"API yanıtlayıcısı içindeki yazım hatasını düzelt."}
+{"id":217,"prompt":"Refactor the logic of the user profile page."}
+{"id":218,"prompt":"Investigate the intermittent failures in the authentication system."}
+{"id":219,"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları için tüm platform mimarisini taşı."}
+{"id":220,"prompt":"Consolidate the infrasturcture of all international payment gateways and user databases."}
+{"id":221,"prompt":"Wrap the SQL script in a tyr-catch."}
+{"id":222,"prompt":"Fix the bug in the user authentication flow."}
+{"id":223,"prompt":"Migrate the entire platform architecure for the European and Asian regional datacenters."}
+{"id":224,"prompt":"Write a unit test for the reporitng script."}
+{"id":225,"prompt":"Compare caching straetgies for the payment gateway backend."}
+{"id":226,"prompt":"CSS sınıfı dosyasını formatla."}
+{"id":227,"prompt":"What is git clone?"}
+{"id":228,"prompt":"API yanıtlayıcısı tanımsızsa null dön."}
+{"id":229,"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları kapsayan birleşik bir dağıtım hattı kur."}
+{"id":230,"prompt":"What is the default PostgrSeQL port?"}
+{"id":231,"prompt":"Consolidate the infrastructure of the legacy monolith and the new microservices."}
+{"id":232,"prompt":"veri ambarı ETL hattı mimarisini tasarla."}
+{"id":233,"prompt":"Migrate the entire platform architecure for checkout and account services."}
+{"id":234,"prompt":"kullanıcı oturum yönetimi içindeki bellek sızıntısını teşhis et."}
+{"id":235,"prompt":"Configure the CI/CD pipeline for the user profile page."}
+{"id":236,"prompt":"Fix the bug in the reporting script."}
+{"id":237,"prompt":"Refactor the logic of the image upload component."}
+{"id":238,"prompt":"Debug the state issue in the chekcout feature."}
+{"id":239,"prompt":"Implment a retry mechanism for the image upload component."}
+{"id":240,"prompt":"ödeme altyapısı içindeki kesintili hataları arastir."}
+{"id":241,"prompt":"Convert the class component to functional for the user profile page."}
+{"id":242,"prompt":"Add a console.log to the API response handler."}
+{"id":243,"prompt":"Implement the CRUD endpoint for the reporting script."}
+{"id":244,"prompt":"Wrap the login funtion in a try-catch."}
+{"id":245,"prompt":"Fix the typo in the API response handler."}
+{"id":246,"prompt":"Investigate the intremittent failures in the frontend state management."}
+{"id":247,"prompt":"Implement unified tracking across the legacy monolith and the new microservices."}
+{"id":248,"prompt":"Kullanıcı rotası başına import ekle."}
+{"id":249,"prompt":"Hello, thanks for the help."}
+{"id":250,"prompt":"Avrupa ve Asya bölgesel veri merkzeleri için tüm platform mimarisini taşı."}
+{"id":251,"prompt":"Build delivery for checkout and account services."}
+{"id":252,"prompt":"Convert the class component to functional for the user authentication flow."}
+{"id":253,"prompt":"Build delivery for checkout and account services across two regions."}
+{"id":254,"prompt":"Compare caching strategies for the user session management."}
+{"id":255,"prompt":"Compare caching strategies for the inventory tracking system."}
+{"id":256,"prompt":"Debug the state issue in the data procesisng script."}
+{"id":257,"prompt":"çekirdek API servisi içindeki kesintili hataları araştır."}
+{"id":258,"prompt":"veri işleme betiği için birim testi yaz."}
+{"id":259,"prompt":"Lead the multi-year migration of the European and Asian regional datacenters."}
+{"id":260,"prompt":"tüm uluslararası ödeme ağ geçitleri ve kullanıcı veritabanları altyapısını birleştir."}
+{"id":261,"prompt":"veri ambarı ETL hattı performans darboğazlarını analiz et."}
+{"id":262,"prompt":"Write a unit test for the database query."}
+{"id":263,"prompt":"Compare caching strategies for the frontend state management."}
+{"id":264,"prompt":"42. satır içindeki değişkeni userId olarak değiştir."}
+{"id":265,"prompt":"ödeme ve hesap servisleri genelinde birleşik bir yapı kurgula."}
+{"id":266,"prompt":"Remove the extra whitespace from the user route."}
+{"id":267,"prompt":"Implment a retry mechanism for the database query."}
+{"id":268,"prompt":"kullanıcı profil sayfası bileşenini fonksiyonel yapıya çevir."}
+{"id":269,"prompt":"Evaluate the scalability of the core API service."}
+{"id":270,"prompt":"Configure the CI/CD pipeline for the database query."}
+{"id":271,"prompt":"rapolrama betiği mantığını yeniden düzenle."}
+{"id":272,"prompt":"ana bnakacılık defteri ve harici CRM servisleri için tüm platform mimarisini taşı."}
+{"id":273,"prompt":"bildirim servisi için yeniden deneme mekanizması yaz."}
+{"id":274,"prompt":"Add a console.log to the header component."}
+{"id":275,"prompt":"Add a null check to line 42."}
+{"id":276,"prompt":"Remove the extra whitespace from the SQL script."}
+{"id":277,"prompt":"Investigate the intermittent failures in the core API serice."}
+{"id":278,"prompt":"Compare caching strategies for the authentication system."}
+{"id":279,"prompt":"resim yükleme bileşeni bileşenini fonksioynel yapıya çevir."}
+{"id":280,"prompt":"Add a console.log to the CSS class."}
+{"id":281,"prompt":"Design a cross-region data replication strategy for the European and Asian regional datacenters."}
+{"id":282,"prompt":"Diagnose the memory leak in the payment gateway backend."}
+{"id":283,"prompt":"Add a consol.log to the db config."}
+{"id":284,"prompt":"resim yükleme bileşeni için CRUD uç noktasnıı geliştir."}
+{"id":285,"prompt":"Migrate the legacy user database to PostgreSQL."}
+{"id":286,"prompt":"Optimize the database queries for the user session management."}
+{"id":287,"prompt":"Audit the security of the payment gateway backend."}
+{"id":288,"prompt":"Fix the typo in the db conifg."}
+{"id":289,"prompt":"Implment a retry mechanism for the notification service."}
+{"id":290,"prompt":"Evalute the scalability of the real-time chat module."}
+{"id":291,"prompt":"Optimize the database queries for the core API service."}
+{"id":292,"prompt":"kullanıcı profil sayfası mantığını yeniden düzenle."}
+{"id":293,"prompt":"Configure the CI/CD pipeline for the user autentication flow."}
+{"id":294,"prompt":"Kullanıcı rotası sonundaki boşlukları sil."}
+{"id":295,"prompt":"Investigate the intermittent failures in the data warehouse ETL pipeline."}
+{"id":296,"prompt":"Can you explain the difference between let and const?"}
+{"id":297,"prompt":"Design the architecture for the user session management."}
+{"id":298,"prompt":"Analyze the perofrmance bottlenecks of the payment gateway backend."}
+{"id":299,"prompt":"header bileşeni içindeki değşikeni userId olarak değiştir."}
+{"id":300,"prompt":"Kullanııcları etkileyen aralıklı giriş gecikmesini teşhis et."}
+{"id":301,"prompt":"Write a unit test for the user authentication flow."}
+{"id":302,"prompt":"gerçek zamanlı sohbet modülü mimarisini tasarla."}
+{"id":303,"prompt":"CSS sınıfı için console.log ekle."}
+{"id":304,"prompt":"Diagnose the memory leak in the frontend state management."}
+{"id":305,"prompt":"login fnoksiyonu başına import ekle."}
+{"id":306,"prompt":"CSS sınıfı içindeki yazım hatasını düzelt."}
+{"id":307,"prompt":"Selam, yardım edebilir misin?"}
+{"id":308,"prompt":"Migrate the entire platform architecture for auth, billing, and inventory systems."}
+{"id":309,"prompt":"ödeme özelilği durum hatasını ayıkla."}
+{"id":310,"prompt":"ön yüz, arka yüz ve mobil uygulamalar genelinde birleşik bir yapı kurgula."}
+{"id":311,"prompt":"kimlik doğrulama sistemi için önbellek stratejilerini karşılaştır."}
+{"id":312,"prompt":"Add a null check to the CSS class."}
+{"id":313,"prompt":"Can you explain HTTP status 404?"}
+{"id":314,"prompt":"Debug the state issue in the user autentication flow."}
+{"id":315,"prompt":"Avrupa ve Asya bölgesel veri merkezelri için çok yıllı geçiş sürecini yönet."}
+{"id":316,"prompt":"Compare caching strategies for the real-time chat module."}
+{"id":317,"prompt":"kullanici giriş akışı içindeki hatayı düzelt."}
+{"id":318,"prompt":"Implment the CRUD endpoint for the database query."}
+{"id":319,"prompt":"Diagnos the memory leak in the data warehouse ETL pipeline."}
+{"id":320,"prompt":"ödeme ve hesap servisleri kapsayan birleşik bir dağıtım hattı kur."}
+{"id":321,"prompt":"Şifrelerin başarısız olduğu giriş hatasını düzelt."}
+{"id":322,"prompt":"kullanıcı giriş akışı mantığını yeniden düzenle."}
+{"id":323,"prompt":"Analyze the performance bottlenecks of the core API service."}
+{"id":324,"prompt":"stok takip sistemi içindeki kesintili hataları araştır."}
+{"id":325,"prompt":"Build a unified delivery pipeline spanning the European and Asian regional datacenters."}
+{"id":326,"prompt":"Design a cross-region data replication strategy for the legacy monolith and the new microservices."}
+{"id":327,"prompt":"veri ambarı ETL hattı için önbellek stratejilerini karşılaştır."}
+{"id":328,"prompt":"Optimize the database queries for the authentication system."}
+{"id":329,"prompt":"Import React in line 42."}
+{"id":330,"prompt":"Audit the security of the rela-time chat module."}
+{"id":331,"prompt":"ödeme ve hesap servisleri için çok yıllı geçiş sürecini yönet."}
+{"id":332,"prompt":"bildirim servisi için CRUD uç noktasını geliştir."}
+{"id":333,"prompt":"ödeme altyapısı içindeki bellek sızıntısını teşhis et."}
+{"id":334,"prompt":"Write a unit test for the notification service."}
+{"id":335,"prompt":"What is the 'npm install' command?"}
+{"id":336,"prompt":"Build delivery for the primary banking ledger and external CRM services."}
+{"id":337,"prompt":"ön yüz, arka yüz ve mobil uygulamalar için çok yıllı geçiş sürecini yönet."}
+{"id":338,"prompt":"Rename the variable to userId in the header component."}
+{"id":339,"prompt":"header bileşeni rengini kırmızı yap."}
+{"id":340,"prompt":"Avrupa ve Asya bölgesel veri merkezleri kapsayan birleşik bir dağıtım hattı kur."}
+{"id":341,"prompt":"kimlik doğrulama, faturalandırma ve stok sistemleri için tüm platform mimarisini taşı."}
+{"id":342,"prompt":"Kimlik doğrulama ve ödemeleri gRPC'ye taşı."}
+{"id":343,"prompt":"Analyze the performance bottlenecks of the autentication system."}
+{"id":344,"prompt":"Rename the variable to userId in the SQL script."}
+{"id":345,"prompt":"gerçek zamanlı sohbet modülü için önbellek stratejileirni karşılaştır."}
+{"id":346,"prompt":"Wrap the db config in a try-catch."}
+{"id":347,"prompt":"Implment unified tracking across checkout and account services."}
+{"id":348,"prompt":"Can you explain git clone?"}
+{"id":349,"prompt":"Kullanıcı rotası tanımsızsa null dön."}
+{"id":350,"prompt":"Fix the login bug where passwords fail."}
+{"id":351,"prompt":"kullanıcı giriş akışı için CRUD uç noktasını geliştir."}
+{"id":352,"prompt":"Build delivery for the legacy monolith and the new microservices."}
+{"id":353,"prompt":"Migrate auth and pamyents to gRPC."}
+{"id":354,"prompt":"ödeme altyapısı ölçeklenebilirliğini değerlendir."}
+{"id":355,"prompt":"veri ambarı ETL hattı içindeki bellek sızıntısını teşhis et."}
+{"id":356,"prompt":"temel İK, bordro ve işe alım alt sistemleri için tüm platform mimarisini taşı."}
+{"id":357,"prompt":"Build a unified delivery pipeline spanning the frontend, backend, and mobile applications."}
+{"id":358,"prompt":"raporlama betiği için CI/CD ayarlarını yap."}
+{"id":359,"prompt":"Evaluate the scalability of the inventory tracking system."}
+{"id":360,"prompt":"Debug the state issue in the database query."}
+{"id":361,"prompt":"raporlama betiği için CRUD uç noktasını geliştir."}
+{"id":362,"prompt":"Import React in the SQL script."}
+{"id":363,"prompt":"Optimize the database queries for the payment gateway backend."}
+{"id":364,"prompt":"gerçek zamanlı sohbet modülü ölçeklenebiilrliğini değerlendir."}
+{"id":365,"prompt":"Design a cross-region data replication strategy for the core HR, payroll, and recruitment subsystems."}
+{"id":366,"prompt":"Configure the CI/CD pipeline for the data processing script."}
+{"id":367,"prompt":"Migrate the entire platform architecture for the core HR, payroll, and recruitment subsystems."}
+{"id":368,"prompt":"Audit the security of the inventory tracking sytem."}
+{"id":369,"prompt":"Wrap the header component in a try-catch."}
+{"id":370,"prompt":"Consolidate the infrastructure of checkout and account services."}
+{"id":371,"prompt":"Build a unified delivery pipeline spanning all international payment gateways and user databases."}
+{"id":372,"prompt":"Lead the multi-year migration of the frontend, backend, and mobile applications."}
+{"id":373,"prompt":"kimlik doğrulama sistemi mimarisini tasarla."}
+{"id":374,"prompt":"API yanıtlayıcısı için null kontrolü ekle."}
+{"id":375,"prompt":"kimlik doğrulama, faturalandımra ve stok sistemleri için bölgeler arası veri replikasyon stratejisi tasarla."}
+{"id":376,"prompt":"Build delivery for the European and Asian regional datacenters."}
+{"id":377,"prompt":"kimlik doğrulama sistemi güevnliğini denetle."}
+{"id":378,"prompt":"Wrap the CSS class in a try-catch."}
+{"id":379,"prompt":"Add a null chek to the SQL script."}
+{"id":380,"prompt":"kimlik doğrulama sistemi ölçeklenebilirliğini değerlendir."}
+{"id":381,"prompt":"tüm uluslararası ödeme ag geçitleri ve kullanıcı veritabanları genelinde sıfır güven ağı mimarisi kur."}
+{"id":382,"prompt":"arayüz durum yönetimi ölçeklenebilirliğini değerlendir."}
+{"id":383,"prompt":"çekirdek API servisi ölçeklenebilirliğini değerlendir."}
+{"id":384,"prompt":"login fonksiyonu rengini kırmızı yap."}
+{"id":385,"prompt":"Compare caching strategies for the core API service."}
+{"id":386,"prompt":"Refactor the logic of the data procsesing script."}
+{"id":387,"prompt":"Configure the CI/CD pipeline for the image upload component."}
+{"id":388,"prompt":"ana bankacılık defteri ve harici CRM servisleri genelinde birleşik bir yapı kurgula."}
+{"id":389,"prompt":"Audit the security of the user session management."}
+{"id":390,"prompt":"Kimlik doğrulama sistemi için önbellek stratejisi tasarla."}
+{"id":391,"prompt":"veritabani sorgusu içindeki hatayı düzelt."}
+{"id":392,"prompt":"Confiugre the CI/CD pipeline for the reporting script."}
+{"id":393,"prompt":"çekirdek API servisi mimariisni tasarla."}
+{"id":394,"prompt":"Build delivery for all international payment gateways and user databases."}
+{"id":395,"prompt":"Tüm takımlardaki arka uç platformunu mikro servislere taşı."}
+{"id":396,"prompt":"login fonksiyonu içindeki yazım hatasını düzelt."}
+{"id":397,"prompt":"Lead the multi-year migration of the legacy monolith and the new microservices."}
+{"id":398,"prompt":"Design a cross-region data replication strategy for auth, billing, and inventory systems."}
+{"id":399,"prompt":"veritabanı ayarı içindeki değişkeni userId olarak değiştir."}
+{"id":400,"prompt":"Refactor the logic of the database query."}

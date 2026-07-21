@@ -1,3 +1,14 @@
 node_modules/
 *.log
 .DS_Store
+.venv/
+.venv*/
+
+# Calibra ML — generated assets (never commit)
+tools/__pycache__/
+tools/*.onnx
+tools/parity_report.json
+tools/calibration_report.md
+*.onnx
+models/
+# src/ml/vocab.txt is committed (bert-base-uncased vocab, ~230KB, needed at runtime)

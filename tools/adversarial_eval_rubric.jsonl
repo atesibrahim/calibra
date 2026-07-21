@@ -1,0 +1,600 @@
+{"prompt":"What is HTTP 204, thx plese","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the local variable to reqId.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the label to Retry.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set package version to 3.4.1 dont overthink it","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one console.log before save, thx.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Fix the typo in the API response text.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is a REST resource aspa","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the timeout constant to 30.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the Webhooks heading typo, thx.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Yanıt kodunu 201 yap bi zahmet cok acill","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece health route yazımını düzelt.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir console.warn ekle.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Surumu 2.8.0 yap, lutfen bi zahmt","tier":"light","domain":"backend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sunu yap: degiskeni userId yap.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kucuk is, API basligini duzelt.","tier":"light","domain":"backend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is CSS specificity aspa","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the button text to Continue.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Use the card-width variable to cardWidth.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set the blank-line count in App.jsx to one, thx needd it","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add React fragment syntax.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the color value to #224466.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is the heading to Account thnaks","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the onClick console.log text, thx.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the alt text to Company logo.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Buton metnini Kaydet yap, lütfen lütfn","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şunu yap: başlıktaki yazım hatasını düzelt.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Küçük iş, padding değerini 8 yap.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Rengi #112233 yap bi zahmet sagolll","tier":"light","domain":"frontend","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece degiskeni menuOpen yap.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir console.log ekle.","tier":"light","domain":"frontend","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is a foreign key thnaks","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the CSV header to customer_id.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use schema version to 12, thx.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set the batchSize constant to 500 plese","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one debug print after parse.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the label to Daily total.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is SQL NULL, thx dont overthink it","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the migration-name typo.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix retentionDays to 7.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kolon adını created_at yap bi zahmet hemne","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece CSV başlığını düzelt.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen sürümü 14 yap.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Batch degerini 250 yap, lutfen cok acill","tier":"light","domain":"data","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sunu yap: degiskeni rowCount yap.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kucuk is, bir debug satiri ekle.","tier":"light","domain":"data","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a container image dont overthink it","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the tag to 1.9.2, thx.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the YAML comment to staging.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set the Docker host variable to DOCKER_HOST aspa","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one echo before deploy.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the replica count to 3, thx.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is the heading to Deployment needd it","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change a readiness probe.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the typo in the values.yaml note.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Image etiketini 2.0.1 yap, lütfen bi zahmt","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şunu yap: YAML yorumunu düzelt.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Küçük iş, replica sayısını 2 yap.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Surumu 4.1.0 yap bi zahmet lutfn","tier":"light","domain":"devops","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece degiskeni APP_PORT yap.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir echo ekle.","tier":"light","domain":"devops","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is CSRF, thx needd it","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the label to Sign out.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the JWT secret variable to jwtSecret.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set lockoutMinutes to 15 thnaks","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one warning log on denial, thx.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the heading to Permissions.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a salt plese","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the typo in the authorization comment.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix package version to 6.0.2, thx.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Etiketi Oturumu kapat yap bi zahmet sağolll","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece değişken adını tokenHash yap.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen uyarı metnini düzelt.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sureyi 10 yap, lutfen hemne","tier":"light","domain":"security","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sunu yap: surumu 6.1.0 yap.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kucuk is, bir warning log ekle.","tier":"light","domain":"security","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is a test fixture plese","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the test name to creates user.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the expected-value typo.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set one console.log in the failing test, thx dont overthink it","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add the timeout to 2000.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the heading to Unit tests.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a mock aspa","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change package version to 1.2.7, thx.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the variable name to sutName.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Test adını kullanıcı oluşturur yap, lütfen cok acill","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şunu yap: yazım hatasını düzelt.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Küçük iş, timeout değerini 3000 yap.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Basligi Entegrasyon testleri yap bi zahmet bi zahmt","tier":"light","domain":"testing","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece degiskeni expectedId yap.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir debug print ekle.","tier":"light","domain":"testing","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is an embedding aspa","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the label to Confidence.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the learning-rate variable to learningRate, thx.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set the epoch count to 20 needd it","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one print after inference.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the heading to Evaluation.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is temperature in sampling, thx thnaks","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change model version to 0.9.4.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the tokenizer-config typo.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Etiketi Güven yap bi zahmet lütfn","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece epoch sayısını 12 yap.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen değişkeni modelPath yap.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Surumu 1.0.0 yap, lutfen sagolll","tier":"light","domain":"ml","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sunu yap: basligi Model sonucu yap.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kucuk is, bir print ekle.","tier":"light","domain":"ml","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is a deep link?","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the button label to Allow, thx dont overthink it","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Use the screen-title variable to screenTitle.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set build number to 87.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one log in onResume.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the heading to Notifications, thx thnaks","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a push token?","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the margin to 16.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the typo in the Info.plist comment.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Buton metnini İzin ver yap, lütfen hemne","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şunu yap: build numarasını 88 yap.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Küçük iş, başlığı Bildirimler yap.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degiskeni screenTitle yap bi zahmet cok acill","tier":"light","domain":"mobile","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece bos satiri sil.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir log ekle.","tier":"light","domain":"mobile","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is semantic versioning, thx.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the README title to Quick start needd it","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Use the temporary-value variable to tmpValue.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set version to 5.2.0.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one console.log in main, thx.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Fix the typo in the Markdown link text dont overthink it","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"What is the example number to 42?","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the label to Done.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the code comment text, thx.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"README başlığını Başlangıç yap bi zahmet bi zahmt","tier":"light","domain":"general","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece yazım yanlışını düzelt.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen örnek sayıyı 24 yap.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Surumu 5.3.0 yap, lutfen.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sunu yap: degiskeni result yap.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kucuk is, fazla boslugu sil.","tier":"light","domain":"general","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a trace span?","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change the dashboard label to Errors plese","tier":"light","domain":"observability","hasTypo":true,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Use the span-name variable to spanName.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set the threshold to 95, thx.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add one info log before export.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the heading to Metrics needd it","tier":"light","domain":"observability","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"What is a histogram bucket?","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:3b"}
+{"prompt":"Change collector version to 0.4.2, thx.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the typo in the alert note.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Panel adını Hatalar yap, lütfen.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şunu yap: eşik değerini 90 yap.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Küçük iş, uyarı notunu düzelt.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Surumu 0.5.0 yap bi zahmet hemne","tier":"light","domain":"observability","hasTypo":true,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sadece degiskeni traceId yap.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:8-keep-original"}
+{"prompt":"Hemen bir info log ekle.","tier":"light","domain":"observability","hasTypo":false,"origTier":"light","rubricReason":"rule:3"}
+{"prompt":"Add cursor pagination to the invoices endpoint plese","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix duplicate writes in the profile PATCH handler, please.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you implement CSV export in the reports service?","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to dockerize the Express API dont overthink it","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set up request validation for the signup route asap.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, convert the webhook handler from callbacks to async functions.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: add an idempotency key check to the refund endpoint aspa","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Debug the 422 response from the address controller and show the changed code.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please write a health endpoint for the worker service; keep the scope local.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sipariş endpointine limit-offset sayfalama ekle bi zahmet cok acill","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Profil handlerındaki null hatasını düzelt, hemen.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede bildirim servisine e-posta gönderimi ekle.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Express APIyi dockerize et bi zahmt","tier":"mid","domain":"backend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Webhook routeuna imza kontrolu ekle, lutfen.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Su isi yap: rapor endpointini CSV dondurecek sekilde guncelle.","tier":"mid","domain":"backend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to fix the layout shift in the product card aspa","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add keyboard navigation to the date picker asap.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, implement a loading state in the checkout component.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: convert UserMenu.jsx to TypeScript needd it","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set up Storybook for the button package and show the changed code.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please add virtual scrolling to the country selector; keep the scope local.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Debug the stale total in the cart sidebar thnaks","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Make the pricing table responsive, please.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you add optimistic updates to the favorite button?","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Ödeme formuna yükleniyor durumu ekle lütfn","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tarih seçicideki odak hatasını düzelt, lütfen.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şu işi yap: Header bileşenini TypeScripte çevir.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Urun kartini responsive yap bi zahmet sagolll","tier":"mid","domain":"frontend","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Arama kutusuna debounce ekle, hemen.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede modal icin klavye kontrolu ekle.","tier":"mid","domain":"frontend","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: add a unique index to the invitations table thnaks","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Write a parser for the vendor CSV file and show the changed code.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please fix timezone conversion in the daily rollup job; keep the scope local.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Implement incremental loading for one warehouse table plese","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set up dbt tests for the revenue model, please.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you convert the customer export from JSON to Parquet?","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to debug missing rows in the orders materialized view dont overthink it","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add retry handling to the Kafka consumer asap.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, create an Alembic migration for nullable nicknames.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Davetler tablosuna unique index ekle bi zahmet hemne","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Günlük özet jobundaki saat dilimi hatasını düzelt, hemen.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede müşteri CSV dosyası için parser yaz.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tek tablo icin incremental yukleme ekle cok acill","tier":"mid","domain":"data","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kafka consumer retry ayarini yap, lutfen.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Su isi yap: nickname kolonu icin migration yaz.","tier":"mid","domain":"data","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Write a Dockerfile for the Go API dont overthink it","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Set up a GitHub Actions job for unit tests, please.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you fix the broken readiness probe in one deployment?","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to add a staging overlay to the Kustomize app aspa","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Configure Nginx for the static site asap.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, pin Terraform provider versions in one module.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: add a cron schedule to the backup job needd it","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Debug image pulls for the catalog pod and show the changed code.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please create a Helm values file for QA; keep the scope local.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Go API için Dockerfile yaz bi zahmt","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tek deploymenttaki readiness probeu düzelt, lütfen.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şu işi yap: frontend için Nginx ayarı yap.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"QA icin Helm values dosyasi ekle bi zahmet lutfn","tier":"mid","domain":"devops","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Backup jobuna cron ekle, hemen.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede catalog pod image pull hatasini bul.","tier":"mid","domain":"devops","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to add rate limiting to the login endpoint needd it","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix open redirect handling in the callback route asap.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, implement password strength checks in the signup form.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: configure CSP for the admin frontend thnaks","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add JWT expiry validation to one middleware and show the changed code.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please set up secret scanning in the repository; keep the scope local.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sanitize filenames in the upload handler plese","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add a permission check to the delete endpoint, please.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you rotate the development signing key?","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Login endpointine rate limit ekle bi zahmet sağolll","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Callback routeundaki açık yönlendirmeyi düzelt, hemen.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede upload handlerında dosya adını temizle.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Delete endpointine yetki kontrolu ekle hemne","tier":"mid","domain":"security","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"JWT suresi kontrolunu middlewaree ekle, lutfen.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Su isi yap: repo icin secret scanning kur.","tier":"mid","domain":"security","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: set up Jest for the Node package plese","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add contract tests for the currency endpoint and show the changed code.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please fix the flaky date-picker test; keep the scope local.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Write unit tests for the tax calculator dont overthink it","tier":"light","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:3"}
+{"prompt":"Configure Playwright for the login page, please.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you add a test fixture for expired sessions?","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to mock the clock in the reminder spec aspa","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Convert one Mocha suite to node:test asap.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, debug the hanging repository integration test.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Node paketi için Jest kur cok acill","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Vergi hesaplayıcıya unit test yaz, lütfen.","tier":"light","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:3"}
+{"prompt":"Şu işi yap: tarih seçici testindeki flakeyi düzelt.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Login sayfasi icin Playwright kur bi zahmet bi zahmt","tier":"mid","domain":"testing","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Expired session fixture ekle, hemen.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede Mocha testini node teste cevir.","tier":"mid","domain":"testing","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add batch inference to the sentiment script aspa","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix padding in the tokenizer function, please.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you implement top-k sampling in the decoder?","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to set up MLflow logging for one training job needd it","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Convert the classifier checkpoint to ONNX asap.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, add early stopping to the trainer.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: debug NaNs in the loss function thnaks","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Write a dataset loader for JSONL examples and show the changed code.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please cache embeddings in the search worker; keep the scope local.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Duygu analizi scriptine batch inference ekle bi zahmet lütfn","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tokenizerdaki padding hatasını düzelt, hemen.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede trainer için early stopping ekle.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Checkpointi ONNX formatina cevir sagolll","tier":"mid","domain":"ml","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"JSONL dataset loader yaz, lutfen.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Su isi yap: loss fonksiyonundaki NaN hatasini bul.","tier":"mid","domain":"ml","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to add pull-to-refresh to the activity screen.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix the keyboard overlap in the login view asap dont overthink it","tier":"mid","domain":"mobile","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, implement one deep link for order details.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: set up push notification permission on iOS.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Convert the settings screen to Compose and show the changed code.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please add offline caching to the contacts view; keep the scope local thnaks","tier":"mid","domain":"mobile","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Debug duplicate navigation after rotation.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add biometric unlock to the vault screen, please.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you write a widget for the daily count?","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Aktivite ekranına pull-to-refresh ekle hemne","tier":"mid","domain":"mobile","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Login görünümündeki klavye taşmasını düzelt, lütfen.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şu işi yap: sipariş detayı için deep link ekle.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Ayar ekranini Composea cevir bi zahmet cok acill","tier":"mid","domain":"mobile","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Kisiler ekranina offline cache ekle, hemen.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede vault ekranina biyometrik acilis ekle.","tier":"mid","domain":"mobile","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: set up ESLint for this package.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Convert the config utility to TypeScript and show the changed code needd it","tier":"mid","domain":"general","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please implement a CLI flag for quiet output; keep the scope local.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix Unicode sorting in the name helper.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add YAML input support to the converter, please.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you write a Makefile target for local setup dont overthink it","tier":"mid","domain":"general","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to debug the file watcher on Windows.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add structured errors to the parser module asap.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, evaluate Zod versus Joi for this validator.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu paket için ESLint kur bi zahmet bi zahmt","tier":"mid","domain":"general","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Config yardımcısını TypeScripte çevir, hemen.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu projede CLI aracına quiet flag ekle.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Convertera YAML destegi ekle.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Windows file watcher hatasini duzelt, lutfen.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Su isi yap: bu validator icin Zod mu Joi mi degerlendir.","tier":"mid","domain":"general","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add a latency histogram to the checkout service.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fix missing labels in one Prometheus exporter, please plese","tier":"mid","domain":"observability","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you implement trace propagation in the email worker?","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Need you to set up a Grafana panel for queue depth.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add JSON logging to the scheduler asap.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"In this codebase, configure one alert for disk saturation needd it","tier":"mid","domain":"observability","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"One task: debug dropped spans in the collector.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Add a correlation ID to the API middleware and show the changed code.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please write a log parser for one legacy format; keep the scope local.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Checkout servisine latency histogramı ekle.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Prometheus exporterdaki eksik etiketleri düzelt, lütfen.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Şu işi yap: email worker için trace aktarımı ekle.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Queue depth icin Grafana paneli kur bi zahmet hemne","tier":"mid","domain":"observability","hasTypo":true,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Schedulera JSON log ekle, hemen.","tier":"light","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:3"}
+{"prompt":"Bu projede collector dropped span hatasini bul.","tier":"mid","domain":"observability","hasTypo":false,"origTier":"mid","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review the caching strategy of the product service and propose justified changes plese","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design authentication for the partner API; explain constraints and tradeoffs.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please diagnose the latency spike in the search service.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit transaction boundaries in the billing component before we change it dont overthink it","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and refactor the notification service architecture.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Investigate memory growth in the GraphQL gateway, including risks and validation steps.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: analyze failure recovery in the import worker aspa","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review domain boundaries inside the catalog service asap, but stay within that system.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you design versioning for the public API and explain the evidence?","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Değişiklikten önce ürün servisinin cache stratejisini değerlendir cok acill","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Partner API için kimlik doğrulama tasarla bi zahmet.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Arama servisindeki gecikme artışını araştır, doğrulama adımlarını da belirt.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Billing bilesenindeki transaction sinirlarini incele ve gerekceli oneriler cikar bi zahmt","tier":"deep","domain":"backend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"GraphQL gateway bellek artisinin nedenini bul; kok neden ve riskleri yaz.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lutfen catalog servisinin domain yapisini degerlendir.","tier":"deep","domain":"backend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review state ownership in the checkout application before we change it aspa","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and design the accessibility architecture of the editor.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Diagnose slow interaction in the analytics dashboard, including risks and validation steps.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: audit data fetching in the account frontend needd it","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor the component boundaries of the design-system package asap, but stay within that system.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you investigate hydration failures in the storefront and explain the evidence?","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze rendering churn in the timeline component and propose justified changes thnaks","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review error handling in the admin SPA; explain constraints and tradeoffs.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please design plugin isolation for the web editor.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Checkout uygulamasındaki state sahipliğini değerlendir ve gerekçeli öneriler çıkar lütfn","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Editörün erişilebilirlik yapısını tasarla; kök neden ve riskleri yaz.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lütfen analitik panelindeki yavaş etkileşimi araştır.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degisiklikten once admin SPA hata yonetimini incele sagolll","tier":"deep","domain":"frontend","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Storefront hydration sorununu arastir bi zahmet.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Timeline bileseninin render yapisini degerlendir, dogrulama adimlarini da belirt.","tier":"deep","domain":"frontend","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: review partitioning for the events warehouse thnaks","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design lineage tracking for the analytics platform asap, but stay within that system.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you diagnose skew in the sessionization pipeline and explain the evidence?","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit consistency guarantees of the feature store and propose justified changes plese","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor the customer matching pipeline; explain constraints and tradeoffs.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please investigate query regressions in the reporting database.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze retention logic in the event lake before we change it dont overthink it","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and review schema evolution in the CDC component.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design recovery for the nightly aggregation pipeline, including risks and validation steps.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Değişiklikten önce event warehouse bölümleme stratejisini değerlendir hemne","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analitik platform için veri soy ağacı tasarla bi zahmet.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Session pipelineındaki veri dengesizliğini araştır, doğrulama adımlarını da belirt.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Feature store tutarliligini incele ve gerekceli oneriler cikar cok acill","tier":"deep","domain":"data","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Raporlama veritabani sorgu gerilemesini arastir; kok neden ve riskleri yaz.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lutfen CDC bileseninin sema evrimini degerlendir.","tier":"deep","domain":"data","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review deployment safety for the payments application and propose justified changes dont overthink it","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design disaster recovery for one Kubernetes cluster; explain constraints and tradeoffs.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please diagnose intermittent failures in the CI runner fleet.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit the Terraform module for network isolation before we change it aspa","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and refactor the release workflow of the mobile backend.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Investigate node pressure in the production cluster, including risks and validation steps.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: analyze rollback behavior in the canary controller needd it","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review secret delivery for the build system asap, but stay within that system.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you design capacity planning for the image registry and explain the evidence?","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Payments uygulamasının deployment güvenliğini değerlendir ve gerekçeli öneriler çıkar bi zahmt","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tek Kubernetes kümesi için felaket kurtarma tasarla; kök neden ve riskleri yaz.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lütfen CI runner grubundaki aralıklı hataları araştır.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degisiklikten once Terraform network modulunu incele lutfn","tier":"deep","domain":"devops","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Production cluster node pressure sorununu arastir bi zahmet.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Canary controller rollback davranisini degerlendir, dogrulama adimlarini da belirt.","tier":"deep","domain":"devops","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review authorization design in the document service before we change it needd it","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and design key rotation for the signing component.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Diagnose suspicious token reuse in the identity service, including risks and validation steps.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: audit tenant isolation in the reporting API thnaks","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor trust boundaries in the upload service asap, but stay within that system.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you investigate privilege escalation in the admin console and explain the evidence?","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze session invalidation in the web application and propose justified changes plese","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review threat controls for the webhook receiver; explain constraints and tradeoffs.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please design secure recovery for the password vault.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Değişiklikten önce doküman servisinin yetkilendirme tasarımını değerlendir sağolll","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Imzalama bileşeni için anahtar rotasyonu tasarla bi zahmet.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Identity servisindeki token tekrarını araştır, doğrulama adımlarını da belirt.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Raporlama API tenant izolasyonunu incele ve gerekceli oneriler cikar hemne","tier":"deep","domain":"security","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Admin panel yetki yukselmesini arastir; kok neden ve riskleri yaz.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lutfen webhook receiver guvenlik kontrollerini degerlendir.","tier":"deep","domain":"security","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: review the test strategy of the checkout service plese","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design mutation testing for the pricing engine asap, but stay within that system.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you diagnose flakiness in the browser test suite and explain the evidence?","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit coverage gaps in the permissions module and propose justified changes dont overthink it","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor the fixture architecture of the API tests; explain constraints and tradeoffs.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please investigate nondeterminism in the simulation harness.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze test isolation in the repository layer before we change it aspa","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and review contract-test ownership for the public API.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design performance testing for the search component, including risks and validation steps.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Checkout servisinin test stratejisini değerlendir ve gerekçeli öneriler çıkar cok acill","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fiyat motoru için mutation testing tasarla; kök neden ve riskleri yaz.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lütfen tarayıcı testlerindeki flakeyi araştır.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degisiklikten once permissions modulu coverage bosluklarini incele bi zahmt","tier":"deep","domain":"testing","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Simulasyon testindeki belirsizligi arastir bi zahmet.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Repository test izolasyonunu degerlendir, dogrulama adimlarini da belirt.","tier":"deep","domain":"testing","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review evaluation design for the ranking model and propose justified changes aspa","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design drift detection for the fraud classifier; explain constraints and tradeoffs.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please diagnose unstable convergence in the recommender.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit leakage risks in the churn pipeline before we change it needd it","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and refactor feature computation in the scoring service.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Investigate bias in the moderation model, including risks and validation steps.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: analyze calibration of the intent classifier thnaks","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review serving consistency for the embedding model asap, but stay within that system.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you design fallback behavior for one inference service and explain the evidence?","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Değişiklikten önce sıralama modelinin değerlendirme düzenini incele lütfn","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Fraud classifier için drift tespiti tasarla bi zahmet.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Öneri modelindeki kararsız yakınsamayı araştır, doğrulama adımlarını da belirt.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Churn pipeline leakage riskini incele ve gerekceli oneriler cikar sagolll","tier":"deep","domain":"ml","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Moderation modelindeki bias sorununu arastir; kok neden ve riskleri yaz.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lutfen intent classifier kalibrasyonunu degerlendir.","tier":"deep","domain":"ml","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review navigation architecture in the banking app before we change it.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and design offline synchronization for the notes app dont overthink it","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Diagnose battery drain in the location component, including risks and validation steps.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: audit secure storage in the wallet application.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor state management in the booking app asap, but stay within that system.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you investigate startup regressions in the Android client and explain the evidence thnaks","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze background execution in the fitness app and propose justified changes.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review deep-link validation in the iOS application; explain constraints and tradeoffs.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please design conflict resolution for the mobile editor.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bankacılık uygulamasının navigasyon yapısını değerlendir ve gerekçeli öneriler çıkar hemne","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Not uygulaması için çevrimdışı senkronizasyon tasarla; kök neden ve riskleri yaz.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lütfen konum bileşenindeki pil tüketimini araştır.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degisiklikten once wallet uygulamasi secure storage yapisini incele cok acill","tier":"deep","domain":"mobile","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Android istemci acilis gerilemesini arastir bi zahmet.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"IOS deep link dogrulamasini degerlendir, dogrulama adimlarini da belirt.","tier":"deep","domain":"mobile","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: review modularity of the command-line application.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design the configuration architecture for the SDK asap, but stay within that system needd it","tier":"deep","domain":"general","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you diagnose startup slowdown in the desktop tool and explain the evidence?","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit extension boundaries in the code generator and propose justified changes.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Refactor dependency direction in the parser package; explain constraints and tradeoffs.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please investigate file corruption in the backup utility dont overthink it","tier":"deep","domain":"general","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Analyze concurrency in the job scheduler before we change it.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and review compatibility strategy for the plugin API.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design error semantics for the client library, including risks and validation steps.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Değişiklikten önce komut satırı uygulamasının modülerliğini değerlendir bi zahmt","tier":"deep","domain":"general","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"SDK için yapılandırma mimarisi tasarla bi zahmet.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Masaüstü aracındaki açılış yavaşlığını araştır, doğrulama adımlarını da belirt.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Parser paketinin bagimlilik yonunu incele ve gerekceli oneriler cikar.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Backup aracindaki dosya bozulmasini arastir; kok neden ve riskleri yaz.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lutfen plugin API uyumluluk stratejisini degerlendir.","tier":"deep","domain":"general","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review telemetry design in the checkout service and propose justified changes.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Design alerting for the database platform; explain constraints and tradeoffs plese","tier":"deep","domain":"observability","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Please diagnose cardinality growth in the metrics pipeline.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Audit trace sampling in the API gateway before we change it.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Take a close look and refactor log enrichment in the worker application.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Investigate missing spans in the payment processor, including risks and validation steps needd it","tier":"deep","domain":"observability","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need a technical assessment: analyze SLO burn alerts for the search service.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Review dashboard ownership in the operations portal asap, but stay within that system.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Can you design incident signals for the message broker and explain the evidence?","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Checkout servisinin telemetri tasarımını değerlendir ve gerekçeli öneriler çıkar.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Veritabanı platformu için alarm yapısı tasarla; kök neden ve riskleri yaz.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lütfen metrik pipeline cardinality artışını araştır.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Degisiklikten once API gateway trace sampling yapisini incele hemne","tier":"deep","domain":"observability","hasTypo":true,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Payment processor eksik span sorununu arastir bi zahmet.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Search servisi SLO alarmlarini degerlendir, dogrulama adimlarini da belirt.","tier":"deep","domain":"observability","hasTypo":false,"origTier":"deep","rubricReason":"rule:8-keep-original"}
+{"prompt":"Migrate authentication, billing, and notifications to a shared event backbone in phases; include sequencing, compatibility, rollback, and ownership plese","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Split orders, inventory, and shipping out of the monolith with staged cutovers; use measurable rollout gates.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: redesign contracts among checkout, pricing, and promotions and roll them out safely.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Move customer, invoice, and support APIs from REST to gRPC without downtime; protect current users during the transition dont overthink it","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Create the migration roadmap to standardize tenancy across catalog and reporting, then migrate their data.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Replace queues in email, fraud, and fulfillment while preserving delivery guarantees; coordinate the affected teams and data transitions.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to lead reliability improvements spanning search, recommendations, and the API gateway aspa","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Consolidate identity stores used by admin, partner, and consumer applications, including rollout and rollback paths.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce regional failover for payments, ledger, and reconciliation asap; map dependencies between the systems.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Kimlik, ödeme ve bildirim servislerini aşamalı olarak event tabanlı yapıya taşı; ekip ve veri geçişlerini koordine et cok acill","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Sipariş, stok ve kargo bileşenlerini monolitten ayır, mevcut kullanıcıları kesmeden.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Checkout, fiyat ve kampanya sözleşmelerini birlikte yeniden tasarla bi zahmet; bağımlılıkları ve geri dönüşü yaz.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Musteri fatura ve destek APIlerini kesintisiz gRPCye tasi; siralama, uyumluluk, rollback ve sahipligi planla bi zahmt","tier":"ultra","domain":"backend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Catalog ve reporting tenant yapilarini birlestir, asamali gecis ve olculebilir kapilarla.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Bu programi planla ve yurut: email fraud ve fulfillment kuyruklarini kademeli degistir.","tier":"ultra","domain":"backend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Unify authentication, navigation, and design tokens across three web applications; protect current users during the transition aspa","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Create the migration roadmap to migrate the admin portal, storefront, and partner console to one frontend platform.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Redesign checkout, account, and support journeys with coordinated backend releases; coordinate the affected teams and data transitions.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to replace state management in catalog and cart while introducing a shared data layer needd it","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Roll out localization across marketing, checkout, and the customer dashboard, including rollout and rollback paths.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Modernize build pipelines for the editor, dashboard, and component library asap; map dependencies between the systems.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Standardize accessibility in seller, buyer, and operations interfaces; include sequencing, compatibility, rollback, and ownership thnaks","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Move analytics, billing, and settings screens into a new micro-frontend shell; use measurable rollout gates.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: coordinate SSR adoption for search, product, and category experiences.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Admin paneli, mağaza ve partner ekranını ortak frontend platformuna taşı; sıralama, uyumluluk, rollback ve sahipliği planla lütfn","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Checkout, hesap ve destek akışlarını beraber yeniden tasarla, aşamalı geçiş ve ölçülebilir kapılarla.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Bu programı planla ve yürüt: satıcı, alıcı ve operasyon arayüzlerinde erişilebilirliği standartlaştır.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Catalog ve cart state yapisini ortak data layera tasi; ekip ve veri gecislerini koordine et sagolll","tier":"ultra","domain":"frontend","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Arama urun ve kategori ekranlarinda SSR gecisine liderlik et, mevcut kullanicilari kesmeden.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Editor dashboard ve component library buildlerini modernize et bi zahmet; bagimliliklari ve geri donusu yaz.","tier":"ultra","domain":"frontend","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need an executable multi-quarter plan to migrate orders, payments, and customer history to a new warehouse with reconciliation thnaks","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Replace batch pipelines for sessions and events with streaming equivalents, including rollout and rollback paths.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Unify schemas and governance for finance, sales, and support datasets asap; map dependencies between the systems.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Move catalog and inventory databases to sharded storage with dual writes; include sequencing, compatibility, rollback, and ownership plese","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Establish lineage, quality checks, and retention across all analytics domains; use measurable rollout gates.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: rebuild ingestion for CRM, ad platforms, and product telemetry in phases.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Consolidate feature stores used by fraud and recommendation services; protect current users during the transition dont overthink it","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Create the migration roadmap to coordinate GDPR deletion through the lake, warehouse, and backup archive.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Separate tenant data across operational databases and reporting marts; coordinate the affected teams and data transitions.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Sipariş, ödeme ve müşteri geçmişini doğrulamalı biçimde yeni ambara taşı; ekip ve veri geçişlerini koordine et hemne","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Oturum ve olay batch hatlarını streaming yapıya geçir, mevcut kullanıcıları kesmeden.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Finans, satış ve destek verileri için ortak yönetişim kur bi zahmet; bağımlılıkları ve geri dönüşü yaz.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Catalog ve inventory veritabanlarini shardli yapiya tasi; siralama, uyumluluk, rollback ve sahipligi planla cok acill","tier":"ultra","domain":"data","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Lake warehouse ve backup icin GDPR silme akisini kur, asamali gecis ve olculebilir kapilarla.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu programi planla ve yurut: CRM reklam ve urun telemetrisi ingestionini yenile.","tier":"ultra","domain":"data","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Move API, workers, and scheduled jobs from VMs to Kubernetes in waves; include sequencing, compatibility, rollback, and ownership dont overthink it","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Build multi-region delivery for checkout and account services plus their databases; use measurable rollout gates.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Plan and lead this program: standardize CI, artifact signing, and deployment policy across all repositories.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Replace Terraform stacks for networking, compute, and data services without downtime; protect current users during the transition aspa","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Create the migration roadmap to introduce GitOps for development, staging, and production clusters.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Migrate secrets for payments and orders from files to a managed vault; coordinate the affected teams and data transitions.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to redesign autoscaling for gateways, workers, and streaming consumers needd it","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Consolidate monitoring stacks used by two business units and their clusters, including rollout and rollback paths.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Lead cloud exit planning for storage, messaging, and container workloads asap; map dependencies between the systems.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"API, worker ve zamanlanmış işleri dalgalar halinde Kubernetese taşı; sıralama, uyumluluk, rollback ve sahipliği planla bi zahmt","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Checkout ve hesap servisleri için çok bölgeli dağıtım kur, aşamalı geçiş ve ölçülebilir kapılarla.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu programı planla ve yürüt: tüm repolarda CI, imzalama ve deployment politikasını standartlaştır.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Network compute ve data Terraform stacklerini kesintisiz degistir; ekip ve veri gecislerini koordine et lutfn","tier":"ultra","domain":"devops","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Development staging ve production clusterlarina GitOps getir, mevcut kullanicilari kesmeden.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Payments ve orders secretlarini managed vaulta tasi bi zahmet; bagimliliklari ve geri donusu yaz.","tier":"ultra","domain":"devops","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Roll out zero trust across employee access, service identities, and production networks; protect current users during the transition needd it","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Create the migration roadmap to replace authentication for customer, partner, and admin applications in phases.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Centralize authorization for orders and billing while migrating their policies; coordinate the affected teams and data transitions.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to remediate secrets, vulnerable images, and excessive permissions across the platform thnaks","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce key rotation for payments, identity, and data-export services, including rollout and rollback paths.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Coordinate incident containment across endpoints, cloud accounts, and CI systems asap; map dependencies between the systems.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Redesign tenant isolation in storage, queues, and background workers; include sequencing, compatibility, rollback, and ownership plese","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Deploy consistent audit trails for support, finance, and administrative actions; use measurable rollout gates.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: migrate certificate issuance for gateways, internal APIs, and device clients.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Çalışan erişimi, servis kimlikleri ve üretim ağlarında zero trust uygula; ekip ve veri geçişlerini koordine et sağolll","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Müşteri, partner ve admin uygulamalarının kimlik sistemini aşamalı değiştir, mevcut kullanıcıları kesmeden.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Sipariş ve ödeme yetkilendirmesini ortak politikaya taşı bi zahmet; bağımlılıkları ve geri dönüşü yaz.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Platformdaki secret image ve permission sorunlarini program halinde gider; siralama, uyumluluk, rollback ve sahipligi planla hemne","tier":"ultra","domain":"security","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Payments identity ve export servislerinde key rotation kur, asamali gecis ve olculebilir kapilarla.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu programi planla ve yurut: endpoint cloud hesap ve CI olay mudahalesini birlikte yenile.","tier":"ultra","domain":"security","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need an executable multi-quarter plan to create one quality program for checkout, billing, and fulfillment releases plese","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Migrate unit, integration, and browser suites to a unified test platform, including rollout and rollback paths.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce contract testing among orders, inventory, and shipping services asap; map dependencies between the systems.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Reduce flaky tests across mobile, web, and backend delivery pipelines; include sequencing, compatibility, rollback, and ownership dont overthink it","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Build test data management for payments, support, and analytics environments; use measurable rollout gates.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: roll out performance gates for search, recommendations, and catalog APIs.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Standardize release evidence across regulated products and shared services; protect current users during the transition aspa","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Create the migration roadmap to replace test environments for three teams with ephemeral infrastructure.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Coordinate chaos testing for gateways, queues, and database failover; coordinate the affected teams and data transitions.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Checkout, ödeme ve fulfillment sürümleri için ortak kalite programı kur; sıralama, uyumluluk, rollback ve sahipliği planla cok acill","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Unit, entegrasyon ve tarayıcı testlerini tek platforma taşı, aşamalı geçiş ve ölçülebilir kapılarla.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Bu programı planla ve yürüt: sipariş, stok ve kargo servisleri arasında contract test kur.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Mobile web ve backend pipeline flaky testlerini azalt; ekip ve veri gecislerini koordine et bi zahmt","tier":"ultra","domain":"testing","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Payments support ve analytics icin test data yonetimi kur, mevcut kullanicilari kesmeden.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Gateway queue ve database failover chaos testlerini devreye al bi zahmet; bagimliliklari ve geri donusu yaz.","tier":"ultra","domain":"testing","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Rebuild training and serving for fraud, ranking, and moderation models; include sequencing, compatibility, rollback, and ownership aspa","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Migrate feature pipelines and online stores used by two recommendation systems; use measurable rollout gates.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Plan and lead this program: standardize evaluation, approval, and monitoring across all production models.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce GPU scheduling for training, batch inference, and online serving; protect current users during the transition needd it","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Create the migration roadmap to replace embedding models in search and support with a staged reindex.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Unify prompt routing, safety filtering, and response evaluation for AI assistants; coordinate the affected teams and data transitions.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need an executable multi-quarter plan to establish privacy controls across datasets, feature stores, and model registries thnaks","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Move experimentation for ads and recommendations onto one platform, including rollout and rollback paths.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Coordinate drift remediation across fraud, churn, and demand forecasting asap; map dependencies between the systems.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Fraud, sıralama ve moderasyon modellerinin eğitim ve sunumunu yeniden kur; ekip ve veri geçişlerini koordine et lütfn","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Iki öneri sisteminin feature pipeline ve online storelarını taşı, mevcut kullanıcıları kesmeden.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Tüm üretim modellerinde değerlendirme, onay ve izlemeyi standartlaştır bi zahmet; bağımlılıkları ve geri dönüşü yaz.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Training batch inference ve serving icin GPU planlamasi kur; siralama, uyumluluk, rollback ve sahipligi planla sagolll","tier":"ultra","domain":"ml","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Search ve support embedding modellerini asamali degistir, asamali gecis ve olculebilir kapilarla.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu programi planla ve yurut: prompt routing safety ve response evaluation sistemlerini birlestir.","tier":"ultra","domain":"ml","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Replace authentication and sync across the iOS and Android applications plus backend APIs; protect current users during the transition.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Create the migration roadmap to migrate navigation, analytics, and push handling in both mobile clients dont overthink it","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Build a shared release program for consumer, courier, and merchant apps; coordinate the affected teams and data transitions.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to redesign offline data flow across mobile storage, sync workers, and server endpoints.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Roll out a new design system to iOS, Android, and mobile web, including rollout and rollback paths.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce passkeys across device clients, identity APIs, and account recovery asap; map dependencies between the systems thnaks","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Coordinate minimum-OS upgrades with SDK, build, and store-delivery changes; include sequencing, compatibility, rollback, and ownership.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Replace mapping in driver and customer apps while migrating location services; use measurable rollout gates.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Plan and lead this program: standardize crash reporting and performance telemetry for every mobile product.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"IOS, Android ve backend APIlerde kimlik ve senkronizasyonu birlikte yenile; sıralama, uyumluluk, rollback ve sahipliği planla hemne","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Iki mobil istemcide navigasyon, analitik ve push yapısını taşı, aşamalı geçiş ve ölçülebilir kapılarla.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Bu programı planla ve yürüt: müşteri, kurye ve mağaza uygulamaları için ortak release programı kur.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Mobil storage sync worker ve server endpointlerini birlikte yenile; ekip ve veri gecislerini koordine et cok acill","tier":"ultra","domain":"mobile","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"IOS Android ve mobile web icin design system gecisi yap, mevcut kullanicilari kesmeden.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Driver ve customer app harita sistemlerini location servisiyle birlikte degistir bi zahmet; bagimliliklari ve geri donusu yaz.","tier":"ultra","domain":"mobile","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"We need an executable multi-quarter plan to decompose the platform into orders, inventory, and shipping domains over several releases.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Migrate source control, CI, and artifact storage for the whole engineering organization, including rollout and rollback paths needd it","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Replace configuration management across desktop, CLI, and cloud applications asap; map dependencies between the systems.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Standardize API governance for internal services, partner integrations, and public clients; include sequencing, compatibility, rollback, and ownership.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Lead a language upgrade spanning shared libraries and eight dependent products; use measurable rollout gates.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Plan and lead this program: consolidate account, subscription, and entitlement platforms after an acquisition dont overthink it","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Introduce event-driven workflows across sales, provisioning, and customer support; protect current users during the transition.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Create the migration roadmap to separate regional deployments for compute, data, and messaging layers.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Modernize developer tooling, local environments, and release automation company-wide; coordinate the affected teams and data transitions.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Platformu sipariş, stok ve kargo domainlerine birkaç sürümde ayır; ekip ve veri geçişlerini koordine et bi zahmt","tier":"ultra","domain":"general","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Tüm mühendislik organizasyonunda source control, CI ve artifact storage taşı, mevcut kullanıcıları kesmeden.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Desktop, CLI ve cloud uygulamalarının config yönetimini değiştir bi zahmet; bağımlılıkları ve geri dönüşü yaz.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Internal partner ve public API governance yapisini standartlastir; siralama, uyumluluk, rollback ve sahipligi planla.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Shared library ve sekiz urunde dil surumu gecisi yap, asamali gecis ve olculebilir kapilarla.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Bu programi planla ve yurut: sales provisioning ve support akisini event driven yapiya tasi.","tier":"ultra","domain":"general","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Modernize logging, metrics, and tracing across payments and orders; include sequencing, compatibility, rollback, and ownership.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Unify incident response for search, checkout, and customer support systems; use measurable rollout gates plese","tier":"ultra","domain":"observability","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Plan and lead this program: replace telemetry collectors in gateways, workers, and mobile backends.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Establish SLOs and error budgets for every customer-facing service; protect current users during the transition.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Create the migration roadmap to migrate dashboards and alerts for two regions to a shared platform.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Standardize correlation IDs through web clients, APIs, and message consumers; coordinate the affected teams and data transitions needd it","tier":"ultra","domain":"observability","hasTypo":true,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"We need an executable multi-quarter plan to redesign on-call ownership for data pipelines and operational services.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Introduce cost attribution for logs, traces, and metric cardinality by team, including rollout and rollback paths.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Roll out synthetic monitoring across web, mobile, and partner APIs asap; map dependencies between the systems.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Payments ve orders için log, metrik ve trace yapısını modernize et; sıralama, uyumluluk, rollback ve sahipliği planla.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Search, checkout ve destek sistemlerinde olay yönetimini birleştir, aşamalı geçiş ve ölçülebilir kapılarla.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Bu programı planla ve yürüt: gateway, worker ve mobil backend collectorlarını değiştir.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:4"}
+{"prompt":"Tum musteri servislerinde SLO ve error budget kur; ekip ve veri gecislerini koordine et hemne","tier":"ultra","domain":"observability","hasTypo":true,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Iki bolgenin dashboard ve alarmlarini ortak platforma tasi, mevcut kullanicilari kesmeden.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
+{"prompt":"Web API ve message consumerlarda correlation ID standardi kur bi zahmet; bagimliliklari ve geri donusu yaz.","tier":"ultra","domain":"observability","hasTypo":false,"origTier":"ultra","rubricReason":"rule:8-keep-original"}
