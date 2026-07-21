@@ -128,8 +128,17 @@ function isFreshUserTurn(body) {
   if (!body) return false;
   if (typeof body.input === 'string') return true;
   if (!Array.isArray(body.input) || body.input.length === 0) return false;
-  const last = body.input[body.input.length - 1];
-  return !!last && last.role === 'user';
+  // Codex appends developer/tool/reasoning items after the user turn and throughout
+  // tool-call continuations. Skip those; the first non-skipped role tells us whether
+  // this is a fresh user turn (role==='user') or a tool-call continuation (role==='assistant').
+  const SKIP = new Set(['developer', 'reasoning', 'tool_search_call', 'tool_search_output',
+    'function_call', 'function_call_output']);
+  for (let i = body.input.length - 1; i >= 0; i--) {
+    const item = body.input[i];
+    if (!item || !item.role || SKIP.has(item.role)) continue;
+    return item.role === 'user';
+  }
+  return false;
 }
 
 // injectRoutingNote — appends a directive to the request's `instructions` asking
