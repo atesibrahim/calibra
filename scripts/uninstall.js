@@ -57,7 +57,8 @@ remove(path.join(CORP_DIR, 'calibra-disabled'));         // legacy shared flag
 remove(path.join(CORP_DIR, 'calibra-disabled-claude'));
 remove(path.join(CORP_DIR, 'calibra-disabled-codex'));
 remove(path.join(CORP_DIR, 'calibra-ml.json'));
-remove(path.join(CORP_DIR, 'calibra-engine'));
+remove(path.join(CORP_DIR, 'calibra-engine'));         // Claude engine flag
+remove(path.join(CORP_DIR, 'calibra-engine-codex'));   // Codex engine flag
 
 // ── 3a. ml/ assets ───────────────────────────────────────────────────────────
 

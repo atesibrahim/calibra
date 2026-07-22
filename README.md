@@ -237,10 +237,12 @@ Codex has no slash command system — `/calibra` will produce `Unrecognized comm
 | Check status | `status calibra` |
 | Turn on | `turn on calibra` |
 | Turn off | `turn off calibra` |
+| Enable ML engine | `calibra ml on` (or `enable calibra ml`) |
+| Disable ML engine | `calibra ml off` (or `disable calibra ml`, `calibra rules`) |
 
-Each environment maintains its own enable/disable state — toggling in Codex does not affect a running Claude Code session, and vice versa.
+Each environment maintains its own enable/disable **and** engine state — toggling in Codex does not affect a running Claude Code session, and vice versa. Codex reads its own `calibra-engine-codex` flag; Claude Code reads `calibra-engine`.
 
-> **Note:** ML engine switching (`/calibra ml on`) is Claude Code only — Codex always uses the heuristic engine. The routing decision is shown inline at the top of each Codex reply: `» [calibra: <model> · <tier>]`.
+> **Note:** The ML engine is available on **both** Claude Code and Codex, each switched independently. As on the Claude side, Codex's ML path is fully fail-soft — if the ONNX model is absent, times out, or errors, it silently falls back to the heuristic. The routing decision is shown inline at the top of each Codex reply: `» [calibra: <model> · <tier>]`.
 
 ---
 
