@@ -11,6 +11,9 @@ const os    = require('os');
 const CALIBRA_BASE          = path.join(os.homedir(), '.claude-corp', 'calibra');
 const CALIBRA_MODELS_PATH   = path.join(CALIBRA_BASE, 'calibra-models.json');
 const CALIBRA_DISABLED_PATH = path.join(CALIBRA_BASE, 'calibra-disabled-codex');
+// Codex owns its own engine flag (calibra-engine-codex), independent of the
+// Claude side's calibra-engine — same per-environment split as the disabled flags.
+const CALIBRA_ENGINE_CODEX_PATH = path.join(CALIBRA_BASE, 'calibra-engine-codex');
 
 function requireCalibraMl(file) {
   const sourcePath = path.join(__dirname, 'ml', file);
@@ -19,6 +22,21 @@ function requireCalibraMl(file) {
 }
 
 const { extractPromptOpenAI, calibraClassify } = requireCalibraMl('classify-core.js');
+
+// Read the Codex engine flag. Fail-soft: any error → 'heuristic'.
+function readCodexEngine() {
+  try {
+    return requireCalibraMl('engine-flag.js').readEngine(CALIBRA_ENGINE_CODEX_PATH);
+  } catch { return 'heuristic'; }
+}
+
+// Write the Codex engine flag. Fail-soft: swallow errors (routing still works).
+function writeCodexEngine(value) {
+  try {
+    requireCalibraMl('engine-flag.js').writeEngine(value, CALIBRA_ENGINE_CODEX_PATH);
+    return true;
+  } catch { return false; }
+}
 
 let calibraConfigWarned = false;
 
@@ -33,7 +51,10 @@ function loadOpenAiModels() {
 
 // calibraRouteOpenAI — same on/off flag and tier map as the Claude side
 // (calibra-disabled), just a different wire format to extract the prompt from.
-function calibraRouteOpenAI(parsedBody) {
+// async because the ML engine (classifyML) is async; the heuristic path resolves
+// synchronously. Reads the per-env Codex engine flag each request (cheap fs read;
+// the flag may flip mid-session via `calibra ml on|off`).
+async function calibraRouteOpenAI(parsedBody) {
   if (process.env.CALIBRA_DISABLED === '1') return null;
   if (fs.existsSync(CALIBRA_DISABLED_PATH)) return null;
 
@@ -47,15 +68,32 @@ function calibraRouteOpenAI(parsedBody) {
   }
 
   const prompt = extractPromptOpenAI(parsedBody);
-  const { tier, reason } = calibraClassify(prompt);
+
+  // Engine selection — heuristic by default, ML when the Codex flag is set.
+  // classifyML is itself total/fail-soft (falls back to the heuristic on missing
+  // model / timeout / error); the try/catch only guards a failed require of ml/.
+  let result;
+  if (readCodexEngine() === 'ml') {
+    try {
+      const { classifyML } = requireCalibraMl('calibra-ml.js');
+      result = await classifyML(prompt);
+    } catch (e) {
+      result = { ...calibraClassify(prompt), engine: 'heuristic', reason: 'ml-fallback:require-failed' };
+    }
+  } else {
+    result = calibraClassify(prompt);
+  }
+
+  const { tier, reason } = result;
+  const engine = result.engine || 'heuristic';
   const routed = models[tier];
   if (!routed) return null;
 
   const currentModel = parsedBody.model || '';
   if (routed === currentModel) return null;
 
-  process.stderr.write(`[calibra-codex] routing to ${routed} (tier: ${tier}, reason: ${reason})\n`);
-  return { model: routed, tier, reason };
+  process.stderr.write(`[calibra-codex] routing to ${routed} (tier: ${tier}, engine: ${engine}, reason: ${reason})\n`);
+  return { model: routed, tier, reason, engine };
 }
 
 // --- Calibra: /calibra on|off|status|toggle for Codex ------------------------
@@ -71,10 +109,29 @@ function calibraRouteOpenAI(parsedBody) {
 // hanging or breaking the turn with no way to verify short of live testing.
 const CALIBRA_TOGGLE_CMD = /^\/calibra(?:\s+(on|off|status|toggle|enable|disable))?$/i;
 const CALIBRA_CHAT_CMD   = /^(status|enable|disable|turn\s+on|turn\s+off)\s+calibra$/i;
+// ML engine switch — slash and plain-text forms:
+//   /calibra ml on|off · /calibra rules · calibra ml on|off · calibra rules
+//   enable calibra ml · disable calibra ml
+const CALIBRA_ML_CMD = /^(?:\/?calibra\s+ml\s+(on|off)|\/?calibra\s+rules|(enable|disable)\s+calibra\s+ml)$/i;
 
 function calibraHandleCommand(parsedBody) {
   const prompt = extractPromptOpenAI(parsedBody).trim();
   if (!prompt) return null;
+
+  // ML engine switch — checked first (distinct from on/off routing toggle).
+  const mlMatch = prompt.match(CALIBRA_ML_CMD);
+  if (mlMatch) {
+    const toMl = (mlMatch[1] || '').toLowerCase() === 'on'
+      || (mlMatch[2] || '').toLowerCase() === 'enable';
+    writeCodexEngine(toMl ? 'ml' : 'heuristic');
+    const msg = toMl
+      ? 'Calibra ML engine enabled for Codex — MiniLM classifier active (falls back to heuristic if the model is unavailable).'
+      : 'Calibra ML engine disabled for Codex — using heuristic rules.';
+    process.stderr.write(`[calibra-codex] command: ${prompt} -> ${msg.split(' —')[0]}\n`);
+    const mlModels = loadOpenAiModels();
+    const cheap = (mlModels && mlModels.light) || parsedBody.model || 'gpt-5.4-mini';
+    return { msg, model: cheap };
+  }
 
   let cmd;
   const slashMatch = prompt.match(CALIBRA_TOGGLE_CMD);
@@ -101,8 +158,10 @@ function calibraHandleCommand(parsedBody) {
     if (isDisabled) { fs.unlinkSync(CALIBRA_DISABLED_PATH); msg = 'Calibra enabled — model routing active.'; }
     else            { fs.writeFileSync(CALIBRA_DISABLED_PATH, ''); msg = 'Calibra disabled — all prompts use the current model.'; }
   } else {
+    const engine = readCodexEngine();
     msg = isDisabled ? 'Calibra: Disabled' : 'Calibra: Enabled';
-    msg += isDisabled ? '\nTo enable: /calibra on' : '\nTo disable: /calibra off';
+    if (!isDisabled) msg += `\nEngine: ${engine === 'ml' ? 'ML (MiniLM)' : 'heuristic'}`;
+    msg += isDisabled ? '\nTo enable: enable calibra' : '\nTo disable: disable calibra';
   }
 
   process.stderr.write(`[calibra-codex] command: ${prompt} -> ${msg.split('\n')[0]}\n`);
@@ -218,7 +277,7 @@ const server = http.createServer((req, res) => {
     chunks.push(c);
   });
 
-  req.on('end', () => {
+  req.on('end', async () => {
     if (size > MAX_BODY_SIZE) return;
     let body = Buffer.concat(chunks);
 
@@ -230,7 +289,7 @@ const server = http.createServer((req, res) => {
         injectCommandReply(parsed, cmdDecision);
         body = Buffer.from(JSON.stringify(parsed));
       } else {
-        const decision = calibraRouteOpenAI(parsed);
+        const decision = await calibraRouteOpenAI(parsed);
         if (decision) {
           parsed.model = decision.model;
           if (isFreshUserTurn(parsed)) injectRoutingNote(parsed, decision);
@@ -256,6 +315,12 @@ const server = http.createServer((req, res) => {
 server.keepAliveTimeout = 65000;
 
 if (require.main === module) {
+  // Warm up the ML session at startup when the Codex engine flag is set —
+  // eliminates the cold-start that would otherwise make the first ML request
+  // exceed CALIBRA_ML_TIMEOUT_MS and fall back to the heuristic. Fail-soft.
+  if (readCodexEngine() === 'ml') {
+    try { requireCalibraMl('calibra-ml.js').warmup(); } catch { /* ml/ absent — heuristic still works */ }
+  }
   server.listen(PORT, '127.0.0.1', () => {
     console.log(`CALIBRA_CODEX_PROXY_PORT=${server.address().port} upstream=${UPSTREAM_HOST}:${UPSTREAM_PORT}`);
   });
